@@ -369,12 +369,32 @@
   .sol-panel-text a{font-weight:700;font-family:'Sora',sans-serif;display:inline-flex;align-items:center;gap:6px;margin-top:6px;}
   .sol-panel-img{position:relative;}
   .sol-panel-img img{width:100%;height:100%;object-fit:cover;}
-  @media (max-width:900px){
+  /* @media (max-width:900px){
     .solutions-grid{grid-template-columns:1fr;}
     .arc-wrap{display:none;}
     .sol-panel{grid-template-columns:1fr;}
     .sol-panel-img{height:240px;}
-  }
+  } */
+
+  /* Mobile Accordion */ 
+  @media (max-width:900px){ 
+    .sol-panel{ position:relative; display:block !important; margin-bottom:14px; border-radius:18px; overflow:hidden; border:1px solid var(--line); box-shadow:none; min-height:auto; } 
+    .sol-panel::before{ content:attr(data-title); display:block; padding:22px 60px 22px 20px; background:#fff; font-family:'Sora',sans-serif; font-size:16px; font-weight:700; color:var(--navy); cursor:pointer; } 
+    /* Plus icon */ 
+    .sol-panel::after{ content:"+"; position:absolute; right:22px; top:20px; font-size:24px; font-weight:400; color:var(--blue); transition:.3s ease; pointer-events:none; } 
+    /* Open state */ 
+    .sol-panel:not(.collapsed)::after{ transform:rotate(45deg); } 
+    .sol-panel.collapsed .sol-panel-text, .sol-panel.collapsed .sol-panel-img{ display:none; } 
+    .sol-panel-text{ border-top:1px solid var(--line); }
+
+    .solutions-grid{ display:block; } 
+    .sol-tabs{ display:none; } 
+    .sol-panel{ display:block !important; margin-bottom:14px; border-radius:18px; overflow:hidden; border:1px solid var(--line); box-shadow:none; min-height:auto; } 
+    .sol-panel::before{ content:attr(data-title); display:flex; justify-content:space-between; align-items:center; padding:20px; background:#fff; font-family:'Sora',sans-serif; font-size:16px; font-weight:700; cursor:pointer; } 
+    .sol-panel-text{ padding:28px; } .sol-panel-img{ height:220px; } 
+    .sol-panel-img img{ width:100%; height:100%; object-fit:cover; } 
+    .sol-panel.collapsed .sol-panel-text, .sol-panel.collapsed .sol-panel-img{ display:none; } 
+}
 
   /* ===== HIRING STEPS ===== */
   .steps{background:var(--white);}
@@ -433,11 +453,31 @@
     display:inline-block;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
     color:var(--blue-deep);background:var(--sky-2);padding:5px 12px;border-radius:999px;margin-bottom:14px;
   }
-  @media (max-width:900px){
+  /* @media (max-width:900px){
     .svc-tabs{flex-direction:column;}
     .svc-tab{border-right:none;border-bottom:1px solid var(--line);}
     .svc-panels{grid-template-columns:1fr;padding:32px;}
-  }
+  } */
+/* Mobile Accordion */ 
+@media (max-width:900px){ 
+  .svc-panels{ position:relative; display:block !important; background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; padding:0; margin-bottom:14px; } 
+  .svc-panels::before{ content:attr(data-title); display:block; padding:22px 60px 22px 20px; font-family:'Sora',sans-serif; font-size:16px; font-weight:700; color:var(--navy); cursor:pointer; } 
+  /* Plus icon */ 
+  .svc-panels::after{ content:"+"; position:absolute; right:22px; top:15px; font-size:24px; font-weight:400; color:var(--blue); transition:.3s ease; pointer-events:none; } 
+  /* Rotate when open */ 
+  .svc-panels:not(.collapsed)::after{ transform:rotate(45deg); } 
+  .svc-panels.collapsed .svc-card{ display:none; } 
+  .svc-card{ padding:20px; border-top:1px solid var(--line); }
+  .svc-tabs{ display:none; } 
+  .svc-panels{ display:block !important; background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; padding:0; margin-bottom:14px; } 
+  .svc-panels::before{ content:attr(data-title); display:flex; align-items:center; justify-content:space-between; padding:20px; background:#fff; font-family:'Sora',sans-serif; font-size:16px; font-weight:700; color:var(--navy); cursor:pointer; border-bottom:1px solid transparent; } 
+  .svc-panels.collapsed .svc-card{ display:none; } 
+  .svc-panels:not(.collapsed)::before{ border-bottom:1px solid var(--line); } 
+  .svc-card{ padding:20px; border-bottom:1px solid var(--line); } 
+  .svc-card:last-child{ border-bottom:none; } 
+  .svc-panels .tag{ margin-bottom:10px; } 
+}
+
 
   /* ===== STORY BANNER ===== */
   .story-section{background:var(--blue-100);padding:0;}

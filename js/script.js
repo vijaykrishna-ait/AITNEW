@@ -43,6 +43,46 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.mobile-accordion-content').forEach(c => c.classList.remove('open'));
     });
   });
+
+  // mobile constant
+  const mobile = window.matchMedia("(max-width:900px)");
+
+  // ServicesAccordion
+  function initServicesAccordion() {
+    if (!mobile.matches) return;
+    const panels = document.querySelectorAll(".svc-panels");
+    panels.forEach((panel, index) => {
+      panel.style.display = "block";
+      if (index !== 0) { panel.classList.add("collapsed"); }
+      panel.addEventListener("click", function (e) {
+        if (e.target.closest(".svc-card")) { return; }
+        panels.forEach(item => { if (item !== panel) { item.classList.add("collapsed"); } });
+        panel.classList.toggle("collapsed");
+      });
+    });
+  }
+  initServicesAccordion();
+
+
+  // SolutionsAccordion
+  function initSolutionsAccordion() {
+    if (!mobile.matches) return;
+    const panels = document.querySelectorAll(".sol-panel");
+    panels.forEach((panel, index) => {
+      panel.style.display = "block";
+      if (index !== 0) {
+        panel.classList.add("collapsed");
+      }
+      panel.addEventListener("click", function (e) {
+        if (e.target.closest(".sol-panel-text") || e.target.closest(".sol-panel-img")) { return; }
+        panels.forEach(item => { if (item !== panel) { item.classList.add("collapsed"); } });
+        panel.classList.toggle("collapsed");
+      });
+    });
+  }
+  initSolutionsAccordion();
+
+
 });
 
 // Industries interactive list
@@ -236,4 +276,5 @@ document.querySelectorAll(
 
   updateState();
 });
+
 
