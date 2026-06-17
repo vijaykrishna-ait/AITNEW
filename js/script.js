@@ -82,6 +82,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   initSolutionsAccordion();
 
+  // IndustriesAccordion
+  function initIndustriesAccordion() {
+    if (!mobile.matches) return;
+    const panes = document.querySelectorAll(".ind-visual .pane");
+    panes.forEach((pane, index) => {
+      if (index !== 0) { pane.classList.add("collapsed"); }
+      pane.addEventListener("click", function (e) {
+        if (e.target.closest(".info") || e.target.closest("img")) { return; }
+        panes.forEach(item => { if (item !== pane) { item.classList.add("collapsed"); } });
+        pane.classList.toggle("collapsed");
+      });
+    });
+  }
+  initIndustriesAccordion();
 
 });
 
