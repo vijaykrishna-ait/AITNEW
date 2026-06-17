@@ -2284,7 +2284,7 @@
   height: 100vh;
   background: var(--white);
   z-index: 1000;
-  margin-top: 80px; /* Space for the sticky header */
+  margin-top: 75px; /* Space for the sticky header */
   transform: translateY(-150%);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y: auto;
