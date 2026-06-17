@@ -393,8 +393,7 @@
     font-family:'Sora',sans-serif;font-weight:800;font-size:24px;color:var(--blue);
     background:var(--white);margin:0 auto 24px;
   }
-  .step:nth-child(2) .step-num{border-color:var(--navy);color:var(--navy);background:var(--navy);}
-  .step:nth-child(2) .step-num{color:var(--white);}
+  .step:hover .step-num{border-color:var(--navy);color:var(--navy);background:var(--navy);color:var(--white);}
   .step h3{font-size:19px;font-weight:700;margin-bottom:10px;}
   .step p{color:var(--gray);font-size:15px;max-width:280px;margin:0 auto;}
   @media (max-width:800px){
@@ -2033,7 +2032,7 @@
   background:var(--white);border:1px solid var(--line);border-radius:20px;padding:32px;
   display:flex;flex-direction:column;gap:14px;
 }
-.model-col.highlight{border:2px solid var(--blue);}
+.model-col:hover{border:2px solid var(--blue);}
 .model-col h3{font-size:20px;font-weight:800;color:var(--navy);}
 .model-col .sub{font-family:'Sora',sans-serif;font-size:14px;color:var(--blue);font-weight:700;}
 .model-col ul{display:flex;flex-direction:column;gap:10px;margin-top:6px;}
@@ -2042,12 +2041,12 @@
 @media (max-width:860px){.model-compare{grid-template-columns:1fr;}}
 
 /* Talent supply countries grid */
-.supply-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.supply-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;}
 .supply-card{
   background:var(--white);border:1px solid var(--line);border-radius:18px;padding:28px;
   text-align:center;transition:border-color .25s ease, background .25s ease, transform .25s ease;
 }
-.supply-card:hover{border-color:var(--lime);background:var(--blue-500);color: var(--white);transform:translateY(-4px);}
+.supply-card:hover{border-color:var(--blue);background:var(--sky-2);color: var(--blue-700);transform:translateY(-4px);}
 .supply-card .flag{font-size:40px;margin-bottom:14px;display:block;}
 .supply-card h3{font-family:'Sora',sans-serif;font-size:18px;font-weight:800;margin-bottom:8px;}
 .supply-card p{font-size:13.5px;}
