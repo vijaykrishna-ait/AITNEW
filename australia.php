@@ -1,0 +1,562 @@
+<?php ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adhiran Infotech | Australia IT Staffing &amp; Technology Consulting</title>
+<link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+<meta name="description" content="Adhiran Infotech helps Australian companies hire vetted IT and infrastructure talent in 48 hours, build dedicated offshore/onshore teams, and deliver AI, cloud and digital engineering projects on time and on budget.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/pages/styles.css">
+</head>
+<body>
+
+<div class="us-strip">🇦🇺 Serving Sydney, Melbourne &amp; Perth — talk to a local consultant today</div>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="flag-row">🇦🇺 Australia · Sydney, Melbourne &amp; Perth</div>
+    <div style="display:flex;gap:24px;flex-wrap:wrap;">
+      <a href="mailto:sales@adhiraninfotech.com">sales@adhiraninfotech.com</a>
+      <a href="#contact">Schedule a Call →</a>
+    </div>
+  </div>
+</div>
+
+<header>
+  <nav>
+    <a href="index" class="logo"><img src="assets/images/logo.png" alt="Adhiran Infotech"></a>
+    <div class="nav-links">
+      <a href="#solutions">Hiring Solutions</a>
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-outline">View Open Roles</a>
+      <a href="#contact" class="btn btn-primary">Hire Talent</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Australia IT Staffing &amp; Technology Consulting</div>
+      <h1>Hire vetted tech talent across Australia — <span>matched in 48 hours</span></h1>
+      <p class="lead">Adhiran Infotech helps Australian companies, from Sydney startups to national enterprises, find IT and infrastructure talent, stand up dedicated teams, and deliver AI, cloud and digital projects — backed by AI-powered matching and a trial-based hire guarantee.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start Hiring →</a>
+        <a href="#solutions" class="btn btn-outline-light">See How It Works</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
+        <div class="stat"><div class="num">500+</div><div class="lbl">Successful APAC placements</div></div>
+        <div class="stat"><div class="num">30–50%</div><div class="lbl">Faster hiring with AI screening</div></div>
+        <div class="stat"><div class="num">AEST</div><div class="lbl">Australia-aligned delivery hours</div></div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Why Australian companies work with us</h3>
+      <ul>
+        <li>Active recruiting across Sydney, Melbourne and Perth, backed by a global talent network across India, Singapore, the UAE and Japan</li>
+        <li>AI-screened candidates reviewed by recruiters experienced in the local IT &amp; infrastructure market</li>
+        <li>Trial-based hiring — pay only if you're satisfied with the fit</li>
+        <li>Contract, contract-to-permanent and permanent placement models</li>
+        <li>Flexible engagement models: individual hires, dedicated pods, or full project delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- AUSTRALIA REACH -->
+<section class="bg-sky">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">On the Ground in Australia</div>
+      <h2>Active recruiting in Sydney, Melbourne and Perth</h2>
+      <p>Our Australia-facing recruiters work alongside delivery centers in India, Singapore, Japan and the UAE to fill IT and infrastructure roles fast, with local market knowledge.</p>
+    </div>
+    <div class="region-grid">
+      <div class="region-card">
+        <div class="flag-title"><span class="flag">🏙️</span><div><div class="region-sub">East Coast</div><h3>Sydney</h3></div></div>
+        <p>Our largest Australian talent pool — supporting infrastructure, networks and SaaS implementation roles for enterprise clients.</p>
+        <ul>
+          <li>Infrastructure &amp; networks specialists</li>
+          <li>SaaS implementation &amp; support leads</li>
+          <li>Permanent &amp; contract placements</li>
+        </ul>
+      </div>
+      <div class="region-card">
+        <div class="flag-title"><span class="flag">🏢</span><div><div class="region-sub">South East</div><h3>Melbourne</h3></div></div>
+        <p>Helpdesk, application support and team-leadership roles for organizations across finance, retail and professional services.</p>
+        <ul>
+          <li>Helpdesk &amp; IT support administrators</li>
+          <li>Team leaders &amp; management roles</li>
+          <li>Contract &amp; permanent models</li>
+        </ul>
+      </div>
+      <div class="region-card">
+        <div class="flag-title"><span class="flag">🌅</span><div><div class="region-sub">West Coast</div><h3>Perth</h3></div></div>
+        <p>Supporting mining, resources and government-adjacent organizations with application support and infrastructure talent.</p>
+        <ul>
+          <li>Application support administrators</li>
+          <li>Infrastructure &amp; systems specialists</li>
+          <li>Local market &amp; visa-sponsorship guidance</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust">
+  <div class="wrap">
+    <div class="label">Trusted by teams who've worked with</div>
+    <div class="logos">
+      <span>Google</span><span>Meta</span><span>HCL</span><span>Johnson &amp; Johnson</span><span>Tata</span><span>Shell</span>
+    </div>
+  </div>
+</section>
+
+<!-- HIRING SOLUTIONS -->
+<section id="solutions" class="bg-sky">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">Spectrum of Solutions</div>
+      <h2>One partner, three ways to build your Australian team</h2>
+      <p>Whether you need a single specialist, a dedicated pod, or a project finished end-to-end — choose the model that fits how your Australian team operates.</p>
+    </div>
+    <div class="cards-3">
+      <div class="card">
+        <div class="icon">👤</div>
+        <h3>Talent Solutions</h3>
+        <p>Hire a single vetted developer, designer, or data specialist — matched to your stack, your culture and Australian time zones (AEST/AWST), usually within 48 hours.</p>
+        <a href="#contact" class="link">Hire an Individual →</a>
+      </div>
+      <div class="card">
+        <div class="icon">👥</div>
+        <h3>Team Solutions</h3>
+        <p>Stand up a dedicated, managed pod — developers, QA, designers, PM — that plugs directly into your Australian delivery cadence and scales as your roadmap shifts.</p>
+        <a href="#contact" class="link">Build a Team →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🚀</div>
+        <h3>Project Solutions</h3>
+        <p>Hand off a defined outcome — AI implementation, cloud migration, app modernization — and our consultants deliver it on time, on budget, end to end.</p>
+        <a href="#contact" class="link">Start a Project →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section>
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">How It Works</div>
+      <h2>Hiring made easy for Australian businesses</h2>
+      <p>A simple, three-step path from your first conversation to a team member you trust.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h4>Talk to an Australia-facing expert</h4>
+        <p>A specialist learns your goals, tech stack, team dynamics and local compliance needs (visa sponsorship, contract vs. permanent).</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h4>Meet hand-selected talent</h4>
+        <p>Within days we introduce you to AI-screened, human-reviewed candidates — average time to match is under 48 hours.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h4>The right fit, guaranteed</h4>
+        <p>Work with your new team member on a trial basis. Pay only if you're satisfied with the result.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="bg-sky">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">What We Do</div>
+      <h2>Technology services built for the Australian market</h2>
+      <p>From AI strategy to enterprise platforms, our consultants and talent network help Australian companies move faster with the latest technology.</p>
+    </div>
+    <div class="cards-3">
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>AI &amp; Generative AI</h3>
+        <p>Roadmaps, opportunity assessments and production-grade AI builds for Australian enterprises across banking, resources and retail.</p>
+        <a href="#contact" class="link">Talk to an AI Expert →</a>
+      </div>
+      <div class="card">
+        <div class="icon">☁️</div>
+        <h3>Cloud Engineering</h3>
+        <p>AWS, Azure and Google Cloud environments designed for AI workloads — with up to 40% lower infrastructure costs.</p>
+        <a href="#contact" class="link">Talk to a Cloud Architect →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🏢</div>
+        <h3>Enterprise Platforms</h3>
+        <p>Implementation and support for SAP, Salesforce, ServiceNow, Veeva, Oracle and Workday, backed by consultants familiar with Australian compliance requirements.</p>
+        <a href="#contact" class="link">Talk to an Enterprise Apps Expert →</a>
+      </div>
+      <div class="card">
+        <div class="icon">💻</div>
+        <h3>Digital Engineering</h3>
+        <p>Custom web and mobile applications built on React, Node.js, .NET, Java and Python — designed for scale from day one.</p>
+        <a href="#contact" class="link">Explore Capabilities →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🎓</div>
+        <h3>EdTech &amp; AI for Education</h3>
+        <p>Adaptive learning platforms and AI-based grading tools for Australian schools, TAFEs and corporate training providers.</p>
+        <a href="#contact" class="link">Talk to an EdTech Expert →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🧬</div>
+        <h3>Life Sciences &amp; Pharma</h3>
+        <p>Modernizing R&amp;D, clinical and commercial operations for Australian pharma, biotech and healthcare provider organizations.</p>
+        <a href="#contact" class="link">Talk to a Life Sciences Expert →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH SKILLS -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Our Capabilities</div>
+      <h2>Tech skills ready to plug into your Australian team</h2>
+      <p>The technologies our consultants and talent network specialize in — ready for projects of any size, anywhere across Australia.</p>
+    </div>
+    <div class="skills">
+      <span class="skill-pill">Java &amp; .NET</span>
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">React &amp; Angular</span>
+      <span class="skill-pill">AWS</span>
+      <span class="skill-pill">Microsoft Azure</span>
+      <span class="skill-pill">Google Cloud</span>
+      <span class="skill-pill">Salesforce &amp; SAP</span>
+      <span class="skill-pill">ServiceNow</span>
+      <span class="skill-pill">Data Analytics</span>
+      <span class="skill-pill">AI &amp; Machine Learning</span>
+      <span class="skill-pill">DevOps &amp; CI/CD</span>
+      <span class="skill-pill">QA &amp; Cybersecurity</span>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section id="industries" class="bg-sky">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">Industries We Serve</div>
+      <h2>Specialized talent for the industries that drive the Australian economy</h2>
+      <p>Deep domain expertise so your team speaks the same language as your business.</p>
+    </div>
+    <div class="ind-grid">
+      <div class="ind-card">
+        <span class="tag">Banking &amp; Finance</span>
+        <h3>Banking &amp; Financial Services</h3>
+        <p>Compliance-ready talent and consulting for Australian banks, insurers and fintechs.</p>
+      </div>
+      <div class="ind-card">
+        <span class="tag">Retail &amp; CPG</span>
+        <h3>Consumer Products</h3>
+        <p>Digital and supply-chain expertise to help retail and CPG brands move faster across Australia and New Zealand.</p>
+      </div>
+      <div class="ind-card">
+        <span class="tag">Healthcare</span>
+        <h3>Healthcare &amp; Life Sciences</h3>
+        <p>Specialist IT and clinical-systems talent for Australian providers, payers and life sciences organizations.</p>
+      </div>
+      <div class="ind-card">
+        <span class="tag">Mining &amp; Resources</span>
+        <h3>Mining &amp; Resources</h3>
+        <p>Infrastructure and systems talent for mining, energy and resources companies across Western Australia and beyond.</p>
+      </div>
+      <div class="ind-card">
+        <span class="tag">Manufacturing</span>
+        <h3>Manufacturing</h3>
+        <p>Automation, ERP and IoT specialists to modernize plants and supply chains across Australia.</p>
+      </div>
+      <div class="ind-card">
+        <span class="tag">Consulting</span>
+        <h3>Professional Services</h3>
+        <p>Flexible consulting and project teams for Australian firms scaling delivery across multiple states and time zones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section id="case-studies">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">Case Studies</div>
+      <h2>Proven results for Australian clients</h2>
+      <p>A sample of how our talent and consulting teams have helped Australian companies modernize, automate and scale.</p>
+    </div>
+    <div class="case-grid">
+      <div class="case-card">
+        <div class="case-top">
+          <span class="case-tag">Mining &amp; Resources</span>
+          <h3>SaaS implementation for a national resources operator</h3>
+          <p>Placed a SaaS Implementation &amp; Support Lead and supporting engineers, streamlining operations across multiple Australian sites.</p>
+        </div>
+        <div class="case-bottom"><a href="#contact" class="link">Read Case Study →</a></div>
+      </div>
+      <div class="case-card">
+        <div class="case-top">
+          <span class="case-tag">Fintech</span>
+          <h3>Re-engineered a digital bank's core platform</h3>
+          <p>Cut transaction latency by 73% with a re-architected core banking platform for an Australian-licensed digital bank.</p>
+        </div>
+        <div class="case-bottom"><a href="#contact" class="link">Read Case Study →</a></div>
+      </div>
+      <div class="case-card">
+        <div class="case-top">
+          <span class="case-tag">UiPath Automation</span>
+          <h3>RPA rollout that automated 30+ back-office workflows</h3>
+          <p>Deployed certified UiPath developers to design and scale bots, cutting manual processing time by over 60%.</p>
+        </div>
+        <div class="case-bottom"><a href="#contact" class="link">Read Case Study →</a></div>
+      </div>
+      <div class="case-card">
+        <div class="case-top">
+          <span class="case-tag">Retail</span>
+          <h3>40% lift in conversions for a national e-commerce brand</h3>
+          <p>A dedicated engineering pod rebuilt the checkout and personalization experience for a Sydney-headquartered e-commerce client.</p>
+        </div>
+        <div class="case-bottom"><a href="#contact" class="link">Read Case Study →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="about" class="bg-sky">
+  <div class="wrap">
+    <div class="why-grid">
+      <div>
+        <div class="eyebrow">Why Choose Adhiran Infotech</div>
+        <h2 style="font-size:32px;font-weight:800;">A global delivery partner, built for Australian businesses</h2>
+        <div class="why-list">
+          <div class="why-item">
+            <div class="dot">AU</div>
+            <div>
+              <h4>Local presence, global delivery</h4>
+              <p>Active recruiters across Sydney, Melbourne and Perth, backed by delivery centers across India, Singapore, Japan and the UAE for round-the-clock coverage.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="dot">AI</div>
+            <div>
+              <h4>AI-powered matching</h4>
+              <p>Award-winning AI screening combined with human review means faster, better-fit shortlists for your roles.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="dot">$</div>
+            <div>
+              <h4>Trial-based hiring</h4>
+              <p>Start working with your new hire on a trial basis — pay only if you're satisfied with the fit.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="dot">⏱</div>
+            <div>
+              <h4>Speed without compromise</h4>
+              <p>500+ successful placements and an average time to first match of 48 hours, without skipping technical vetting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-panel">
+        <h3>Adhiran Infotech at a glance</h3>
+        <div class="why-stats">
+          <div><div class="num">10+</div><div class="lbl">Years of experience</div></div>
+          <div><div class="num">500+</div><div class="lbl">Successful placements</div></div>
+          <div><div class="num">28+</div><div class="lbl">Years combined team experience</div></div>
+          <div><div class="num">5</div><div class="lbl">Countries with local presence</div></div>
+          <div><div class="num">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
+          <div><div class="num">30–50%</div><div class="lbl">Faster hiring with AI</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GLOBAL REGIONS -->
+<section class="bg-sky">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">Global Delivery Network</div>
+      <h2>Beyond Australia — talent and delivery across four continents</h2>
+      <p>Our Australian engagements are backed by dedicated teams across South Asia, the Middle East and East Asia, giving clients follow-the-sun coverage and access to specialist regional talent pools.</p>
+    </div>
+    <div class="region-grid">
+
+      <div class="region-card">
+        <div class="flag-title"><span class="flag">🇮🇳</span><div><div class="region-sub">Global HQ</div><h3>Chennai, India</h3></div></div>
+        <p>Our India headquarters anchors engineering delivery — large-scale offshore teams, AI/ML engineering and 24/7 platform support for Australian clients.</p>
+        <ul>
+          <li>Largest engineering talent pool</li>
+          <li>AI, cloud &amp; data engineering at scale</li>
+          <li>Cost-efficient offshore delivery centers</li>
+        </ul>
+      </div>
+
+      <div class="region-card">
+        <div class="flag-title"><span class="flag">🇦🇪</span><div><div class="region-sub">MENA Hub</div><h3>Dubai, UAE</h3></div></div>
+        <p>Our Dubai team supports banking, government and real-estate clients across the GCC with bilingual (Arabic/English) recruitment and Shariah-aware engagement models.</p>
+        <ul>
+          <li>Fintech &amp; Islamic banking specialists</li>
+          <li>Free-zone &amp; mainland hiring compliance</li>
+          <li>Onsite delivery pods in Dubai &amp; Abu Dhabi</li>
+        </ul>
+      </div>
+
+      <div class="region-card jp">
+        <div class="flag-title"><span class="flag">🇯🇵</span><div><div class="region-sub">東アジア拠点</div><h3>東京、日本</h3></div></div>
+        <p>東京オフィスでは、製造業・医療・教育分野の企業様向けに、AI・クラウド導入支援とITエンジニア採用支援を提供しています。日本語でのご相談が可能です。</p>
+        <ul>
+          <li>日本語対応の専任コンサルタント</li>
+          <li>製造・医療・EdTech分野の実績</li>
+          <li>オンサイト・オフショア混合チーム編成</li>
+        </ul>
+      </div>
+
+      <div class="region-card">
+        <div class="flag-title"><span class="flag">🇸🇬</span><div><div class="region-sub">Southeast Asia Hub</div><h3>Singapore</h3></div></div>
+        <p>Singapore anchors our Southeast Asia delivery — supporting fintech, logistics and consumer brands expanding across ASEAN with a compliance-ready, multilingual workforce.</p>
+        <ul>
+          <li>MAS-aware fintech &amp; payments talent</li>
+          <li>Regional ODC setup across ASEAN</li>
+          <li>English, Mandarin &amp; Bahasa-fluent teams</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section>
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Ready to build your Australian team?</h2>
+      <p>Tell us what you're trying to solve — we'll connect you with the right people, technology and consulting expertise to get there.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-primary" style="background:var(--lime);color:var(--navy);">Talk to an Expert</a>
+        <a href="#contact" class="btn btn-outline-light">View Open Roles</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-sky">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Contact Us</div>
+      <h2>Let's talk about your Australian hiring needs</h2>
+      <p>Reach out and an Australia-facing consultant will get back to you within one business day.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="item">
+          <div class="ic">📍</div>
+          <div><h4>Australia Coverage</h4><p>Sydney · Melbourne · Perth</p></div>
+        </div>
+        <div class="item">
+          <div class="ic">✉️</div>
+          <div><h4>Email</h4><a href="mailto:sales@adhiraninfotech.com">sales@adhiraninfotech.com</a></div>
+        </div>
+        <div class="item">
+          <div class="ic">🕒</div>
+          <div><h4>Hours</h4><p>Monday – Friday, 9 AM – 6 PM AEST, with extended global support coverage</p></div>
+        </div>
+        <div class="item">
+          <div class="ic">🌐</div>
+          <div><h4>Global Network</h4><p>India (HQ — Chennai) · Australia (Sydney, Melbourne, Perth) · Singapore · UAE (Dubai) · Japan (Tokyo) · USA</p></div>
+        </div>
+      </div>
+      <div class="form-card">
+        <div class="form-row">
+          <div><label>First Name</label><input type="text" placeholder="Jane"></div>
+          <div><label>Last Name</label><input type="text" placeholder="Smith"></div>
+        </div>
+        <div class="form-row">
+          <div><label>Work Email</label><input type="email" placeholder="jane@company.com"></div>
+          <div><label>Company</label><input type="text" placeholder="Company name"></div>
+        </div>
+        <div style="margin-bottom:14px;">
+          <label>I'm interested in</label>
+          <select>
+            <option>Talent Solutions — hire an individual</option>
+            <option>Team Solutions — build a dedicated team</option>
+            <option>Project Solutions — end-to-end delivery</option>
+            <option>AI &amp; Cloud Consulting</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div style="margin-bottom:18px;">
+          <label>Tell us about your project</label>
+          <textarea placeholder="What are you trying to solve?"></textarea>
+        </div>
+        <button class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-logo">
+        <img src="assets/images/logo.png" alt="Adhiran Infotech">
+        <p>A global IT talent and technology consulting partner — helping Australian businesses hire faster and deliver smarter with AI, cloud and digital engineering.</p>
+      </div>
+      <div>
+        <h4>Hiring Solutions</h4>
+        <a href="#solutions">Talent Solutions</a>
+        <a href="#solutions">Team Solutions</a>
+        <a href="#solutions">Project Solutions</a>
+        <a href="#contact">Hire Developers</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="#services">AI &amp; Generative AI</a>
+        <a href="#services">Cloud Engineering</a>
+        <a href="#services">Enterprise Platforms</a>
+        <a href="#services">Digital Engineering</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#industries">Industries</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Adhiran Infotech. All rights reserved.</span>
+      <span>🇦🇺 Australia — Sydney · Melbourne · Perth &nbsp;|&nbsp; Global: India · Singapore · UAE · Japan · USA</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+<?php ?>
