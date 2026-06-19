@@ -18,9 +18,9 @@ include 'includes/header.php';
         <a href="<?= $base ?>#models" class="btn btn-outline-light">Explore Team Models</a>
       </div>
       <div class="tm-hero-stats">
-        <div><b>4</b><span>Markets with active talent supply</span></div>
-        <div><b>20+</b><span>Person teams built &amp; managed</span></div>
-        <div><b>ODC</b><span>Fully managed offshore centers</span></div>
+        <div   ><b class="count-up" data-target="4">4</b><span>Markets with active talent supply</span></div>
+        <div  ><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Person teams built &amp; managed</span></div>
+        <div ><b>ODC</b><span>Fully managed offshore centers</span></div>
         <div><b>Onsite + Offshore</b><span>Hybrid delivery models</span></div>
       </div>
     </div>
@@ -128,7 +128,7 @@ include 'includes/header.php';
         <p>We handle recruitment, infrastructure, HR, payroll, compliance and facilities — so your leadership can focus
           on what the team delivers, not how it's run.</p>
         <div class="odc-points">
-          <div class="odc-point"><b>100%</b><span>Dedicated to your organization</span></div>
+          <div class="odc-point "  ><b class="count-up" data-target="100" data-suffix="%" >100%</b><span>Dedicated to your organization</span></div>
           <div class="odc-point"><b>Your Brand</b><span>Team can operate under your identity</span></div>
           <div class="odc-point"><b>Full Stack</b><span>HR, IT, admin &amp; compliance included</span></div>
           <div class="odc-point"><b>Scalable</b><span>From a handful of people to 50+</span></div>

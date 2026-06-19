@@ -16,10 +16,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>#roles" class="btn btn-outline-light">Explore Roles We Fill</a>
     </div>
     <div class="ts-hero-stats">
-      <div><b>500+</b><span>Individual placements delivered</span></div>
-      <div><b>48 hrs</b><span>Avg. time to first shortlist</span></div>
-      <div><b>30+</b><span>Roles &amp; technologies covered</span></div>
-      <div><b>5</b><span>Countries with local hiring expertise</span></div>
+      <div  ><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Individual placements delivered</span></div>
+      <div  ><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first shortlist</span></div>
+      <div  ><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Roles &amp; technologies covered</span></div>
+      <div   ><b class="count-up" data-target="5" >5</b><span>Countries with local hiring expertise</span></div>
     </div>
   </div>
 </section>

@@ -17,9 +17,9 @@ include 'includes/header.php';
       <a href="<?= $base ?>#cloud-services" class="btn btn-outline-light">Explore Cloud Services</a>
     </div>
     <div class="cl-hero-stats">
-      <div><b>3</b><span>Major cloud platforms supported</span></div>
-      <div><b>40%</b><span>Avg. infrastructure cost reduction</span></div>
-      <div><b>24/7</b><span>Cloud operations &amp; monitoring</span></div>
+      <div   ><b class="count-up" data-target="3">3</b ><span>Major cloud platforms supported</span></div>
+      <div ><b class="count-up" data-target="40"  data-suffix="%">40%</b><span>Avg. infrastructure cost reduction</span></div>
+      <div ><b>24/7</b><span>Cloud operations &amp; monitoring</span></div>
       <div><b>AI-Ready</b><span>Architectures from day one</span></div>
     </div>
   </div>
@@ -34,10 +34,10 @@ include 'includes/header.php';
       <p>Most cloud environments were built before AI became a priority — leaving teams to bolt on GPUs, data pipelines and model-serving infrastructure later, at higher cost and risk.</p>
       <p>We design cloud foundations — networking, data, security and compute — with AI workloads in mind from the start, so when you're ready to deploy generative AI, ML models or intelligent automation, the infrastructure is already there.</p>
       <div class="cloudai-points">
-        <div class="cloudai-point"><b>40%</b><span>Lower infrastructure cost with right-sizing</span></div>
-        <div class="cloudai-point"><b>2x</b><span>Faster AI model deployment on AI-ready cloud</span></div>
-        <div class="cloudai-point"><b>99.9%</b><span>Uptime SLAs for managed environments</span></div>
-        <div class="cloudai-point"><b>24/7</b><span>AI-assisted monitoring &amp; alerting</span></div>
+        <div class="cloudai-point"><b class="count-up "  data-target="40"  data-suffix="%">40%</b><span>Lower infrastructure cost with right-sizing</span></div>
+        <div class="cloudai-point"><b class="  count-up"  data-target="2"  data-suffix="x">2x</b><span>Faster AI model deployment on AI-ready cloud</span></div>
+        <div class="cloudai-point"><b class=" count-up"   data-target="9"  data-prefix="99." data-suffix="%">99.9%</b><span>Uptime SLAs for managed environments</span></div>
+        <div class="cloudai-point" > <b>24/7</b><span>AI-assisted monitoring &amp; alerting</span></div>
       </div>
     </div>
     <div class="cloudai-img">

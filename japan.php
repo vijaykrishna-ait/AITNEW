@@ -60,9 +60,9 @@ $base = $base ?? '';
         <a href="#solutions" class="btn btn-outline-light">サービスの流れを見る</a>
       </div>
       <div class="hero-stats">
-        <div class="stat"><div class="num">48時間</div><div class="lbl">初回マッチングまでの平均期間</div></div>
-        <div class="stat"><div class="num">500+</div><div class="lbl">アジア太平洋地域での採用実績</div></div>
-        <div class="stat"><div class="num">30〜50%</div><div class="lbl">AI選考による採用スピード向上</div></div>
+        <div class="stat"><div class="num count-up"  data-target="48" data-suffix=" 時間">48時間</div><div class="lbl">初回マッチングまでの平均期間</div></div>
+        <div class="stat"><div class="num count-up"  data-target="500" data-suffix="+">500+</div><div class="lbl">アジア太平洋地域での採用実績</div></div>
+        <div class="stat"><div class="num " >30〜50%</div><div class="lbl">AI選考による採用スピード向上</div></div>
         <div class="stat"><div class="num">JST</div><div class="lbl">日本標準時に合わせた対応時間</div></div>
       </div>
     </div>
@@ -371,7 +371,7 @@ $base = $base ?? '';
             </div>
           </div>
           <div class="why-item">
-            <div class="dot">⏱</div>
+            <div class="dot">⏱</div> data-target="10" data-suffix="年+"
             <div>
               <h4>スピードと質の両立</h4>
               <p>500件以上の採用実績、平均48時間での初回マッチングを、技術選考の質を落とさず実現しています。</p>
@@ -382,12 +382,12 @@ $base = $base ?? '';
       <div class="why-panel">
         <h3>アディラン・インフォテックの概要</h3>
         <div class="why-stats">
-          <div><div class="num">10年+</div><div class="lbl">事業実績</div></div>
-          <div><div class="num">500+</div><div class="lbl">採用実績</div></div>
-          <div><div class="num">28年+</div><div class="lbl">チーム合計経験年数</div></div>
-          <div><div class="num">5</div><div class="lbl">拠点を持つ国の数</div></div>
-          <div><div class="num">48時間</div><div class="lbl">初回マッチングまでの平均時間</div></div>
-          <div><div class="num">30〜50%</div><div class="lbl">AI活用による採用スピード向上</div></div>
+          <div><div class="num count-up"  data-target="10" data-suffix="年+">10年+</div><div class="lbl">事業実績</div></div>
+          <div><div class="num count-up"   data-target="500" data-suffix="+">500+</div><div class="lbl">採用実績</div></div>
+          <div><div class="num count-up"  data-target="28" data-suffix="年+">28年+</div><div class="lbl">チーム合計経験年数</div></div>
+          <div><div class="num count-up"  data-target="5">5</div><div class="lbl">拠点を持つ国の数</div></div>
+          <div><div class="num count-up"  data-target="48" data-suffix="時間">48時間</div><div class="lbl">初回マッチングまでの平均時間</div></div>
+          <div><div class="num "   >30〜50%</div><div class="lbl">AI活用による採用スピード向上</div></div>
         </div>
       </div>
     </div>

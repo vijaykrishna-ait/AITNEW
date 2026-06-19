@@ -22,7 +22,7 @@ include 'includes/header.php';
         <div class="hero-stats">
           <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average time to first match</span></div>
           <div><b class="count-up" data-target="4">4</b><span>Continents, one delivery network</span></div>
-          <div><b class="count-up" data-target="50" data-prefix="30-" data-suffix="%">30-50%</b><span>Faster hiring with AI screening</span></div>
+          <div><b class="">30-50%</b><span>Faster hiring with AI screening</span></div>
         </div>
       </div>
       <div class="hero-visual">
@@ -32,7 +32,7 @@ include 'includes/header.php';
         </div>
         <div class="floating-card fc-1">
           <div class="ico">⚡</div>
-          <div><b>24 hrs</b>
+          <div ><b class=" count-up" data-target="24" data-suffix=" hrs">24 hrs</b>
             <div class="sub">to shortlist match</div>
           </div>
         </div>

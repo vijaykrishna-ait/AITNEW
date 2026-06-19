@@ -17,10 +17,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>#platforms" class="btn btn-outline-light">Explore Platforms</a>
     </div>
     <div class="es-hero-stats">
-      <div><b>6+</b><span>Enterprise platforms supported</span></div>
-      <div><b>100+</b><span>Implementations &amp; rollouts</span></div>
-      <div><b>24/7</b><span>Global support coverage</span></div>
-      <div><b>30–50%</b><span>Faster processes with automation</span></div>
+      <div  ><b class="count-up" data-target="6" data-suffix="+">6+</b><span>Enterprise platforms supported</span></div>
+      <div ><b class="count-up" data-target="100" data-suffix="+" >100+</b ><span>Implementations &amp; rollouts</span></div>
+      <div ><b  >24/7</b><span>Global support coverage</span></div>
+      <div class=""><b>30–50%</b><span>Faster processes with automation</span></div>
     </div>
   </div>
 </section>

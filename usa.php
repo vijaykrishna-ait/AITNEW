@@ -60,10 +60,10 @@ $base = $base ?? '';
         <a href="#solutions" class="btn btn-outline-light">See How It Works</a>
       </div>
       <div class="hero-stats">
-        <div class="stat"><div class="num">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
-        <div class="stat"><div class="num">500+</div><div class="lbl">Successful US placements</div></div>
-        <div class="stat"><div class="num">30–50%</div><div class="lbl">Faster hiring with AI screening</div></div>
-        <div class="stat"><div class="num">EST &amp; CST</div><div class="lbl">US-aligned delivery hours</div></div>
+        <div class="stat"><div class="num count-up" data-target="48" data-suffix=" hrs" >48 hrs</div><div class="lbl">Avg. time to first match</div></div>
+        <div class="stat"><div class="num count-up" data-target="500" data-suffix="+" >500+</div><div class="lbl">Successful US placements</div></div>
+        <div class="stat"><div class="num count-up"  data-target="50" data-suffix="%"  data-prefix="30%-" >30–50%</div><div class="lbl">Faster hiring with AI screening</div></div>
+        <div class="stat"><div class="num ">EST &amp; CST</div><div class="lbl">US-aligned delivery hours</div></div>
       </div>
     </div>
     <div class="hero-card">
@@ -353,10 +353,10 @@ $base = $base ?? '';
         <div class="why-stats">
           <div><div class="num count-up" data-target="10" data-suffix="+">10+</div><div class="lbl">Years of experience</div></div>
           <div><div class="num count-up" data-target="500" data-suffix="+">500+</div><div class="lbl">Successful placements</div></div>
-          <div><div class="num">28+</div><div class="lbl">Years combined team experience</div></div>
-          <div><div class="num">5</div><div class="lbl">Countries with local presence</div></div>
+          <div><div class="num count-up"  data-target="28" data-suffix="+">28+</div><div class="lbl">Years combined team experience</div></div>
+          <div><div class="num count-up" data-target="5" >5</div><div class="lbl">Countries with local presence</div></div>
           <div><div class="num count-up" data-target="48" data-suffix=" hrs">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
-          <div><div class="num">30–50%</div><div class="lbl">Faster hiring with AI</div></div>
+          <div><div class="num " >30–50%</div><div class="lbl">Faster hiring with AI</div></div>
         </div>
       </div>
     </div>

@@ -17,10 +17,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>#ed-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="ed-hero-stats">
-      <div><b>20+</b><span>EdTech &amp; learning projects delivered</span></div>
-      <div><b>4</b><span>Segments: schools, colleges, medical &amp; corporate training</span></div>
+      <div  ><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning projects delivered</span></div>
+      <div   ><b class="count-up" data-target="4">4</b><span>Segments: schools, colleges, medical &amp; corporate training</span></div>
       <div><b>AI-Based</b><span>Personalized learning engines</span></div>
-      <div><b>24/7</b><span>Platform support</span></div>
+      <div  ><b>24/7</b><span>Platform support</span></div>
     </div>
   </div>
 </section>
@@ -35,7 +35,7 @@ include 'includes/header.php';
       <p>We've built AI-based personalized learning platforms that adapt content to each learner's pace and style — improving engagement and completion rates across schools, colleges and corporate training programs.</p>
       <div class="edai-points">
         <div class="edai-point"><b>Adaptive</b><span>Learning paths tailored to each student</span></div>
-        <div class="edai-point"><b>24/7</b><span>AI tutoring &amp; doubt-resolution support</span></div>
+        <div class="edai-point " ><b>24/7</b><span>AI tutoring &amp; doubt-resolution support</span></div>
         <div class="edai-point"><b>Faster</b><span>Grading &amp; feedback with AI assistance</span></div>
         <div class="edai-point"><b>Data-Driven</b><span>Insights for faculty &amp; administrators</span></div>
       </div>

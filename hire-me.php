@@ -14,9 +14,9 @@ include 'includes/header.php';
       <h1>Hire pre-vetted developers across every major technology stack</h1>
       <p class="lead">From a single full-stack engineer to a complete delivery pod — Adhiran Infotech gives you direct access to experienced developers across web, mobile, cloud, data and AI, ready to plug into your team in as little as 48 hours.</p>
       <div class="hire-hero-stats">
-        <div><b>30+</b><span>Technologies covered</span></div>
-        <div><b>48 hrs</b><span>Avg. time to first match</span></div>
-        <div><b>500+</b><span>Developers placed globally</span></div>
+        <div  ><b class="count-up" data-target="30" data-suffix="+">30+</b ><span>Technologies covered</span></div>
+        <div  ><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first match</span></div>
+        <div  ><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Developers placed globally</span></div>
       </div>
       <div class="hero-actions" style="margin-top:30px;">
         <a href="<?= $base ?>#contact" class="btn btn-primary">Hire a Developer →</a>
@@ -27,7 +27,7 @@ include 'includes/header.php';
       <div class="hire-hero-img">
         <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&w=900&q=80" alt="Developer working on code across multiple screens">
       </div>
-      <div class="hire-hero-badge"><b>10+</b><span>Years building global engineering teams</span></div>
+      <div class="hire-hero-badge count-up" data-target="10" data-suffix="+" ><b>10+</b><span>Years building global engineering teams</span></div>
     </div>
   </div>
 </section>

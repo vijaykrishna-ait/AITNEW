@@ -17,10 +17,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>#de-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="de-hero-stats">
-      <div><b>60%</b><span>Reduction in unplanned downtime</span></div>
-      <div><b>15+</b><span>Years of industrial domain experience</span></div>
-      <div><b>IoT + AI</b><span>Integrated engineering approach</span></div>
-      <div><b>24/7</b><span>Remote monitoring &amp; support</span></div>
+      <div ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Reduction in unplanned downtime</span></div>
+      <div ><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Years of industrial domain experience</span></div>
+      <div ><b>IoT + AI</b><span>Integrated engineering approach</span></div>
+      <div ><b>24/7</b><span>Remote monitoring &amp; support</span></div>
     </div>
   </div>
 </section>
@@ -34,10 +34,10 @@ include 'includes/header.php';
       <p>Most manufacturing data never leaves the machine it was generated on. Industry DX starts with connecting that data — sensors, PLCs, MES, ERP — into a single picture of how your operations actually run.</p>
       <p>From there, automation and AI take over: flagging quality issues before they become defects, predicting failures before they cause downtime, and giving operators and engineers the insight they need to act, not just react.</p>
       <div class="dx-points">
-        <div class="dx-point"><b>60%</b><span>Less unplanned downtime with predictive maintenance</span></div>
-        <div class="dx-point"><b>30%</b><span>Faster defect detection with computer vision</span></div>
-        <div class="dx-point"><b>2x</b><span>Visibility into OEE across plants</span></div>
-        <div class="dx-point"><b>24/7</b><span>Remote monitoring of critical assets</span></div>
+        <div class="dx-point "  ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Less unplanned downtime with predictive maintenance</span></div>
+        <div class="dx-point "  ><b class="count-up" data-target="30" data-suffix="%">30%</b><span>Faster defect detection with computer vision</span></div>
+        <div class="dx-point "  ><b class="count-up" data-target="2" data-suffix="X">2x</b><span>Visibility into OEE across plants</span></div>
+        <div class="dx-point "  ><b>24/7</b><span>Remote monitoring of critical assets</span></div>
       </div>
     </div>
     <div class="dx-img">
