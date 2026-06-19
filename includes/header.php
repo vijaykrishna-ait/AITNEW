@@ -47,16 +47,10 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- 1️⃣ Your existing stylesheet -->
-<link rel="stylesheet" href="<?= $base ?>assets/css/styles.css">
-
-<!-- motion.js (UMD build) – loads a global `motion` variable -->
 <script src="https://cdn.jsdelivr.net/npm/motion@12.40.0/dist/motion.min.js"></script>
 
-<!-- 3️⃣ Your animation file (must come *after* motion.js) -->
+<link rel="stylesheet" href="<?= $base ?>assets/css/styles.css">
 <script src="<?= $base ?>assets/js/animations.js"></script>
-
-<!-- 4️⃣ Your original UI‑logic script (unchanged) -->
 <script src="<?= $base ?>assets/js/script.js"></script>
 
 

@@ -1,4 +1,6 @@
-<?php ?>
+<?php 
+$base = $base ?? ''; 
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -9,7 +11,11 @@
 <meta name="description" content="アディラン・インフォテックは、日本企業向けに審査済みのITエンジニアを最短48時間でご紹介し、専属チームの構築やAI・クラウド・デジタルエンジニアリング案件を予算内・期日内で実施します。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/pages/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/motion@12.40.0/dist/motion.min.js"></script>
+
+<link rel="stylesheet" href="<?= $base ?>assets/css/pages/styles.css">
+<script src="<?= $base ?>assets/js/animations.js"></script>
+<script src="<?= $base ?>assets/js/script.js"></script>
 </head>
 <body>
 

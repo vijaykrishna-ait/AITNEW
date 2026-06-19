@@ -16,9 +16,9 @@ include 'includes/header.php';
           Middle East, Singapore, Japan and India hire IT talent, build web &amp; mobile applications, and run AI-led
           technology projects — backed by a dedicated, experienced and highly qualified team.</p>
         <div class="about-hero-stats">
-          <div><b>10+</b><span>Years of experience</span></div>
-          <div><b>500+</b><span>Successful placements</span></div>
-          <div><b>5</b><span>Countries with local presence</span></div>
+          <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of experience</span></div>
+          <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements</span></div>
+          <div><b class="count-up" data-target="5">5</b><span>Countries with local presence</span></div>
         </div>
       </div>
       <div class="about-hero-visual">
@@ -26,7 +26,7 @@ include 'includes/header.php';
           <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80"
             alt="International team of consultants collaborating in a meeting">
         </div>
-        <div class="about-hero-badge"><b>28+</b><span>Years of combined team experience</span></div>
+        <div class="about-hero-badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined team experience</span></div>
       </div>
     </div>
   </section>

@@ -1,4 +1,6 @@
-<?php ?>
+<?php 
+$base = $base ?? ''; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +11,11 @@
 <meta name="description" content="Adhiran Infotech helps Australian companies hire vetted IT and infrastructure talent in 48 hours, build dedicated offshore/onshore teams, and deliver AI, cloud and digital engineering projects on time and on budget.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/pages/styles.css">
-</head>
+<script src="https://cdn.jsdelivr.net/npm/motion@12.40.0/dist/motion.min.js"></script>
+
+<link rel="stylesheet" href="<?= $base ?>assets/css/pages/styles.css">
+<script src="<?= $base ?>assets/js/animations.js"></script>
+<script src="<?= $base ?>assets/js/script.js"></script></head>
 <body>
 
 <div class="us-strip">🇦🇺 Serving Sydney, Melbourne &amp; Perth — talk to a local consultant today</div>
@@ -54,7 +59,7 @@
         <a href="#solutions" class="btn btn-outline-light">See How It Works</a>
       </div>
       <div class="hero-stats">
-        <div class="stat"><div class="num">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
+        <div class="stat"><div class="num" data-target="48" data-suffix=" hrs">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
         <div class="stat"><div class="num">500+</div><div class="lbl">Successful APAC placements</div></div>
         <div class="stat"><div class="num">30–50%</div><div class="lbl">Faster hiring with AI screening</div></div>
         <div class="stat"><div class="num">AEST</div><div class="lbl">Australia-aligned delivery hours</div></div>
@@ -385,12 +390,12 @@
       <div class="why-panel">
         <h3>Adhiran Infotech at a glance</h3>
         <div class="why-stats">
-          <div><div class="num">10+</div><div class="lbl">Years of experience</div></div>
-          <div><div class="num">500+</div><div class="lbl">Successful placements</div></div>
-          <div><div class="num">28+</div><div class="lbl">Years combined team experience</div></div>
-          <div><div class="num">5</div><div class="lbl">Countries with local presence</div></div>
-          <div><div class="num">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
-          <div><div class="num">30–50%</div><div class="lbl">Faster hiring with AI</div></div>
+          <div><div class="num count-up" data-target="10" data-suffix="+">10+</div><div class="lbl">Years of experience</div></div>
+          <div><div class="num count-up" data-target="500" data-suffix="+">500+</div><div class="lbl">Successful placements</div></div>
+          <div><div class="num count-up" data-target="28" data-suffix="+">28+</div><div class="lbl">Years combined team experience</div></div>
+          <div><div class="num count-up" data-target="5">5</div><div class="lbl">Countries with local presence</div></div>
+          <div><div class="num count-up" data-target="48" data-suffix=" hrs">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
+          <div><div class="num count-up" data-target="50" data-prefix="30-" data-suffix="%">30–50%</div><div class="lbl">Faster hiring with AI</div></div>
         </div>
       </div>
     </div>

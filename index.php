@@ -20,9 +20,9 @@ include 'includes/header.php';
           <a href="<?= $base ?>#jobs" class="btn btn-outline">Browse Open Roles</a>
         </div>
         <div class="hero-stats">
-          <div><b>48 hrs</b><span>Average time to first match</span></div>
-          <div><b>3</b><span>Continents, one delivery network</span></div>
-          <div><b>30–50%</b><span>Faster hiring with AI screening</span></div>
+          <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average time to first match</span></div>
+          <div><b class="count-up" data-target="4">4</b><span>Continents, one delivery network</span></div>
+          <div><b class="count-up" data-target="50" data-prefix="30-" data-suffix="%">30-50%</b><span>Faster hiring with AI screening</span></div>
         </div>
       </div>
       <div class="hero-visual">
@@ -593,7 +593,7 @@ include 'includes/header.php';
       <div class="why-img">
         <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80"
           alt="International team of consultants collaborating in a meeting">
-        <div class="badge"><b>28+</b><span>Years of combined expertise</span></div>
+        <div class="badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined expertise</span></div>
       </div>
       <div class="why-content">
         <div class="eyebrow">Why Choose Adhiran Infotech?</div>
@@ -604,10 +604,10 @@ include 'includes/header.php';
         <p class="highlight">Trusted across India, North America and the Middle East — built to help you hire faster and
           deliver smarter.</p>
         <div class="why-points">
-          <div class="why-point"><b>500+</b><span>Successful placements</span></div>
-          <div class="why-point"><b>3</b><span>Global delivery hubs</span></div>
-          <div class="why-point"><b>48 hrs</b><span>Avg. time to first match</span></div>
-          <div class="why-point"><b>30–50%</b><span>Faster hiring with AI</span></div>
+          <div class="why-point"><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements</span></div>
+          <div class="why-point"><b class="count-up" data-target="4">3</b><span>Global delivery hubs</span></div>
+          <div class="why-point"><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first match</span></div>
+          <div class="why-point"><b class="count-up" data-target="50" data-prefix="30-" data-suffix="%">30–50%</b><span>Faster hiring with AI</span></div>
         </div>
       </div>
     </div>

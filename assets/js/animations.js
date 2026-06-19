@@ -28,22 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
     Sections to animate
     ---------------------------------------------------------- */
 
-    const sectionsToAnimate = [
-        "section.hero",
-        "section.services",
-        "section.solutions",
-        "section.experts",
-        "section.industries",
-        "section.case-studies",
-        "section.news",
-        "section.clients",
-        "section.skills",
-        "section.why",
-        "section.cta",
-        "section.contact"
-    ];
+    // const sectionsToAnimate = [
+    //     "section"
+    // ];
 
-    sectionsToAnimate.forEach(selector => {
+    // sectionsToAnimate.
+    document.querySelectorAll("section").forEach(selector => {
         inView(selector, element => {
             animate(
                 element,
@@ -154,40 +144,24 @@ document.addEventListener("DOMContentLoaded", () => {
         Number counter animation
     ---------------------------------------------------------- */
 
-    const numberSelectors = [
-        '.num',
-        '.step-num',
-        '.hire-step-num',
-        '.dxj-num',
-        '.lifecycle-num',
-        '.edj-num',
-        '.mig-num',
-        '.journey-num',
-        '.tmj-num',
-        '.ts-step-num',
-        '.approach-num'
-    ]; // All numbered element classes found across the site
-
-    numberSelectors.forEach(selector => {
-        document.querySelectorAll(selector).forEach(counter => {
-            const target = Number(counter.dataset.target);
-            const suffix = counter.dataset.suffix || "";
-
-            inView(counter, () => {
-                const state = { value: 0 };
-                animate(
-                    state,
-                    { value: target },
-                    {
-                        duration: 2,
-                        easing: "ease-out",
-                        onUpdate: latest => {
-                            counter.textContent =
-                                Math.round(latest.value).toLocaleString() + suffix;
-                        }
+    document.querySelectorAll(".count-up").forEach(counter => {
+        const target = Number(counter.dataset.target);
+        const prefix = counter.dataset.prefix || "";
+        const suffix = counter.dataset.suffix || "";
+        console.log(target, suffix, prefix)
+        inView(counter, () => {
+            const state = { value: 0 };
+            animate(
+                state,
+                { value: target },
+                {
+                    duration: 1.5,
+                    easing: "ease-out",
+                    onUpdate: value => {
+                        counter.textContent = prefix + Math.round(value).toLocaleString() + suffix;
                     }
-                );
-            }, { once: true });
-        });
+                }
+            );
+        }, { once: true });
     });
 });

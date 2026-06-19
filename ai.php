@@ -17,9 +17,9 @@ include 'includes/header.php';
       <a href="<?= $base ?>#ai-services" class="btn btn-outline-light">Explore AI Services</a>
     </div>
     <div class="ai-hero-stats">
-      <div><b>30+</b><span>AI &amp; ML engineers</span></div>
-      <div><b>10+</b><span>AI projects delivered</span></div>
-      <div><b>5</b><span>Industries with AI use cases live</span></div>
+      <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI &amp; ML engineers</span></div>
+      <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>AI projects delivered</span></div>
+      <div><b class="count-up" data-target="5">0</b><span>Industries with AI use cases live</span></div>
       <div><b>24/7</b><span>Global delivery support</span></div>
     </div>
   </div>
