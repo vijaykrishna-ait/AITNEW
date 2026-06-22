@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (children.length) {
                 animate(
                     children,
-                    { opacity: [0, 1], y: [50, 0] },
+                    { opacity: 1, y: [50, 0] },
                     { delay: stagger(0.08), duration: MOTION_DEFAULTS.duration, easing: MOTION_DEFAULTS.easing }
                 );
             }
