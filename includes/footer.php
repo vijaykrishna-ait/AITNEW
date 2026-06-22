@@ -90,7 +90,7 @@
 
       <div class="foot-bottom">
         <div class="foot-brand-mini">
-          <img src="assets/images/logo.png" alt="Adhiran Infotech" style="height:40px;display:block;">
+          <img src="assets/images/logo-white.png" alt="Adhiran Infotech" style="height:40px;display:block;">
         </div>
         <div class="foot-social">
           <a href="<?= SOCIAL_LINKEDIN ?>" aria-label="LinkedIn" target="_blank"><svg
