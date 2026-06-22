@@ -37,13 +37,13 @@ document.addEventListener("DOMContentLoaded", () => {
             );
 
             const children = element.querySelectorAll(
-                ".skill-item, .expert-card, .case-card, .client-logo, .svc-card, .reach-card"
+                ".skill-item, .expert-card, .case-card, .client-logo, .svc-card, .reach-card, .job-card"
             );
 
         if (children.length) {
                 animate(
                     children,
-                    { opacity: 1, y: [50, 0] },
+                    { opacity: [0,1], y: [50, 0] },
                     { delay: stagger(0.08), duration: MOTION_DEFAULTS.duration, easing: MOTION_DEFAULTS.easing }
                 );
             }
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Card hover animations
     ---------------------------------------------------------- */
 
-    const cardSelectors = '.reach-card, .cs-card, .cl-card, .de-card, .ai-card, .usecase-card, .value-card, .leader-card, .story-card, .hero-card, .region-card, .ind-card, .case-card, .form-card, .supply-card, .ed-card, .eduuse-card, .es-why-card, .why-hire-card, .tech-detail-card, .engage-card, .benefit-card, .outing-card, .testi-card, .ls-card, .compliance-card, .article-card, .floating-card, .svc-card, .expert-card';
+    const cardSelectors = '.reach-card, .cs-card, .cl-card, .de-card, .ai-card, .usecase-card, .value-card, .leader-card, .story-card, .hero-card, .region-card, .ind-card, .case-card, .form-card, .supply-card, .ed-card, .eduuse-card, .es-why-card, .why-hire-card, .tech-detail-card, .engage-card, .benefit-card, .outing-card, .testi-card, .ls-card, .compliance-card, .article-card, .floating-card, .expert-card';
 
     document.querySelectorAll(cardSelectors).forEach(card => {
         const label = card.querySelector(".label");

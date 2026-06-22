@@ -138,18 +138,18 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
-            <div class="nav-dropdown light">
-              <span class="col-label">Industries</span>
-              <a href="<?= $base ?>index#industries">Banking &amp; Financial Services <span class="chev-r">›</span></a>
-              <a href="<?= $base ?>index#industries">Consumer Products <span class="chev-r">›</span></a>
-              <a href="<?= $base ?>index#industries">Healthcare &amp; Life Sciences <span class="chev-r">›</span></a>
-              <a href="<?= $base ?>index#industries">Hospitality <span class="chev-r">›</span></a>
-              <a href="<?= $base ?>index#industries">Manufacturing <span class="chev-r">›</span></a>
-              <a href="<?= $base ?>index#industries">Professional Services <span class="chev-r">›</span></a>
+            <div class="nav-dropdown">
+              <!-- <span class="col-label">Industries</span> -->
+              <a href="<?= $base ?>index#industries">Banking &amp; Financial Services</a>
+              <a href="<?= $base ?>index#industries">Consumer Products</a>
+              <a href="<?= $base ?>index#industries">Healthcare &amp; Life Sciences</a>
+              <a href="<?= $base ?>index#industries">Hospitality</a>
+              <a href="<?= $base ?>index#industries">Manufacturing</a>
+              <a href="<?= $base ?>index#industries">Professional Services</a>
             </div>
           </div>
           <a href="<?= $base ?>life-with-ait">Life with AIT</a>
-          <a href="<?= $base ?>#contact" class="btn nav-btn">Find Talent</a>
+          <a href="<?= $base ?>contact" class="btn nav-btn">Find Talent</a>
         </div>
       </div>
 

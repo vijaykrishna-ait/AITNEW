@@ -59,8 +59,8 @@
   .btn-outline:hover{background:var(--navy);color:var(--white);}
   .btn-outline-light{border-color:rgba(255,255,255,.4);color:var(--white);}
   .btn-outline-light:hover{background:var(--white);color:var(--navy);}
-  .btn-lime{background:var(--lime);color:var(--navy);}
-  .btn-lime:hover{background:var(--white);}
+  .btn-lime{background:var(--lime);color:var(--white);}
+  .btn-lime:hover{background:var(--white);color:var(--navy);}
 
   .bg-white{background-color: #fff !important;}
   .bg-sky{background-color: var(--sky) !important;}
