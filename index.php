@@ -607,7 +607,7 @@ include 'includes/header.php';
           <div class="why-point"><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements</span></div>
           <div class="why-point"><b class="count-up" data-target="4">3</b><span>Global delivery hubs</span></div>
           <div class="why-point"><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first match</span></div>
-          <div class="why-point"><b class="count-up" data-target="50" data-prefix="30-" data-suffix="%">30–50%</b><span>Faster hiring with AI</span></div>
+          <div class="why-point"><b>30–50%</b><span>Faster hiring with AI</span></div>
         </div>
       </div>
     </div>
