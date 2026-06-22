@@ -16,10 +16,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>#ls-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="ls-hero-stats">
-      <div  ><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our AI diagnostics platform</span></div>
-      <div ><b class="count-up " data-target="15" data-suffix="+" >15+</b><span>Years of life sciences domain experience</span></div>
-      <div ><b>30–50%</b><span>Faster screening &amp; review cycles with AI</span></div>
-      <div  ><b>24/7</b><span>Global delivery support</span></div>
+      <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our AI diagnostics platform</span></div>
+      <div><b class="count-up " data-target="15" data-suffix="+" >15+</b><span>Years of life sciences domain experience</span></div>
+      <div><b>30–50%</b><span>Faster screening &amp; review cycles with AI</span></div>
+      <div><b>24/7</b><span>Global delivery support</span></div>
     </div>
   </div>
 </section>
@@ -216,7 +216,7 @@ include 'includes/header.php';
       <div class="story-stat">
         <div class="bar"></div>
         <div class="body">
-          <div class="num  "    >30%–50%</div>
+          <div class="num">30%–50%</div>
           <div class="cap">reduction in hiring process time</div>
         </div>
       </div>

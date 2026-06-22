@@ -61,8 +61,8 @@ $base = $base ?? '';
       <div class="hero-stats">
         <div class="stat"><div class="num count-up" data-target="48" data-suffix=" hrs">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
         <div class="stat"><div class="num count-up" data-target="500" data-suffix="+">500+</div><div class="lbl">Successful APAC placements</div></div>
-        <div class="stat"><div class="num " >30–50%</div><div class="lbl">Faster hiring with AI screening</div></div>
-        <div class="stat"><div class="num ">AEST</div><div class="lbl">Australia-aligned delivery hours</div></div>
+        <div class="stat"><div class="num">30–50%</div><div class="lbl">Faster hiring with AI screening</div></div>
+        <div class="stat"><div class="num">AEST</div><div class="lbl">Australia-aligned delivery hours</div></div>
       </div>
     </div>
     <div class="hero-card">
@@ -395,7 +395,7 @@ $base = $base ?? '';
           <div><div class="num count-up" data-target="28" data-suffix="+">28+</div><div class="lbl">Years combined team experience</div></div>
           <div><div class="num count-up" data-target="5">5</div><div class="lbl">Countries with local presence</div></div>
           <div><div class="num count-up" data-target="48" data-suffix=" hrs">48 hrs</div><div class="lbl">Avg. time to first match</div></div>
-          <div><div class="num " >30–50%</div><div class="lbl">Faster hiring with AI</div></div>
+          <div><div class="num">30–50%</div><div class="lbl">Faster hiring with AI</div></div>
         </div>
       </div>
     </div>

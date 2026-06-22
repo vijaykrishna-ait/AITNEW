@@ -28,11 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     Sections to animate
     ---------------------------------------------------------- */
 
-    // const sectionsToAnimate = [
-    //     "section"
-    // ];
-
-    // sectionsToAnimate.
     document.querySelectorAll("section").forEach(selector => {
         inView(selector, element => {
             animate(
@@ -45,11 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 ".skill-item, .expert-card, .case-card, .client-logo, .svc-card, .reach-card"
             );
 
-            if (children.length) {
+        if (children.length) {
                 animate(
                     children,
-                    { opacity: [0, 1], y: [20, 0] },
-                    { duration: 0.6, delay: stagger(0.08) }
+                    { opacity: [0, 1], y: [50, 0] },
+                    { delay: stagger(0.08), duration: MOTION_DEFAULTS.duration, easing: MOTION_DEFAULTS.easing }
                 );
             }
         });
@@ -59,24 +54,22 @@ document.addEventListener("DOMContentLoaded", () => {
     Form field focus animation
     ---------------------------------------------------------- */
 
-    const formSelectors = [
-        '.form-card',
-        '.form-group',
-        '.newsletter-form'
-    ]; // All form container classes found across the site
+    const formSelectors = '.form-card, .form-group, .newsletter-form';
 
-    formSelectors.forEach(selector => {
+    document.querySelectorAll(formSelectors).forEach(selector => {
         document
             .querySelectorAll(`${selector} input, ${selector} textarea, ${selector} select`)
             .forEach(field => {
+                const focusDuration = reducedMotion ? 0 : 0.2;
+
                 field.addEventListener("focus", () => {
-                    animate(field, { scale: 1.04 }, { duration: 0.2 });
-                    field.style.boxShadow = "0 0 0 2px rgba(23,104,214,0.2)";
+                    animate(field, { scale: 1.04 }, { duration: focusDuration });
+                    animate(field, { boxShadow: ["0 0 0 0px rgba(23,104,214,0)", "0 0 0 2px rgba(23,104,214,0.2)"] }, { duration: focusDuration });
                 });
 
                 field.addEventListener("blur", () => {
-                    animate(field, { scale: 1 }, { duration: 0.2 });
-                    field.style.boxShadow = "none";
+                    animate(field, { scale: 1 }, { duration: focusDuration });
+                    animate(field, { boxShadow: ["0 0 0 2px rgba(23,104,214,0.2)", "0 0 0 0px rgba(23,104,214,0)"] }, { duration: focusDuration });
                 });
             });
     });
@@ -86,57 +79,26 @@ document.addEventListener("DOMContentLoaded", () => {
     Card hover animations
     ---------------------------------------------------------- */
 
-    const cardSelectors = [
-        '.reach-card',
-        '.cs-card',
-        '.cl-card',
-        '.de-card',
-        '.ai-card',
-        '.usecase-card',
-        '.value-card',
-        '.leader-card',
-        '.story-card',
-        '.hero-card',
-        '.region-card',
-        '.ind-card',
-        '.case-card',
-        '.form-card',
-        '.supply-card',
-        '.ed-card',
-        '.eduuse-card',
-        '.es-why-card',
-        '.why-hire-card',
-        '.tech-detail-card',
-        '.engage-card',
-        '.benefit-card',
-        '.outing-card',
-        '.testi-card',
-        '.ls-card',
-        '.compliance-card',
-        '.article-card',
-        '.floating-card',
-        '.svc-card',
-        '.expert-card'
-    ]; // All card element classes found across the site
+    const cardSelectors = '.reach-card, .cs-card, .cl-card, .de-card, .ai-card, .usecase-card, .value-card, .leader-card, .story-card, .hero-card, .region-card, .ind-card, .case-card, .form-card, .supply-card, .ed-card, .eduuse-card, .es-why-card, .why-hire-card, .tech-detail-card, .engage-card, .benefit-card, .outing-card, .testi-card, .ls-card, .compliance-card, .article-card, .floating-card, .svc-card, .expert-card';
 
-    cardSelectors.forEach(selector => {
-        document.querySelectorAll(selector).forEach(card => {
-            const label = card.querySelector(".label");
-            card.addEventListener("mouseenter", () => {
-                animate(card, { scale: 1.03, y: -4 }, { duration: 0.3 });
+    document.querySelectorAll(cardSelectors).forEach(card => {
+        const label = card.querySelector(".label");
+        const hoverDuration = reducedMotion ? 0 : 0.3;
 
-                if (label) {
-                    animate(label, { y: -4, opacity: 1 }, { duration: 0.3 });
-                }
-            });
+        card.addEventListener("mouseenter", () => {
+            animate(card, { scale: 1.03, y: -4 }, { duration: hoverDuration });
 
-            card.addEventListener("mouseleave", () => {
-                animate(card, { scale: 1, y: 0 }, { duration: 0.3 });
+            if (label) {
+                animate(label, { y: -4, opacity: 1 }, { duration: hoverDuration });
+            }
+        });
 
-                if (label) {
-                    animate(label, { y: 0, opacity: 0.8 }, { duration: 0.3 });
-                }
-            });
+        card.addEventListener("mouseleave", () => {
+            animate(card, { scale: 1, y: 0 }, { duration: hoverDuration });
+
+            if (label) {
+                animate(label, { y: 0, opacity: 0.8 }, { duration: hoverDuration });
+            }
         });
     });
 
@@ -151,11 +113,13 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(target, suffix, prefix)
         inView(counter, () => {
             const state = { value: 0 };
+            const counterDuration = reducedMotion ? 0 : (counter.dataset.duration ? parseFloat(counter.dataset.duration) : 1.5);
+
             animate(
                 state,
                 { value: target },
                 {
-                    duration: 1.5,
+                    duration: counterDuration,
                     easing: "ease-out",
                     onUpdate: value => {
                         counter.textContent = prefix + Math.round(value).toLocaleString() + suffix;
