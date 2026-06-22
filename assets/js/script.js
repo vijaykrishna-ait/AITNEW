@@ -233,6 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Form validation
   const form = document.getElementById('contactForm');
+  if (!form) return;
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     let valid = true;

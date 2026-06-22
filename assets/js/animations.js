@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
             );
 
             const children = element.querySelectorAll(
-                ".skill-item, .expert-card, .case-card, .client-logo, .svc-card, .reach-card, .job-card, .supply-card"
+                ".skill-item, .expert-card, .case-card, .client-logo, .svc-card, .reach-card, .job-card, .supply-card, .value-card"
             );
 
         if (children.length) {
@@ -54,25 +54,25 @@ document.addEventListener("DOMContentLoaded", () => {
     Form field focus animation
     ---------------------------------------------------------- */
 
-    const formSelectors = '.form-card, .form-group, .newsletter-form';
+    // const formSelectors = '.form-card, .form-group, .newsletter-form';
 
-    document.querySelectorAll(formSelectors).forEach(selector => {
-        document
-            .querySelectorAll(`${selector} input, ${selector} textarea, ${selector} select`)
-            .forEach(field => {
-                const focusDuration = reducedMotion ? 0 : 0.2;
+    // document.querySelectorAll(formSelectors).forEach(selector => {
+    //     document
+    //         .querySelectorAll(`${selector} input, ${selector} textarea, ${selector} select`)
+    //         .forEach(field => {
+    //             const focusDuration = reducedMotion ? 0 : 0.2;
 
-                field.addEventListener("focus", () => {
-                    animate(field, { scale: 1.04 }, { duration: focusDuration });
-                    animate(field, { boxShadow: ["0 0 0 0px rgba(23,104,214,0)", "0 0 0 2px rgba(23,104,214,0.2)"] }, { duration: focusDuration });
-                });
+    //             field.addEventListener("focus", () => {
+    //                 animate(field, { scale: 1.04 }, { duration: focusDuration });
+    //                 animate(field, { boxShadow: ["0 0 0 0px rgba(23,104,214,0)", "0 0 0 2px rgba(23,104,214,0.2)"] }, { duration: focusDuration });
+    //             });
 
-                field.addEventListener("blur", () => {
-                    animate(field, { scale: 1 }, { duration: focusDuration });
-                    animate(field, { boxShadow: ["0 0 0 2px rgba(23,104,214,0.2)", "0 0 0 0px rgba(23,104,214,0)"] }, { duration: focusDuration });
-                });
-            });
-    });
+    //             field.addEventListener("blur", () => {
+    //                 animate(field, { scale: 1 }, { duration: focusDuration });
+    //                 animate(field, { boxShadow: ["0 0 0 2px rgba(23,104,214,0.2)", "0 0 0 0px rgba(23,104,214,0)"] }, { duration: focusDuration });
+    //             });
+    //         });
+    // });
 
 
     /* ----------------------------------------------------------
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const target = Number(counter.dataset.target);
         const prefix = counter.dataset.prefix || "";
         const suffix = counter.dataset.suffix || "";
-        console.log(target, suffix, prefix)
+
         inView(counter, () => {
             const state = { value: 0 };
             const counterDuration = reducedMotion ? 0 : (counter.dataset.duration ? parseFloat(counter.dataset.duration) : 1.5);
