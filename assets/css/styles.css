@@ -2080,7 +2080,7 @@
   display:flex;align-items:center;justify-content:center;
   border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:20px 12px;
   font-family:'Sora',sans-serif;font-weight:700;font-size:13px;
-  background: #fff;transition:all .25s ease;text-align:center;
+  background: #fff;transition:all .25s ease;text-align:center;min-height: 80px;
 }
 .ps-industry-logo:hover{border-color:var(--lime);color:var(--blue);transform:translateY(-3px);}
 @media (max-width:900px){.ps-industries-grid{grid-template-columns:repeat(3,1fr);}}
