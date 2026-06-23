@@ -175,6 +175,13 @@ include 'includes/header.php';
         <div class="client-logo"><img src="assets/logos/tata.svg" alt=""></div>
         <div class="client-logo"><img src="assets/logos/shell.svg" alt=""></div>
         <div class="client-logo"><img src="assets/logos/hcltech.svg" alt=""></div>
+        <!-- duplicate -->
+        <div class="client-logo"><img src="assets/logos/google.svg" alt=""></div>
+        <div class="client-logo"><img src="assets/logos/meta.svg" alt=""></div>
+        <div class="client-logo"><img src="assets/logos/johnson&johnson.svg" alt=""></div>
+        <div class="client-logo"><img src="assets/logos/tata.svg" alt=""></div>
+        <div class="client-logo"><img src="assets/logos/shell.svg" alt=""></div>
+        <div class="client-logo"><img src="assets/logos/hcltech.svg" alt=""></div>
       </div>
     </div>
   </section>
