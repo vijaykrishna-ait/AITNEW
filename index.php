@@ -32,7 +32,7 @@ include 'includes/header.php';
         </div>
         <div class="floating-card fc-1">
           <div class="ico">⚡</div>
-          <div ><b class=" count-up" data-target="24" data-suffix=" hrs">24 hrs</b>
+          <div ><b>24 hrs</b>
             <div class="sub">to shortlist match</div>
           </div>
         </div>
@@ -169,13 +169,6 @@ include 'includes/header.php';
           and manufacturing.</p>
       </div>
       <div class="clients-grid">
-        <div class="client-logo"><img src="assets/logos/google.svg" alt=""></div>
-        <div class="client-logo"><img src="assets/logos/meta.svg" alt=""></div>
-        <div class="client-logo"><img src="assets/logos/johnson&johnson.svg" alt=""></div>
-        <div class="client-logo"><img src="assets/logos/tata.svg" alt=""></div>
-        <div class="client-logo"><img src="assets/logos/shell.svg" alt=""></div>
-        <div class="client-logo"><img src="assets/logos/hcltech.svg" alt=""></div>
-        <!-- duplicate -->
         <div class="client-logo"><img src="assets/logos/google.svg" alt=""></div>
         <div class="client-logo"><img src="assets/logos/meta.svg" alt=""></div>
         <div class="client-logo"><img src="assets/logos/johnson&johnson.svg" alt=""></div>
