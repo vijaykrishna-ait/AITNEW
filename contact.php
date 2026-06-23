@@ -38,24 +38,30 @@ include 'includes/header.php';
       </div>
       <div class="supply-grid">
         <a href="<?= $base ?>singapore" class="supply-card">
-          <div class="flag">SG</div>
+          <span class="flag">🇸🇬</span>
           <h3>Singapore</h3>
-        </a>
-        <a href="<?= $base ?>usa" class="supply-card">
-          <div class="flag">USA</div>
-          <h3>New Jersey, USA</h3>
-        </a>
-        <a href="<?= $base ?>japan" class="supply-card">
-          <div class="flag">JP</div>
-          <h3>Japan</h3>
+          <p>Onsite consultants and offshore-supported teams for banking, fintech and professional services clients.</p>
         </a>
         <a href="<?= $base ?>#" class="supply-card">
-          <div class="flag">UAE</div>
-          <h3>Dubai</h3>
+          <span class="flag">🇦🇪</span>
+          <h3>Dubai, UAE</h3>
+          <p>Local talent supply across IT, digital and enterprise platform roles, supported by our regional team.</p>
+        </a>
+        <a href="<?= $base ?>usa" class="supply-card">
+          <span class="flag">🇺🇸</span>
+          <h3>United States</h3>
+          <p>Candidate supply for technology, data and digital roles across major U.S. cities, including New York,
+            Texas.</p>
+        </a>
+        <a href="<?= $base ?>japan" class="supply-card">
+          <span class="flag">🇯🇵</span>
+          <h3>Japan</h3>
+          <p>Onsite and remote talent for technology and engineering roles, with bilingual support where required.</p>
         </a>
         <a href="<?= $base ?>australia" class="supply-card">
-          <div class="flag">AU</div>
+          <span class="flag">🇦🇺</span>
           <h3>Australia</h3>
+          <p>Candidate supply for technology, data and digital roles across major Australian cities.</p>
         </a>
       </div>
     </div>

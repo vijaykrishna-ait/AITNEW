@@ -19,6 +19,8 @@ define('SOCIAL_TWITTER',   'https://x.com/Adhiraninfotech');
 define('SOCIAL_YOUTUBE',   'https://www.youtube.com/@Adhiran-infotech');
 define('SOCIAL_LINKEDIN',  'https://www.linkedin.com/company/adhiraninfotech/');
 
+define('BASE_URL', '/aitnew/');
+
 // Helper: pick active class
 function nav_active($page, $current){
   return $page === $current ? 'active' : '';

@@ -243,7 +243,7 @@ include 'includes/header.php';
   <p>Tell us what you're building — we'll match you with vetted developers across any technology, ready to start in days.</p>
   <div class="actions">
     <a href="<?= $base ?>contact" class="btn btn-lime">Talk to Us</a>
-    <a href="<?= $base ?>index#jobs" class="btn btn-outline-light">View Open Roles</a>
+    <a href="<?= $base ?>#jobs" class="btn btn-outline-light">View Open Roles</a>
   </div>
 </section>
 

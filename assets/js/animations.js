@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
             );
 
             const children = element.querySelectorAll(
-                ".skill-item, .expert-card, .case-card, .client-logo, .svc-card, .reach-card, .job-card, .supply-card, .value-card"
+                ".skill-item, .expert-card, .case-card, .svc-card, .reach-card, .job-card, .supply-card, .value-card"
             );
 
         if (children.length) {

@@ -4,7 +4,7 @@ $current_page = $current_page ?? '';
 $page_title   = $page_title   ?? SITE_NAME . ' | ' . SITE_TAGLINE;
 $page_desc    = $page_desc    ?? SITE_DESCRIPTION;
 $page_keywords= $page_keywords?? SITE_KEYWORDS;
-$base = $base ?? '';   // '' for root pages, '../' for subfolder pages
+$base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -80,7 +80,7 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
   </div>
   <header>
     <nav>
-      <a href="<?= $base ?>index" class="logo"><img src="assets/images/logo.png" alt="Adhiran Infotech"
+      <a href="<?= $base ?>" class="logo"><img src="assets/images/logo.png" alt="Adhiran Infotech"
           style="height:58px;display:block;"></a>
       <div class="nav-right">
 
@@ -105,18 +105,18 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>leadership">Leadership</a>
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
-              <a href="<?= $base ?>https://vijaykrishna-ait.github.io/AITNEW/career">Careers Overview</a>
+              <a href="<?= $base ?>career">Careers Overview</a>
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
               <a href="<?= $base ?>core-values">Core Values</a>
               <a href="<?= $base ?>life-with-ait">Life with AIT</a>
-              <a href="<?= $base ?>index#clients">Our Clients</a>
-              <a href="<?= $base ?>index#reach">Global Presence</a>
+              <a href="<?= $base ?>#clients">Our Clients</a>
+              <a href="<?= $base ?>#reach">Global Presence</a>
               <a href="<?= $base ?>contact">Contact Us</a>
-              <a href="<?= $base ?>index#jobs">Explore Job Opportunities</a>
+              <a href="<?= $base ?>#jobs">Explore Job Opportunities</a>
             </div>
           </div>
           <div class="nav-item">
-            <a href="<?= $base ?>index#services">What We Do <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
+            <a href="<?= $base ?>#services">What We Do <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
@@ -134,18 +134,18 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
             </div>
           </div>
           <div class="nav-item">
-            <a href="<?= $base ?>index#industries">Industry <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
+            <a href="<?= $base ?>#industries">Industry <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
             <div class="nav-dropdown">
               <!-- <span class="col-label">Industries</span> -->
-              <a href="<?= $base ?>index#industries">Banking &amp; Financial Services</a>
-              <a href="<?= $base ?>index#industries">Consumer Products</a>
-              <a href="<?= $base ?>index#industries">Healthcare &amp; Life Sciences</a>
-              <a href="<?= $base ?>index#industries">Hospitality</a>
-              <a href="<?= $base ?>index#industries">Manufacturing</a>
-              <a href="<?= $base ?>index#industries">Professional Services</a>
+              <a href="<?= $base ?>#industries">Banking &amp; Financial Services</a>
+              <a href="<?= $base ?>#industries">Consumer Products</a>
+              <a href="<?= $base ?>#industries">Healthcare &amp; Life Sciences</a>
+              <a href="<?= $base ?>#industries">Hospitality</a>
+              <a href="<?= $base ?>#industries">Professional Services</a>
+              <a href="<?= $base ?>#industries">Manufacturing</a>
             </div>
           </div>
           <a href="<?= $base ?>life-with-ait">Life with AIT</a>
@@ -171,13 +171,13 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>leadership">Leadership</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>core-values">Core Values</a>
-              <a href="<?= $base ?>index#clients">Our Clients</a>
-              <a href="<?= $base ?>index#reach">Global Presence</a>
+              <a href="<?= $base ?>#clients">Our Clients</a>
+              <a href="<?= $base ?>#reach">Global Presence</a>
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
               <a href="<?= $base ?>life-with-ait">Life with AIT</a>
-              <a href="<?= $base ?>https://vijaykrishna-ait.github.io/AITNEW/career">Careers Overview</a>
-              <a href="<?= $base ?>index#jobs">Explore Job Opportunities</a>
+              <a href="<?= $base ?>career">Careers Overview</a>
+              <a href="<?= $base ?>#jobs">Explore Job Opportunities</a>
               <a href="<?= $base ?>contact">Contact Us</a>
             </div>
           </div>
@@ -215,12 +215,12 @@ $base = $base ?? '';   // '' for root pages, '../' for subfolder pages
               </svg>
             </button>
             <div class="mobile-accordion-content">
-              <a href="<?= $base ?>index#industries">Banking &amp; Financial Services</a>
-              <a href="<?= $base ?>index#industries">Consumer Products</a>
-              <a href="<?= $base ?>index#industries">Healthcare &amp; Life Sciences</a>
-              <a href="<?= $base ?>index#industries">Hospitality</a>
-              <a href="<?= $base ?>index#industries">Manufacturing</a>
-              <a href="<?= $base ?>index#industries">Professional Services</a>
+              <a href="<?= $base ?>#industries">Banking &amp; Financial Services</a>
+              <a href="<?= $base ?>#industries">Consumer Products</a>
+              <a href="<?= $base ?>#industries">Healthcare &amp; Life Sciences</a>
+              <a href="<?= $base ?>#industries">Hospitality</a>
+              <a href="<?= $base ?>#industries">Manufacturing</a>
+              <a href="<?= $base ?>#industries">Professional Services</a>
             </div>
           </div>
 

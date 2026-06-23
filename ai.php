@@ -142,12 +142,12 @@ include 'includes/header.php';
       <p>We're platform-agnostic by design — and deeply experienced across the leading AI and cloud ecosystems.</p>
     </div>
     <div class="ai-platforms-grid">
-      <div class="ai-platform-logo">Azure OpenAI</div>
-      <div class="ai-platform-logo">AWS Bedrock</div>
-      <div class="ai-platform-logo">Google Vertex AI</div>
-      <div class="ai-platform-logo">Snowflake</div>
-      <div class="ai-platform-logo">UiPath</div>
-      <div class="ai-platform-logo">Hugging Face</div>
+      <div class="ai-platform-logo"><img src="assets/logos/azure-openai.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/Bedrock.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/Vertex-AI.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/snowflake.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/uipath.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/huggingface.svg" alt=""></div>
     </div>
   </div>
 </section>

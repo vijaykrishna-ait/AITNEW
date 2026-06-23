@@ -122,12 +122,12 @@ include 'includes/header.php';
       <p>We're certified across the major hyperscalers and their AI services — so you get the right platform for the workload, not a one-size-fits-all answer.</p>
     </div>
     <div class="cl-platforms-grid">
-      <div class="cl-platform-logo">AWS</div>
-      <div class="cl-platform-logo">Microsoft Azure</div>
-      <div class="cl-platform-logo">Google Cloud</div>
-      <div class="cl-platform-logo">Azure OpenAI</div>
-      <div class="cl-platform-logo">AWS Bedrock</div>
-      <div class="cl-platform-logo">Kubernetes</div>
+      <div class="cl-platform-logo"><img src="assets/logos/aws.svg" alt=""></div>
+      <div class="cl-platform-logo"><img src="assets/logos/azure.svg" alt=""></div>
+      <div class="cl-platform-logo"><img src="assets/logos/google-cloud-logo.svg" alt=""></div>
+      <div class="cl-platform-logo"><img src="assets/logos/azure-openai.svg" alt=""></div>
+      <div class="cl-platform-logo"><img src="assets/logos/Bedrock.svg" alt=""></div>
+      <div class="cl-platform-logo"><img src="assets/logos/kubernets.svg" alt=""></div>
     </div>
   </div>
 </section>

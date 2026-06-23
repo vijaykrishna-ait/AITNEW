@@ -155,7 +155,7 @@ include 'includes/header.php';
     <p>Tell us about your challenge — we'll share examples relevant to your industry and goals.</p>
     <div class="actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Talk to Us</a>
-      <a href="<?= $base ?>index#solutions" class="btn btn-outline-light">Explore Our Solutions</a>
+      <a href="<?= $base ?>#solutions" class="btn btn-outline-light">Explore Our Solutions</a>
     </div>
   </section>
 

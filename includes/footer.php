@@ -49,7 +49,7 @@
             <h4>Who We Are</h4>
             <ul>
               <li><a href="<?= $base ?>about#who-we-are">About Us</a></li>
-              <li><a href="<?= $base ?>index#reach">Global Presence</a></li>
+              <li><a href="<?= $base ?>#reach">Global Presence</a></li>
               <li><a href="<?= $base ?>leadership">Leadership</a></li>
               <li><a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a></li>
               <li><a href="<?= $base ?>core-values">Core Values</a></li>

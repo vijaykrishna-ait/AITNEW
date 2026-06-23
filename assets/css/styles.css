@@ -308,12 +308,12 @@
   }
   .client-logo{
     display:flex;align-items:center;justify-content:center;
-    border:1px solid var(--line);border-radius:14px;padding:24px 16px;
-    font-family:'Sora',sans-serif;font-weight:800;font-size:18px;color:var(--gray);
-    filter:grayscale(1);opacity:.7;
-    transition:all .25s ease;background:var(--sky);
+    border:1px solid var(--line);border-radius:14px;padding:22px 14px;
+    font-family:'Sora',sans-serif;font-weight:800;font-size:15px;color:var(--gray);
+    background:var(--white);transition:all .25s ease;text-align:center;
   }
-  .client-logo:hover{filter:none;opacity:1;color:var(--blue);border-color:var(--blue);transform:translateY(-3px);}
+  .client-logo img { width: 200px; height: 100px; object-fit: contain; display: block;}
+  .client-logo:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-3px);}
   @media (max-width:900px){.clients-grid{grid-template-columns:repeat(3,1fr);}}
   @media (max-width:480px){.clients-grid{grid-template-columns:repeat(2,1fr);}}
 
@@ -925,6 +925,7 @@
   font-family:'Sora',sans-serif;font-weight:800;font-size:15px;color:var(--gray);
   background:var(--white);transition:all .25s ease;text-align:center;
 }
+.ai-platform-logo img { width: 200px; height: 100px; object-fit: contain; display: block;}
 .ai-platform-logo:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-3px);}
 @media (max-width:900px){.ai-platforms-grid{grid-template-columns:repeat(3,1fr);}}
 @media (max-width:480px){.ai-platforms-grid{grid-template-columns:repeat(2,1fr);}}
@@ -1018,6 +1019,7 @@
   font-family:'Sora',sans-serif;font-weight:800;font-size:15px;color:var(--gray);
   background:var(--white);transition:all .25s ease;text-align:center;
 }
+.cl-platform-logo img { width: 100px; height: 100px; object-fit: contain; display: block;}
 .cl-platform-logo:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-3px);}
 @media (max-width:900px){.cl-platforms-grid{grid-template-columns:repeat(3,1fr);}}
 @media (max-width:480px){.cl-platforms-grid{grid-template-columns:repeat(2,1fr);}}
