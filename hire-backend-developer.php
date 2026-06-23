@@ -24,8 +24,8 @@ include 'includes/header.php';
     <div class="its-intro-content">
       <span class="tag">IT Staff Augmentation</span>
       <h2>Backend IT Staff Augmentation</h2>
-      <p>Our backend engineers bring deep expertise in server-side languages, frameworks, databases, and API development. They integrate seamlessly into your existing workflows and deliver robust, scalable solutions.</p>
-      <p>Whether you need Python, Java, .NET, Node.js, Laravel or any other backend technology — our pre-vetted professionals are ready to accelerate your development cycles.</p>
+      <p>Depending on whether you need additional staff for a certain project, or have a need for a more permanent presence, our back-end specialists will integrate themselves seamlessly into your operations.</p>
+      <p>Having a broad insight into the elaboration of highly composite back-end systems, our specialists will be able to offer a number of expert solutions most fitting for your company. Work with us to amplify the effect of our specific know-how and increase productivity of your behind-the-scenes processes.</p>
     </div>
     <div class="its-intro-img">
       <img src="https://www.adhiraninfotech.com/img/it_staffing/backend/backend_desc.png" alt="Hire Skilled Backend Developers to Power Your Applications">
@@ -83,10 +83,22 @@ include 'includes/header.php';
       <h2>Advantages of Our IT Staff Outsourcing</h2>
     </div>
     <div class="its-adv-grid">
-      <div class="its-adv-card"><h4>Reach the Best Candidates</h4><p>Due to the qualification of candidates we follow, our clients are guaranteed to work with the most talented and skilled developers thereby placing the company in the top 1%.</p></div>
-      <div class="its-adv-card"><h4>Structured Communication</h4><p>You do not need to chase our developers for feedback as they work with your schedule to deliver on projects as expected.</p></div>
-      <div class="its-adv-card"><h4>No Recruitment Delays</h4><p>We do not follow the often lengthy procedure of recruitment whereby we gather a suitable team to solve your project needs.</p></div>
-      <div class="its-adv-card"><h4>Team Construction</h4><p>We use aptitude tests to identify candidates with the right personality, thus we build productive teams that fit your organizational culture.</p></div>
+      <div class="its-adv-card">
+        <h4>Reach the Best Candidates</h4>
+        <p>Due to the qualification of candidates we follow, our clients are guaranteed to work with the most talented and skilled developers thereby placing the company in the top 1%.</p>
+      </div>
+      <div class="its-adv-card">
+        <h4>Structured Communication</h4>
+        <p>You do not need to chase our developers for feedback as they work with your schedule to deliver on projects as expected.</p>
+      </div>
+      <div class="its-adv-card">
+        <h4>No Recruitment Delays</h4>
+        <p>We do not follow the often lengthy procedure of recruitment whereby we gather a suitable team to solve your project needs.</p>
+      </div>
+      <div class="its-adv-card">
+        <h4>Team Construction</h4>
+        <p>We use aptitude tests to identify candidates with the right personality, thus we build productive teams that fit your organizational culture.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -142,23 +154,33 @@ include 'includes/header.php';
     </div>
     <div class="itc-benefits-grid">
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div><strong>Experienced Professionals:</strong> Our team of strategists, developers and trainers are well qualified with winning experience in different fields and technologies.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div><strong>Combination Strategies:</strong> We have various modes of engagement that you can easily adjust to depending on the size of your project team.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div><strong>Clear Communication:</strong> We share information with you about the progress as well as the approaching goals and objectives.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div><strong>Affordable Services:</strong> At our agency, you will find quality backend developers at reasonable market prices to suit your project's financial model.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div><strong>Cost-Effective Solutions:</strong> We provide high-quality back-end talent at competitive rates, ensuring your budget is optimized.</div>
       </div>
     </div>
@@ -168,13 +190,49 @@ include 'includes/header.php';
 <!-- INDUSTRIES -->
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">Industries We Serve</div><h2>Expertise Across Various Industries</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">Industries We Serve</div>
+      <h2>Expertise Across Various Industries</h2>
+    </div>
     <div class="its-industry-grid">
-      <a href="<?= $base ?>healthcare" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Healthcare</h4><p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital operations.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg></div><h4>Retail</h4><p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and grow customer base.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h4>Manufacturing</h4><p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and performance improvement.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><h4>Education</h4><p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><h4>Entertainment</h4><p>We offer interactive solutions for the entertainment industry, enhancing engagement and access across mobile and OTT platforms.</p></a>
+      <a href="<?= $base ?>healthcare" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+          </svg></div>
+        <h4>Healthcare</h4>
+        <p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital operations.</p>
+      </a>
+      <a href="<?= $base ?>industry_experts" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+          </svg></div>
+        <h4>Retail</h4>
+        <p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and grow customer base.</p>
+      </a>
+      <a href="<?= $base ?>industry_experts" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="7" width="20" height="14" rx="2" />
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+          </svg></div>
+        <h4>Manufacturing</h4>
+        <p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and performance improvement.</p>
+      </a>
+      <a href="<?= $base ?>industry_experts" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+          </svg></div>
+        <h4>Education</h4>
+        <p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p>
+      </a>
+      <a href="<?= $base ?>industry_experts" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg></div>
+        <h4>Entertainment</h4>
+        <p>We offer interactive solutions for the entertainment industry, enhancing engagement and access across mobile and OTT platforms.</p>
+      </a>
     </div>
   </div>
 </section>
