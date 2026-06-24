@@ -134,7 +134,7 @@ include 'includes/header.php';
 </section>
 
 <!-- AI PLATFORMS -->
-<section>
+<section class="ai-logos">
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Platforms We Work With</div>
@@ -142,6 +142,13 @@ include 'includes/header.php';
       <p>We're platform-agnostic by design — and deeply experienced across the leading AI and cloud ecosystems.</p>
     </div>
     <div class="ai-platforms-grid">
+      <div class="ai-platform-logo"><img src="assets/logos/azure-openai.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/Bedrock.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/Vertex-AI.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/snowflake.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/uipath.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/huggingface.svg" alt=""></div>
+      <!-- duplicate -->
       <div class="ai-platform-logo"><img src="assets/logos/azure-openai.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/Bedrock.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/Vertex-AI.svg" alt=""></div>

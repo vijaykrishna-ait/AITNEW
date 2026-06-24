@@ -418,10 +418,16 @@
   @media (max-width:1000px){.case-grid{grid-template-columns:1fr 1fr;}}
   @media (max-width:560px){.case-grid{grid-template-columns:1fr;}}
 
-  .clients{background:var(--white);}
-  .clients-grid{
+  .clients{background:var(--white);overflow: hidden;position: relative;}
+  /* .clients-grid{
     display:grid;grid-template-columns:repeat(6,1fr);gap:20px;align-items:center;
+  } */
+  .clients-grid{
+    display:flex;gap:24px;width:max-content;padding:0 32px 8px;
+    animation:logosScroll 30s linear infinite;
   }
+  .clients-grid:hover{animation-play-state:paused;}
+  @keyframes logosScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   .client-logo{
     display:flex;align-items:center;justify-content:center;
     border:1px solid var(--line);border-radius:14px;padding:22px 14px;
@@ -431,7 +437,7 @@
   .client-logo img { width: 200px; height: 100px; object-fit: contain; display: block;}
   .client-logo:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-3px);}
   @media (max-width:900px){.clients-grid{grid-template-columns:repeat(3,1fr);}}
-  @media (max-width:480px){.clients-grid{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:480px){.clients-grid{grid-template-columns:repeat(2,1fr);}.client-logo img {width: 100px;}}
 
   .skills{background:var(--sky);}
   .skill-flat-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:32px 24px;}
@@ -1034,7 +1040,14 @@
 }
 
 /* AI platforms / partners */
-.ai-platforms-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;align-items:center;}
+.ai-logos{overflow: hidden;position: relative;}
+/* .ai-platforms-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;align-items:center;} */
+.ai-platforms-grid{
+    display:flex;gap:24px;width:max-content;padding:0 32px 8px;
+    animation:ailogosScroll 30s linear infinite;
+  }
+  .ai-platforms-grid:hover{animation-play-state:paused;}
+  @keyframes ailogosScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .ai-platform-logo{
   display:flex;align-items:center;justify-content:center;
   border:1px solid var(--line);border-radius:14px;padding:22px 14px;
@@ -1044,7 +1057,7 @@
 .ai-platform-logo img { width: 200px; height: 100px; object-fit: contain; display: block;}
 .ai-platform-logo:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-3px);}
 @media (max-width:900px){.ai-platforms-grid{grid-template-columns:repeat(3,1fr);}}
-@media (max-width:480px){.ai-platforms-grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:480px){.ai-platforms-grid{grid-template-columns:repeat(2,1fr);}.ai-platform-logo img {width: 100px;}}
 
 /* AI use cases (industry) */
 .usecase-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
@@ -1128,17 +1141,24 @@
 @media (max-width:560px){.cl-grid{grid-template-columns:1fr;}}
 
 /* Cloud platforms grid (logos) */
-.cl-platforms-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;align-items:center;}
+.cloud-logos{overflow: hidden;position: relative;}
+/* .cl-platforms-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;align-items:center;} */
+.cl-platforms-grid{
+    display:flex;gap:24px;width:max-content;padding:0 32px 8px;
+    animation:cllogosScroll 30s linear infinite;
+  }
+  .cl-platforms-grid:hover{animation-play-state:paused;}
+  @keyframes cllogosScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .cl-platform-logo{
   display:flex;align-items:center;justify-content:center;
   border:1px solid var(--line);border-radius:14px;padding:22px 14px;
   font-family:'Sora',sans-serif;font-weight:800;font-size:15px;color:var(--gray);
   background:var(--white);transition:all .25s ease;text-align:center;
 }
-.cl-platform-logo img { width: 100px; height: 100px; object-fit: contain; display: block;}
+.cl-platform-logo img { width: 200px; height: 100px; object-fit: contain; display: block;}
 .cl-platform-logo:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-3px);}
 @media (max-width:900px){.cl-platforms-grid{grid-template-columns:repeat(3,1fr);}}
-@media (max-width:480px){.cl-platforms-grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:480px){.cl-platforms-grid{grid-template-columns:repeat(2,1fr);} .cl-platform-logo img {width: 100px;}}
 
 /* AI-Ops use cases (dark) */
 .aiops-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
