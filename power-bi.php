@@ -1,6 +1,6 @@
 <?php
 $page_title     = 'Power BI Solutions & Implementation Services | Adhiran Infotech';
-$page_desc      = 'Transform your data into actionable insights with Adhiran Infotech's Power BI implementation, dashboard development, and training services.';
+$page_desc      = 'Transform your data into actionable insights with Adhiran Infotechs Power BI implementation, dashboard development, and training services.';
 $page_canonical = 'https://www.adhiraninfotech.com/power-bi';
 include 'includes/header.php';
 ?>

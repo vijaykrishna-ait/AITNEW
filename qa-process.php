@@ -1,6 +1,6 @@
 <?php
 $page_title     = 'QA Process & Consulting Services | Adhiran Infotech';
-$page_desc      = 'Gain improved organization performance with Adhiran Infotech's QA audit & consulting services to make your business more efficient.';
+$page_desc      = 'Gain improved organization performance with Adhiran Infotechs QA audit & consulting services to make your business more efficient.';
 $page_canonical = 'https://www.adhiraninfotech.com/qa-process';
 include 'includes/header.php';
 ?>

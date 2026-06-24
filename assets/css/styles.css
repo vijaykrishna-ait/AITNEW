@@ -2643,7 +2643,7 @@
   background:var(--white);border:1px solid var(--line);border-radius:18px;padding:28px;
   transition:transform .25s,box-shadow .25s;
 }
-.its-adv-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px -20px rgba(11,42,74,.2);}
+.its-adv-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px -20px rgba(11,42,74,.2);border-color: var(--blue);}
 .its-adv-card .ico{
   width:50px;height:50px;border-radius:12px;
   background:var(--sky);display:flex;align-items:center;justify-content:center;
@@ -2655,7 +2655,7 @@
 @media (max-width:560px){.its-adv-grid{grid-template-columns:1fr;}}
 
 /* Why Choose — numbered cards */
-.its-why-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;}
+.its-why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
 .its-why-card{
   background:var(--white);border:1px solid var(--line);border-radius:18px;padding:26px;
   transition:border-color .25s,transform .25s;position:relative;overflow:hidden;
@@ -2672,7 +2672,7 @@
 @media (max-width:560px){.its-why-grid{grid-template-columns:1fr;}}
 
 /* Industries grid */
-.its-industry-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;}
+.its-industry-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
 .its-industry-card{
   background:var(--white);border:1px solid var(--line);border-radius:18px;padding:26px 20px;
   text-align:center;transition:border-color .25s,background .25s,transform .25s;
@@ -2774,12 +2774,13 @@
 @media (max-width:560px){.itc-process-row{grid-template-columns:1fr;}}
 
 /* Benefits list */
-.itc-benefits-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:800px;margin:0 auto;}
+.itc-benefits-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:0 auto;}
 .itc-benefit-item{
   display:flex;align-items:flex-start;gap:14px;
   background:var(--white);border:1px solid var(--line);border-radius:14px;padding:20px;
-  font-size:15px;color:var(--navy);font-weight:500;
+  font-size:15px;color:var(--navy);font-weight:500;transition: all 0.3s ease;
 }
+.itc-benefit-item:hover{border-color: var(--lime);transform: translateX(3px);}
 .itc-benefit-item svg{flex-shrink:0;margin-top:1px;}
 @media (max-width:600px){.itc-benefits-grid{grid-template-columns:1fr;}}
 

@@ -86,22 +86,24 @@ include 'includes/header.php';
       <p>From engineering to design to data — if it's a single role, we can help you fill it.</p>
     </div>
     <div class="roles-grid">
-      <div class="role-pill"><span class="dot"></span>Frontend Developer</div>
-      <div class="role-pill"><span class="dot"></span>Backend Developer</div>
-      <div class="role-pill"><span class="dot"></span>Full-Stack Developer</div>
-      <div class="role-pill"><span class="dot"></span>Mobile App Developer</div>
-      <div class="role-pill"><span class="dot"></span>Data Engineer / Analyst</div>
-      <div class="role-pill"><span class="dot"></span>AI / ML Engineer</div>
-      <div class="role-pill"><span class="dot"></span>Cloud / DevOps Engineer</div>
-      <div class="role-pill"><span class="dot"></span>QA / Test Engineer</div>
-      <div class="role-pill"><span class="dot"></span>UX/UI Designer</div>
-      <div class="role-pill"><span class="dot"></span>Salesforce / SAP Consultant</div>
-      <div class="role-pill"><span class="dot"></span>Project Manager</div>
-      <div class="role-pill"><span class="dot"></span>Cybersecurity Analyst</div>
-      <div class="role-pill"><span class="dot"></span>Veeva Developer</div>
-      <div class="role-pill"><span class="dot"></span>Power BI Developer</div>
-      <div class="role-pill"><span class="dot"></span>UiPath Developer</div>
-      <div class="role-pill"><span class="dot"></span>ServiceNow Developer</div>
+      <a href="<?= $base ?>hire-frontend-developer" class="role-pill"><span class="dot"></span>Frontend Developer</a>
+      <a href="<?= $base ?>hire-backend-developer" class="role-pill"><span class="dot"></span>Backend Developer</a>
+      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Full-Stack Developer</a>
+      <a href="<?= $base ?>hire-mobile-app-developer" class="role-pill"><span class="dot"></span>Mobile App Developer</a>
+      <a href="<?= $base ?>hire-data-engineer" class="role-pill"><span class="dot"></span>Data Engineer</a>
+      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Data Analyst</a>
+      <a href="<?= $base ?>aiml-solutions" class="role-pill"><span class="dot"></span>AI / ML Engineer</a>
+      <a href="<?= $base ?>hire-cloud-engineer" class="role-pill"><span class="dot"></span>Cloud Engineer</a>
+      <a href="<?= $base ?>hire-devops-engineer" class="role-pill"><span class="dot"></span>DevOps Engineer</a>
+      <a href="<?= $base ?>hire-qa-developer" class="role-pill"><span class="dot"></span>QA / Test Engineer</a>
+      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>UX/UI Designer</a>
+      <a href="<?= $base ?>sap-it-solutions" class="role-pill"><span class="dot"></span>Salesforce / SAP Consultant</a>
+      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Project Manager</a>
+      <!-- <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Cybersecurity Analyst</a> -->
+      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Veeva Developer</a>
+      <a href="<?= $base ?>power-bi" class="role-pill"><span class="dot"></span>Power BI Developer</a>
+      <a href="<?= $base ?>ui-path" class="role-pill"><span class="dot"></span>UiPath Developer</a>
+      <a href="<?= $base ?>servicenow" class="role-pill"><span class="dot"></span>ServiceNow Developer</a>
     </div>
   </div>
 </section>
