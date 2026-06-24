@@ -1169,7 +1169,7 @@
 .aiops-card:hover{border-color:var(--lime);transform:translateY(-4px);}
 .aiops-card .tag{
   display:inline-block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--lime);margin-bottom:10px;
+  color:var(--navy);margin-bottom:10px;
 }
 .aiops-card h3{font-family:'Sora',sans-serif;font-size:16px;font-weight:800;margin-bottom:8px;line-height:1.35;}
 .aiops-card p{font-size:13.5px;}
@@ -2697,7 +2697,7 @@
   background:var(--white);border:1px solid var(--line);border-radius:18px;padding:26px 20px;
   text-align:center;transition:border-color .25s,background .25s,transform .25s;
 }
-.its-industry-card:hover{border-color:var(--blue);background:var(--sky);transform:translateY(-4px);}
+.its-industry-card:hover{border-color:var(--blue);background:var(--white);transform:translateY(-4px);}
 .its-industry-card .ico{
   width:52px;height:52px;border-radius:14px;
   background:var(--sky-2);color:var(--blue);
@@ -2783,9 +2783,9 @@
   display:flex;align-items:center;justify-content:center;
   color:var(--blue);margin:0 auto 14px;
 }
-.itc-process-step:hover .itc-process-icon{background:var(--blue);color:var(--white);transition:all .25s;}
-.itc-process-num{font-family:'Sora',sans-serif;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--lime);margin-bottom:8px;}
-.itc-process-step h3{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:8px;}
+.itc-process-step:hover .itc-process-num{color:var(--blue);transition:all .25s;}
+.itc-process-num{font-family:'Sora',sans-serif;font-size:22px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--lime);margin-bottom:8px;}
+.itc-process-step h4{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:8px;}
 .itc-process-step p{color:var(--gray);font-size:13px;}
 @media (max-width:900px){
   .itc-process-row{grid-template-columns:1fr 1fr;gap:30px;}

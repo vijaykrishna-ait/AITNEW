@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Consulting — Digital Marketing</div>
     <h1>Digital Marketing Services to Boost Your Brand Online</h1>
     <p class="lead">Boost your company's visibility to remain viable in this digital age! Adhiran Infotech specializes in propelling any type of organization by applying our all-encompassing digital marketing strategies to outperform rivals and maintain current performance.</p>
-    <a href="<?= $base ?>contact" class="btn btn-navy">Get Started &rarr;</a>
+    <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
   </div>
 </section>
 

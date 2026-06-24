@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Consulting — Mobile App Development</div>
     <h1>Mobile App Development Services in Chennai</h1>
     <p class="lead">Bring life to your dream applications and experience them in action! Adhiran Infotech, the best mobile application development company in Chennai, has skilled professionals who build applications on various platforms that support any kind of mobile platform, such as Android, iOS, or other cross-platform.</p>
-    <a href="<?= $base ?>contact" class="btn btn-navy">Get Started &rarr;</a>
+    <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
   </div>
 </section>
 

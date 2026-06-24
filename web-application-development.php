@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Consulting — Web Application Development</div>
     <h1>Custom Web Application Development Services</h1>
     <p class="lead">Adhiran Infotech is a premium web application development company that provides world-class standards for its services. We always look forward to providing creative web solutions that meet B2B and B2C requirements.</p>
-    <a href="<?= $base ?>contact" class="btn btn-navy">Get Started &rarr;</a>
+    <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
   </div>
 </section>
 

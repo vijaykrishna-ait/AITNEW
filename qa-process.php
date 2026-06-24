@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Consulting — QA Process</div>
     <h1>QA Audit & Consulting Services for Quality-Driven Development</h1>
     <p class="lead">Gain improved organization performance with Adhiran Infotech's QA audit & consulting services to make your business more efficient. Our core competency is to establish the process deficiencies and fulfill the guidelines to enhance the quality of the product.</p>
-    <a href="<?= $base ?>contact" class="btn btn-navy">Get Started &rarr;</a>
+    <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
   </div>
 </section>
 

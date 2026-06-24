@@ -12,7 +12,7 @@ include 'includes/header.php';
     <h1>E-Commerce Website Development Services in Chennai</h1>
     <p class="lead">An E-Commerce web store is the smarter way to take your business to the next level of growth. These days, it has become a must-have option to build your online store to succeed in your business and raise your business, competing with your competitors.</p>
     <div class="itc-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-navy">Get Started &rarr;</a>
+      <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
       </div>
   </div>
 </section>
