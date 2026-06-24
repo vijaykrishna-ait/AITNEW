@@ -233,42 +233,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Form validation
   const form = document.getElementById('contactForm');
-  if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    let valid = true;
-    const fields = [
-      { id: 'firstName', test: v => v.trim().length > 0 },
-      { id: 'lastName', test: v => v.trim().length > 0 },
-      { id: 'email', test: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) },
-      { id: 'phone', test: v => /^[0-9]{10}$/.test(v.replace(/\D/g, '')) },
-      { id: 'subject', test: v => v !== '' },
-      { id: 'message', test: v => v.trim().length > 0 }
-    ];
-    fields.forEach(f => {
-      const el = document.getElementById(f.id);
-      const group = el.closest('.form-group');
-      group.classList.remove('error', 'success');
-      if (!f.test(el.value)) {
-        group.classList.add('error');
-        valid = false;
-      } else {
-        group.classList.add('success');
+  if (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      let valid = true;
+      const fields = [
+        { id: 'firstName', test: v => v.trim().length > 0 },
+        { id: 'lastName', test: v => v.trim().length > 0 },
+        { id: 'email', test: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) },
+        { id: 'phone', test: v => /^[0-9]{10}$/.test(v.replace(/\D/g, '')) },
+        { id: 'subject', test: v => v !== '' },
+        { id: 'message', test: v => v.trim().length > 0 }
+      ];
+      fields.forEach(f => {
+        const el = document.getElementById(f.id);
+        const group = el.closest('.form-group');
+        group.classList.remove('error', 'success');
+        if (!f.test(el.value)) {
+          group.classList.add('error');
+          valid = false;
+        } else {
+          group.classList.add('success');
+        }
+      });
+      if (valid) {
+        const btn = form.querySelector('.btn-submit');
+        btn.classList.add('loading');
+        setTimeout(() => {
+          btn.classList.remove('loading');
+          alert('Thank you! Your message has been sent successfully.');
+          form.reset();
+          form.querySelectorAll('.form-group').forEach(g => {
+            g.classList.remove('success', 'error', 'active');
+          });
+        }, 2000);
       }
     });
-    if (valid) {
-      const btn = form.querySelector('.btn-submit');
-      btn.classList.add('loading');
-      setTimeout(() => {
-        btn.classList.remove('loading');
-        alert('Thank you! Your message has been sent successfully.');
-        form.reset();
-        form.querySelectorAll('.form-group').forEach(g => {
-          g.classList.remove('success', 'error', 'active');
-        });
-      }, 2000);
-    }
-  });
+  }
 
   document.querySelectorAll(
     '#contactForm input, #contactForm textarea, #contactForm select'
@@ -290,5 +291,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateState();
   });
+
+  // itSolutionsAccordion
+  document.querySelectorAll('.itsol-faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.itsol-faq-item');
+      const ans = item.querySelector('.itsol-faq-a');
+      const open = item.classList.contains('open');
+      document.querySelectorAll('.itsol-faq-item').forEach(el => {
+        el.classList.remove('open');
+        el.querySelector('.itsol-faq-a').style.maxHeight = null;
+      });
+      if (!open) {
+        item.classList.add('open');
+        ans.style.maxHeight = ans.scrollHeight + 'px';
+      }
+    });
+  });
+
 
 });

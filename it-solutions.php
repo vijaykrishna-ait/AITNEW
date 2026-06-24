@@ -272,18 +272,6 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- FAQ JS -->
-<script>
-document.querySelectorAll('.itsol-faq-q').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const item = btn.parentElement;
-    const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.itsol-faq-item').forEach(i => i.classList.remove('open'));
-    if (!isOpen) item.classList.add('open');
-  });
-});
-</script>
-
 <!-- CTA -->
 <section class="cta">
   <h2>Would you like to turn every aspect of your business in an innovative way?</h2>

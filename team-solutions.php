@@ -14,7 +14,7 @@ include 'includes/header.php';
         managed Offshore Development Center (ODC), or ongoing onsite &amp; offshore talent supply across Singapore,
         Dubai, Japan and Australia.</p>
       <div class="tm-hero-actions">
-        <a href="<?= $base ?>#contact" class="btn btn-lime">Talk to Us About Team Solutions →</a>
+        <a href="<?= $base ?>contact" class="btn btn-lime">Talk to Us About Team Solutions →</a>
         <a href="<?= $base ?>#models" class="btn btn-outline-light">Explore Team Models</a>
       </div>
       <div class="tm-hero-stats">

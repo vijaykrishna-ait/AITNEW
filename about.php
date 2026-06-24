@@ -284,7 +284,7 @@ include 'includes/header.php';
     <p>Whether you're looking to hire talent, partner on a project, or join our team — we'd love to hear from you.</p>
     <div class="actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Contact Us</a>
-      <a href="<?= $base ?>https://vijaykrishna-ait.github.io/AITNEW/career" class="btn btn-outline-light">View Careers</a>
+      <a href="<?= $base ?>career" class="btn btn-outline-light">View Careers</a>
     </div>
   </section>
 

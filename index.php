@@ -202,7 +202,7 @@ include 'includes/header.php';
               <h3>Talent Solutions</h3>
               <p>Save time finding the right resource for your team — we connect you with vetted, best-available talent
                 in the marketplace, matched by AI and reviewed by humans.</p>
-              <a href="<?= $base ?>#">Learn More →</a>
+              <a href="<?= $base ?>talent-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
               <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80"
@@ -215,7 +215,7 @@ include 'includes/header.php';
               <h3>Team Solutions</h3>
               <p>Stand up a dedicated, managed pod of specialists who plug straight into your delivery cadence — scaled
                 up or down as your roadmap shifts.</p>
-              <a href="<?= $base ?>#">Learn More →</a>
+              <a href="<?= $base ?>team-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
               <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=700&q=80"
@@ -228,7 +228,7 @@ include 'includes/header.php';
               <h3>Project Solutions</h3>
               <p>Hand off a defined outcome — from AI implementation to cloud migration — and our consultants deliver it
                 end-to-end, on time and on budget.</p>
-              <a href="<?= $base ?>#">Learn More →</a>
+              <a href="<?= $base ?>project-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
               <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80"
@@ -769,7 +769,7 @@ include 'includes/header.php';
     <p>Tell us what you're trying to solve — we'll connect you with the right people, technology and consulting
       expertise to get there.</p>
     <div class="actions">
-      <a href="<?= $base ?>#" class="btn btn-lime">Talk to an Expert</a>
+      <a href="<?= $base ?>contact" class="btn btn-lime">Talk to an Expert</a>
       <a href="<?= $base ?>#jobs" class="btn btn-outline-light">View Open Roles</a>
     </div>
   </section>

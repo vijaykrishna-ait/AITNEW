@@ -122,15 +122,15 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               </svg></a>
             <div class="nav-dropdown">
               <a href="<?= $base ?>ai">Artificial Intelligence &amp; Data</a>
-              <a href="<?= $base ?>cloud-engineering">Cloud Services</a>
-              <a href="<?= $base ?>digital-engineering">Digital Engineering</a>
-              <a href="<?= $base ?>talent-solutions">Talent Solutions</a>
               <a href="<?= $base ?>team-solutions">Team Solutions</a>
+              <a href="<?= $base ?>digital-engineering">Digital Engineering</a>
               <a href="<?= $base ?>project-solutions">Project Solutions</a>
+              <a href="<?= $base ?>application-solutions">Application Solutions</a>
+              <a href="<?= $base ?>cloud-engineering">Cloud Services</a>
               <a href="<?= $base ?>enterprise-solutions">Enterprise Platforms</a>
+              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>  
+              <a href="<?= $base ?>talent-solutions">Talent Solutions</a>
               <a href="<?= $base ?>edutech">EdTech Solutions</a>
-              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>
-              <a href="<?= $base ?>hire-me">Hire Developers</a>
             </div>
           </div>
 

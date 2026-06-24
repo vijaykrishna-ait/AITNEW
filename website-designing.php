@@ -149,7 +149,9 @@ include 'includes/header.php';
   <div class="wrap">
     <h2>Start Your Journey with Us. Let's Make It Extraordinary!</h2>
     <p>Get in touch today and we craft you perfect solution to brand your services to greater heights.</p>
-    <a href="<?= $base ?>contact" class="btn btn-lime">Contact Us &rarr;</a>
+    <div class="actions">
+      <a href="<?= $base ?>contact" class="btn btn-lime">Get in Touch &rarr;</a>
+    </div>
   </div>
 </section>
 

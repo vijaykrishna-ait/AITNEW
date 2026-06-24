@@ -12,7 +12,7 @@ include 'includes/header.php';
     <h1>Hire the right individual — fast, vetted, and ready to contribute</h1>
     <p class="lead">Talent Solutions is built for one need: finding the right person for a specific role. Whether it's a single developer, a designer, a data analyst or a niche specialist — we identify, vet and place individual talent that fits your team and your way of working.</p>
     <div class="ts-hero-actions">
-      <a href="<?= $base ?>#contact" class="btn btn-lime">Hire an Individual →</a>
+      <a href="<?= $base ?>contact" class="btn btn-lime">Hire an Individual →</a>
       <a href="<?= $base ?>#roles" class="btn btn-outline-light">Explore Roles We Fill</a>
     </div>
     <div class="ts-hero-stats">
@@ -98,6 +98,10 @@ include 'includes/header.php';
       <div class="role-pill"><span class="dot"></span>Salesforce / SAP Consultant</div>
       <div class="role-pill"><span class="dot"></span>Project Manager</div>
       <div class="role-pill"><span class="dot"></span>Cybersecurity Analyst</div>
+      <div class="role-pill"><span class="dot"></span>Veeva Developer</div>
+      <div class="role-pill"><span class="dot"></span>Power BI Developer</div>
+      <div class="role-pill"><span class="dot"></span>UiPath Developer</div>
+      <div class="role-pill"><span class="dot"></span>ServiceNow Developer</div>
     </div>
   </div>
 </section>

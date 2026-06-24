@@ -1,6 +1,6 @@
 <?php
 $page_title     = 'ServiceNow Implementation & Consulting Services | Adhiran Infotech';
-$page_desc      = 'Transform your IT and business workflows with Adhiran Infotech's ServiceNow implementation, integration, and managed services.';
+$page_desc      = 'Transform your IT and business workflows with Adhiran Infotechs ServiceNow implementation, integration, and managed services.';
 $page_canonical = 'https://www.adhiraninfotech.com/servicenow';
 include 'includes/header.php';
 ?>
@@ -151,29 +151,14 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
-<script>
-document.querySelectorAll('.itsol-faq-q').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const item = btn.closest('.itsol-faq-item');
-    const ans  = item.querySelector('.itsol-faq-a');
-    const open = item.classList.contains('open');
-    document.querySelectorAll('.itsol-faq-item').forEach(el => {
-      el.classList.remove('open');
-      el.querySelector('.itsol-faq-a').style.maxHeight = null;
-    });
-    if (!open) {
-      item.classList.add('open');
-      ans.style.maxHeight = ans.scrollHeight + 'px';
-    }
-  });
-});
-</script>
 
 <section class="cta">
   <div class="wrap">
     <h2>Ready to Transform Your Business?</h2>
     <p>Partner with Adhiran Infotech to unlock the full potential of cutting-edge IT solutions tailored for your industry.</p>
-    <a href="<?= $base ?>contact" class="btn btn-lime">Get in Touch &rarr;</a>
+    <div class="actions">
+      <a href="<?= $base ?>contact" class="btn btn-lime">Get in Touch &rarr;</a>
+    </div>
   </div>
 </section>
 

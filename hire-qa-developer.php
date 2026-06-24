@@ -183,7 +183,9 @@ include 'includes/header.php';
   <div class="wrap">
     <h2>Ready to Build Your Dream Team?</h2>
     <p>Partner with Adhiran Infotech to access top IT talent who integrate seamlessly with your operations and deliver outstanding results.</p>
-    <a href="<?= $base ?>contact" class="btn btn-lime">Contact Us Today &rarr;</a>
+    <div class="actions">
+      <a href="<?= $base ?>contact" class="btn btn-lime">Get in Touch &rarr;</a>
+    </div>
   </div>
 </section>
 
