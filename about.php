@@ -11,14 +11,12 @@ include 'includes/header.php';
     <div class="wrap about-hero-grid">
       <div>
         <div class="eyebrow">About Adhiran Infotech</div>
-        <h1>Who We Are — a global IT talent &amp; technology consulting partner</h1>
-        <p class="lead">Adhiran Infotech is a software solutions and staffing company helping businesses across the US,
-          Middle East, Singapore, Japan and India hire IT talent, build web &amp; mobile applications, and run AI-led
-          technology projects — backed by a dedicated, experienced and highly qualified team.</p>
+        <h1>Accelerating Business Growth Through People and Technology</h1>
+        <p class="lead">At Adhiran Infotech, we specialize in IT staffing, software development, and AI-powered consulting services. We partner with organizations worldwide to build high-performing teams, create scalable web and mobile applications, and implement technology solutions that drive business success.</p>
         <div class="about-hero-stats">
-          <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of experience</span></div>
-          <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements</span></div>
-          <div><b class="count-up" data-target="5">5</b><span>Countries with local presence</span></div>
+          <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of Industry Experience</span></div>
+          <div><b class="count-up" data-target="5">5</b><span>Local Presence Across Countries</span></div>
+          <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful Placements & Engagements</span></div>
         </div>
       </div>
       <div class="about-hero-visual">
@@ -26,7 +24,7 @@ include 'includes/header.php';
           <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80"
             alt="International team of consultants collaborating in a meeting">
         </div>
-        <div class="about-hero-badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined team experience</span></div>
+        <!-- <div class="about-hero-badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined team experience</span></div> -->
       </div>
     </div>
   </section>
@@ -40,12 +38,9 @@ include 'includes/header.php';
       </div>
       <div class="vm-content">
         <span class="tag">Our Vision</span>
-        <h2>To be a trusted global delivery partner</h2>
-        <p>We aim to be recognized as a trusted global delivery partner — known for talent quality, transparent
-          collaboration, and a culture that helps clients in the US, Middle East and Asia build resilient, future-ready
-          technology teams.</p>
-        <p>Wherever our clients operate, we want Adhiran Infotech to feel like a natural extension of their own team —
-          close enough to understand their business, and capable enough to deliver at global scale.</p>
+        <h2>Building the Future Together</h2>
+        <p>We envision Adhiran Infotech as a globally respected partner that organizations can depend on for talent, technology, and innovation. Our focus is on delivering consistent quality, fostering strong partnerships, and helping businesses accelerate growth through skilled professionals and advanced solutions.</p>
+        <p>By combining local understanding with global capabilities, we aim to support clients across industries and geographies, enabling them to build stronger teams, embrace innovation, and achieve sustainable success.</p>
       </div>
     </div>
   </section>
@@ -55,12 +50,9 @@ include 'includes/header.php';
     <div class="wrap vm-grid">
       <div class="vm-content">
         <span class="tag">Our Mission</span>
-        <h2>Empowering businesses with the right people and technology</h2>
-        <p>Our mission is to empower clients with innovative, technology-driven solutions and the right talent —
-          promoting efficiency, growth and a stronger digital presence for every business we work with, regardless of
-          size or location.</p>
-        <p>From staff augmentation to full project delivery, we focus on outcomes: faster hiring, cleaner code, and
-          technology that actually moves the business forward.</p>
+        <h2>Transforming Ideas into Business Outcomes</h2>
+        <p>Our mission is to empower businesses with the people, skills, and technology needed to thrive in a rapidly changing world. We work closely with our clients to deliver high-quality talent, scalable technology solutions, and strategic support that foster growth and operational excellence.</p>
+        <p>Every engagement is driven by a simple goal: helping our clients move faster, innovate smarter, and achieve sustainable business success.</p>
       </div>
       <div class="vm-img reverse">
         <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80"
@@ -168,29 +160,29 @@ include 'includes/header.php';
           <div class="photo"><img
               src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80"
               alt="Founder & CEO"></div>
-          <h3>Vijay Krishna</h3>
+          <h3>Karthikeyan</h3>
           <div class="role">Founder &amp; CEO</div>
         </div>
         <div class="leader-card">
           <div class="photo"><img
               src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
               alt="VP Delivery"></div>
-          <h3>Arjun Mehta</h3>
-          <div class="role">VP, Global Delivery</div>
+          <h3>Premkumar</h3>
+          <div class="role">Co-Founder &amp; CTO</div>
         </div>
         <div class="leader-card">
           <div class="photo"><img
               src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80"
               alt="Head of Talent Acquisition"></div>
-          <h3>Sarah Lin</h3>
-          <div class="role">Head of Talent Acquisition</div>
+          <h3>Selvi</h3>
+          <div class="role">Director</div>
         </div>
         <div class="leader-card">
           <div class="photo"><img
               src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80"
               alt="Director of Operations, MEA"></div>
-          <h3>Fatima Al Sayed</h3>
-          <div class="role">Director, Operations (MEA)</div>
+          <h3>Kalaivani</h3>
+          <div class="role">Director</div>
         </div>
       </div>
     </div>

@@ -101,7 +101,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <span class="col-label">Our Organization</span>
               <span class="col-label">Careers</span>
               <span class="col-label">Insights</span>
-              <a href="<?= $base ?>about#who-we-are">About Us</a>
+              <a href="<?= $base ?>about">About Us</a>
               <a href="<?= $base ?>leadership">Leadership</a>
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>

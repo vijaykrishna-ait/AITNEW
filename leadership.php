@@ -10,8 +10,8 @@ include 'includes/header.php';
 <section class="lead-hero">
   <div class="wrap">
     <div class="eyebrow">Leadership</div>
-    <h1>The people leading Adhiran Infotech across the globe</h1>
-    <p class="lead-text">Our leadership team spans India, the United States, the UAE, Singapore, Japan and Australia — bringing local market knowledge together under one global delivery model.</p>
+    <h1>Leadership with a Global Perspective</h1>
+    <p class="lead-text">Our leadership team unites professionals from across key international markets, bringing diverse perspectives and deep industry knowledge to every engagement. Together, they drive our vision, strengthen client partnerships, and ensure consistent delivery excellence worldwide.</p>
   </div>
 </section>
 

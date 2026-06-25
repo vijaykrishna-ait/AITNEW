@@ -11,18 +11,17 @@ include 'includes/header.php';
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <div class="eyebrow">Global Talent &amp; Technology Consulting</div>
-        <h1>Build your team with the world's <em>best-fit talent.</em></h1>
-        <p class="lead">From IT staffing to AI-led consulting, Adhiran Infotech connects ambitious businesses with
-          hand-selected people and technology partners — across India, North America and the Middle East.</p>
+        <div class="eyebrow">Global Talent &amp; Technology Solutions</div>
+        <h1>Empowering Growth Through <em>Talent & Innovation.</em></h1>
+        <p class="lead">From specialized IT staffing to AI-powered workforce solutions, Adhiran Infotech helps organizations scale faster with top talent and technology expertise across globe.</p>
         <div class="hero-actions">
-          <a href="<?= $base ?>#contact" class="btn btn-primary">Hire Talent →</a>
-          <a href="<?= $base ?>#jobs" class="btn btn-outline">Browse Open Roles</a>
+          <a href="<?= $base ?>contact" class="btn btn-primary">Find Talent →</a>
+          <a href="<?= $base ?>#jobs" class="btn btn-outline">Explore Opportunities</a>
         </div>
         <div class="hero-stats">
-          <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average time to first match</span></div>
-          <div><b class="count-up" data-target="4">4</b><span>Continents, one delivery network</span></div>
-          <div><b class="">30-50%</b><span>Faster hiring with AI screening</span></div>
+          <div><b>24-48 hrs</b><span>Qualified candidate profiles delivered</span></div>
+          <div><b class="count-up" data-target="5" data-suffix=" Regions">5 Regions</b><span>Global talent reach with local expertise</span></div>
+          <div><b class="count-up" data-target="40" data-suffix="% +">40% +</b><span>Reduction in hiring time through smart sourcing</span></div>
         </div>
       </div>
       <div class="hero-visual">
@@ -30,7 +29,7 @@ include 'includes/header.php';
           <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80"
             alt="Tech consultant working on laptop">
         </div>
-        <div class="floating-card fc-1">
+        <!-- <div class="floating-card fc-1">
           <div class="ico">⚡</div>
           <div ><b>24 hrs</b>
             <div class="sub">to shortlist match</div>
@@ -41,7 +40,7 @@ include 'includes/header.php';
           <div><b>Trial-based hire</b>
             <div class="sub">pay only if satisfied</div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -56,23 +55,23 @@ include 'includes/header.php';
           anywhere in the world.</p>
       </div>
       <div class="skill-flat-grid">
-        <div class="skill-item">
+        <a href="<?= $base ?>hire-java-developer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="16 18 22 12 16 6" />
               <polyline points="8 6 2 12 8 18" />
             </svg></div>
           <span>Java &amp; .NET</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>hire-python-developer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10" />
               <path d="M2 12h20M12 2c2.5 2.7 4 6.3 4 10s-1.5 7.3-4 10c-2.5-2.7-4-6.3-4-10s1.5-7.3 4-10z" />
             </svg></div>
           <span>Python</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>hire-react-developer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="2" />
@@ -81,22 +80,22 @@ include 'includes/header.php';
               <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(120 12 12)" />
             </svg></div>
           <span>React &amp; Angular</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
             </svg></div>
           <span>AWS</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z" />
             </svg></div>
           <span>Microsoft Azure</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10" />
@@ -105,8 +104,8 @@ include 'includes/header.php';
               <line x1="12" y1="15" x2="12" y2="22" />
             </svg></div>
           <span>Google Cloud</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>sap-it-solutions" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -114,47 +113,47 @@ include 'includes/header.php';
               <line x1="9" y1="21" x2="9" y2="9" />
             </svg></div>
           <span>Salesforce &amp; SAP</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>servicenow" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10" />
               <path d="M12 6v6l4 2" />
             </svg></div>
           <span>ServiceNow</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M3 3v18h18" />
               <path d="M18.4 8.6 13 14l-3-3-4.5 4.5" />
             </svg></div>
           <span>Data Analytics</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="11" width="18" height="10" rx="2" />
               <circle cx="12" cy="7" r="4" />
             </svg></div>
           <span>AI &amp; Machine Learning</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 12a9 9 0 1 1-3-6.7" />
               <polyline points="21 3 21 9 15 9" />
             </svg></div>
           <span>DevOps &amp; CI/CD</span>
-        </div>
-        <div class="skill-item">
+        </a>
+        <a href="<?= $base ?>#" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z" />
               <path d="m9 12 2 2 4-4" />
             </svg></div>
           <span>QA &amp; Cybersecurity</span>
-        </div>
+        </a>
       </div>
     </div>
   </section>

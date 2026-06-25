@@ -10,8 +10,9 @@ include 'includes/header.php';
 <section class="cv-hero">
   <div class="wrap">
     <div class="eyebrow">Core Values</div>
-    <h1>The principles behind how we hire, deliver and partner</h1>
-    <p class="lead-text">Our core values aren't a poster on the wall — they shape day-to-day decisions across every team, in every country we operate in.</p>
+    <h1>Guiding Principles for Lasting Partnerships</h1>
+    <p class="lead-text">Our success is built on a strong set of values that influence every aspect of our business. They help us maintain high standards, nurture strong relationships, and consistently deliver quality outcomes for our clients worldwide.</p><br>
+    <p class="lead-text">More than statements, these values are reflected in our actions, decisions, and commitment to excellence—every day, across every team and every client engagement.</p>
   </div>
 </section>
 

@@ -2783,7 +2783,7 @@
   display:flex;align-items:center;justify-content:center;
   color:var(--blue);margin:0 auto 14px;
 }
-.itc-process-step:hover .itc-process-num{color:var(--blue);transition:all .25s;}
+.itc-process-step:hover .itc-process-icon{color:var(--lime);transition:all .25s;}
 .itc-process-num{font-family:'Sora',sans-serif;font-size:22px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--lime);margin-bottom:8px;}
 .itc-process-step h4{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:8px;}
 .itc-process-step p{color:var(--gray);font-size:13px;}
@@ -2794,7 +2794,7 @@
 @media (max-width:560px){.itc-process-row{grid-template-columns:1fr;}}
 
 /* Benefits list */
-.itc-benefits-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:0 auto;}
+.itc-benefits-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:20px auto;}
 .itc-benefit-item{
   display:flex;align-items:flex-start;gap:14px;
   background:var(--white);border:1px solid var(--line);border-radius:14px;padding:20px;

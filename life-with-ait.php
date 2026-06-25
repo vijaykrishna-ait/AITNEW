@@ -10,8 +10,8 @@ include 'includes/header.php';
 <section class="lwa-hero">
   <div class="wrap">
     <div class="eyebrow">Life with AIT</div>
-    <h1>What it's really like to work at Adhiran Infotech</h1>
-    <p class="lead-text">From team outings across our global offices to the benefits that support our people day to day — here's a look inside our culture.</p>
+    <h1>Where Talent Thrives</h1>
+    <p class="lead-text">From collaborative work environments and learning opportunities to team celebrations and employee well-being initiatives, Adhiran Infotech is a place where people can do their best work, grow their careers, and be part of something meaningful.</p>
   </div>
 </section>
 
@@ -34,49 +34,49 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Benefits</div>
-      <h2>What you get as part of the AIT team</h2>
-      <p>Wherever you're based — India, USA, UAE, Singapore, Japan or Australia — our benefits are designed to support your work and your life.</p>
+      <h2>Benefits That Grow with You</h2>
+      <p>Our benefits go beyond the basics. We offer programs and opportunities that support career development, employee well-being, work-life balance, and professional success—helping our team members grow, achieve, and excel wherever they are in the world.</p>
     </div>
     <div class="benefits-grid">
       <div class="benefit-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-        <h3>Health &amp; Wellness Cover</h3>
-        <p>Comprehensive medical insurance for employees and dependents, plus access to wellness programs.</p>
+        <h3>Wellness & Healthcare Benefits:</h3>
+        <p>Access to quality healthcare coverage, wellness resources, and support programs that help employees and their loved ones stay healthy and protected.</p>
       </div>
       <div class="benefit-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-        <h3>Flexible Working</h3>
-        <p>Hybrid and remote options across most roles, with flexibility to work across time zones.</p>
+        <h3>Work with Flexibility:</h3>
+        <p>We offer hybrid and remote working arrangements, enabling our teams to collaborate effectively across locations and time zones while maintaining flexibility in their work schedules.</p>
       </div>
       <div class="benefit-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
-        <h3>Learning &amp; Certifications</h3>
-        <p>Sponsored certifications across AWS, Azure, Salesforce, SAP and more — plus internal learning programs.</p>
-      </div>
-      <div class="benefit-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
-        <h3>Performance Bonuses</h3>
-        <p>Transparent performance reviews tied to bonuses and clear paths for career progression.</p>
-      </div>
-      <div class="benefit-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
-        <h3>Global Mobility</h3>
-        <p>Opportunities to work on projects across our India, US, UAE, Singapore, Japan and Australia offices.</p>
+        <h3>Upskilling for the Future:</h3>
+        <p>From cloud technologies and enterprise platforms to emerging digital skills, we invest in learning opportunities that empower our teams to grow and succeed.</p>
       </div>
       <div class="benefit-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
-        <h3>Paid Time Off</h3>
-        <p>Generous annual leave, public holidays by location, and parental leave policies.</p>
+        <h3>Work-Life Balance Matters</h3>
+        <p>Enjoy competitive leave benefits, regional holidays, and family-focused policies designed to promote well-being, balance, and quality time with loved ones.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
+        <h3>Performance & Advancement Opportunities</h3>
+        <p>We foster a culture of accountability and excellence through fair performance assessments, rewarding achievements, and providing clear direction for career development and progression.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <h3>Global Career Opportunities</h3>
+        <p>Collaborate with international teams, contribute to global projects, and gain valuable exposure to diverse markets, cultures, and business environments across our worldwide network.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+        <h3>Cutting-Edge Tools & Technologies</h3>
+        <p>Work with industry-leading platforms, emerging technologies, and modern development environments that help you innovate, collaborate, and stay ahead in a fast-changing digital world.</p>
       </div>
       <div class="benefit-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <h3>Referral Rewards</h3>
-        <p>Earn rewards for referring great talent into roles across any of our offices.</p>
-      </div>
-      <div class="benefit-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
-        <h3>Modern Tools &amp; Tech</h3>
-        <p>Work with the latest cloud, AI and collaboration tools — no outdated systems holding you back.</p>
+        <p>Our employee referral program encourages team members to bring talented individuals into the organization while earning attractive rewards for successful hires.</p>
       </div>
     </div>
   </div>

@@ -98,7 +98,7 @@ include 'includes/header.php';
 
 <!-- BENEFITS -->
 <section>
-  <div class="wrap itc-intro-grid">
+  <div class="wrap">
     <div>
       <span class="tag">Why Choose Us</span>
       <h2>Advantages of Associating with Us</h2>
@@ -125,9 +125,9 @@ include 'includes/header.php';
       </div>
       </div>
     </div>
-    <div class="itc-intro-img">
+    <!-- <div class="itc-intro-img">
       <img src="https://www.adhiraninfotech.com/img/it_consulting/mobile_app/mobile_app_benefits.png" alt="Advantages of Associating with Us">
-    </div>
+    </div> -->
   </div>
 </section>
 

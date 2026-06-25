@@ -10,8 +10,8 @@ include 'includes/header.php';
 <section class="vm-hero">
   <div class="wrap">
     <div class="eyebrow">Our Vision &amp; Mission</div>
-    <h1>What we're working toward — and how we get there</h1>
-    <p class="lead-text">Our vision and mission shape every engagement — from a single developer placement to a multi-country Offshore Development Center.</p>
+    <h1>Shaping the Future Through Talent and Technology</h1>
+    <p class="lead-text">Everything we do is guided by a clear vision and purpose. From sourcing specialized professionals to delivering enterprise-scale technology solutions, we focus on creating measurable outcomes for our clients.</p>
   </div>
 </section>
 
@@ -23,9 +23,9 @@ include 'includes/header.php';
     </div>
     <div class="vm-content">
       <span class="tag">Our Vision</span>
-      <h2>To be a trusted global delivery partner</h2>
-      <p>We aim to be recognized as a trusted global delivery partner — known for talent quality, transparent collaboration, and a culture that helps clients in the US, Middle East and Asia build resilient, future-ready technology teams.</p>
-      <p>Wherever our clients operate, we want Adhiran Infotech to feel like a natural extension of their own team — close enough to understand their business, and capable enough to deliver at global scale.</p>
+      <h2>Building the Future Together</h2>
+      <p>We envision Adhiran Infotech as a globally respected partner that organizations can depend on for talent, technology, and innovation. Our focus is on delivering consistent quality, fostering strong partnerships, and helping businesses accelerate growth through skilled professionals and advanced solutions.</p>
+      <p>By combining local understanding with global capabilities, we aim to support clients across industries and geographies, enabling them to build stronger teams, embrace innovation, and achieve sustainable success.</p>
     </div>
   </div>
 </section>
@@ -35,9 +35,9 @@ include 'includes/header.php';
   <div class="wrap vm-grid">
     <div class="vm-content">
       <span class="tag">Our Mission</span>
-      <h2>Empowering businesses with the right people and technology</h2>
-      <p>Our mission is to empower clients with innovative, technology-driven solutions and the right talent — promoting efficiency, growth and a stronger digital presence for every business we work with, regardless of size or location.</p>
-      <p>From staff augmentation to full project delivery, we focus on outcomes: faster hiring, cleaner code, and technology that actually moves the business forward.</p>
+      <h2>Transforming Ideas into Business Outcomes</h2>
+      <p>Our mission is to empower businesses with the people, skills, and technology needed to thrive in a rapidly changing world. We work closely with our clients to deliver high-quality talent, scalable technology solutions, and strategic support that foster growth and operational excellence.</p>
+      <p>Every engagement is driven by a simple goal: helping our clients move faster, innovate smarter, and achieve sustainable business success.</p>
     </div>
     <div class="vm-img reverse">
       <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="Team discussing strategy in office">
