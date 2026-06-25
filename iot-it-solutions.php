@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>IoT Solutions to Connect, Monitor & Innovate</h1>
     <p class="lead">Adhiran Infotech delivers cutting-edge IoT (Internet of Things) solutions to connect devices, optimize processes, and drive innovation. We build smart, scalable platforms that collect real-time data from connected devices to enable informed decision-making.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Start Your Project &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
+      <a href="iot-solutions#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>
@@ -71,35 +71,45 @@ include 'includes/header.php';
     </div>
     <div class="itsol-why-grid">
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Connectivity Expertise</h4>
           <p>Deep expertise in IoT protocols including MQTT, CoAP, HTTP, and WebSockets ensures reliable device communication.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Edge Computing</h4>
           <p>Process data at the edge to reduce latency, bandwidth usage, and reliance on cloud connectivity for real-time applications.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Scalable Architecture</h4>
           <p>Cloud-native IoT platforms that scale seamlessly from dozens to millions of connected devices as your needs grow.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Security First</h4>
           <p>End-to-end encryption, device authentication, and security best practices built into every layer of our IoT solutions.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Cross-Industry Experience</h4>
           <p>Proven IoT deployments across manufacturing, healthcare, logistics, smart cities, and agriculture sectors.</p>
@@ -111,28 +121,51 @@ include 'includes/header.php';
 
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">FAQ</div><h2>Frequently Asked Questions</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
     <div class="itsol-faq-list">
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What types of devices can be connected with your IoT solutions?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We support a wide range of devices including sensors, actuators, industrial equipment, consumer devices, and proprietary hardware. Our solutions work with standard protocols like MQTT, CoAP, HTTP, and AMQP, as well as proprietary protocols through custom adapters.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How do you ensure IoT data security?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We implement end-to-end encryption, device authentication with X.509 certificates, role-based access control, and regular security audits. All data transmission is encrypted and we follow OWASP IoT security guidelines.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Can IoT solutions integrate with our existing systems?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Yes — our IoT platforms are designed for seamless integration with existing ERP, CRM, SCADA, and other enterprise systems through REST APIs, webhooks, and custom connectors.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What cloud platforms do you use for IoT?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We work with AWS IoT Core, Azure IoT Hub, Google Cloud IoT, and custom on-premise deployments depending on your requirements, compliance needs, and existing infrastructure.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How long does an IoT implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Timelines vary by complexity — a simple monitoring solution can be deployed in 4-6 weeks, while complex industrial IoT platforms may take 3-6 months. We follow agile delivery with incremental releases.</p></div>
-    </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What types of devices can be connected with your IoT solutions?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We support a wide range of devices including sensors, actuators, industrial equipment, consumer devices, and proprietary hardware. Our solutions work with standard protocols like MQTT, CoAP, HTTP, and AMQP, as well as proprietary protocols through custom adapters.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How do you ensure IoT data security?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We implement end-to-end encryption, device authentication with X.509 certificates, role-based access control, and regular security audits. All data transmission is encrypted and we follow OWASP IoT security guidelines.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Can IoT solutions integrate with our existing systems?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Yes — our IoT platforms are designed for seamless integration with existing ERP, CRM, SCADA, and other enterprise systems through REST APIs, webhooks, and custom connectors.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What cloud platforms do you use for IoT?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We work with AWS IoT Core, Azure IoT Hub, Google Cloud IoT, and custom on-premise deployments depending on your requirements, compliance needs, and existing infrastructure.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How long does an IoT implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Timelines vary by complexity — a simple monitoring solution can be deployed in 4-6 weeks, while complex industrial IoT platforms may take 3-6 months. We follow agile delivery with incremental releases.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

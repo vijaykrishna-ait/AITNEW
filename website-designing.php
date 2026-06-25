@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Consulting — Website Design & Development</div>
     <h1>Professional Website Design & Development Services</h1>
     <p class="lead">Have you yet to develop your business website? Never delay, connect with Adhiran Infotech! Being one of the growing website design and development company, Adhiran Infotech helps businesses to be visible in the digital world.</p>
-    <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
+    <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
   </div>
 </section>
 

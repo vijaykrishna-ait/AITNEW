@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire Expert Data Engineers to Power Your Data Strategy</h1>
     <p class="lead">Begin constituting your offshore team with Adhiran Infotech. Being skilled in diverse fields and with lots of experience, we are able to quickly gather a team that can meet all your business data needs. Through our team of qualified data engineers, we use our professional skills and the competency of the specialty to provide solutions that will suit clients needs.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+      <a href="hire-data-engineer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>

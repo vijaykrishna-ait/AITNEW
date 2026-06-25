@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>E-Commerce Website Development Services in Chennai</h1>
     <p class="lead">An E-Commerce web store is the smarter way to take your business to the next level of growth. These days, it has become a must-have option to build your online store to succeed in your business and raise your business, competing with your competitors.</p>
     <div class="itc-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
-      </div>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+    </div>
   </div>
 </section>
 
@@ -105,26 +105,36 @@ include 'includes/header.php';
       <span class="tag">Why Choose Us</span>
       <h2>To Enhance Your Services, We Are Here</h2>
       <div class="itc-benefits-grid">
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Bring your users to life with our imaginative designs.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Marketing and promoting your company with a touch.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Improve the experience for customers and users.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Managing with ease and connecting with customers globally.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Make contact with new customers and enhance your customer analytics.</div>
-      </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Bring your users to life with our imaginative designs.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Marketing and promoting your company with a touch.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Improve the experience for customers and users.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Managing with ease and connecting with customers globally.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Make contact with new customers and enhance your customer analytics.</div>
+        </div>
       </div>
     </div>
     <div class="itc-intro-img">
@@ -136,13 +146,36 @@ include 'includes/header.php';
 <!-- PROCESS -->
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">Our Process</div><h2>Our Development Process</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">Our Process</div>
+      <h2>Our Development Process</h2>
+    </div>
     <div class="itc-process-row">
-      <div class="itc-process-step"><div class="itc-process-num">01</div><h4>Needs Assessment</h4><p>Understand and analyze your requirements to design a clear plan that optimizes processes and enhances operational efficiency.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">02</div><h4>Service Model Agreement</h4><p>Establish realistic objectives and define deliverables, support frameworks, and timelines to align with your business goals effectively.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">03</div><h4>Design and Development</h4><p>Create customized solutions tailored to your specific needs, focusing on innovation, scalability, and sustainable growth.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">04</div><h4>Testing and Quality Assurance</h4><p>Perform rigorous testing to ensure solutions meet the highest standards of functionality, reliability, and readiness for deployment.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">05</div><h4>Ongoing Support</h4><p>Provide continuous assistance with low-maintenance systems, ensuring smooth operations and addressing concerns to maintain peak efficiency.</p></div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">01</div>
+        <h4>Needs Assessment</h4>
+        <p>Understand and analyze your requirements to design a clear plan that optimizes processes and enhances operational efficiency.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">02</div>
+        <h4>Service Model Agreement</h4>
+        <p>Establish realistic objectives and define deliverables, support frameworks, and timelines to align with your business goals effectively.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">03</div>
+        <h4>Design and Development</h4>
+        <p>Create customized solutions tailored to your specific needs, focusing on innovation, scalability, and sustainable growth.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">04</div>
+        <h4>Testing and Quality Assurance</h4>
+        <p>Perform rigorous testing to ensure solutions meet the highest standards of functionality, reliability, and readiness for deployment.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">05</div>
+        <h4>Ongoing Support</h4>
+        <p>Provide continuous assistance with low-maintenance systems, ensuring smooth operations and addressing concerns to maintain peak efficiency.</p>
+      </div>
     </div>
   </div>
 </section>

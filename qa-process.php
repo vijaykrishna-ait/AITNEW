@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Consulting — QA Process</div>
     <h1>QA Audit & Consulting Services for Quality-Driven Development</h1>
     <p class="lead">Gain improved organization performance with Adhiran Infotech's QA audit & consulting services to make your business more efficient. Our core competency is to establish the process deficiencies and fulfill the guidelines to enhance the quality of the product.</p>
-    <a href="<?= $base ?>contact" class="btn btn-primary">Get Started &rarr;</a>
+    <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
   </div>
 </section>
 
@@ -103,26 +103,36 @@ include 'includes/header.php';
       <span class="tag">Why Choose Us</span>
       <h2>Testing Approaches</h2>
       <div class="itc-benefits-grid">
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Performance Testing: Centered on assessing performance of implemented systems such as load handling capability, speed, scalability, and stability.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Integration Testing: Confirms a total aggregated response between integrated units or systems.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Functional Testing: Functionality testing is to guarantee normal performance of the application and the determination whether the application was developed to meet all functionality requirements.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>Non-Functional Testing: Look at the essential characteristics of the system such as functionality efficiency, protection, convenience, and durability.</div>
-      </div>
-      <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>User Acceptance Testing (UAT): Undertaken for the purpose of assessing whether or not the system responds adequately to needs and expectations of business prior to the implementation.</div>
-      </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Performance Testing: Centered on assessing performance of implemented systems such as load handling capability, speed, scalability, and stability.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Integration Testing: Confirms a total aggregated response between integrated units or systems.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Functional Testing: Functionality testing is to guarantee normal performance of the application and the determination whether the application was developed to meet all functionality requirements.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>Non-Functional Testing: Look at the essential characteristics of the system such as functionality efficiency, protection, convenience, and durability.</div>
+        </div>
+        <div class="itc-benefit-item">
+          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg></div>
+          <div>User Acceptance Testing (UAT): Undertaken for the purpose of assessing whether or not the system responds adequately to needs and expectations of business prior to the implementation.</div>
+        </div>
       </div>
     </div>
     <div class="itc-intro-img">
@@ -134,13 +144,36 @@ include 'includes/header.php';
 <!-- PROCESS -->
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">Our Process</div><h2>Our Development Process</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">Our Process</div>
+      <h2>Our Development Process</h2>
+    </div>
     <div class="itc-process-row">
-      <div class="itc-process-step"><div class="itc-process-num">01</div><h4>Needs Assessment</h4><p>Understand and analyze your requirements to design a clear plan that optimizes processes and enhances operational efficiency.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">02</div><h4>Service Model Agreement</h4><p>Establish realistic objectives and define deliverables, support frameworks, and timelines to align with your business goals effectively.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">03</div><h4>Design and Development</h4><p>Create customized solutions tailored to your specific needs, focusing on innovation, scalability, and sustainable growth.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">04</div><h4>Testing and Quality Assurance</h4><p>Perform rigorous testing to ensure solutions meet the highest standards of functionality, reliability, and readiness for deployment.</p></div>
-      <div class="itc-process-step"><div class="itc-process-num">05</div><h4>Ongoing Support</h4><p>Provide continuous assistance with low-maintenance systems, ensuring smooth operations and addressing concerns to maintain peak efficiency.</p></div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">01</div>
+        <h4>Needs Assessment</h4>
+        <p>Understand and analyze your requirements to design a clear plan that optimizes processes and enhances operational efficiency.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">02</div>
+        <h4>Service Model Agreement</h4>
+        <p>Establish realistic objectives and define deliverables, support frameworks, and timelines to align with your business goals effectively.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">03</div>
+        <h4>Design and Development</h4>
+        <p>Create customized solutions tailored to your specific needs, focusing on innovation, scalability, and sustainable growth.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">04</div>
+        <h4>Testing and Quality Assurance</h4>
+        <p>Perform rigorous testing to ensure solutions meet the highest standards of functionality, reliability, and readiness for deployment.</p>
+      </div>
+      <div class="itc-process-step">
+        <div class="itc-process-num">05</div>
+        <h4>Ongoing Support</h4>
+        <p>Provide continuous assistance with low-maintenance systems, ensuring smooth operations and addressing concerns to maintain peak efficiency.</p>
+      </div>
     </div>
   </div>
 </section>

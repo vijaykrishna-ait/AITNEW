@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire Expert Mobile App Developers for iOS, Android & Cross-Platform</h1>
     <p class="lead">Adhiran Infotech has built its reputation as an expert in delivering robust, functional Smartphone applications suited to existing and emerging markets. Our team of highly talented developers works hand in hand with programmers to give each app an excellent finish in terms of features, usability, and efficiency.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+      <a href="hire-mobile-app-developer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>

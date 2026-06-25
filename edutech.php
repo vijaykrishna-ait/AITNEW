@@ -13,8 +13,8 @@ include 'includes/header.php';
     <h1>Helping schools, colleges and training institutes teach smarter with AI</h1>
     <p class="lead">Adhiran Infotech has delivered EdTech platforms and AI-based learning tools for schools, universities, medical colleges and corporate training providers — combining deep engineering with a genuine understanding of how learners and educators work.</p>
     <div class="ed-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Talk to an EdTech Expert →</a>
-      <a href="<?= $base ?>#ed-services" class="btn btn-outline-light">Explore Our Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an EdTech Expert →</a>
+      <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="ed-hero-stats">
       <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning projects delivered</span></div>

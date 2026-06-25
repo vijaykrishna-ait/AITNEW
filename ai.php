@@ -13,7 +13,7 @@ include 'includes/header.php';
     <h1>Accelerating Digital Transformation Through AI Innovation</h1>
     <p class="lead">Helping enterprises harness Artificial Intelligence and Generative AI to automate operations, enhance decision-making, and create measurable business value at scale.</p>
     <div class="ai-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Consult an AI Expert →</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an AI Expert →</a>
       <a href="<?= $base ?>ai#ai-services" class="btn btn-outline-light">Explore Our AI Capabilities</a>
     </div>
     <div class="ai-hero-stats">

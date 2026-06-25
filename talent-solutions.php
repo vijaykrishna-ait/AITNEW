@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire the right individual — fast, vetted, and ready to contribute</h1>
     <p class="lead">Talent Solutions is built for one need: finding the right person for a specific role. Whether it's a single developer, a designer, a data analyst or a niche specialist — we identify, vet and place individual talent that fits your team and your way of working.</p>
     <div class="ts-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire an Individual →</a>
-      <a href="<?= $base ?>#roles" class="btn btn-outline-light">Explore Roles We Fill</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire an Individual →</a>
+      <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Roles We Fill</a>
     </div>
     <div class="ts-hero-stats">
       <div  ><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Individual placements delivered</span></div>

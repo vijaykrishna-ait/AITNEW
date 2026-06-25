@@ -13,15 +13,15 @@ include 'includes/header.php';
     <h1>End-to-end digital projects, delivered as a complete outcome</h1>
     <p class="lead">From custom application development to full digital transformation programs — Adhiran Infotech takes ownership of defined outcomes, bringing together design, engineering, QA and project management under one accountable team.</p>
     <div class="ps-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Start a Project →</a>
-      <a href="<?= $base ?>#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start a Project →</a>
+      <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
     </div>
     <div class="ps-hero-stats">
       <div  ><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Projects delivered globally</span></div>
       <div ><b  class="count-up" data-target="30" data-suffix="+">30+</b><span>Technologies covered</span></div>
       <div><b>On-Time</b><span>Fixed-scope, fixed-timeline delivery</span></div>
-      <div  ><b>24/7</b><span>Cross-time-zone project teams</span></div>
-    </div>
+      <div ><b>24/7</b><span>Cross-time-zone project teams</span></div>
+    </div>  
   </div>
 </section>
 

@@ -13,8 +13,8 @@ include 'includes/header.php';
     <h1>Cloud infrastructure that's built to run AI — not just apps</h1>
     <p class="lead">Adhiran Infotech designs, migrates and manages cloud environments on AWS, Azure and Google Cloud — engineered from day one to support AI workloads, automation and intelligent operations at enterprise scale.</p>
     <div class="cl-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Talk to a Cloud Architect →</a>
-      <a href="<?= $base ?>#cloud-services" class="btn btn-outline-light">Explore Cloud Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Cloud Architect →</a>
+      <a href="<?= $base ?>cloud-engineering#cloud-services" class="btn btn-outline-light">Explore Cloud Services</a>
     </div>
     <div class="cl-hero-stats">
       <div><b class="count-up" data-target="3">3</b ><span>Major cloud platforms supported</span></div>

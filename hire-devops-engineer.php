@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire Expert DevOps Engineers to Accelerate Your Delivery Pipeline</h1>
     <p class="lead">At Adhiran Infotech our DevOps services reflect a mission that aims to integrate operations making operations smoother, efficient, and faster to deliver in the software world. Our DevOps specialists with years of experience bring the technical knowledge and outstanding practices to make the collaboration better and infrastructure improvements.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+      <a href="hire-devops-engineer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>

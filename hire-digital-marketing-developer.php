@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire Expert Digital Marketing Professionals to Grow Your Brand</h1>
     <p class="lead">In today's world, more and more presence online is vital for business to become successful. At Adhiran Infotech, we are aware how difficult it may be to compete in the digital marketing world for businesses. With a dedicated team, we offer bespoke solutions for all of our clients to ensure that your digital marketing is as successful as can be.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+      <a href="hire-digital-marketing-developer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>

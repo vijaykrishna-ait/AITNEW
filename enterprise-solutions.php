@@ -13,8 +13,8 @@ include 'includes/header.php';
     <h1>Enterprise platforms, implemented and run by people who know them</h1>
     <p class="lead">From SAP and Salesforce to ServiceNow and Veeva — Adhiran Infotech designs, implements, integrates and supports the enterprise platforms that run your business, backed by certified consultants and a global delivery network.</p>
     <div class="es-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Talk to an Enterprise Apps Expert →</a>
-      <a href="<?= $base ?>#platforms" class="btn btn-outline-light">Explore Platforms</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an Enterprise Apps Expert →</a>
+      <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Explore Platforms</a>
     </div>
     <div class="es-hero-stats">
       <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>Enterprise platforms supported</span></div>

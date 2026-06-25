@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>SAP Solutions — Implementation, Migration & Managed Services</h1>
     <p class="lead">Adhiran Infotech provides comprehensive SAP services that help organizations unlock the full value of their SAP investments. From new implementations to system carve-outs and ongoing AMS, our certified SAP consultants deliver excellence.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Start Your Project &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
+      <a href="sap-it-solutions#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>
@@ -71,35 +71,45 @@ include 'includes/header.php';
     </div>
     <div class="itsol-why-grid">
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Certified SAP Consultants</h4>
           <p>Our team includes certified SAP professionals with deep functional and technical expertise across SAP modules and industry solutions.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>On-Site, Offshore & Hybrid Delivery</h4>
           <p>Flexible delivery models — on-site for stakeholder proximity, offshore for cost efficiency, or hybrid for the best of both.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Proven Methodology</h4>
           <p>We follow SAP Activate methodology for structured, predictable, and agile SAP project delivery with clear milestones.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Industry Expertise</h4>
           <p>Domain expertise across manufacturing, life sciences, retail, utilities, and professional services for contextually accurate SAP solutions.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Post-Go-Live Support</h4>
           <p>Comprehensive hypercare and AMS to ensure smooth transition after go-live with SLA-backed support and proactive monitoring.</p>
@@ -111,40 +121,75 @@ include 'includes/header.php';
 
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">FAQ</div><h2>Frequently Asked Questions</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
     <div class="itsol-faq-list">
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What SAP modules do you specialize in?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We cover the full SAP portfolio including FI/CO, MM, SD, PP, HCM, PM, QM, SAP S/4HANA, SAP BTP, SAP Analytics Cloud, SAP SuccessFactors, and SAP Ariba.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What is Rise with SAP and how can it benefit my organization?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Rise with SAP is a subscription-based offering that bundles SAP S/4HANA Cloud, SAP BTP, and business process intelligence. It simplifies your move to the cloud with a single vendor relationship and predictable costs.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How long does a typical SAP implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>A mid-size SAP S/4HANA implementation typically takes 6-12 months. A focused functional area implementation can be completed in 3-6 months using our pre-configured industry templates.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Can you support our existing SAP ECC landscape while we plan migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Absolutely — our AMS team provides full ECC support including enhancement, bug fixes, and performance optimization while your migration strategy is being developed.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Do you offer fixed-price SAP projects?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Yes — for well-defined scope implementations using our pre-built templates and SAP Best Practices, we offer fixed-price delivery with defined deliverables and milestones.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What is SAP Carve Out and when is it needed?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>SAP Carve Out is required when a business unit or subsidiary needs to be separated from the parent SAP landscape — for divestitures, mergers, or legal entity restructuring. We handle the full technical and functional carve-out with minimal business disruption.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How do you ensure data quality during SAP migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We use SAP Data Services and custom validation frameworks to profile, cleanse, transform, and reconcile data before migration. Our 3-tier testing approach (unit, integration, UAT) ensures data accuracy before go-live.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What ongoing support do you provide post-go-live?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We offer tiered AMS packages covering incident management (SLA-backed), change request processing, system monitoring, performance tuning, and proactive patching — all with a dedicated support team.</p></div>
-    </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What SAP modules do you specialize in?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We cover the full SAP portfolio including FI/CO, MM, SD, PP, HCM, PM, QM, SAP S/4HANA, SAP BTP, SAP Analytics Cloud, SAP SuccessFactors, and SAP Ariba.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What is Rise with SAP and how can it benefit my organization?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Rise with SAP is a subscription-based offering that bundles SAP S/4HANA Cloud, SAP BTP, and business process intelligence. It simplifies your move to the cloud with a single vendor relationship and predictable costs.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How long does a typical SAP implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>A mid-size SAP S/4HANA implementation typically takes 6-12 months. A focused functional area implementation can be completed in 3-6 months using our pre-configured industry templates.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Can you support our existing SAP ECC landscape while we plan migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Absolutely — our AMS team provides full ECC support including enhancement, bug fixes, and performance optimization while your migration strategy is being developed.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Do you offer fixed-price SAP projects?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Yes — for well-defined scope implementations using our pre-built templates and SAP Best Practices, we offer fixed-price delivery with defined deliverables and milestones.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What is SAP Carve Out and when is it needed?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>SAP Carve Out is required when a business unit or subsidiary needs to be separated from the parent SAP landscape — for divestitures, mergers, or legal entity restructuring. We handle the full technical and functional carve-out with minimal business disruption.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How do you ensure data quality during SAP migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We use SAP Data Services and custom validation frameworks to profile, cleanse, transform, and reconcile data before migration. Our 3-tier testing approach (unit, integration, UAT) ensures data accuracy before go-live.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What ongoing support do you provide post-go-live?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We offer tiered AMS packages covering incident management (SLA-backed), change request processing, system monitoring, performance tuning, and proactive patching — all with a dedicated support team.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

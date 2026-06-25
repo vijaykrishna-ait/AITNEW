@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire Expert Data Science Developers for AI-Powered Insights</h1>
     <p class="lead">Our Data Science services at Adhiran Infotech assist businesses get the most out of their data; from converting them into decision making tools and models. The Data Science engineers at Adhiran possess specialization in machine learning, deep learning, generative AI, and data analytics to address organization's business issues.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+      <a href="hire-data-science-developer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>

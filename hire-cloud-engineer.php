@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Hire Expert Cloud Engineers for AWS, Azure & GCP</h1>
     <p class="lead">Adhiran Infotech is a leading cloud engineering services provider which aims at enhancing cloud engagements for businesses in various industries. Our expert team of cloud engineers creates valuable cloud solutions tailor-made to meet efficiency, scalability, and business needs for today's facilitators.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact#form" class="btn btn-lime">Hire a Developer &rarr;</a>
+      <a href="hire-cloud-engineer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>

@@ -12,8 +12,8 @@ include 'includes/header.php';
     <h1>Blockchain Development for Secure, Transparent & Decentralized Solutions</h1>
     <p class="lead">Adhiran Infotech provides comprehensive blockchain development services to help businesses leverage the power of distributed ledger technology. From smart contracts to private blockchain networks and DeFi applications, we build trust into every transaction.</p>
     <div class="its-hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Start Your Project &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
+      <a href="block-chain#services" class="btn btn-outline-light">Explore Services</a>
     </div>
   </div>
 </section>
@@ -71,35 +71,45 @@ include 'includes/header.php';
     </div>
     <div class="itsol-why-grid">
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Comprehensive Blockchain Services</h4>
           <p>We cover the full spectrum — from consultation and architecture to smart contract development, testing, deployment, and maintenance.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Proven Track Record</h4>
           <p>Delivered blockchain projects across supply chain, finance, healthcare, and real estate with measurable business outcomes.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Strategic Partnerships</h4>
           <p>Technology partnerships with leading blockchain platforms and tools ensure our clients get the most current, cost-effective solutions.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Client-Centric Approach</h4>
           <p>We invest in deeply understanding your business model and regulatory environment before recommending any blockchain approach.</p>
         </div>
       </div>
       <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <div>
           <h4>Security-First Development</h4>
           <p>All smart contracts undergo rigorous audit processes and security testing before mainnet deployment to eliminate vulnerabilities.</p>
@@ -111,40 +121,75 @@ include 'includes/header.php';
 
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">FAQ</div><h2>Frequently Asked Questions</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
     <div class="itsol-faq-list">
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Which blockchain platforms do you develop on?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We develop on Ethereum, Binance Smart Chain (BSC), Polygon, Solana, Hyperledger Fabric, Avalanche, and other EVM-compatible chains. Platform selection is based on your requirements for throughput, cost, and decentralization.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What is a smart contract and how can it benefit my business?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>A smart contract is self-executing code on the blockchain that automatically enforces agreement terms when predefined conditions are met — eliminating intermediaries, reducing costs, and creating tamper-proof audit trails.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How long does blockchain development take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>A simple smart contract and front-end DApp can be built in 4-8 weeks. A full enterprise blockchain network with multiple organizations typically takes 3-6 months.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How do you ensure smart contract security?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We follow secure coding practices, conduct internal code review, and perform third-party security audits using tools like MythX, Slither, and manual code review before any mainnet deployment.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Can blockchain integrate with our existing ERP or database systems?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Yes — we build middleware and API layers that connect blockchain networks with your existing systems, enabling hybrid architectures where blockchain handles trust-critical transactions while traditional databases handle operational data.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What industries benefit most from blockchain?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Supply chain, trade finance, healthcare data sharing, digital identity, real estate tokenization, cross-border payments, and any domain requiring immutable audit trails and multi-party trust.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Do you offer smart contract audits for existing contracts?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Yes — our security team conducts comprehensive smart contract audits covering reentrancy attacks, integer overflow/underflow, access control vulnerabilities, and logic errors, producing detailed audit reports with remediation guidance.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What is DeFi and can you build DeFi applications?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>DeFi (Decentralized Finance) refers to financial services built on public blockchains — lending, borrowing, trading, and yield farming without traditional intermediaries. We build DeFi protocols, AMMs, and yield farming platforms.</p></div>
-    </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Which blockchain platforms do you develop on?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We develop on Ethereum, Binance Smart Chain (BSC), Polygon, Solana, Hyperledger Fabric, Avalanche, and other EVM-compatible chains. Platform selection is based on your requirements for throughput, cost, and decentralization.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What is a smart contract and how can it benefit my business?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>A smart contract is self-executing code on the blockchain that automatically enforces agreement terms when predefined conditions are met — eliminating intermediaries, reducing costs, and creating tamper-proof audit trails.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How long does blockchain development take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>A simple smart contract and front-end DApp can be built in 4-8 weeks. A full enterprise blockchain network with multiple organizations typically takes 3-6 months.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How do you ensure smart contract security?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We follow secure coding practices, conduct internal code review, and perform third-party security audits using tools like MythX, Slither, and manual code review before any mainnet deployment.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Can blockchain integrate with our existing ERP or database systems?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Yes — we build middleware and API layers that connect blockchain networks with your existing systems, enabling hybrid architectures where blockchain handles trust-critical transactions while traditional databases handle operational data.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What industries benefit most from blockchain?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Supply chain, trade finance, healthcare data sharing, digital identity, real estate tokenization, cross-border payments, and any domain requiring immutable audit trails and multi-party trust.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Do you offer smart contract audits for existing contracts?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Yes — our security team conducts comprehensive smart contract audits covering reentrancy attacks, integer overflow/underflow, access control vulnerabilities, and logic errors, producing detailed audit reports with remediation guidance.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What is DeFi and can you build DeFi applications?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>DeFi (Decentralized Finance) refers to financial services built on public blockchains — lending, borrowing, trading, and yield farming without traditional intermediaries. We build DeFi protocols, AMMs, and yield farming platforms.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
