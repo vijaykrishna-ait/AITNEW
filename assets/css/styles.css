@@ -1065,10 +1065,10 @@
   background:var(--white);border:1px solid var(--line);border-radius:16px;padding:24px;
   transition:border-color .25s ease, background .25s ease, transform .25s ease;
 }
-.usecase-card:hover{border-color:var(--lime);background:var(--sky-2);transform:translateY(-4px);}
+.usecase-card:hover{border-color:var(--lime);transform:translateY(-4px);}
 .usecase-card .tag{
   display:inline-block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--lime);margin-bottom:10px;
+  color:var(--blue);margin-bottom:10px;
 }
 .usecase-card h3{font-family:'Sora',sans-serif;font-size:16px;font-weight:800;margin-bottom:8px;line-height:1.35;}
 .usecase-card p{font-size:13.5px;}
@@ -1965,7 +1965,7 @@
   background:var(--white);border:1px solid var(--line);border-radius:18px;padding:30px;
   border-top:3px solid var(--blue);transition:transform .25s ease, box-shadow .25s ease;
 }
-.benefit-card:nth-child(3n+2){border-top-color:var(--lime);}
+.benefit-card:nth-child(2n+2){border-top-color:var(--lime);}
 .benefit-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px -24px rgba(11,42,74,.22);}
 .benefit-card .ico{
   width:50px;height:50px;border-radius:14px;
@@ -2947,6 +2947,7 @@
 /* IT Solutions: advantage cards */
 .itsol-adv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
 .itsol-adv-card{background:var(--sky);border-radius:16px;padding:28px 24px;border-left:4px solid var(--blue);}
+.itsol-adv-card:hover{border-color: var(--lime);}
 .itsol-adv-card h4{font-family:'Sora',sans-serif;font-size:16px;font-weight:800;color:var(--navy);margin-bottom:8px;}
 .itsol-adv-card p{color:var(--gray);font-size:13.5px;line-height:1.6;}
 @media(max-width:900px){.itsol-adv-grid{grid-template-columns:1fr 1fr;}}

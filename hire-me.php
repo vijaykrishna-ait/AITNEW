@@ -19,7 +19,7 @@ include 'includes/header.php';
         <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Developers placed globally</span></div>
       </div>
       <div class="hero-actions" style="margin-top:30px;">
-        <a href="<?= $base ?>#contact" class="btn btn-primary">Hire a Developer →</a>
+        <a href="<?= $base ?>contact" class="btn btn-primary">Hire a Developer →</a>
         <a href="<?= $base ?>#tech" class="btn btn-outline">Explore Tech Stacks</a>
       </div>
     </div>
@@ -211,7 +211,7 @@ include 'includes/header.php';
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Direct daily communication &amp; reporting</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Easy to scale to a full team over time</li>
         </ul>
-        <a href="<?= $base ?>#contact" class="btn btn-outline" style="margin-top:auto;">Hire Now →</a>
+        <a href="<?= $base ?>contact" class="btn btn-outline" style="margin-top:auto;">Hire Now →</a>
       </div>
       <div class="engage-card featured">
         <span class="badge-top">Most Popular</span>
@@ -222,7 +222,7 @@ include 'includes/header.php';
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Single point of contact manages the team</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Scales up or down with your roadmap</li>
         </ul>
-        <a href="<?= $base ?>#contact" class="btn btn-primary" style="margin-top:auto;">Build My Pod →</a>
+        <a href="<?= $base ?>contact" class="btn btn-primary" style="margin-top:auto;">Build My Pod →</a>
       </div>
       <div class="engage-card">
         <h3>Project-Based</h3>
@@ -232,7 +232,7 @@ include 'includes/header.php';
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Dedicated PM &amp; QA oversight included</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Best for clearly-scoped builds &amp; migrations</li>
         </ul>
-        <a href="<?= $base ?>#contact" class="btn btn-outline" style="margin-top:auto;">Get a Quote →</a>
+        <a href="<?= $base ?>contact" class="btn btn-outline" style="margin-top:auto;">Get a Quote →</a>
       </div>
     </div>
   </div>

@@ -15,7 +15,7 @@ include 'includes/header.php';
         <p class="lead">Have a project in mind? Reach out to our global team and let's turn your vision into reality.
         </p>
         <div class="hero-actions">
-          <a href="<?= $base ?>#contact-form" class="btn btn-primary">Get In Touch →</a>
+          <a href="<?= $base ?>contact" class="btn btn-primary">Get In Touch →</a>
         </div>
       </div>
       <div class="hero-visual">

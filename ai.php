@@ -10,17 +10,17 @@ include 'includes/header.php';
 <section class="ai-hero">
   <div class="wrap">
     <div class="eyebrow">AI &amp; Generative AI</div>
-    <h1>Reinventing business with AI — from strategy to scaled deployment</h1>
-    <p class="lead">Adhiran Infotech helps enterprises across the US, Middle East and Asia design, build and scale AI and Generative AI solutions — combining deep engineering talent with proven frameworks for responsible, production-grade AI.</p>
+    <h1>Accelerating Digital Transformation Through AI Innovation</h1>
+    <p class="lead">Helping enterprises harness Artificial Intelligence and Generative AI to automate operations, enhance decision-making, and create measurable business value at scale.</p>
     <div class="ai-hero-actions">
-      <a href="<?= $base ?>#contact" class="btn btn-lime">Talk to an AI Expert →</a>
-      <a href="<?= $base ?>#ai-services" class="btn btn-outline-light">Explore AI Services</a>
+      <a href="<?= $base ?>contact" class="btn btn-lime">Consult an AI Expert →</a>
+      <a href="<?= $base ?>ai#ai-services" class="btn btn-outline-light">Explore Our AI Capabilities</a>
     </div>
     <div class="ai-hero-stats">
-      <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI &amp; ML engineers</span></div>
-      <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>AI projects delivered</span></div>
-      <div><b class="count-up" data-target="5">0</b><span>Industries with AI use cases live</span></div>
-      <div><b>24/7</b><span>Global delivery support</span></div>
+      <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI & Data Science Experts</span></div>
+      <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>Successful AI Engagements</span></div>
+      <div><b class="count-up" data-target="5">0</b><span>Industries Leveraging Our AI Solutions</span></div>
+      <div><b>24/7</b><span>Global Delivery & Support</span></div>
     </div>
   </div>
 </section>
@@ -30,63 +30,63 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">What We Do</div>
-      <h2>End-to-end AI services, under one roof</h2>
-      <p>From early-stage strategy to fully managed AI operations — we cover the full lifecycle of enterprise AI adoption.</p>
+      <h2>Comprehensive AI Solutions for Every Stage of Your Journey</h2>
+      <p>From strategic planning and implementation to optimization and ongoing management, we support organizations throughout their entire AI transformation journey.</p>
     </div>
     <div class="ai-grid">
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
-        <h3>AI Strategy &amp; Consulting</h3>
-        <p>Identify high-value AI use cases, assess data readiness, and build a roadmap that ties AI investment directly to business outcomes.</p>
-        <div class="tags"><span>Opportunity Assessment</span><span>AI Roadmap</span><span>ROI Modeling</span></div>
+        <h3>AI Advisory & Strategy</h3>
+        <p>Discover impactful AI opportunities, evaluate organizational readiness, and create a practical roadmap that aligns AI initiatives with your business objectives.</p>
+        <div class="tags"><span>AI Opportunity Discovery</span><span>Strategic AI Planning</span><span>Business Value Assessment</span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="M9 12l2 2 4-4"/></svg></div>
-        <h3>Generative AI &amp; LLM Solutions</h3>
-        <p>Custom copilots, chatbots and content-generation tools built on leading LLMs — fine-tuned, grounded, and integrated into your workflows.</p>
-        <div class="tags"><span>RAG Pipelines</span><span>Fine-Tuning</span><span>AI Copilots</span></div>
+        <h3>Generative AI & Intelligent Automation</h3>
+        <p>Develop advanced AI assistants, conversational agents, and intelligent content solutions powered by leading language models, tailored to your business needs.</p>
+        <div class="tags"><span>Enterprise AI Assistants </span><span>Model Customization </span><span>Retrieval-Augmented AI </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
-        <h3>Data Engineering &amp; Analytics</h3>
-        <p>Build the data foundation AI depends on — pipelines, lakes and warehouses that turn raw data into trustworthy, model-ready assets.</p>
-        <div class="tags"><span>Data Pipelines</span><span>Snowflake</span><span>Power BI</span></div>
+        <h3>Data Engineering & Business Intelligence</h3>
+        <p>Establish a strong data ecosystem with scalable architectures, modern data platforms, and analytics solutions that transform information into actionable insights.</p>
+        <div class="tags"><span>Data Integration </span><span>Cloud Data Platforms </span><span>Business Intelligence & Reporting </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="7" r="4"/></svg></div>
-        <h3>Machine Learning Engineering</h3>
-        <p>Design, train and deploy predictive and classification models — from proof of concept to production-grade ML pipelines with MLOps.</p>
-        <div class="tags"><span>Predictive Models</span><span>MLOps</span><span>Model Monitoring</span></div>
+        <h3>Machine Learning Solutions</h3>
+        <p>Build, train, and operationalize intelligent models that deliver predictive insights and business value. From experimentation to enterprise deployment, we ensure scalable and reliable ML implementations.</p>
+        <div class="tags"><span>Predictive Analytics </span><span>ML Operations </span><span>Performance Monitoring </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg></div>
-        <h3>Intelligent Automation (AI + RPA)</h3>
-        <p>Combine AI with robotic process automation to handle document processing, claims, approvals and other repetitive workflows.</p>
-        <div class="tags"><span>UiPath</span><span>Document AI</span><span>Workflow Automation</span></div>
+        <h3>Intelligent Process Automation</h3>
+        <p>Streamline business operations by combining Artificial Intelligence with automation technologies to reduce manual effort, improve accuracy, and increase efficiency across workflows.</p>
+        <div class="tags"><span>Process Automation </span><span>Intelligent Document Processing </span><span>Workflow Optimization </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></div>
-        <h3>Computer Vision</h3>
-        <p>Image and video analytics for quality inspection, diagnostics, retail analytics and safety monitoring across industries.</p>
-        <div class="tags"><span>Image Recognition</span><span>Defect Detection</span><span>OCR</span></div>
+        <h3>Computer Vision Solutions</h3>
+        <p>Leverage advanced image and video analysis to enhance quality control, operational safety, asset monitoring, and customer experiences across industries.</p>
+        <div class="tags"><span>Visual Intelligence </span><span>Quality Inspection </span><span>Optical Character Recognition </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-        <h3>Conversational AI &amp; Chatbots</h3>
-        <p>Multilingual virtual assistants for customer support, internal helpdesks and sales — integrated with your CRM and knowledge base.</p>
-        <div class="tags"><span>NLP</span><span>Voice &amp; Chat</span><span>CRM Integration</span></div>
+        <h3>Conversational AI & Virtual Assistants</h3>
+        <p>Create intelligent, multilingual digital assistants that enhance customer engagement, automate support services, and improve employee productivity through seamless interactions.</p>
+        <div class="tags"><span>Natural Language Processing </span><span>Virtual Assistants </span><span>Enterprise Integrations </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/></svg></div>
-        <h3>Responsible AI &amp; Governance</h3>
-        <p>Frameworks for model risk, bias testing, explainability and compliance — so AI adoption is safe, auditable and trusted.</p>
-        <div class="tags"><span>Model Risk</span><span>Bias Testing</span><span>Compliance</span></div>
+        <h3>AI Governance & Risk Management</h3>
+        <p>Implement responsible AI practices with frameworks that promote transparency, fairness, security, and regulatory compliance across your AI ecosystem.</p>
+        <div class="tags"><span>AI Risk Assessment </span><span>Ethical AI </span><span>Regulatory Compliance </span></div>
       </div>
       <div class="ai-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
-        <h3>AI on Cloud (AWS, Azure, GCP)</h3>
-        <p>Deploy and scale AI workloads on AWS Bedrock, Azure OpenAI and Google Vertex AI — with cost-optimized, secure architectures.</p>
-        <div class="tags"><span>Azure OpenAI</span><span>AWS Bedrock</span><span>Vertex AI</span></div>
+        <h3>Cloud-Native AI Platforms</h3>
+        <p>Deploy, manage, and scale AI solutions on leading cloud platforms with secure, high-performance architectures designed for enterprise growth.</p>
+        <div class="tags"><span>Cloud AI Services </span><span>Scalable Infrastructure </span><span>Enterprise AI Deployment** </span></div>
       </div>
     </div>
   </div>
@@ -97,36 +97,36 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">How We Work</div>
-      <h2>A proven path from idea to production AI</h2>
-      <p>We don't just build models — we help you adopt AI in a way that's measurable, governed and built to scale.</p>
+      <h2>From AI Vision to Business Impact</h2>
+      <p>A proven framework that helps organizations identify opportunities, validate concepts, deploy solutions, and scale AI adoption effectively across the enterprise.</p>
     </div>
     <div class="approach-row">
       <div class="approach-item">
         <div class="approach-num">01</div>
         <div class="approach-content">
-          <h3>Discover &amp; Assess</h3>
-          <p>We work with your teams to identify high-impact AI use cases, evaluate data readiness, and prioritize based on feasibility and ROI.</p>
+          <h3>Explore & Evaluate</h3>
+          <p>We collaborate with your stakeholders to uncover valuable AI opportunities, assess data maturity, and identify initiatives that offer the greatest business impact.</p>
         </div>
       </div>
       <div class="approach-item">
         <div class="approach-num">02</div>
         <div class="approach-content">
-          <h3>Design &amp; Prototype</h3>
-          <p>Rapid proof-of-concept builds validate the approach with real data — so you see results before committing to full-scale investment.</p>
+          <h3>Plan & Validate</h3>
+          <p>Through rapid prototyping and proof-of-value exercises, we test ideas using real-world data, helping you make informed investment decisions with confidence.</p>
         </div>
       </div>
       <div class="approach-item">
         <div class="approach-num">03</div>
         <div class="approach-content">
-          <h3>Build &amp; Integrate</h3>
-          <p>Our engineers build production-grade models and pipelines, integrated into your existing systems, security and compliance standards.</p>
+          <h3>Develop & Implement</h3>
+          <p>Our specialists create robust AI models, workflows, and integrations that align seamlessly with your technology landscape, security requirements, and operational processes.</p>
         </div>
       </div>
       <div class="approach-item">
         <div class="approach-num">04</div>
         <div class="approach-content">
-          <h3>Deploy, Monitor &amp; Scale</h3>
-          <p>We deploy with MLOps best practices, monitor model performance in production, and scale successful use cases across the business.</p>
+          <h3>Launch, Optimize & Grow</h3>
+          <p>We operationalize AI solutions using industry best practices, continuously monitor performance, and expand successful implementations across the organization to maximize value.</p>
         </div>
       </div>
     </div>

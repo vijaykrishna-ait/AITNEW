@@ -13,7 +13,7 @@ include 'includes/header.php';
     <h1>End-to-end digital projects, delivered as a complete outcome</h1>
     <p class="lead">From custom application development to full digital transformation programs — Adhiran Infotech takes ownership of defined outcomes, bringing together design, engineering, QA and project management under one accountable team.</p>
     <div class="ps-hero-actions">
-      <a href="<?= $base ?>#contact" class="btn btn-lime">Start a Project →</a>
+      <a href="<?= $base ?>contact" class="btn btn-lime">Start a Project →</a>
       <a href="<?= $base ?>#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
     </div>
     <div class="ps-hero-stats">

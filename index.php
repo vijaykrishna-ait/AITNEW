@@ -190,9 +190,8 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head">
         <div class="eyebrow">Spectrum of Solutions</div>
-        <h2>One partner, three ways to build your team</h2>
-        <p>Whether you need a single specialist, a full delivery pod, or a project finished end-to-end — choose the
-          model that fits how you work.</p>
+        <h2>One trusted partner, multiple ways to scale your workforce</h2>
+        <p>Whether you're looking for an individual expert, a dedicated team, or complete project execution, we provide flexible engagement models tailored to your business needs.</p>
       </div>
 
       <div class="solutions-grid">
@@ -206,8 +205,7 @@ include 'includes/header.php';
           <div class="sol-panel" data-panel="talent" data-title="Talent Solutions">
             <div class="sol-panel-text">
               <h3>Talent Solutions</h3>
-              <p>Save time finding the right resource for your team — we connect you with vetted, best-available talent
-                in the marketplace, matched by AI and reviewed by humans.</p>
+              <p>Accelerate your hiring process with access to highly qualified professionals. We identify and deliver top talent through a combination of intelligent AI-driven matching and expert human evaluation, ensuring the right fit for your requirements.</p>
               <a href="<?= $base ?>talent-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
@@ -219,8 +217,7 @@ include 'includes/header.php';
           <div class="sol-panel" data-panel="team" data-title="Team Solutions" style="display:none;">
             <div class="sol-panel-text">
               <h3>Team Solutions</h3>
-              <p>Stand up a dedicated, managed pod of specialists who plug straight into your delivery cadence — scaled
-                up or down as your roadmap shifts.</p>
+              <p>Build a high-performing team of skilled professionals that integrates seamlessly with your existing operations. Easily scale resources up or down to align with changing project demands and business priorities.</p>
               <a href="<?= $base ?>team-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
@@ -232,8 +229,7 @@ include 'includes/header.php';
           <div class="sol-panel" data-panel="project" data-title="Project Solutions" style="display:none;">
             <div class="sol-panel-text">
               <h3>Project Solutions</h3>
-              <p>Hand off a defined outcome — from AI implementation to cloud migration — and our consultants deliver it
-                end-to-end, on time and on budget.</p>
+              <p>Focus on your business goals while we take ownership of project delivery. From AI adoption and cloud transformation to application development and modernization, our experts manage the entire lifecycle—ensuring quality outcomes, timely execution, and cost efficiency.</p>
               <a href="<?= $base ?>project-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
@@ -251,24 +247,24 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head center">
         <div class="eyebrow" style="justify-content:center;">How It Works</div>
-        <h2>Hiring made easy</h2>
-        <p>A simple, three-step path from first conversation to a team member you trust.</p>
+        <h2>Hiring Made Simple</h2>
+        <p>A streamlined three-step process designed to connect you with the right talent quickly and efficiently.</p>
       </div>
       <div class="steps-row">
         <div class="step">
           <div class="step-num">1</div>
-          <h3>Talk to an industry expert</h3>
-          <p>A specialist on our team learns your goals, technical needs and team dynamics.</p>
+          <h3>Connect with a Domain Expert</h3>
+          <p>Our specialists take the time to understand your business goals, technical requirements, and team culture to ensure the best possible fit.</p>
         </div>
         <div class="step">
           <div class="step-num">2</div>
-          <h3>Meet hand-selected talent</h3>
-          <p>Within days we introduce you to the right people — average time to match is under 24 hours.</p>
+          <h3>Review Curated Talent</h3>
+          <p>We carefully shortlist and present qualified professionals tailored to your needs, helping you find the right match faster.</p>
         </div>
         <div class="step">
           <div class="step-num">3</div>
-          <h3>The right fit, guaranteed</h3>
-          <p>Work with your new team member on a trial basis — pay only if you're satisfied.</p>
+          <h3>Hire with Confidence</h3>
+          <p>Start with a flexible engagement period to evaluate performance and fit. We remain committed to ensuring your satisfaction and long-term success.</p>
         </div>
       </div>
     </div>
@@ -279,9 +275,8 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head center">
         <div class="eyebrow" style="justify-content:center;">What We Offer</div>
-        <h2>Explore our consulting &amp; services</h2>
-        <p>A comprehensive, customizable portfolio of services to help you solve real business challenges and reach your
-          strategic goals.</p>
+        <h2>Explore Our Consulting & Technology Services</h2>
+        <p>A comprehensive range of consulting, talent, and technology solutions designed to help organizations overcome challenges, drive innovation, and achieve their strategic objectives with confidence.</p>
       </div>
 
       <div class="svc-tabs">
@@ -530,14 +525,11 @@ include 'includes/header.php';
       </div>
       <div>
         <div class="eyebrow">For Employers</div>
-        <h2>Hire IT and tech talent, quickly and easily</h2>
-        <p>Small business or global enterprise — we'll help you hire the talent you need, often in as little as 48
-          hours. Our recruiters combine deep IT staffing experience with award-winning AI technology to match you with
-          the best-available candidates for your team.</p>
-        <p>You'll get local market knowledge, tech industry expertise, and a dedicated recruiter who stays with you from
-          brief to onboarding.</p>
+        <h2>Find Top IT & Technology Talent Faster</h2>
+        <p>Whether you're a growing startup or a global enterprise, we help you connect with skilled professionals quickly and efficiently. Our recruitment specialists leverage industry expertise and intelligent talent-matching technology to identify the right candidates for your business needs.</p>
+        <p>Gain access to a vast network of qualified professionals, deep market insights, and personalized hiring support. From understanding your requirements to successful onboarding, our dedicated team ensures a seamless hiring experience every step of the way.</p>
         <div class="split-actions">
-          <a href="<?= $base ?>#contact" class="btn btn-primary">Start Hiring →</a>
+          <a href="<?= $base ?>contact" class="btn btn-primary">Start Hiring →</a>
           <a href="<?= $base ?>#" class="btn btn-outline">See How It Works</a>
         </div>
       </div>
@@ -560,7 +552,7 @@ include 'includes/header.php';
             <div class="role">Team Leaders &amp; Management · Permanent</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>#" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
         </div>
         <div class="job-card">
           <div>
@@ -569,7 +561,7 @@ include 'includes/header.php';
             <div class="role">Infrastructure / Networks · Contract</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>#" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
         </div>
         <div class="job-card">
           <div>
@@ -578,7 +570,7 @@ include 'includes/header.php';
             <div class="role">Infrastructure / Systems · Contract, 12 months</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>#" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
         </div>
         <div class="job-card">
           <div>
@@ -587,7 +579,7 @@ include 'includes/header.php';
             <div class="role">Helpdesk &amp; IT Support · Contract</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>#" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
         </div>
       </div>
     </div>
@@ -603,17 +595,15 @@ include 'includes/header.php';
       </div>
       <div class="why-content">
         <div class="eyebrow">Why Choose Adhiran Infotech?</div>
-        <h2>Where global technology expertise meets industry knowledge</h2>
-        <p>By combining deep knowledge of enterprise platforms and artificial intelligence with industry insight and
-          flexible global delivery, Adhiran Infotech is uniquely equipped to deliver specialized, scalable IT staffing
-          and consulting services for your business.</p>
-        <p class="highlight">Trusted across India, North America and the Middle East — built to help you hire faster and
-          deliver smarter.</p>
+        <h2>Transforming Talent, Technology, and Business Outcomes</h2>
+        <p>Adhiran Infotech empowers organizations with world-class talent solutions, technology consulting, and digital transformation services. By blending deep industry expertise, AI-driven innovation, and a global delivery model, we help businesses build future-ready teams, accelerate growth, and stay ahead in an evolving digital landscape.</p>
+        <p>From enterprise staffing and managed teams to cloud, data, and AI initiatives, we deliver scalable solutions tailored to your business objectives.</p>
+        <p class="highlight">Trusted by Businesses Across the Globe</p>
         <div class="why-points">
           <div class="why-point"><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements</span></div>
           <div class="why-point"><b class="count-up" data-target="4">3</b><span>Global delivery hubs</span></div>
-          <div class="why-point"><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first match</span></div>
-          <div class="why-point"><b>30–50%</b><span>Faster hiring with AI</span></div>
+          <div class="why-point"><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average time to first match</span></div>
+          <div class="why-point"><b>30–50%</b><span>Reduced Time-to-Hire</span></div>
         </div>
       </div>
     </div>
@@ -624,9 +614,8 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head">
         <div class="eyebrow">Industries We Serve</div>
-        <h2>Specialized talent for every sector</h2>
-        <p>Deep domain expertise across the industries that drive the global economy — so your team speaks the same
-          language as your business.</p>
+        <h2>Specialized Expertise Across Key Industries</h2>
+        <p>With deep domain knowledge and access to industry-specific talent, we help organizations navigate complex challenges, accelerate innovation, and achieve business success. Our consultants and professionals understand the unique demands of your sector, ensuring faster impact and better outcomes.</p>
       </div>
       <div class="industries-layout">
         <div class="ind-list">

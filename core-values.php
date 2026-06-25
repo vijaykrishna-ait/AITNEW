@@ -23,42 +23,42 @@ include 'includes/header.php';
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
         <h3>Transparency</h3>
-        <p>Clear strategies, honest timelines and full visibility into every engagement — no surprises.</p>
+        <p>Building trust through honest communication, clear expectations, and complete visibility throughout every engagement.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
         <h3>Quality First</h3>
-        <p>We hold ourselves to a high bar — rigorous vetting, code reviews and delivery standards.</p>
+        <p>Delivering exceptional results through rigorous processes, expert talent, and continuous improvement.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <h3>People First</h3>
-        <p>Our talent's growth and wellbeing come first — happy teams build better products.</p>
+        <p>Empowering people through respect, collaboration, and continuous learning to create lasting value.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <h3>Global Mindset</h3>
-        <p>We work across time zones and cultures as naturally as we work down the hall.</p>
+        <p>Combining local expertise and global best practices to drive meaningful business impact.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
         <h3>Innovation</h3>
-        <p>From AI to automation, we bring forward-looking thinking to every engagement.</p>
+        <p>Leveraging emerging technologies and creative thinking to create competitive advantages.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
         <h3>Integrity</h3>
-        <p>We do what we say we'll do — for clients, for candidates, and for each other.</p>
+        <p>Building lasting relationships through honesty, accountability, and ethical business practices.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
         <h3>Agility</h3>
-        <p>We scale teams up or down quickly, adapting to shifting priorities without friction.</p>
+        <p>Adapting quickly to changing business needs with flexible, scalable, and responsive solutions.</p>
       </div>
       <div class="value-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
         <h3>Accountability</h3>
-        <p>Every engagement has a clear owner, clear goals, and clear results.</p>
+        <p>Taking ownership, delivering on commitments, and ensuring measurable business value.</p>
       </div>
     </div>
   </div>
@@ -68,9 +68,9 @@ include 'includes/header.php';
 <section class="solutions">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow">Values in Action</div>
-      <h2>What these values look like day to day</h2>
-      <p>A few examples of how our values show up in real engagements.</p>
+      <div class="eyebrow">Our Values in Practice</div>
+      <h2>How our principles guide everyday actions</h2>
+      <p>Discover how our core values influence the way we work, collaborate, and deliver results for our clients every day.</p>
     </div>
     <div class="via-row">
       <div class="via-item">
@@ -79,8 +79,8 @@ include 'includes/header.php';
         </div>
         <div class="via-content">
           <span class="tag">Transparency &amp; Accountability</span>
-          <h3>Weekly reporting, no surprises</h3>
-          <p>Every engagement — from a single hire to a full ODC — comes with regular, structured updates so clients always know status, risks and next steps. There's a named owner for every commitment we make.</p>
+          <h3>Full visibility at every stage</h3>
+          <p>From individual hires to large-scale delivery teams, clients receive structured reporting, regular status updates, and clear insights into progress, challenges, and upcoming milestones. Every project has an accountable lead ensuring commitments are met and expectations are exceeded.</p>
         </div>
       </div>
 
@@ -90,8 +90,8 @@ include 'includes/header.php';
         </div>
         <div class="via-content">
           <span class="tag">People First &amp; Global Mindset</span>
-          <h3>Investing in our people, wherever they are</h3>
-          <p>From training programs to flexible working arrangements across time zones, we build careers — not just placements. Our teams in India, the US, UAE, Singapore, Japan and Australia all work under the same standards of support.</p>
+          <h3>Nurturing talent across borders</h3>
+          <p>From professional development initiatives to seamless collaboration across regions and time zones, we create opportunities for our people to thrive. No matter where they are located, every team member benefits from the same commitment to growth, support, and shared success.</p>
         </div>
       </div>
 
@@ -101,8 +101,8 @@ include 'includes/header.php';
         </div>
         <div class="via-content">
           <span class="tag">Quality First &amp; Innovation</span>
-          <h3>Rigorous standards, modern tools</h3>
-          <p>Every candidate is technically vetted, every project goes through QA, and every team has access to the latest AI and automation tools — so quality and innovation go hand in hand.</p>
+          <h3>Delivering smarter solutions with confidence</h3>
+          <p>From talent selection to project execution, we follow rigorous quality practices while embracing emerging technologies and innovative approaches. This commitment enables us to deliver reliable results, drive efficiency, and create lasting value for our clients.</p>
         </div>
       </div>
     </div>

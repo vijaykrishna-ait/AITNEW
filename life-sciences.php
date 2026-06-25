@@ -12,7 +12,7 @@ include 'includes/header.php';
     <h1>Helping life sciences &amp; pharma companies bring therapies to patients, faster</h1>
     <p class="lead">Adhiran Infotech partners with pharmaceutical, biotech, medtech and healthcare provider organizations to modernize R&amp;D, clinical, manufacturing and commercial operations — combining deep domain expertise with AI, cloud and digital engineering.</p>
     <div class="ls-hero-actions">
-      <a href="<?= $base ?>#contact" class="btn btn-lime">Talk to a Life Sciences Expert →</a>
+      <a href="<?= $base ?>contact" class="btn btn-lime">Talk to a Life Sciences Expert →</a>
       <a href="<?= $base ?>#ls-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="ls-hero-stats">
