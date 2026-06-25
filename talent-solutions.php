@@ -9,17 +9,17 @@ include 'includes/header.php';
 <section class="ts-hero">
   <div class="wrap">
     <div class="eyebrow">Talent Solutions</div>
-    <h1>Hire the right individual — fast, vetted, and ready to contribute</h1>
-    <p class="lead">Talent Solutions is built for one need: finding the right person for a specific role. Whether it's a single developer, a designer, a data analyst or a niche specialist — we identify, vet and place individual talent that fits your team and your way of working.</p>
+    <h1>Connecting you with the right talent, faster</h1>
+    <p class="lead">Whether you need a single specialist or a critical hire for a high-impact role, Adhiran Infotech helps you identify, assess, and onboard top talent quickly. Our recruitment experts combine industry knowledge, technical screening, and a global talent network to deliver candidates who are ready to make an immediate impact.</p>
     <div class="ts-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire an Individual →</a>
-      <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Roles We Fill</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Find Your Next Hire →</a>
+      <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Our Talent Expertise</a>
     </div>
     <div class="ts-hero-stats">
-      <div  ><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Individual placements delivered</span></div>
-      <div  ><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first shortlist</span></div>
-      <div  ><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Roles &amp; technologies covered</span></div>
-      <div   ><b class="count-up" data-target="5" >5</b><span>Countries with local hiring expertise</span></div>
+      <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements across technology and business functions</span></div>
+      <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average turnaround time for the first qualified shortlist</span></div>
+      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Skills, technologies, and functional domains supported</span></div>
+      <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and hiring expertise across global markets</span></div>
     </div>
   </div>
 </section>
@@ -29,49 +29,74 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Why Talent Solutions</div>
-      <h2>For when you need one great hire, not a whole team</h2>
-      <p>Not every gap needs a pod or a project team. Talent Solutions is designed for individual hiring — precise, fast, and focused on fit.</p>
+      <h2>Purpose-built for finding exceptional individual talent</h2>
+      <p>When you need the right person—not an entire team—our Talent Solutions practice delivers targeted hiring support that prioritizes speed, quality, and long-term success.</p>
     </div>
     <div class="ts-why-grid">
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
-        <h3>Precise Role Matching</h3>
-        <p>We match against the specific skills, seniority and team fit you need — not a generic profile.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg></div>
+        <h3>Precise Talent Matching</h3>
+        <p>We go beyond resumes to identify professionals with the right technical expertise, industry experience, and cultural fit for your organization.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
-        <h3>Fast Turnaround</h3>
-        <p>Receive a shortlist of interview-ready candidates within 24–48 hours of sharing your requirement.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+          </svg></div>
+        <h3>Accelerated Hiring Process</h3>
+        <p>Receive a curated shortlist of qualified, interview-ready candidates within 24–48 hours of sharing your requirements.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
-        <h3>Trial-Based Hiring</h3>
-        <p>Work with your candidate on a trial basis — pay only if you're satisfied with the fit.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg></div>
+        <h3>Flexible Hiring Models</h3>
+        <p>Choose from permanent, contract, contract-to-hire, or trial engagement models that align with your hiring strategy and business needs.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
-        <h3>Transparent Cost</h3>
-        <p>Clear placement fees or monthly billing — no hidden markups or long-term lock-in required.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 3v18h18" />
+            <path d="M18.4 8.6 13 14l-3-3-4.5 4.5" />
+          </svg></div>
+        <h3>Transparent & Predictable Pricing</h3>
+        <p>Simple, clear commercial models with no hidden costs, unexpected markups, or restrictive long-term commitments.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
-        <h3>Local &amp; Global Reach</h3>
-        <p>Source candidates locally or from our talent pools across India, the US, UAE, Singapore and Japan.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg></div>
+        <h3>Global Talent Access</h3>
+        <p>Leverage our recruitment network across India, the US, UAE, Singapore, Japan, and Australia to find the best talent wherever it resides.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <h3>Pre-Vetted Profiles</h3>
-        <p>Every candidate is technically screened and reference-checked before you ever see their profile.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <h3>Thorough Candidate Screening</h3>
+        <p>Every candidate undergoes technical evaluation, skill validation, and reference verification before being presented for consideration.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <h3>Replacement Guarantee</h3>
-        <p>If a hire doesn't work out within the agreed period, we find a replacement at no extra cost.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg></div>
+        <h3>Replacement Assurance</h3>
+        <p>We stand behind our placements with replacement support, ensuring continuity and confidence in every hiring decision.</p>
       </div>
       <div class="ts-why-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="7" r="4"/></svg></div>
-        <h3>Easy to Scale Later</h3>
-        <p>Start with one hire — and when you're ready to grow, move seamlessly into Team Solutions.</p>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="10" rx="2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg></div>
+        <h3>Built for Growth</h3>
+        <p>Whether you're making a single strategic hire or scaling a larger team, our solutions evolve alongside your business requirements.</p>
       </div>
     </div>
   </div>
@@ -82,8 +107,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Roles We Fill</div>
-      <h2>Individual hires across every function</h2>
-      <p>From engineering to design to data — if it's a single role, we can help you fill it.</p>
+      <h2>Specialized talent across technology, business, and digital functions</h2>
+      <p>From technical experts to business leaders, we help organizations hire high-performing professionals across a wide range of disciplines and experience levels.</p>
     </div>
     <div class="roles-grid">
       <a href="<?= $base ?>hire-frontend-developer" class="role-pill"><span class="dot"></span>Frontend Developer</a>
@@ -113,29 +138,29 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">How It Works</div>
-      <h2>From request to onboarded hire</h2>
+      <h2>From requirement to successful placement</h2>
       <p>A simple, transparent process focused on getting the right person in place quickly.</p>
     </div>
     <div class="ts-steps-row">
       <div class="ts-step">
         <div class="ts-step-num">1</div>
-        <h3>Share the Role</h3>
-        <p>Tell us the role, skills, seniority and team context.</p>
+        <h3>Discover</h3>
+        <p>Understand your business goals, role requirements, and ideal candidate profile.</p>
       </div>
       <div class="ts-step">
         <div class="ts-step-num">2</div>
-        <h3>Get a Shortlist</h3>
-        <p>Receive pre-vetted, interview-ready profiles within 24–48 hours.</p>
+        <h3>Source</h3>
+        <p>Leverage our global talent network to identify and engage high-quality professionals.</p>
       </div>
       <div class="ts-step">
         <div class="ts-step-num">3</div>
-        <h3>Interview &amp; Select</h3>
-        <p>Meet candidates yourself — we coordinate every step.</p>
+        <h3>Assess</h3>
+        <p>Conduct technical screening, validation, and interviews to ensure the right fit.</p>
       </div>
       <div class="ts-step">
         <div class="ts-step-num">4</div>
-        <h3>Onboard on Trial</h3>
-        <p>Start on a trial basis, then confirm — backed by our replacement guarantee.</p>
+        <h3>Deliver</h3>
+        <p>Onboard talent quickly and support long-term success through flexible hiring models and replacement guarantees.</p>
       </div>
     </div>
   </div>
@@ -151,4 +176,4 @@ include 'includes/header.php';
   </div>
 </section>
 
-  <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
