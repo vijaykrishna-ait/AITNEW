@@ -81,21 +81,21 @@ include 'includes/header.php';
             </svg></div>
           <span>React &amp; Angular</span>
         </a>
-        <a href="<?= $base ?>#" class="skill-item">
+        <a href="<?= $base ?>hire-cloud-engineer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
             </svg></div>
           <span>AWS</span>
         </a>
-        <a href="<?= $base ?>#" class="skill-item">
+        <a href="<?= $base ?>hire-cloud-engineer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z" />
             </svg></div>
           <span>Microsoft Azure</span>
         </a>
-        <a href="<?= $base ?>#" class="skill-item">
+        <a href="<?= $base ?>hire-cloud-engineer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10" />
@@ -130,7 +130,7 @@ include 'includes/header.php';
             </svg></div>
           <span>Data Analytics</span>
         </a>
-        <a href="<?= $base ?>#" class="skill-item">
+        <a href="<?= $base ?>aiml-solutions" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="11" width="18" height="10" rx="2" />
@@ -138,7 +138,7 @@ include 'includes/header.php';
             </svg></div>
           <span>AI &amp; Machine Learning</span>
         </a>
-        <a href="<?= $base ?>#" class="skill-item">
+        <a href="<?= $base ?>hire-devops-engineer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 12a9 9 0 1 1-3-6.7" />
@@ -146,7 +146,7 @@ include 'includes/header.php';
             </svg></div>
           <span>DevOps &amp; CI/CD</span>
         </a>
-        <a href="<?= $base ?>#" class="skill-item">
+        <a href="<?= $base ?>hire-qa-developer" class="skill-item">
           <div class="circle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z" />
