@@ -7,20 +7,27 @@ include 'includes/header.php';
 ?>
 
 <!-- CL HERO -->
-<section class="cl-hero">
-  <div class="wrap">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div>
     <div class="eyebrow">Cloud Engineering</div>
     <h1>Cloud infrastructure engineered for AI, scale, and intelligent operations</h1>
     <p class="lead">We design, build, migrate, and manage cloud environments across AWS, Azure, and Google Cloud—architected from the ground up to support AI workloads, automation, and enterprise-scale digital operations.</p>
-    <div class="cl-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Cloud Architect →</a>
       <a href="<?= $base ?>cloud-engineering#cloud-services" class="btn btn-outline-light">Explore Cloud Services</a>
     </div>
-    <div class="cl-hero-stats">
+    <div class="hero-stats">
       <div><b class="count-up" data-target="3">3</b><span>Major cloud platforms supported (AWS, Azure, Google Cloud)</span></div>
       <div><b class="count-up" data-target="40" data-suffix="%">40%</b><span>Average reduction in infrastructure cost through optimization</span></div>
       <div><b>24/7</b><span>Continuous cloud operations, monitoring, and support</span></div>
       <div><b>AI-Ready</b><span>Cloud architectures designed for machine learning and generative AI from day one</span></div>
+    </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/cloud/cloud-hero.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -41,7 +48,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="cloudai-img">
-      <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80" alt="Cloud data center server racks">
+      <img src="assets/images/cloud/cloud-ai.jpg" alt="Cloud data center server racks">
     </div>
   </div>
 </section>
