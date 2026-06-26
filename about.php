@@ -21,7 +21,7 @@ include 'includes/header.php';
       </div>
       <div class="about-hero-visual">
         <div class="about-hero-img">
-          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80"
+          <img src="assets/images/about/about-hero.jpg"
             alt="International team of consultants collaborating in a meeting">
         </div>
         <!-- <div class="about-hero-badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined team experience</span></div> -->
@@ -33,7 +33,7 @@ include 'includes/header.php';
   <section id="vision-mission">
     <div class="wrap vm-grid">
       <div class="vm-img">
-        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80"
+        <img src="assets/images/about/together.jpg"
           alt="Team planning around a table">
       </div>
       <div class="vm-content">
@@ -55,7 +55,7 @@ include 'includes/header.php';
         <p>Every engagement is driven by a simple goal: helping our clients move faster, innovate smarter, and achieve sustainable business success.</p>
       </div>
       <div class="vm-img reverse">
-        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80"
+        <img src="assets/images/about/transform-ideas.jpg"
           alt="Team discussing strategy in office">
       </div>
     </div>
@@ -157,30 +157,22 @@ include 'includes/header.php';
       </div>
       <div class="leader-grid">
         <div class="leader-card">
-          <div class="photo"><img
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80"
-              alt="Founder & CEO"></div>
+          <div class="photo"><img src="assets/images/aitteam/karthikeyan.jpg" alt="Founder & CEO"></div>
           <h3>Karthikeyan</h3>
           <div class="role">Founder &amp; CEO</div>
         </div>
         <div class="leader-card">
-          <div class="photo"><img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
-              alt="VP Delivery"></div>
+          <div class="photo"><img src="assets/images/aitteam/prem.jpg" alt="Co-Founder & CTO"></div>
           <h3>Premkumar</h3>
           <div class="role">Co-Founder &amp; CTO</div>
         </div>
         <div class="leader-card">
-          <div class="photo"><img
-              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80"
-              alt="Head of Talent Acquisition"></div>
+          <div class="photo"><img src="assets/images/aitteam/selvi.jpg" alt="Director"></div>
           <h3>Selvi</h3>
           <div class="role">Director</div>
         </div>
         <div class="leader-card">
-          <div class="photo"><img
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80"
-              alt="Director of Operations, MEA"></div>
+          <div class="photo"><img src="assets/images/aitteam/kalaivani.jpg" alt="Director"></div>
           <h3>Kalaivani</h3>
           <div class="role">Director</div>
         </div>

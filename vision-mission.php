@@ -7,19 +7,27 @@ include 'includes/header.php';
 ?>
 
 <!-- VM HERO -->
-<section class="vm-hero">
-  <div class="wrap">
-    <div class="eyebrow">Our Vision &amp; Mission</div>
-    <h1>Shaping the Future Through Talent and Technology</h1>
-    <p class="lead-text">Everything we do is guided by a clear vision and purpose. From sourcing specialized professionals to delivering enterprise-scale technology solutions, we focus on creating measurable outcomes for our clients.</p>
+<section class="hero">
+  <div class="wrap hero-grid">
+      <div>
+      <div class="eyebrow">Our Vision &amp; Mission</div>
+      <h1>Shaping the Future Through Talent and Technology</h1>
+      <p class="lead-text">Everything we do is guided by a clear vision and purpose. From sourcing specialized professionals to delivering enterprise-scale technology solutions, we focus on creating measurable outcomes for our clients.</p>
+    </div>
+  <div class="hero-visual">
+    <div class="hero-photo">
+      <img src="assets/images/about/about-hero.jpg" alt="">
+    </div>
   </div>
+    </div>
+
 </section>
 
 <!-- OUR VISION -->
 <section>
   <div class="wrap vm-grid">
     <div class="vm-img">
-      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80" alt="Team planning around a table">
+      <img src="assets/images/about/together.jpg" alt="Team planning around a table">
     </div>
     <div class="vm-content">
       <span class="tag">Our Vision</span>
@@ -40,7 +48,7 @@ include 'includes/header.php';
       <p>Every engagement is driven by a simple goal: helping our clients move faster, innovate smarter, and achieve sustainable business success.</p>
     </div>
     <div class="vm-img reverse">
-      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="Team discussing strategy in office">
+      <img src="assets/images/about/transform-ideas.jpg" alt="Team discussing strategy in office">
     </div>
   </div>
 </section>

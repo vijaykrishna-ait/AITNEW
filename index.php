@@ -19,14 +19,14 @@ include 'includes/header.php';
           <a href="<?= $base ?>#jobs" class="btn btn-outline">Explore Opportunities</a>
         </div>
         <div class="hero-stats">
-          <div><b>24-48 hrs</b><span>Qualified candidate profiles delivered</span></div>
-          <div><b class="count-up" data-target="5" data-suffix=" Regions">5 Regions</b><span>Global talent reach with local expertise</span></div>
-          <div><b class="count-up" data-target="40" data-suffix="% +">40% +</b><span>Reduction in hiring time through smart sourcing</span></div>
+          <div><b>24-48 hrs</b><span>Qualified candidate <br>profiles delivered</span></div>
+          <div><b class="count-up" data-target="5" data-suffix=" Regions">5 Regions</b><span>Global talent reach <br> with local expertise</span></div>
+          <div><b class="count-up" data-target="40" data-suffix="% +">40% +</b><span>Reduction in hiring time <br>through smart sourcing</span></div>
         </div>
       </div>
       <div class="hero-visual">
         <div class="hero-photo">
-          <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80"
+          <img src="assets/images/index/hero.jpg"
             alt="Tech consultant working on laptop">
         </div>
         <!-- <div class="floating-card fc-1">
@@ -209,7 +209,7 @@ include 'includes/header.php';
               <a href="<?= $base ?>talent-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
-              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80"
+              <img src="assets/images/index/talent.jpg"
                 alt="Professional reviewing candidate profiles">
             </div>
           </div>
@@ -482,33 +482,33 @@ include 'includes/header.php';
       </div>
       <div class="reach-grid" id="reachGrid">
         <div class="reach-card">
-          <img src="https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=700&q=80"
+          <img src="assets/images/index/india.jpeg"
             alt="Mumbai sea-link bridge at dusk, India">
           <div class="label"><small>South Asia</small>India</div>
         </div>
         <div class="reach-card">
-          <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=700&q=80"
+          <img src="assets/images/index/usa.jpeg"
             alt="City skyline at sunrise, USA">
           <div class="label"><small>Americas</small>USA</div>
         </div>
         <div class="reach-card">
-          <img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=700&q=80"
+          <img src="assets/images/index/singapore.jpeg"
             alt="Singapore skyline at dusk">
           <div class="label"><small>Southeast Asia</small>Singapore</div>
         </div>
         <div class="reach-card">
-          <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=700&q=80"
+          <img src="assets/images/index/dubai.jpeg"
             alt="Dubai skyline with skyscrapers, Middle East">
           <div class="label"><small>MENA</small>Dubai</div>
         </div>
         <div class="reach-card">
-          <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=700&q=80"
+          <img src="assets/images/index/japan.jpeg"
             alt="Tokyo skyline at night, Japan">
           <div class="label"><small>East Asia</small>Japan</div>
         </div>
         <div class="reach-card">
           <img
-            src="        https://images.unsplash.com/photo-1595740229246-cfdda61917c6?w=600&auto=format&fit=crop&w=700&q=80"
+            src="assets/images/index/australia.jpeg"
             alt="Sydney Opera House, Australia">
           <div class="label"><small>Sydney</small>Australia</div>
         </div>
@@ -589,9 +589,9 @@ include 'includes/header.php';
   <section class="why">
     <div class="wrap why-grid">
       <div class="why-img">
-        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80"
+        <img src="assets/images/index/why-choose.jpg"
           alt="International team of consultants collaborating in a meeting">
-        <div class="badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined expertise</span></div>
+        <!-- <div class="badge"><b class="count-up" data-target="28" data-suffix="+">28+</b><span>Years of combined expertise</span></div> -->
       </div>
       <div class="why-content">
         <div class="eyebrow">Why Choose Adhiran Infotech?</div>

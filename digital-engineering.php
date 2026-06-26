@@ -7,22 +7,30 @@ include 'includes/header.php';
 ?>
 
 <!-- DE HERO -->
-<section class="de-hero">
-  <div class="wrap">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div>
     <div class="eyebrow">Digital Engineering &amp; Industry 4.0</div>
-    <h1>Empowering the Next Generation of Intelligent Manufacturing</h1>
+    <h1>Empowering Next Generation Intelligent Manufacturing</h1>
     <p class="lead">We help industrial organizations leverage connected technologies, automation, AI, and digital engineering to create smarter operations, improve asset performance, and drive sustainable business growth.</p>
     <div class="de-hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an Industry Expert →</a>
       <a href="<?= $base ?>digital-marketing#de-services" class="btn btn-outline-light">Explore Digital Engineering Services</a>
     </div>
     <div class="de-hero-stats">
-      <div ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Improvement in Operational Reliability</span></div>
-      <div ><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Years of Industry Experience</span></div>
+      <div ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Improvement in <br>Operational Reliability</span></div>
+      <div ><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Years of <br>Industry Experience</span></div>
       <div ><b>AI-Driven IoT</b><span>Smart Factory Enablement</span></div>
-      <div ><b>24/7</b><span>Round-the-Clock Operational Support</span></div>
+      <div ><b>24/7</b><span>Round-the-Clock <br>Operational Support</span></div>
+    </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/digital/digi-hero.jpg" alt="">
+      </div>
     </div>
   </div>
+
 </section>
 
 <!-- INDUSTRY DX INTRO -->
@@ -140,7 +148,7 @@ include 'includes/header.php';
 
       <div class="auto-item reverse">
         <div class="auto-img">
-          <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=900&q=80" alt="Automated production line in a factory">
+          <img src="assets/images/digital/ai-powered.jpg" alt="Automated production line in a factory">
         </div>
         <div class="auto-content">
           <span class="tag">AI-Powered Quality Control</span>

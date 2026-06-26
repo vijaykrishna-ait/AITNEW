@@ -124,7 +124,7 @@ include 'includes/header.php';
       <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>UX/UI Designer</a>
       <a href="<?= $base ?>sap-it-solutions" class="role-pill"><span class="dot"></span>Salesforce / SAP Consultant</a>
       <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Project Manager</a>
-      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Cybersecurity Analyst</a>
+      <a href="<?= $base ?>block-chain" class="role-pill"><span class="dot"></span>Blockchain Developer</a>
       <a href="<?= $base ?>hire-veeva-developer" class="role-pill"><span class="dot"></span>Veeva CRM Developer</a>
       <a href="<?= $base ?>power-bi" class="role-pill"><span class="dot"></span>Power BI Developer</a>
       <a href="<?= $base ?>ui-path" class="role-pill"><span class="dot"></span>UiPath Developer</a>

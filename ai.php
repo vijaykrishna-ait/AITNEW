@@ -7,20 +7,31 @@ include 'includes/header.php';
 ?>
 
 <!-- AI HERO -->
-<section class="ai-hero">
-  <div class="wrap">
-    <div class="eyebrow">AI &amp; Generative AI</div>
-    <h1>Accelerating Digital Transformation Through AI Innovation</h1>
-    <p class="lead">Helping enterprises harness Artificial Intelligence and Generative AI to automate operations, enhance decision-making, and create measurable business value at scale.</p>
-    <div class="ai-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an AI Expert →</a>
-      <a href="<?= $base ?>ai#ai-services" class="btn btn-outline-light">Explore Our AI Capabilities</a>
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div >
+      <div class="eyebrow">AI &amp; Generative AI</div>
+      <h1>Accelerating Digital Transformation Through AI Innovation</h1>
+      <p class="lead">
+        Helping enterprises harness Artificial Intelligence and Generative AI
+        to automate operations, enhance decision-making, and create measurable
+        business value at scale.
+      </p>
+      <div class="hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an AI Expert →</a>
+        <a href="<?= $base ?>ai#ai-services" class="btn btn-outline-light">Explore Our AI Capabilities</a>
+      </div>
+      <div class="hero-stats">
+        <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI & Data Science <br> Experts</span></div>
+        <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>Successful AI <br>Engagements</span></div>
+        <div><b class="count-up" data-target="5">0</b><span>Industries Leveraging <br>Our AI Solutions</span></div>
+        <div><b>24/7</b><span>Global Delivery <br> & Support</span></div>
+      </div>
     </div>
-    <div class="ai-hero-stats">
-      <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI & Data Science Experts</span></div>
-      <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>Successful AI Engagements</span></div>
-      <div><b class="count-up" data-target="5">0</b><span>Industries Leveraging Our AI Solutions</span></div>
-      <div><b>24/7</b><span>Global Delivery & Support</span></div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/ai/ai-hero.jpg" alt="AI Innovation">
+      </div>
     </div>
   </div>
 </section>

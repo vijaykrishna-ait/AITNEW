@@ -135,7 +135,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
           </div>
 
           <!-- IT Staffing Dropdown -->
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <a href="<?= $base ?>it-staffing">IT Staffing <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
@@ -151,10 +151,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>hire-data-science-developer">Data Science</a>
               <a href="<?= $base ?>hire-digital-marketing-developer">Digital Marketing</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- IT Consulting Dropdown -->
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <a href="<?= $base ?>it-consulting">IT Consulting <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
@@ -167,10 +167,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>digital-marketing">Digital Marketing</a>
               <a href="<?= $base ?>qa-process">QA Process</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- IT Solutions Dropdown -->
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <a href="<?= $base ?>it-solutions">IT Solutions <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
@@ -184,7 +184,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>servicenow">Service Now</a>
               <a href="<?= $base ?>aiml-solutions">AI/ML Solutions</a>
             </div>
-          </div>
+          </div> -->
 
           <div class="nav-item">
             <a href="<?= $base ?>#industries">Industry <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"

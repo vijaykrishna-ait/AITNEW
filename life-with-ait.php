@@ -93,7 +93,7 @@ include 'includes/header.php';
     <div class="outings-grid">
       <div class="outing-card">
         <div class="outing-card-img">
-          <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=700&q=80" alt="Team outing on a beach">
+          <img src="assets/images/aitlife/chennai.jpeg" alt="Team outing on a beach">
         </div>
         <div class="outing-card-body">
           <span class="loc-tag">🇮🇳 Chennai, India</span>
@@ -103,7 +103,7 @@ include 'includes/header.php';
       </div>
       <div class="outing-card">
         <div class="outing-card-img">
-          <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=700&q=80" alt="Team dinner celebration in the US">
+          <img src="assets/images/aitlife/new-jersey.jpeg" alt="Team dinner celebration in the US">
         </div>
         <div class="outing-card-body">
           <span class="loc-tag">🇺🇸 New Jersey, USA</span>
@@ -113,7 +113,7 @@ include 'includes/header.php';
       </div>
       <div class="outing-card">
         <div class="outing-card-img">
-          <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=700&q=80" alt="Team at a desert event in Dubai">
+          <img src="assets/images/index/dubai.jpeg" alt="Team at a desert event in Dubai">
         </div>
         <div class="outing-card-body">
           <span class="loc-tag">🇦🇪 Dubai, UAE</span>
@@ -123,7 +123,7 @@ include 'includes/header.php';
       </div>
       <div class="outing-card">
         <div class="outing-card-img">
-          <img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=700&q=80" alt="Team at Marina Bay Singapore">
+          <img src="assets/images/index/singapore.jpeg" alt="Team at Marina Bay Singapore">
         </div>
         <div class="outing-card-body">
           <span class="loc-tag">🇸🇬 Singapore</span>
@@ -133,7 +133,7 @@ include 'includes/header.php';
       </div>
       <div class="outing-card">
         <div class="outing-card-img">
-          <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=80" alt="Team event in Tokyo Japan">
+          <img src="assets/images/aitlife/tokyo.jpeg" alt="Team event in Tokyo Japan">
         </div>
         <div class="outing-card-body">
           <span class="loc-tag">🇯🇵 Tokyo, Japan</span>
@@ -143,7 +143,7 @@ include 'includes/header.php';
       </div>
       <div class="outing-card">
         <div class="outing-card-img">
-          <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=700&q=80" alt="Team event in Sydney Australia">
+          <img src="assets/images/aitlife/sydney.jpeg" alt="Team event in Sydney Australia">
         </div>
         <div class="outing-card-body">
           <span class="loc-tag">🇦🇺 Sydney, Australia</span>

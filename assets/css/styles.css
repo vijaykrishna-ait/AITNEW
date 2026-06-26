@@ -267,6 +267,28 @@
     .hamburger-btn { display: flex;}
     .logo { position: relative; z-index: 1001; }
   }
+  /* ===============================
+   HERO - DARK NAVY
+================================= */
+.hero-navy{position:relative;overflow:hidden;
+  background:linear-gradient(135deg,var(--navy) 0%, var(--blue-deep) 100%);
+  color:var(--white);padding:48px 0 0;
+}
+.hero-navy .eyebrow{color: var(--lime);}
+.hero-navy .hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:60px;align-items:center;padding-bottom:40px;}
+.hero-navy h1{font-size:clamp(36px,4.6vw,58px);font-weight:800;line-height:1.1;letter-spacing:-.02em;margin-bottom:18px;color:var(--white);}
+.hero-navy h1 em{font-style:normal;color:var(--lime);position:relative;}
+.hero-navy p.lead{font-size:17px;color:rgba(255,255,255,.78);max-width:480px;margin-bottom:26px;}
+.hero-navy .hero-actions{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:34px;}
+.hero-navy .hero-stats{display:flex;gap:42px;flex-wrap:wrap;}
+.hero-navy .hero-stats div b{display:block;font-family:'Sora',sans-serif;font-size:26px;font-weight:800;color:var(--white);}
+.hero-navy .hero-stats div span{display: block;font-size:13px;color:rgba(255,255,255,.6);}
+/* ===============================
+   HERO IMAGE
+================================= */
+.hero-navy .hero-visual{position:relative;}
+.hero-navy .hero-photo{border-radius:28px;overflow:hidden;aspect-ratio:4/3.6;box-shadow:0 30px 60px -20px rgba(0,0,0,.45);}
+.hero-navy .hero-photo img{width:100%;height:100%;object-fit:cover;}
   /* -------------- */
   .hero{
     position:relative;overflow:hidden;
@@ -294,8 +316,7 @@
   .hero-stats div b{
     display:block;font-family:'Sora',sans-serif;font-size:26px;font-weight:800;color:var(--navy);
   }
-  .hero-stats div span{font-size:13px;color:var(--gray);}
-
+  .hero-stats div span{display: block;font-size:13px;color:var(--gray);}
   .hero-visual{position:relative;}
   .hero-photo{
     border-radius:28px;overflow:hidden;
@@ -965,7 +986,7 @@
 /* =========================================
    UNIQUE STYLES FOR AI.HTML
    ========================================= */
-.ai-hero{
+/* .ai-hero{
   position:relative;overflow:hidden;color:var(--white);
   background:linear-gradient(135deg,var(--navy) 0%, var(--blue-deep) 100%);
   padding:90px 0 100px;
@@ -984,7 +1005,7 @@
 .ai-hero-actions{display:flex;gap:16px;flex-wrap:wrap;position:relative;z-index:1;margin-bottom:50px;}
 .ai-hero-stats{display:flex;gap:48px;flex-wrap:wrap;position:relative;z-index:1;}
 .ai-hero-stats div b{display:block;font-family:'Sora',sans-serif;font-size:32px;font-weight:800;color:var(--white);}
-.ai-hero-stats div span{font-size:13px;color:rgba(255,255,255,.6);}
+.ai-hero-stats div span{font-size:13px;color:rgba(255,255,255,.6);} */
 
 /* AI offerings grid */
 .ai-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
