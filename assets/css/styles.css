@@ -2728,6 +2728,36 @@
 @media (max-width:1000px){.its-industry-grid{grid-template-columns:1fr 1fr;}}
 @media (max-width:560px){.its-industry-grid{grid-template-columns:1fr;}}
 
+/* ==========================
+   TESTIMONIALS
+========================== */
+.its-testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.its-testi-card{
+  background:var(--white);border:1px solid var(--line);border-radius:18px;padding:30px;
+  transition:border-color .25s ease, transform .25s ease, box-shadow .25s ease;
+  display:flex;flex-direction:column;height:100%;position:relative;overflow:hidden;
+}
+
+.its-testi-card::before{
+  content:"“";position:absolute;top:18px;right:22px;font-size:72px;font-family:'Sora',sans-serif;font-weight:800;
+  color:var(--sky);line-height:1;opacity:.65;
+}
+
+.its-testi-card:hover{
+  border-color:var(--blue);
+  transform:translateY(-5px);
+  box-shadow:0 20px 40px -24px rgba(11,42,74,.22);
+}
+.its-testi-card p{font-size:14.5px;line-height:1.8;color:var(--gray);margin-bottom:28px;position:relative;z-index:1;flex:1;}
+.its-testi-author{display:flex;align-items:center;gap:14px;padding-top:18px;border-top:1px solid var(--line);}
+.its-testi-author img{width:58px;height:58px;border-radius:50%;object-fit:cover;border:3px solid var(--sky);flex-shrink:0;}
+.its-testi-author strong{display:block;font-size:15px;font-weight:800;color:var(--navy);margin-bottom:4px;}
+.its-testi-author span{display:block;font-size:13px;color:var(--gray);}
+@media (max-width:1100px){.its-testi-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:640px){
+  .its-testi-grid{grid-template-columns:1fr;}
+  .its-testi-card{padding:24px;}
+}
 /* =========================================
    UNIQUE STYLES FOR IT-CONSULTING.PHP
    ========================================= */
