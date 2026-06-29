@@ -112,32 +112,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/aws.svg" alt=""></div>
         <h4>AWS</h4>
         <p>Take advantage of what AWS offers for flexible and efficient cloud computing services appropriate for your specific organization.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/azure.svg" alt=""></div>
         <h4>Azure</h4>
         <p>Use a wide range of cloud services on Azure for implementing, deploying and maintaining applications via Microsoft's data centers globally.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/google-cloud-logo.svg" alt=""></div>
         <h4>GCP</h4>
         <p>Optimize resources and achieve high performance, elasticity and flexibility when using GCP for data analysis, machine learning, and containerized applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/terraform.svg" alt=""></div>
         <h4>Terraform</h4>
         <p>Leverage Infrastructure as Code (IaC) through Terraform in an optimum manner to achieve an improved approach to supply cloud infrastructure.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/docker.svg" alt=""></div>
         <h4>Docker</h4>
         <p>Docker can be used in developing and deploying applications via containers to enhance your development and operations productivity.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/kubernetes.svg" alt=""></div>
         <h4>Kubernetes</h4>
         <p>The use of Kubernetes for the managing of containerized applications at scale including deployment, scaling and management.</p>
       </div>
