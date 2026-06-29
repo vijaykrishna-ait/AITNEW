@@ -100,32 +100,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/react.svg" alt=""></div>
         <h4>React.js</h4>
         <p>A JavaScript library for building dynamic user interfaces. React uses a component-based architecture and virtual DOM for fast rendering.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/angular.svg" alt=""></div>
         <h4>Angular</h4>
         <p>A powerful TypeScript-based framework by Google for building enterprise-scale single-page applications with two-way data binding.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/vuejs.svg" alt=""></div>
         <h4>Vue.js</h4>
         <p>A progressive JavaScript framework for building UIs. Vue.js is approachable, performant, and versatile for any frontend project.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/nextjs.svg" alt=""></div>
         <h4>Next.js</h4>
         <p>React framework enabling server-side rendering and static site generation for fast, SEO-friendly web applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/typescript.svg" alt=""></div>
         <h4>TypeScript</h4>
         <p>Typed superset of JavaScript that compiles to plain JS. TypeScript catches errors early and makes code more maintainable at scale.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/webpack.svg" alt=""></div>
         <h4>Webpack</h4>
         <p>A powerful static module bundler for modern JavaScript applications, optimizing assets and enabling code splitting.</p>
       </div>
