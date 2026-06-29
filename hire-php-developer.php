@@ -98,37 +98,37 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/laravel.svg" alt=""></div>
         <h4>Laravel Development</h4>
         <p>An expressive, elegant PHP web framework that provides routing, middleware, ORM, queuing, and authentication
           out of the box.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/CodeIgniter.svg" alt=""></div>
         <h4>CodeIgniter Development</h4>
         <p>A powerful PHP framework with a very small footprint — lightweight and fast for rapid web application
           development.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/Symfony.svg" alt=""></div>
         <h4>Symfony Framework Development</h4>
         <p>A set of reusable PHP components and a web application framework that powers thousands of enterprise
           applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/yii.svg" alt=""></div>
         <h4>Yii Framework Development</h4>
         <p>A high-performance, component-based PHP framework best for developing large-scale web applications with
           aggressive performance needs.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/wordpress.svg" alt=""></div>
         <h4>WordPress Development</h4>
         <p>The world's most popular CMS platform — custom themes, plugins, and full headless WordPress implementations.
         </p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/Adobe.svg" alt=""></div>
         <h4>Magento Development</h4>
         <p>Adobe's enterprise e-commerce platform for building feature-rich online stores with advanced catalog and
           order management.</p>
