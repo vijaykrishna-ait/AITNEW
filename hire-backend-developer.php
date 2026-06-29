@@ -112,32 +112,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/nodejs.svg" alt=""></div>
         <h4>Node.js</h4>
         <p>A JavaScript runtime built on Chrome's V8 engine for building fast, scalable server-side and networking applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/python.svg" alt=""></div>
         <h4>Python</h4>
         <p>A versatile, high-level programming language widely used for backend development, data science, automation and AI/ML.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/java.svg" alt=""></div>
         <h4>Java</h4>
         <p>A robust, object-oriented language trusted for enterprise applications, microservices, and high-performance backend systems.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/postgresql.svg" alt=""></div>
         <h4>PostgreSQL</h4>
         <p>A powerful open-source relational database system with strong extensibility and SQL compliance for complex applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/mongodb.svg" alt=""></div>
         <h4>MongoDB</h4>
         <p>A document-oriented NoSQL database designed for scalable, flexible data storage and high-performance applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/redis.svg" alt=""></div>
         <h4>Redis</h4>
         <p>An in-memory data structure store used as a database, cache and message broker for lightning-fast data access.</p>
       </div>
