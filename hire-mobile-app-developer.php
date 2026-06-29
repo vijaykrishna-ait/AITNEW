@@ -100,32 +100,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/react-native.svg" alt=""></div>
         <h4>React Native</h4>
         <p>A framework for building mobile applications using JavaScript or TypeScript. React Native run it on both iOS and Android by using native components.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/ionic.svg" alt=""></div>
         <h4>Ionic</h4>
         <p>A framework for building hybrid mobile applications using web technologies like HTML, CSS, and JavaScript (with Angular, React, or Vue).</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/flutter.svg" alt=""></div>
         <h4>Flutter</h4>
         <p>A modern, cross-platform framework for building mobile, web, and desktop applications. Flutter uses its rendering engine to ensure the UI looks across all platforms.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/swift.svg" alt=""></div>
         <h4>Swift</h4>
         <p>A programming language specifically designed for developing apps for Apple platforms (iOS, macOS, watchOS, tvOS). Swift creates highly optimized, native applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/kotlin.svg" alt=""></div>
         <h4>Kotlin</h4>
         <p>Kotlin is used to write native Android apps. It's now the official language for Android development, making it the most optimized choice for this platform.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/xamarin.svg" alt=""></div>
         <h4>Xamarin</h4>
         <p>Xamarin allows you to write most of your code once and share it across iOS, Android, and Windows platforms, while still enabling access to platform-specific features.</p>
       </div>
