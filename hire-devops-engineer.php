@@ -100,32 +100,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/docker.svg" alt=""></div>
         <h4>Docker</h4>
         <p>Docker can be used in developing and deploying applications via containers to enhance your development and operations productivity.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/kubernetes.svg" alt=""></div>
         <h4>Kubernetes</h4>
         <p>The use of Kubernetes for the managing of containerized applications at scale including deployment, scaling and management.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/jenkins.svg" alt=""></div>
         <h4>Jenkins</h4>
         <p>Jenkins runs scripts or predefined pipelines to automate tasks such as code integration, testing, and deployment when code is committed to a repository.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/git.svg" alt=""></div>
         <h4>Git</h4>
         <p>A distributed version control system. Developers can create repositories, branch, merge, and roll back changes seamlessly.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/ansible.svg" alt=""></div>
         <h4>Ansible</h4>
         <p>Ansible is an IT automation tool. It uses YAML-based playbooks to define tasks, and connects to servers over SSH to perform these tasks.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/elastic.svg" alt=""></div>
         <h4>ELK Stack</h4>
         <p>A collection of three open-source tools: Elasticsearch, Logstash, and Kibana. Provides a robust system for log management, analysis, and visualization.</p>
       </div>
