@@ -87,32 +87,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets\icons\vuex.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets\logos\vuex.svg" alt=""></div>
         <h4>Vuex</h4>
         <p>A state management pattern and library for Vue.js applications. Serves as a centralized store for all component states.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets\icons\nuxt.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets\logos\nuxt.svg" alt=""></div>
         <h4>Nuxt.js</h4>
         <p>A higher-level framework built on Vue.js that provides SSR, static site generation, and powerful developer tooling.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets\icons\apollo-graphql.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets\logos\apollo-graphql.svg" alt=""></div>
         <h4>Apollo GraphQL</h4>
         <p>A comprehensive state management library for JavaScript that enables GraphQL data fetching in Vue applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets\icons\vite.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets\logos\vite.svg" alt=""></div>
         <h4>Vite</h4>
         <p>A next generation frontend tooling that provides extremely fast development server and optimized production builds.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets\icons\nuxt.svg" alt=""></div>
+        <div class="its-why-num">&#9670;</div>
         <h4>Vue Router</h4>
         <p>The official router for Vue.js. Deeply integrated with Vue's core to make building single-page applications a breeze.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets\icons\pinia.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets\logos\pinia.svg" alt=""></div>
         <h4>Pinia</h4>
         <p>The new recommended state management library for Vue 3 — lightweight, modular, and fully TypeScript compatible.</p>
       </div>
