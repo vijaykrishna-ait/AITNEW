@@ -52,62 +52,39 @@ include 'includes/header.php';
     <div class="its-services-grid">
       <div class="its-service-card">
         <h3>Django Web Development</h3>
-<<<<<<< Updated upstream
         <p>Build secure, scalable web applications with Django — batteries-included framework with ORM, admin panel, and
           authentication.</p>
-=======
-        <p>Build secure, scalable web applications with Django — batteries-included framework with ORM, admin panel, and authentication.</p>
->>>>>>> Stashed changes
         <div class="its-tech-tags"><span>Django</span><span>ORM</span><span>REST Framework</span></div>
       </div>
       <div class="its-service-card">
         <h3>FastAPI / Flask APIs</h3>
-<<<<<<< Updated upstream
         <p>Develop high-performance REST and GraphQL APIs with FastAPI or Flask — async support, auto-documentation, and
           type hints.</p>
-=======
         <p>Develop high-performance REST and GraphQL APIs with FastAPI or Flask — async support, auto-documentation, and type hints.</p>
->>>>>>> Stashed changes
         <div class="its-tech-tags"><span>FastAPI</span><span>Flask</span><span>OpenAPI</span></div>
       </div>
       <div class="its-service-card">
         <h3>Data Engineering with Python</h3>
-<<<<<<< Updated upstream
         <p>Build robust ETL pipelines, data processing workflows, and analytics platforms using Apache Spark, Airflow,
           and Pandas.</p>
-=======
-        <p>Build robust ETL pipelines, data processing workflows, and analytics platforms using Apache Spark, Airflow, and Pandas.</p>
->>>>>>> Stashed changes
         <div class="its-tech-tags"><span>Pandas</span><span>Airflow</span><span>PySpark</span></div>
       </div>
       <div class="its-service-card">
         <h3>Machine Learning Solutions</h3>
-<<<<<<< Updated upstream
         <p>Develop and deploy ML models using Scikit-learn, TensorFlow, and PyTorch for classification, regression, and
           NLP tasks.</p>
-=======
-        <p>Develop and deploy ML models using Scikit-learn, TensorFlow, and PyTorch for classification, regression, and NLP tasks.</p>
->>>>>>> Stashed changes
         <div class="its-tech-tags"><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span></div>
       </div>
       <div class="its-service-card">
         <h3>Automation & Scripting</h3>
-<<<<<<< Updated upstream
         <p>Automate repetitive tasks, business processes, and infrastructure workflows with Python scripting and
           orchestration tools.</p>
-=======
-        <p>Automate repetitive tasks, business processes, and infrastructure workflows with Python scripting and orchestration tools.</p>
->>>>>>> Stashed changes
         <div class="its-tech-tags"><span>Selenium</span><span>Boto3</span><span>Paramiko</span></div>
       </div>
       <div class="its-service-card">
         <h3>Cloud-Native Python Apps</h3>
-<<<<<<< Updated upstream
         <p>Build and deploy serverless Python functions and containerized microservices on AWS, Azure, and Google Cloud
           Platform.</p>
-=======
-        <p>Build and deploy serverless Python functions and containerized microservices on AWS, Azure, and Google Cloud Platform.</p>
->>>>>>> Stashed changes
         <div class="its-tech-tags"><span>AWS Lambda</span><span>Docker</span><span>Kubernetes</span></div>
       </div>
     </div>
