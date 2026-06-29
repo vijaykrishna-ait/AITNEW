@@ -100,32 +100,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/apache-spark.svg" alt=""></div>
         <h4>Apache Spark</h4>
         <p>A robust open source platform for managing large volumes of data supporting analytics at a very high speed.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/hadoop.svg" alt=""></div>
         <h4>Apache Hadoop</h4>
         <p>A system that enables the distributing of large datasets across clusters of computers in essentially simple models.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/snowflake.svg" alt=""></div>
         <h4>Snowflake</h4>
         <p>A swift, flexible and scalable approach of managing and analyzing data using cloud based data warehousing regime.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/airflow.svg" alt=""></div>
         <h4>Apache Airflow</h4>
         <p>An environment that will allow programmatically creating, initiating, monitoring, performing and controlling data pipeline workflows.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/kafka.svg" alt=""></div>
         <h4>Apache Kafka</h4>
         <p>A dispersed event streaming platform that is used for creating data streams as well as stream processing applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/dbt.svg" alt=""></div>
         <h4>dbt</h4>
         <p>Transform data in your warehouse using SQL and software engineering best practices to build reliable, modular data pipelines.</p>
       </div>
