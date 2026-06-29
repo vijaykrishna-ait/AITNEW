@@ -2698,6 +2698,9 @@
   font-family:'Sora',sans-serif;font-weight:800;font-size:42px;color:var(--sky-2);
   line-height:1;margin-bottom:12px;
 }
+.its-why-num img{
+  width: 40px;height: 40px;
+}
 .its-why-card:hover .its-why-num{color:var(--blue-100);}
 .its-why-card h3{font-size:15.5px;font-weight:800;color:var(--navy);margin-bottom:8px;}
 .its-why-card p{color:var(--gray);font-size:13.5px;}

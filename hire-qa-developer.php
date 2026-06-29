@@ -100,27 +100,27 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/selenium.svg" alt=""></div>
         <h4>Selenium</h4>
         <p>The most widely used open-source web automation framework, supporting multiple browsers, languages, and test frameworks.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/cypress.svg" alt=""></div>
         <h4>Cypress</h4>
         <p>A modern JavaScript-based end-to-end testing framework built for the modern web — fast, reliable and developer-friendly.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/playwright.svg" alt=""></div>
         <h4>Playwright</h4>
         <p>Microsoft's powerful testing library for reliable end-to-end testing across Chrome, Firefox, Safari and Edge.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/jmeter.svg" alt=""></div>
         <h4>JMeter</h4>
         <p>Apache JMeter is an open-source performance testing tool designed to load test and measure the performance of services.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/postman.svg" alt=""></div>
         <h4>Postman</h4>
         <p>The industry-standard API testing platform used to develop, test, document, and monitor APIs throughout the development lifecycle.</p>
       </div>
@@ -170,10 +170,10 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head"><div class="eyebrow">Industries We Serve</div><h2>Expertise Across Various Industries</h2></div>
     <div class="its-industry-grid">
-      <a href="<?= $base ?>healthcare" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Healthcare</h4><p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital operations.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg></div><h4>Retail</h4><p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and grow customer base.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h4>Manufacturing</h4><p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and performance improvement.</p></a>
-      <a href="<?= $base ?>industry_experts" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><h4>Education</h4><p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p></a>
+      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Healthcare</h4><p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital operations.</p></a>
+      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg></div><h4>Retail</h4><p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and grow customer base.</p></a>
+      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h4>Manufacturing</h4><p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and performance improvement.</p></a>
+      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><h4>Education</h4><p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p></a>
     </div>
   </div>
 </section>
