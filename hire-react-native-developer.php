@@ -187,7 +187,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions">
+<section class="">
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Industries We Serve</div>
@@ -336,7 +336,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions">
+<section class="">
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Client Stories</div>

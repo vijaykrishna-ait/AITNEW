@@ -60,7 +60,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions">
+<section class="">
   <div class="wrap">
     <div class="section-head"><div class="eyebrow">Industries We Serve</div><h2>Our Developer Expertise in Various Industries</h2><p>Our dedicated team possesses deep domain knowledge and technical proficiency, enabling us to craft tailored solutions that address the unique challenges and opportunities within various industries.</p></div>
     <div class="its-industry-grid">
@@ -114,7 +114,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions">
+<section class="">
   <div class="wrap">
     <div class="section-head"><div class="eyebrow">Client Stories</div><h2>What Our Clients Say</h2></div>
     <div class="its-testi-grid">

@@ -15,7 +15,7 @@ include 'includes/header.php';
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="hire-data-engineer#services" class="btn btn-outline-light">Explore Services</a>
     </div>
-  </div>
+  </div>    
 </section>
 
 <!-- INTRO SPLIT -->
