@@ -146,36 +146,54 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h4>Guaranteed Service</h4>
         <p>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and
           deliverables.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h4>Quick & Easy Integration</h4>
         <p>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up
           time.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h4>Continuous Improvement</h4>
         <p>We embrace agile practices and regular retrospectives to continuously refine processes and improve output
           quality.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h4>Custom Solutions</h4>
         <p>Every solution is tailored to your specific business context, technology stack and project requirements.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h4>Expert Team</h4>
         <p>Our team consists of experienced professionals proficient in their domain with proven track records across
           industries.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h4>Certified Developers</h4>
         <p>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client
           engagement.</p>
