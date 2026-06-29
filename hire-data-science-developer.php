@@ -100,32 +100,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/python.svg" alt=""></div>
         <h4>Python</h4>
         <p>A high-level, general-purpose programming language with extensive libraries and frameworks for machine learning and data science.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/tensorflow.svg" alt=""></div>
         <h4>TensorFlow</h4>
         <p>An open-source library for numerical computation and machine learning. Offers tools for building, training, and deploying ML and deep learning models.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/pytorch.svg" alt=""></div>
         <h4>PyTorch</h4>
         <p>An open-source machine learning library primarily used for deep learning. Provides dynamic computation graphs for flexibility and performance.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/tableau.svg" alt=""></div>
         <h4>Tableau</h4>
         <p>A data visualization and business intelligence tool. Allows users to create interactive and shareable dashboards using data from various sources.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/apache-spark.svg" alt=""></div>
         <h4>Apache Spark</h4>
         <p>A unified analytics engine for large-scale data processing. Supports batch and real-time data processing with in-memory computation.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/hadoop.svg" alt=""></div>
         <h4>Hadoop</h4>
         <p>An open-source framework for distributed storage and processing of large datasets across a cluster of computers.</p>
       </div>
