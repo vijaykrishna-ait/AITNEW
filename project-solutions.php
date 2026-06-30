@@ -13,7 +13,7 @@ include 'includes/header.php';
     <h1>End-to-end digital delivery with clear accountability</h1>
     <p class="lead">From custom application development to enterprise-scale transformation programs, we take ownership of defined outcomes—bringing together design, engineering, QA, and project management under a single accountable delivery team.</p>
     <div class="ps-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start a Project →</a>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project →</a>
       <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
     </div>
     <div class="ps-hero-stats">

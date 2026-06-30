@@ -115,27 +115,26 @@ include 'includes/header.php';
 <!-- ODC EXPLAINER -->
 <section class="solutions">
   <div class="wrap odc-grid">
-    <div class="odc-content ">
+    <div class="odc-content">
       <span class="tag">Offshore Development Center</span>
       <h2>Extend your business with a dedicated global delivery center</h2>
       <p>Build a high-performing, dedicated team that operates as a seamless extension of your organization. Our Offshore Development Center model provides the talent, infrastructure, governance, and operational support you need—without the complexity of establishing and managing your own local entity.</p>
       <p>Your team works exclusively for your business, aligned to your processes, security standards, culture, and delivery objectives, while we manage the operational foundation behind the scenes.</p>
       <p>We take care of talent acquisition, infrastructure management, HR operations, payroll, compliance, administration, and workplace services—allowing your leadership teams to focus on innovation, growth, and business outcomes.</p>
-      <h5>Why Choose Our ODC Model</h5>
-      <div class="odc-points">
-        <div class="odc-point"><b>100%</b><span>Dedicated Teams</span>
-          <p>Resources aligned exclusively to your organization and strategic priorities.</p>
-        </div>
+      <!-- <h5>Why Choose Our ODC Model</h5> -->
+      
+    </div>
+    <div class="odc-img">
+      <!-- <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80"
+        alt="Team working together in a dedicated office"> -->
+<div class="odc-points">
+        <div class="odc-point"><b>100% Dedicated Teams</b><span>Resources aligned exclusively to your organization and strategic priorities.</span></div>
         <div class="odc-point"><b>Your Brand,Your Culture</b><span>Operate under your company identity, processes, governance, and reporting structure.</span></div>
         <div class="odc-point"><b>End-to-End Operational Management</b><span>Infrastructure, HR, payroll, IT support, compliance, and administration managed for you.</span></div>
         <div class="odc-point"><b>Built for Scale</b><span>Start with a small specialist team and expand into a large-scale delivery center as your business grows.</span></div>
         <div class="odc-point"><b>Enterprise-Grade Security & Governance</b><span>Robust controls, compliance frameworks, and operational transparency to support business-critical functions.</span></div>
         <div class="odc-point"><b>Flexible Growth Model</b><span>Scale capabilities across engineering, cloud, AI, data, enterprise applications, support, and business operations.</span></div>
       </div>
-    </div>
-    <div class="odc-img">
-      <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80"
-        alt="Team working together in a dedicated office">
     </div>
   </div>
 </section>
@@ -242,7 +241,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">How We Work</div>
-      <h2>Whether you need a project pod, a dedicated ODC, or ongoing onsite/offshore talent supply, our approach ensures the right operating model is defined, built, and scaled seamlessly.</p>
+      <h2>From requirement to a fully operational team</h2>
+      <p>Whether you need a project pod, a dedicated ODC, or ongoing onsite/offshore talent supply, our approach ensures the right operating model is defined, built, and scaled seamlessly.</p>
     </div>
     <div class="tmj-row">
       <div class="tmj-item">

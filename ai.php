@@ -22,10 +22,10 @@ include 'includes/header.php';
         <a href="<?= $base ?>ai#ai-services" class="btn btn-outline-light">Explore Our AI Capabilities</a>
       </div>
       <div class="hero-stats">
-        <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI & Data Science <br> Experts</span></div>
-        <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>Successful AI <br>Engagements</span></div>
-        <div><b class="count-up" data-target="5">0</b><span>Industries Leveraging <br>Our AI Solutions</span></div>
-        <div><b>24/7</b><span>Global Delivery <br> & Support</span></div>
+        <div><b class="count-up" data-target="30" data-suffix="+">0</b><span>AI & Data Science <br class="desktop-br"> Experts</span></div>
+        <div><b class="count-up" data-target="10" data-suffix="+">0</b><span>Successful AI <br class="desktop-br">Engagements</span></div>
+        <div><b class="count-up" data-target="5">0</b><span>Industries Leveraging <br class="desktop-br">Our AI Solutions</span></div>
+        <div><b>24/7</b><span>Global Delivery <br class="desktop-br"> & Support</span></div>
       </div>
     </div>
     <div class="hero-visual">
