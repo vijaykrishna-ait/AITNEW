@@ -70,41 +70,42 @@ include 'includes/header.php';
       <div class="eyebrow">Why Adhiran</div>
       <h2>Why Choose Adhiran Infotech</h2>
     </div>
-    <div class="itsol-why-grid">
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>
-          <h4>Expert Veeva Consultants</h4>
-          <p>Our team includes experienced Veeva professionals with deep functional and technical expertise across CRM modules and life sciences.</p>
-        </div>
+    <div class="itc-benefits-grid">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Guaranteed Service: </strong>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and deliverables.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>
-          <h4>On-Site, Offshore & Hybrid Delivery</h4>
-          <p>Flexible models — on-site, offshore, or hybrid — for cost efficiency and stakeholder proximity.</p>
-        </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Quick & Easy Integration</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>
-          <h4>Proven Methodology</h4>
-          <p>We follow Veeva Activate and an agile approach for structured, milestone-driven CRM projects with clear deliverables.</p>
-        </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Continuous Improvement</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>
-          <h4>Life Sciences Expertise</h4>
-          <p>Deep experience across pharma, biotech, medical device, and animal health for contextually accurate Veeva CRM solutions.</p>
-        </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Custom Solutions</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div>
-          <h4>Post-Go-Live Support</h4>
-          <p>Comprehensive hypercare and AMS to ensure a smooth post-go-live transition with SLA-backed support and proactive monitoring.</p>
-        </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Expert Team</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Certified Developers</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>
@@ -112,40 +113,75 @@ include 'includes/header.php';
 
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">FAQ</div><h2>Frequently Asked Questions</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
     <div class="itsol-faq-list">
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What Veeva CRM modules do you specialize in?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Our consultants cover the full Vault CRM suite: Approved Email, CLM / X-Pages, Call Recording, Sample Management, CRM Bot, Medical CRM, and Service Center, plus Veeva Network, PromoMats, and Nitro.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What is Vault CRM and how can it benefit my organization?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Vault CRM is Veeva's next-generation CRM platform built on the Vault Platform, replacing Salesforce-based Classic CRM. It offers deeper Vault integration, a modern X-Pages UI, the CRM Bot AI assistant, and a unified commercial data model.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How long does a typical Veeva CRM implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>A standard Vault CRM implementation typically takes 3–6 months depending on scope, brands, territories, and integrations. We follow a phased approach: discovery, design, build, test, train, and go-live.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Can you support our existing Classic CRM while we plan migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Yes. We provide dedicated AMS for Classic CRM environments while simultaneously planning and executing the migration to Vault CRM. Veeva supports Classic CRM through September 2030.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">Do you offer fixed-price Veeva CRM projects?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Yes. We offer fixed-price, time-and-material, and managed-service engagement models. Fixed-price is well-suited for standard implementations and migrations with clearly defined scope.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What is Classic CRM to Vault CRM migration and when is it needed?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Migration involves moving CRM configuration, data, content (CLM to X-Pages, MyInsights to CRM Bot), and integrations to the Vault platform. Given the 2026–2029 migration window, planning should begin now.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">How do you ensure data quality during CRM migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>We use Veeva Network and OpenData for HCP/HCO master data validation, deduplication, and enrichment before loading into Vault CRM, with structured profiling and parallel validation across systems.</p></div>
-    </div>
-    <div class="itsol-faq-item">
-      <button class="itsol-faq-q">What ongoing support do you provide post-go-live?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-      <div class="itsol-faq-a"><p>Our AMS team provides L1–L3 support, release management across Veeva’s 3x-per-year release cycle, configuration enhancements, user training, and SLA-backed performance monitoring.</p></div>
-    </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What Veeva CRM modules do you specialize in?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Our consultants cover the full Vault CRM suite: Approved Email, CLM / X-Pages, Call Recording, Sample Management, CRM Bot, Medical CRM, and Service Center, plus Veeva Network, PromoMats, and Nitro.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What is Vault CRM and how can it benefit my organization?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Vault CRM is Veeva's next-generation CRM platform built on the Vault Platform, replacing Salesforce-based Classic CRM. It offers deeper Vault integration, a modern X-Pages UI, the CRM Bot AI assistant, and a unified commercial data model.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How long does a typical Veeva CRM implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>A standard Vault CRM implementation typically takes 3–6 months depending on scope, brands, territories, and integrations. We follow a phased approach: discovery, design, build, test, train, and go-live.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Can you support our existing Classic CRM while we plan migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Yes. We provide dedicated AMS for Classic CRM environments while simultaneously planning and executing the migration to Vault CRM. Veeva supports Classic CRM through September 2030.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">Do you offer fixed-price Veeva CRM projects?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Yes. We offer fixed-price, time-and-material, and managed-service engagement models. Fixed-price is well-suited for standard implementations and migrations with clearly defined scope.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What is Classic CRM to Vault CRM migration and when is it needed?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Migration involves moving CRM configuration, data, content (CLM to X-Pages, MyInsights to CRM Bot), and integrations to the Vault platform. Given the 2026–2029 migration window, planning should begin now.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">How do you ensure data quality during CRM migration?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>We use Veeva Network and OpenData for HCP/HCO master data validation, deduplication, and enrichment before loading into Vault CRM, with structured profiling and parallel validation across systems.</p>
+        </div>
+      </div>
+      <div class="itsol-faq-item">
+        <button class="itsol-faq-q">What ongoing support do you provide post-go-live?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span></button>
+        <div class="itsol-faq-a">
+          <p>Our AMS team provides L1–L3 support, release management across Veeva’s 3x-per-year release cycle, configuration enhancements, user training, and SLA-backed performance monitoring.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
