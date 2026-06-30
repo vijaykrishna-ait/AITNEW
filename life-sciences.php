@@ -16,10 +16,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>life-sciences#ls-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="ls-hero-stats">
-      <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our AI diagnostics platforms</span></div>
-      <div><b class="count-up " data-target="15" data-suffix="+">15+</b><span>Experience across life sciences and healthcare ecosystems</span></div>
-      <div><b>30–50%</b><span>Faster screening, review, and decision cycles powered by AI</span></div>
-      <div><b>24/7</b><span>Global delivery and support across time zones</span></div>
+      <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our<br> AI diagnostics <br> platforms</span></div>
+      <div><b class="count-up " data-target="15" data-suffix="+">15+</b><span>Experience across <br>life sciences and <br>healthcare ecosystems</span></div>
+      <div><b>30–50%</b><span>Faster screening, <br>review, and decision <br> cycles powered by AI</span></div>
+      <div><b>24/7</b><span>Global delivery <br>and support across <br> time zones</span></div>
     </div>
   </div>
 </section>
@@ -324,7 +324,7 @@ include 'includes/header.php';
         <div class="eyebrow" style="color:var(--lime);">Success Story</div>
         <h2>Transforming talent screening with AI</h2>
         <p>A global tax and advisory organization implemented Azure OpenAI to automate candidate screening and matching—reducing manual effort and accelerating hiring decisions.</p>
-        
+
         <a href="<?= $base ?>case-studies" class="btn btn-primary">View More Case Studies →</a>
       </div>
       <div class="story-stat">

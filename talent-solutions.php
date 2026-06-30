@@ -16,10 +16,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Our Talent Expertise</a>
     </div>
     <div class="ts-hero-stats">
-      <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements across technology and business functions</span></div>
-      <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average turnaround time for the first qualified shortlist</span></div>
-      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Skills, technologies, and functional domains supported</span></div>
-      <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and hiring expertise across global markets</span></div>
+      <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements <br>across technology and <br> business functions</span></div>
+      <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average turnaround <br>time for the first <br>qualified shortlist</span></div>
+      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Skills, technologies,<br> and functional domains<br> supported</span></div>
+      <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and <br>hiring expertise across<br> global markets</span></div>
     </div>
   </div>
 </section>

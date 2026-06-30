@@ -17,10 +17,11 @@ include 'includes/header.php';
       <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
     </div>
     <div class="ps-hero-stats">
-      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successfully delivered projects across global clients</span></div>
-      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Technologies and platforms covered across enterprise ecosystems</span></div>
-      <div><b>On-Time Delivery</b><span>Fixed scope, structured execution, and milestone-driven delivery</span></div>
-      <div><b>24/7</b><span>Cross-time-zone teams ensuring continuous progress and support</span></div>
+      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successfully delivered <br>
+        projects across global clients</span></div>
+      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Technologies and <br> platforms covered across <br> enterprise ecosystems</span></div>
+      <div><b>On-Time  Delivery</b><span>Fixed scope, structured <br> execution,and <br>milestone-driven delivery</span></div>
+      <div><b>24/7</b><span>Cross-time-zone <br> teams ensuring continuous <br> progress and support</span></div>
     </div>
   </div>
 </section>

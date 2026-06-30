@@ -17,10 +17,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Discover Our Platform Expertise</a>
     </div>
     <div class="es-hero-stats">
-      <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>EEnterprise platforms across multiple industries</span></div>
-      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successful implementations, upgrades, and global rollouts</span></div>
-      <div><b>24/7</b><span>Successful implementations, upgrades, and global rollouts</span></div>
-      <div><b>30–50%</b><span>Successful implementations, upgrades, and global rollouts</span></div>
+      <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>EEnterprise platforms across <br> multiple industries</span></div>
+      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
+      <div><b>24/7</b><span>Successful implementations, <br> upgrades, and global rollouts</span></div>
+      <div><b>30–50%</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
     </div>
   </div>
 </section>

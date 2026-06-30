@@ -6,8 +6,8 @@ $page_canonical = 'https://adhiraninfotech.com/';
 include 'includes/header.php';
 ?>
 <!-- TM HERO -->
-<section class="tm-hero">
-  <div class="wrap">
+<section class="tm-hero tm-hero-content">
+  <div class="wrap tm-hero-left">
     <div class="eyebrow">Team Solutions</div>
     <h1>Build high-performing teams and scalable delivery centers with confidence</h1>
     <p class="lead">Whether you need a dedicated project team, a managed delivery pod, or a fully operational Offshore Development Center (ODC), Adhiran Infotech helps you rapidly scale talent and delivery capabilities across global markets.</p>
@@ -15,15 +15,16 @@ include 'includes/header.php';
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Speak with a Team Solutions Expert →</a>
       <a href="<?= $base ?>team-solutions#models" class="btn btn-outline-light">Explore Delivery Models</a>
     </div>
-    <div class="tm-hero-stats">
-      <div><b class="count-up" data-target="4">4</b><span>Global markets supported with active talent and delivery capabilities</span></div>
-      <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Global markets supported with active talent and delivery capabilities</span></div>
-      <div><b>ODC</b><span>End-to-end managed Offshore Development Centers</span></div>
-      <div><b>Onsite + Offshore</b><span>Flexible hybrid delivery models tailored to your business needs</span></div>
-      <div><b>Hybrid Workforce Models</b><span>Seamless collaboration across onsite, offshore, and remote teams
+    <div class="tm-hero-stats ">
+      <div><b class="count-up" data-target="4">4</b><span>Global markets supported <br> with active talent and <br> delivery capabilities</span></div>
+      <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Global markets supported <br>with active talent and <br> delivery capabilities</span></div>
+      <div><b>ODC</b><span>End-to-end managed <br> Offshore Development <br> Centers</span></div> 
+      <div><b>Onsite + <br> Offshore</b><span>Flexible hybrid delivery <br> models tailored to <br> your business needs</span></div>
+      <div><b>Hybrid Workforce <br> Models</b><span>Seamless collaboration <br> across onsite, offshore,<br> and remote teams
         </span></div>
     </div>
   </div>
+  <div class="tm-hero-right"></div>
 </section>
 
 <!-- TEAM MODELS -->
@@ -122,12 +123,12 @@ include 'includes/header.php';
       <p>Your team works exclusively for your business, aligned to your processes, security standards, culture, and delivery objectives, while we manage the operational foundation behind the scenes.</p>
       <p>We take care of talent acquisition, infrastructure management, HR operations, payroll, compliance, administration, and workplace services—allowing your leadership teams to focus on innovation, growth, and business outcomes.</p>
       <!-- <h5>Why Choose Our ODC Model</h5> -->
-      
+
     </div>
     <div class="odc-img">
       <!-- <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80"
         alt="Team working together in a dedicated office"> -->
-<div class="odc-points">
+      <div class="odc-points">
         <div class="odc-point"><b>100% Dedicated Teams</b><span>Resources aligned exclusively to your organization and strategic priorities.</span></div>
         <div class="odc-point"><b>Your Brand,Your Culture</b><span>Operate under your company identity, processes, governance, and reporting structure.</span></div>
         <div class="odc-point"><b>End-to-End Operational Management</b><span>Infrastructure, HR, payroll, IT support, compliance, and administration managed for you.</span></div>

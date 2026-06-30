@@ -17,10 +17,10 @@ include 'includes/header.php';
       <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
     <div class="ed-hero-stats">
-      <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning platforms delivered</span></div>
-      <div><b class="count-up" data-target="4">4</b><span>Key segments: schools, higher education, medical & corporate training</span></div>
-      <div><b>AI-Based</b><span>Personalized learning and adaptive education systems</span></div>
-      <div><b>24/7</b><span>Platform availability and support</span></div>
+      <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning <br> platforms delivered</span></div>
+      <div><b class="count-up" data-target="4">4</b><span>Key segments: schools,<br> higher education, medical <br> & corporate training</span></div>
+      <div><b>AI-Based</b><span>Personalized learning <br>and adaptive education<br> systems</span></div>
+      <div><b>24/7</b><span>Platform availability <br>and support</span></div>
     </div>
   </div>
 </section>
