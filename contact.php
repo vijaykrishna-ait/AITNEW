@@ -15,7 +15,7 @@ include 'includes/header.php';
         <p class="lead">Have a project in mind? Reach out to our global team and let's turn your vision into reality.
         </p>
         <div class="hero-actions">
-          <a href="<?= $base ?>contact" class="btn btn-primary">Get In Touch →</a>
+          <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get In Touch →</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -68,7 +68,7 @@ include 'includes/header.php';
   </section>
 
   <!-- ========== CONTACT FORM ========== -->
-  <section class="contact-form-section" id="contact-form">
+  <section class="contact-form-section" >
     <div class="wrap">
       <div class="section-head center">
         <div class="eyebrow">Get In Touch</div>
@@ -76,7 +76,7 @@ include 'includes/header.php';
         <p>Fill out the form below and our team will get back to you within 24 hours.</p>
       </div>
 
-      <div class="contact-grid">
+      <div class="contact-grid" id="contact-form">
         <div class="form-wrapper">
           <form id="contactForm" novalidate>
             <div class="form-row">
