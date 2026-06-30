@@ -83,10 +83,22 @@ include 'includes/header.php';
       <h2>Advantages of Our IT Staff Outsourcing</h2>
     </div>
     <div class="its-adv-grid">
-      <div class="its-adv-card"><h4>Reach the Best Candidates</h4><p>Due to the qualification of candidates we follow, our clients are guaranteed to work with the most talented and skilled developers thereby placing the company in the top 1%.</p></div>
-      <div class="its-adv-card"><h4>Structured Communication</h4><p>You do not need to chase our developers for feedback as they work with your schedule to deliver on projects as expected.</p></div>
-      <div class="its-adv-card"><h4>No Recruitment Delays</h4><p>We do not follow the often lengthy procedure of recruitment whereby we gather a suitable team to solve your project needs.</p></div>
-      <div class="its-adv-card"><h4>Team Construction</h4><p>We use aptitude tests to identify candidates with the right personality, thus we build productive teams that fit your organizational culture.</p></div>
+      <div class="its-adv-card">
+        <h4>Reach the Best Candidates</h4>
+        <p>Due to the qualification of candidates we follow, our clients are guaranteed to work with the most talented and skilled developers thereby placing the company in the top 1%.</p>
+      </div>
+      <div class="its-adv-card">
+        <h4>Structured Communication</h4>
+        <p>You do not need to chase our developers for feedback as they work with your schedule to deliver on projects as expected.</p>
+      </div>
+      <div class="its-adv-card">
+        <h4>No Recruitment Delays</h4>
+        <p>We do not follow the often lengthy procedure of recruitment whereby we gather a suitable team to solve your project needs.</p>
+      </div>
+      <div class="its-adv-card">
+        <h4>Team Construction</h4>
+        <p>We use aptitude tests to identify candidates with the right personality, thus we build productive teams that fit your organizational culture.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -142,24 +154,40 @@ include 'includes/header.php';
     </div>
     <div class="itc-benefits-grid">
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div><strong>Promoted Branding:</strong> The implementation of our methods results in immediate brand promotion, which places your business at the focus of consumer attention and recognition.</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Guaranteed Service : </strong>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and deliverables.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div><strong>Reach New Customers:</strong> We help you leverage on campaigns that will make your business easily accessible and available to clients who share your vision.</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div><strong>Turn on Clients with Simple Clicks:</strong> As our digital marketing agency works its magic to make your firm visible to clients, they are able to interact with your brand with relative ease.</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div><strong>Maximize Brand Viability:</strong> Our branding services enhance the sustainability of your brand by ensuring that your brand sustains the needed growth to and in the market.</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
-        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div><strong>Outshine in the Competition:</strong> By identifying your branding needs, you get a strategic advantage over other brands and create a clear and effective branding message.</div>
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>
@@ -168,12 +196,42 @@ include 'includes/header.php';
 <!-- INDUSTRIES -->
 <section class="solutions">
   <div class="wrap">
-    <div class="section-head"><div class="eyebrow">Industries We Serve</div><h2>Expertise Across Various Industries</h2></div>
+    <div class="section-head">
+      <div class="eyebrow">Industries We Serve</div>
+      <h2>Expertise Across Various Industries</h2>
+    </div>
     <div class="its-industry-grid">
-      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Healthcare</h4><p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital operations.</p></a>
-      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg></div><h4>Retail</h4><p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and grow customer base.</p></a>
-      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h4>Manufacturing</h4><p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and performance improvement.</p></a>
-      <a href="<?= $base ?>#" class="its-industry-card"><div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><h4>Education</h4><p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p></a>
+      <a href="<?= $base ?>#" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+          </svg></div>
+        <h4>Healthcare</h4>
+        <p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital operations.</p>
+      </a>
+      <a href="<?= $base ?>#" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+          </svg></div>
+        <h4>Retail</h4>
+        <p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and grow customer base.</p>
+      </a>
+      <a href="<?= $base ?>#" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="7" width="20" height="14" rx="2" />
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+          </svg></div>
+        <h4>Manufacturing</h4>
+        <p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and performance improvement.</p>
+      </a>
+      <a href="<?= $base ?>#" class="its-industry-card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+          </svg></div>
+        <h4>Education</h4>
+        <p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p>
+      </a>
     </div>
   </div>
 </section>
