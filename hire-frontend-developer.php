@@ -152,7 +152,7 @@ include 'includes/header.php';
       <div class="eyebrow">Why Adhiran</div>
       <h2>Why Choose Adhiran Infotech</h2>
     </div>
-    <div class="its-why-grid">
+    <div class="itc-benefits-grid">
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">

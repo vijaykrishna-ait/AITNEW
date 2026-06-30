@@ -38,7 +38,7 @@ include 'includes/header.php';
       <h2>Web Application Services</h2>
     </div>
     <div class="itc-services-grid">
-      <div class="itc-service-card">
+      <a href="<?= $base ?>hire-python-developer" class="itc-service-card">
         <div class="itc-svc-header itc-svc-blue">
           <h3>Python Development</h3>
         </div>
@@ -46,8 +46,8 @@ include 'includes/header.php';
           <p>Build scalable, secure web applications and APIs with Python's powerful frameworks like Django and Flask for enterprise-grade solutions.</p>
           <div class="its-tech-tags"><span>Django</span><span>Flask</span><span>FastAPI</span></div>
         </div>
-      </div>
-      <div class="itc-service-card">
+      </a>
+      <a href="<?= $base ?>hire-nodejs-developer" class="itc-service-card">
         <div class="itc-svc-header itc-svc-lime">
           <h3>JavaScript Development</h3>
         </div>
@@ -55,8 +55,8 @@ include 'includes/header.php';
           <p>Full-stack JavaScript development using modern frameworks and tools to deliver high-performance, interactive web applications.</p>
           <div class="its-tech-tags"><span>ES6+</span><span>Node.js</span><span>npm</span></div>
         </div>
-      </div>
-      <div class="itc-service-card">
+      </a>
+      <a href="<?= $base ?>hire-react-developer" class="itc-service-card">
         <div class="itc-svc-header itc-svc-navy">
           <h3>React Js Development</h3>
         </div>
@@ -64,8 +64,8 @@ include 'includes/header.php';
           <p>Build dynamic single-page applications and complex UIs with React — fast rendering, reusable components, and rich ecosystem.</p>
           <div class="its-tech-tags"><span>React</span><span>Redux</span><span>Next.js</span></div>
         </div>
-      </div>
-      <div class="itc-service-card">
+      </a>
+      <a href="<?= $base ?>hire-nodejs-developer" class="itc-service-card">
         <div class="itc-svc-header itc-svc-blue">
           <h3>Node Js Development</h3>
         </div>
@@ -73,8 +73,8 @@ include 'includes/header.php';
           <p>Server-side JavaScript development with Node.js for fast, scalable APIs, real-time applications, and microservices architecture.</p>
           <div class="its-tech-tags"><span>Express</span><span>REST</span><span>WebSockets</span></div>
         </div>
-      </div>
-      <div class="itc-service-card">
+      </a>
+      <a href="<?= $base ?>hire-angular-developer" class="itc-service-card">
         <div class="itc-svc-header itc-svc-lime">
           <h3>Angular Development</h3>
         </div>
@@ -82,8 +82,8 @@ include 'includes/header.php';
           <p>Enterprise-scale web applications with Angular's comprehensive framework — TypeScript, dependency injection, and powerful CLI tooling.</p>
           <div class="its-tech-tags"><span>Angular</span><span>TypeScript</span><span>RxJS</span></div>
         </div>
-      </div>
-      <div class="itc-service-card">
+      </a>
+      <a href="<?= $base ?>hire-dotnet-developer" class="itc-service-card">
         <div class="itc-svc-header itc-svc-navy">
           <h3>ASP .NET Development</h3>
         </div>
@@ -91,7 +91,7 @@ include 'includes/header.php';
           <p>Robust, high-performance web applications with Microsoft's ASP.NET Core — cross-platform, secure and enterprise-ready.</p>
           <div class="its-tech-tags"><span>.NET Core</span><span>C#</span><span>Entity Framework</span></div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>

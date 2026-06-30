@@ -2838,7 +2838,7 @@
   .itc-process-row::before{display:none;}
 }
 @media (max-width:560px){.itc-process-row{grid-template-columns:1fr;}}
-
+.solutions .itc-benefit-item{background-color: var(--white);border-color: var(--blue);}
 /* Benefits list */
 .itc-benefits-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:20px auto;}
 .itc-benefit-item{
