@@ -2393,7 +2393,7 @@
 }
 .odc-content h2{font-size:clamp(28px,3.6vw,40px);font-weight:800;margin-bottom:16px;color:var(--navy);}
 .odc-content p{color:var(--gray);font-size:16px;margin-bottom:14px;}
-.odc-points{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px;}
+.odc-points{display:grid;grid-template-columns:1fr ;gap:16px;margin-top:8px;} @media (min-width: 992px) { .odc-points {grid-template-columns: 1fr 1fr;}}
 .odc-point{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:16px 18px;}
 .odc-point b{display:block;font-family:'Sora',sans-serif;font-size:24px;font-weight:800;color:var(--blue);}
 .odc-point span{font-size:13px;color:var(--gray);}

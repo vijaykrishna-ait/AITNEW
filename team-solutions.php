@@ -115,7 +115,7 @@ include 'includes/header.php';
 <!-- ODC EXPLAINER -->
 <section class="solutions">
   <div class="wrap odc-grid">
-    <div class="odc-content">
+    <div class="odc-content ">
       <span class="tag">Offshore Development Center</span>
       <h2>Extend your business with a dedicated global delivery center</h2>
       <p>Build a high-performing, dedicated team that operates as a seamless extension of your organization. Our Offshore Development Center model provides the talent, infrastructure, governance, and operational support you need—without the complexity of establishing and managing your own local entity.</p>
