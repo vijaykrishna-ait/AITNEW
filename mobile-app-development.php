@@ -107,45 +107,48 @@ include 'includes/header.php';
 <!-- BENEFITS -->
 <section>
   <div class="wrap">
-    <div>
-      <span class="tag">Why Choose Us</span>
-      <h2>Advantages of Associating with Us</h2>
-      <div class="itc-benefits-grid">
-        <div class="itc-benefit-item">
-          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12" />
-            </svg></div>
-          <div>Unbeatable services with great customizations.</div>
-        </div>
-        <div class="itc-benefit-item">
-          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12" />
-            </svg></div>
-          <div>Quality-assured delivery on or before the deadline.</div>
-        </div>
-        <div class="itc-benefit-item">
-          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12" />
-            </svg></div>
-          <div>Expert solutions to rectify errors at an instance.</div>
-        </div>
-        <div class="itc-benefit-item">
-          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12" />
-            </svg></div>
-          <div>User-friendly and responsive, suitable for various platforms.</div>
-        </div>
-        <div class="itc-benefit-item">
-          <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12" />
-            </svg></div>
-          <div>Simple, creative, and attractively designed applications to upgrade your progress.</div>
-        </div>
+    <div class="section-head">
+      <div class="eyebrow">Why Choose Us</div>
+      <h2>Why Choose Adhiran Infotech</h2>
+    </div>
+    <div class="itc-benefits-grid">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Guaranteed Service : </strong>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and deliverables.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
-    <!-- <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/mobile_app/mobile_app_benefits.png" alt="Advantages of Associating with Us">
-    </div> -->
   </div>
 </section>
 
