@@ -7,11 +7,19 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itc-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Consulting — Mobile App Development</div>
-    <h1>Mobile App Development Services in Chennai</h1>
-    <p class="lead">Bring life to your dream applications and experience them in action! Adhiran Infotech, the best mobile application development company in Chennai, has skilled professionals who build applications on various platforms that support any kind of mobile platform, such as Android, iOS, or other cross-platform.</p>
-    <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Consulting — Mobile App Development</div>
+      <h1>Mobile App Development Services in Chennai</h1>
+      <p class="lead">Bring life to your dream applications and experience them in action! Adhiran Infotech, the best mobile application development company in Chennai, has skilled professionals who build applications on various platforms that support any kind of mobile platform, such as Android, iOS, or other cross-platform.</p>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/mobile-app-dev/mobile-app-banner.jpg" alt="">
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -19,7 +27,7 @@ include 'includes/header.php';
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/mobile_app/mobile_app_desc.png" alt="Mobile App Development Services in Chennai">
+      <img src="assets/images/mobile-app-dev/mobile-augmentation.jpg" alt="Mobile App Development Services in Chennai">
     </div>
     <div>
       <span class="tag">IT Consulting</span>

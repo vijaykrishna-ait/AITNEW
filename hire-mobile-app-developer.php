@@ -7,14 +7,23 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Mobile App Development</div>
-    <h1>Hire Expert Mobile App Developers for iOS, Android & Cross-Platform</h1>
-    <p class="lead">Adhiran Infotech has built its reputation as an expert in delivering robust, functional Smartphone applications suited to existing and emerging markets. Our team of highly talented developers works hand in hand with programmers to give each app an excellent finish in terms of features, usability, and efficiency.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-mobile-app-developer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Staffing — Mobile App Development</div>
+      <h1>Hire Expert Mobile App Developers for iOS, Android & Cross-Platform</h1>
+      <p class="lead">Adhiran Infotech has built its reputation as an expert in delivering robust, functional Smartphone applications suited to existing and emerging markets. Our team of highly talented developers works hand in hand with programmers to give each app an excellent finish in terms of features, usability, and efficiency.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-mobile-app-developer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
     </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/mobile-app-dev/mobile-app-banner.jpg" alt="">
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -28,7 +37,7 @@ include 'includes/header.php';
       <p>For new creation of an app or its optimization, our specific approaches will help to construct apps that would perfectly match your business objectives.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/mobileapp/mobile-app-desc.png" alt="Hire Expert Mobile App Developers for iOS, Android & Cross-Platform">
+      <img src="assets/images/mobile-app-dev/mobile-augmentation.jpg" alt="Hire Expert Mobile App Developers for iOS, Android & Cross-Platform">
     </div>
   </div>
 </section>
