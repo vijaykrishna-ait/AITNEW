@@ -157,22 +157,30 @@ include 'includes/header.php';
       </div>
       <div class="leader-grid">
         <div class="leader-card">
-          <div class="photo"><img src="assets/images/aitteam/karthikeyan.jpg" alt="Founder & CEO"></div>
+          <div class="photo">
+            <!-- <img src="assets/images/aitteam/karthikeyan.jpg" alt="Founder & CEO"> -->
+          </div>
           <h3>Karthikeyan</h3>
           <div class="role">Founder &amp; CEO</div>
         </div>
         <div class="leader-card">
-          <div class="photo"><img src="assets/images/aitteam/prem.jpg" alt="Co-Founder & CTO"></div>
+          <div class="photo">
+            <!-- <img src="assets/images/aitteam/prem.jpg" alt="Co-Founder & CTO"> -->
+          </div>
           <h3>Premkumar</h3>
           <div class="role">Co-Founder &amp; CTO</div>
         </div>
         <div class="leader-card">
-          <div class="photo"><img src="assets/images/aitteam/selvi.jpg" alt="Director"></div>
+          <div class="photo">
+            <!-- <img src="assets/images/aitteam/selvi.jpg" alt="Director"> -->
+          </div>
           <h3>Selvi</h3>
           <div class="role">Director</div>
         </div>
         <div class="leader-card">
-          <div class="photo"><img src="assets/images/aitteam/kalaivani.jpg" alt="Director"></div>
+          <div class="photo">
+            <!-- <img src="assets/images/aitteam/kalaivani.jpg" alt="Director"> -->
+          </div>
           <h3>Kalaivani</h3>
           <div class="role">Director</div>
         </div>
