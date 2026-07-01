@@ -201,36 +201,46 @@ include 'includes/header.php';
 <!-- WHY CHOOSE US -->
 <section>
   <div class="wrap">
-    <div class="section-head center" style="text-align:center;">
-      <div class="eyebrow" style="justify-content:center;">Why Adhiran Infotech</div>
-      <h2>Why Choose Adhiran Infotech for Your IT Solutions?</h2>
-      <p>We deliver tailored, scalable and secure technology solutions backed by a team of seasoned specialists.</p>
+    <div class="section-head">
+      <div class="eyebrow">Why Choose Us</div>
+      <h2>Why Choose Adhiran Infotech</h2>
     </div>
-    <div class="itsol-why-grid">
-      <div class="itsol-why-card">
-        <div class="itsol-why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
-        <h3>Tailored IoT Solutions</h3>
-        <p>We provide tailored solutions that align with your unique business operations and processes.</p>
+    <div class="itc-benefits-grid">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Guaranteed Service : </strong>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and deliverables.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
-        <h3>Cutting-Edge Technology</h3>
-        <p>Leverage cutting-edge IoT technology to future-proof and enhance your business.</p>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <h3>Expert Team of Professionals</h3>
-        <p>Hiring IoT specialists provides valuable insights and solutions to boost asset performance and business results.</p>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <h3>End-to-End Support</h3>
-        <p>We offer expert consultation, design, installation, and ongoing maintenance for your IT systems.</p>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
-        <h3>Scalable &amp; Secure</h3>
-        <p>Our scalable services ensure secure growth for your business and assets across all stages of your journey.</p>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

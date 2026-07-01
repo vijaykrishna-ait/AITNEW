@@ -108,54 +108,45 @@ include 'includes/header.php';
 <section>
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow">Why Adhiran</div>
+      <div class="eyebrow">Why Choose Us</div>
       <h2>Why Choose Adhiran Infotech</h2>
     </div>
-    <div class="itsol-why-grid">
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <div class="itc-benefits-grid">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Certified Power BI Experts</h4>
-          <p>Our team includes Microsoft-certified Power BI professionals with deep expertise in data modeling, DAX, and enterprise BI architecture.</p>
-        </div>
+        <div><strong>Guaranteed Service : </strong>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and deliverables.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Business-First Approach</h4>
-          <p>We translate business questions into analytics solutions — not just technical dashboards — focusing on decisions that matter.</p>
-        </div>
+        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Full Implementation Support</h4>
-          <p>From data source discovery to deployment, training, and ongoing support — we manage the complete Power BI journey.</p>
-        </div>
+        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Performance Optimized</h4>
-          <p>We build models and reports that load fast and scale efficiently — even with large datasets and concurrent users.</p>
-        </div>
+        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Secure & Governed</h4>
-          <p>Row-level security, workspace management, sensitivity labels, and audit logging ensure your analytics environment is secure and compliant.</p>
-        </div>
+        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

@@ -74,54 +74,45 @@ include 'includes/header.php';
 <section>
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow">Why Adhiran</div>
+      <div class="eyebrow">Why Choose Us</div>
       <h2>Why Choose Adhiran Infotech</h2>
     </div>
-    <div class="itsol-why-grid">
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <div class="itc-benefits-grid">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Tailored Solutions</h4>
-          <p>Every automation is built to fit your exact process, system landscape, and organizational context — no one-size-fits-all bots.</p>
-        </div>
+        <div><strong>Guaranteed Service : </strong>We commit to quality and reliability, guaranteeing that every engagement meets agreed standards and deliverables.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Long-Term Collaboration</h4>
-          <p>We invest in understanding your business deeply and grow with you as your automation program scales across departments.</p>
-        </div>
+        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Highly Rated on B2B Platforms</h4>
-          <p>Consistent top ratings from clients on B2B review platforms reflect our commitment to quality delivery and client satisfaction.</p>
-        </div>
+        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Agile Methodology</h4>
-          <p>Iterative development cycles allow us to deliver working automations quickly and incorporate feedback at every sprint.</p>
-        </div>
+        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
-      <div class="itsol-why-card">
-        <div class="itsol-why-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div>
-          <h4>Extensive Industry Experience</h4>
-          <p>Proven RPA deployments across BFSI, healthcare, manufacturing, retail, and shared services sectors.</p>
-        </div>
+        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+      </div>
+      <div class="itc-benefit-item">
+        <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
+        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>
