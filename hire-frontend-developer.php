@@ -6,14 +6,14 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
 
     <div class="">
       <div class="eyebrow">IT Staffing — Front-End Development</div>
       <h1>Hire Expert Front-End Developers for World-Class UI</h1>
       <p class="lead">At Adhiran Infotech, we strengthen your team by presenting front end developers for hire with immense experience across your projects. IT staffing solutions act as a means through which businesses can acquire people, extend capacity, accomplish timeliness and overall objectives effectively.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="hire-frontend-developer#services" class="btn btn-outline-light">Explore Services</a>
       </div>

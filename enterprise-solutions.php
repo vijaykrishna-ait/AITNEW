@@ -7,18 +7,18 @@ include 'includes/header.php';
 ?>
 
 <!-- ES HERO -->
-<section class="es-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
 
     <div class="">
       <div class="eyebrow">Enterprise Application Development</div>
       <h1>Business-critical platforms, delivered by experts who understand them</h1>
       <p class="lead">From SAP and Salesforce to ServiceNow and Veeva, Adhiran Infotech helps organizations implement, integrate, optimize, and support enterprise applications that power day-to-day operations. Our certified specialists and global delivery teams ensure seamless execution, scalability, and long-term success.</p>
-      <div class="es-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Connect with an Enterprise Applications Specialist →</a>
         <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Discover Our Platform Expertise</a>
       </div>
-      <div class="es-hero-stats">
+      <div class="hero-stats">
         <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>EEnterprise platforms across <br> multiple industries</span></div>
         <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
         <div><b>24/7</b><span>Successful implementations, <br> upgrades, and global rollouts</span></div>

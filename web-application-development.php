@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itc-hero">
+<section class="hero">
   <div class="wrap hero-grid">
 
     <div class="">

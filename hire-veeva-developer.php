@@ -6,12 +6,12 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itsol-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT SOLUTIONS — VEEVA CRM</div>
     <h1>Veeva CRM Solutions — Implementation, Migration & Managed Services</h1>
     <p class="lead">Adhiran Infotech provides comprehensive Veeva CRM services that help life sciences organizations unlock the full value of their Veeva investments. From new implementations to Classic CRM – Vault CRM migrations and ongoing AMS, our experienced Veeva consultants deliver excellence.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Start Your Project &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

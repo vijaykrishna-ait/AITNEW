@@ -15,7 +15,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Staffing — Angular</div>
     <h1>Hire Expert Angular Developers for Robust Enterprise Web Apps</h1>
     <p class="lead">We specialize in crafting dynamic and immersive web experiences powered by Angular. As a leading provider of Angular development services, we recognize the significance of staying ahead in today's rapidly evolving digital landscape. With Angular, we empower businesses to create robust and feature-rich web applications that captivate audiences and yield tangible results.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

@@ -9,12 +9,12 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Manual Testing</div>
     <h1>Hire Expert Manual Testing Engineers for Error-Free Software Quality</h1>
     <p class="lead">Most development companies deem it appropriate to incorporate testing processes in software development life cycle partly through manual testing. With our knowledgeable manual testers, we take our time to examine your application for defects, usability problems and compliance with your specifications. By employing live user mode, we guarantee that your applications are user friendly and conform to the best quality.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

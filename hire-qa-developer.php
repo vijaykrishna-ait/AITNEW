@@ -6,13 +6,13 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">IT Staffing — QA Engineering</div>
       <h1>Hire Expert QA Engineers for Error-Free Software Delivery</h1>
       <p class="lead">At Adhiran Infotech we support your team by assigning our experienced QA professional to make your project as efficient as possible and add dedication to the work. Our IT staffing solutions help organizations to build the quality assurance capability, meet deadlines and deliver quality as intended.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="hire-qa-developer#services" class="btn btn-outline-light">Explore Services</a>
       </div>

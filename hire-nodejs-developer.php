@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Node.js</div>
     <h1>Hire Expert Node.js Developers for Scalable Server-Side Applications</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       scalability and responsiveness of Node.js. We craft scalable web applications using Node.js that include single
       page apps and data-sharing solutions. Our team of Node.js developers is highly experienced, providing you with the
       best performance for high availability.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

@@ -6,14 +6,14 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itsol-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
 
     <div class="">
       <div class="eyebrow">IT Solutions — SAP</div>
       <h1>SAP Solutions — Implementation, Migration & Managed Services</h1>
       <p class="lead">Adhiran Infotech provides comprehensive SAP services that help organizations unlock the full value of their SAP investments. From new implementations to system carve-outs and ongoing AMS, our certified SAP consultants deliver excellence.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="sap-it-solutions#services" class="btn btn-outline-light">Explore Services</a>
       </div>

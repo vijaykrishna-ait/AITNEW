@@ -7,13 +7,13 @@ include 'includes/header.php';
 ?>
 
   <!-- ABOUT HERO -->
-  <section class="about-hero" id="who-we-are">
-    <div class="wrap about-hero-grid">
+  <section class="hero-navy" id="who-we-are">
+    <div class="wrap hero-grid">
       <div>
         <div class="eyebrow">About Adhiran Infotech</div>
         <h1>Accelerating Business Growth Through People and Technology</h1>
         <p class="lead">At Adhiran Infotech, we specialize in IT staffing, software development, and AI-powered consulting services. We partner with organizations worldwide to build high-performing teams, create scalable web and mobile applications, and implement technology solutions that drive business success.</p>
-        <div class="about-hero-stats">
+        <div class="hero-stats">
           <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of Industry Experience</span></div>
           <div><b class="count-up" data-target="5">5</b><span>Local Presence Across Countries</span></div>
           <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful Placements & Engagements</span></div>

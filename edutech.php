@@ -7,17 +7,17 @@ include 'includes/header.php';
 ?>
 
 <!-- ED HERO -->
-<section class="ed-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">EdTech &amp; AI for Education</div>
       <h1>Helping institutions teach smarter with AI-powered learning experiences</h1>
       <p class="lead">We partner with schools, colleges, universities, medical institutions, and corporate training providers to build modern EdTech platforms. Our solutions combine strong engineering with practical understanding of how educators teach and how students learn.</p>
-      <div class="ed-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an EdTech Expert →</a>
         <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
       </div>
-      <div class="ed-hero-stats">
+      <div class="hero-stats">
         <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning <br> platforms delivered</span></div>
         <div><b class="count-up" data-target="4">4</b><span>Key segments: schools,<br> higher education, medical <br> & corporate training</span></div>
         <div><b>AI-Based</b><span>Personalized learning <br>and adaptive education<br> systems</span></div>

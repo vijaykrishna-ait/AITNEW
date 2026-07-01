@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Flutter Development</div>
     <h1>Hire Expert Flutter Developers for Beautiful Cross-Platform Apps</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       Flutter — Google's cross-platform toolkit. Flutter is exploited by our team to deploy applications for both iOS
       and Android platforms with a single code base resulting in shorter development time, low cost and enhanced user
       experience as closely related to a native platform app.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

@@ -12,7 +12,7 @@ include 'includes/header.php';
     <div class="eyebrow">IT Staffing — Backend Development</div>
     <h1>Hire Skilled Backend Developers to Power Your Applications</h1>
     <p class="lead">Back-end developers at Adhiran Infotech have a great deal of expertise in developing the functionality, structure and database of your business applications. Our IT staff augmentation services arm you with talented professionals who ensure your applications are protected, grow, and run at their best.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="hire-backend-developer#services" class="btn btn-outline-light">Explore Services</a>
     </div>

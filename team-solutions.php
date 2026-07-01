@@ -6,18 +6,18 @@ $page_canonical = 'https://adhiraninfotech.com/';
 include 'includes/header.php';
 ?>
 <!-- TM HERO -->
-<section class="tm-hero tm-hero-content">
-  <div class="wrap tm-hero-left hero-grid">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
 
     <div class="">
       <div class="eyebrow">Team Solutions</div>
       <h1>Build high-performing teams and scalable delivery centers with confidence</h1>
       <p class="lead">Whether you need a dedicated project team, a managed delivery pod, or a fully operational Offshore Development Center (ODC), Adhiran Infotech helps you rapidly scale talent and delivery capabilities across global markets.</p>
-      <div class="tm-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Speak with a Team Solutions Expert →</a>
         <a href="<?= $base ?>team-solutions#models" class="btn btn-outline-light">Explore Delivery Models</a>
       </div>
-      <div class="tm-hero-stats ">
+      <div class="hero-stats ">
         <div><b class="count-up" data-target="4">4</b><span>Global markets supported <br> with active talent and <br> delivery capabilities</span></div>
         <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Global markets supported <br>with active talent and <br> delivery capabilities</span></div>
         <div><b>ODC</b><span>End-to-end managed <br> Offshore Development <br> Centers</span></div>
@@ -31,9 +31,7 @@ include 'includes/header.php';
         <img src="assets/images/banners/team-solution-banner.jpg" alt="">
       </div>
     </div>
-
   </div>
-  <div class="tm-hero-right"></div>
 </section>
 
 <!-- TEAM MODELS -->

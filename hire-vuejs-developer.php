@@ -9,12 +9,12 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Vue.js</div>
     <h1>Hire Expert Vue.js Developers for Progressive Web Applications</h1>
     <p class="lead">We at Adhiran Infotech have proficiency in creating consistent, engaging, and operational web applications with the use of Vue.js. Being a Vue.js development company, we understand the importance of being able to deliver flexible and scalable solutions in the modern world. Vue.js allows bringing applications with optimum performance, scalability, and generating value for your business.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

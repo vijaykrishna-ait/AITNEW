@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — React Native</div>
     <h1>Hire Expert React Native Developers for Native-Quality Mobile Apps</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       Android and iOS environments using React Native. Our skilled React Native developers deliver some of the most
       reliable and fast mobile solutions while working on a single code base. One of the main advantages of Adhiran's
       React Native solutions is you get the smooth, beautiful app on any device with lower costs and time to market.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

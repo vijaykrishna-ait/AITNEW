@@ -280,7 +280,7 @@
 .hero-navy p.lead{font-size:17px;color:rgba(255,255,255,.78);max-width:480px;margin-bottom:26px;}
 .hero-navy .hero-actions{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:34px;}
 .hero-navy .hero-stats{display:flex;gap:42px;flex-wrap:wrap;}
-.hero-navy .hero-stats div b{display:block;font-family:'Sora',sans-serif;font-size:26px;font-weight:800;color:var(--white);}
+.hero-navy .hero-stats div b{display:block;font-family:'Sora',sans-serif;font-size:26px;font-weight:800;color:var(--lime);}
 .hero-navy .hero-stats div span{display: block;font-size:13px;color:rgba(255,255,255,.6);}
   /* -------------- */
   .hero{
@@ -1006,7 +1006,7 @@
   display:flex;flex-direction:column;gap:14px;
   transition:transform .25s ease, box-shadow .25s ease;
 }
-.ai-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px -24px rgba(11,42,74,.25);}
+.ai-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px -24px rgba(11,42,74,.25);border-color: var(--blue);}
 .ai-card .ico{
   width:54px;height:54px;border-radius:14px;
   background:linear-gradient(135deg,var(--blue),var(--blue-deep));color:var(--white);
@@ -1026,15 +1026,12 @@
 
 /* AI approach / how we work */
 .approach-row{display:grid;grid-template-columns: 1fr 1fr;}
-.approach-item{
-  display:grid;grid-template-columns:80px 1fr ;gap:24px;padding:28px 0;
-  border-bottom:1px solid var(--line);
-}
+.approach-item{display:grid;grid-template-columns:80px 1fr ;gap:24px;border-bottom:1px solid var(--line);}
 /* .approach-item:last-child{border-bottom:none;} */
 .approach-num{font-family:'Sora',sans-serif;font-weight:800;font-size:34px;color:var(--sky-2);animation: highlightNum 4s infinite;}
 .approach-content h3{font-size:19px;font-weight:800;color:var(--navy);margin-bottom:6px;animation: highlightTitle 4s infinite;}
 .approach-content p{color:var(--gray);font-size:15px;max-width:640px;}
-@media (max-width:600px) { .approach-row { grid-template-columns: 1fr ;}.approach-item{grid-template-columns:1fr ;gap:8px; padding: 0px;}.approach-num{font-size:24px;}}
+@media (max-width:600px) {.approach-row{grid-template-columns: 1fr;}.approach-item{grid-template-columns:1fr ;gap:8px; padding: 0px;}.approach-num{font-size:24px;}}
 /* Stagger the animation for each item */
 .approach-item:nth-child(1) .approach-num,.approach-item:nth-child(1) .approach-content h3  {animation-delay: 0s;}
 .approach-item:nth-child(2) .approach-num,.approach-item:nth-child(2) .approach-content h3  {animation-delay: 1s;}

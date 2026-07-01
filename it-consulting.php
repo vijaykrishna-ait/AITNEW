@@ -7,24 +7,26 @@ include 'includes/header.php';
 ?>
 
 <!-- ITC HERO -->
-<section class="itc-hero">
-  <div class="wrap itc-hero-grid">
+<section class="hero">
+  <div class="wrap hero-grid">
     <div>
       <div class="eyebrow">IT Consulting Services</div>
       <h1>Transform your business with expert IT consulting and development</h1>
       <p class="lead">Adhiran Infotech is the one-stop destination for crafting creative designs that grab the attention of your clients, which enhances your progress. We start with a process of deep discussion to hear the client's ideas and suggestions and design innovative solutions.</p>
-      <div class="itc-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact" class="btn btn-primary">Get a Free Consultation →</a>
         <a href="#services" class="btn btn-outline">Explore Services</a>
       </div>
-      <div class="itc-hero-stats">
+      <div class="hero-stats">
         <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>Consulting disciplines</span></div>
         <div><b class="count-up" data-target="200" data-suffix="+">200+</b><span>Projects delivered</span></div>
         <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of expertise</span></div>
       </div>
     </div>
-    <div class="itc-hero-visual">
+    <div class="hero-visual">
+      <div class="hero-photo">
       <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="IT consulting team working on digital solutions">
+      </div>
     </div>
   </div>
 </section>

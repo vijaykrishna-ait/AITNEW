@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Ionic Development</div>
     <h1>Hire Expert Ionic Developers for Cross-Platform Mobile Apps</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       cross-platform and responsive Framework. We provide one-time built-in cross-platform apps that provide native
       experience with iOS, Android, and web and ensure quick and economical deployment. In combination with Adhiran's
       Ionic solutions you are able to extend the audience at the same time using the same codebase.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

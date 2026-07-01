@@ -9,12 +9,12 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Python Development</div>
     <h1>Hire Expert Python Developers for Web, Data & AI Solutions</h1>
     <p class="lead">At Adhiran Infotech, we leverage the versatility and power of Python to build scalable web applications, robust APIs, intelligent data pipelines, and cutting-edge AI/ML solutions. Our experienced Python developers deliver high-quality results tailored to your unique business needs.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

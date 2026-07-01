@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — PHP Development</div>
     <h1>Hire Expert PHP Developers for Dynamic, Scalable Web Applications</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       the years our dedicated PHP development team has consistently delivered high-performance, secure, and scalable
       applications that matter. From dynamic website scripts to web stores, we take advantage of the versatility of PHP
       to achieve the right solutions for your business.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

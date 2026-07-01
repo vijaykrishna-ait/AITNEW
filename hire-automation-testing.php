@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — Automation Testing</div>
     <h1>Hire Expert Automation Testing Engineers for Faster, Reliable Releases</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       effort. Our services at Adhiran Infotech include the highest quality automation testing services which employ
       sophisticated tools and frameworks. Our talented automation engineers are familiar with development of
       comprehensive automated test scripts that can enhance test coverage and make tests shorter and more effective.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

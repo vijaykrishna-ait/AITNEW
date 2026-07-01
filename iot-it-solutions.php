@@ -6,14 +6,14 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itsol-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
 
     <div class="">
       <div class="eyebrow">IT Solutions — IoT</div>
       <h1>IoT Solutions to Connect, Monitor & Innovate</h1>
       <p class="lead">Adhiran Infotech delivers cutting-edge IoT (Internet of Things) solutions to connect devices, optimize processes, and drive innovation. We build smart, scalable platforms that collect real-time data from connected devices to enable informed decision-making.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="iot-solutions#services" class="btn btn-outline-light">Explore Services</a>
       </div>

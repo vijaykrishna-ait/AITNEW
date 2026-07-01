@@ -7,7 +7,7 @@ include 'includes/header.php';
 ?>
 
 <!-- NB HERO -->
-<section class="nb-hero">
+<section class="hero">
   <div class="wrap">
     <div class="eyebrow">News &amp; Blog</div>
     <h1>Stories of transformation</h1>

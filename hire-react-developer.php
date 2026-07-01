@@ -9,12 +9,12 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — React JS</div>
     <h1>Hire Expert React JS Developers for Dynamic Web Experiences</h1>
     <p class="lead">At Adhiran Infotech, where we specialize in crafting dynamic and engaging web experiences powered by React. As a leading provider of React development services we understand the importance of staying ahead in today's fast-paced digital landscape. With React, we empower businesses to create scalable and high-performing web applications that captivate audiences and drive results.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

@@ -6,14 +6,14 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itsol-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
 
     <div class="">
       <div class="eyebrow">IT Solutions — Power BI</div>
       <h1>Power BI Solutions for Data-Driven Decision Making</h1>
       <p class="lead">Transform raw data into compelling visual stories with Adhiran Infotech's Power BI expertise. We design and implement dashboards, reports, and analytics solutions that give your leadership team the insights they need — when they need them.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="power-bi#services" class="btn btn-outline-light">Explore Services</a>
       </div>

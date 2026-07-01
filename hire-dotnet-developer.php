@@ -9,7 +9,7 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing — .NET Development</div>
     <h1>Hire Expert .NET Developers for High-Performance Enterprise Solutions</h1>
@@ -17,7 +17,7 @@ include 'includes/header.php';
       tailor-made applications that will intelligently harness your business. We have assembled a team of experienced
       and highly skilled .NET developers who create bespoke programs addressing multiple and versatile requirements of
       different industries.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
     </div>

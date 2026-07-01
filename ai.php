@@ -41,7 +41,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">What We Do</div>
-      <h2>Comprehensive AI Solutions for Every Stage of Your Journey</h2>
+      <h2>AI Solutions Across Every Stage</h2>
       <p>From strategic planning and implementation to optimization and ongoing management, we support organizations throughout their entire AI transformation journey.</p>
     </div>
     <div class="ai-grid">

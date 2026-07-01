@@ -6,13 +6,13 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itc-hero">
+<section class="hero">
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">IT Consulting — E-Commerce Development</div>
       <h1>E-Commerce Website Development Services in Chennai</h1>
       <p class="lead">An E-Commerce web store is the smarter way to take your business to the next level of growth. These days, it has become a must-have option to build your online store to succeed in your business and raise your business, competing with your competitors.</p>
-      <div class="itc-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
       </div>
     </div>

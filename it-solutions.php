@@ -7,16 +7,16 @@ include 'includes/header.php';
 ?>
 
 <!-- ITSOL HERO -->
-<section class="itsol-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Solutions</div>
     <h1>Innovative IT solutions that change the layout and base of your business</h1>
     <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
-    <div class="itsol-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Request a Demo →</a>
       <a href="#solutions" class="btn btn-outline-light">Explore Solutions</a>
     </div>
-    <div class="itsol-hero-stats">
+    <div class="hero-stats">
       <div><b class="count-up" data-target="7" data-suffix="+">7+</b><span>Technology solutions</span></div>
       <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Implementations delivered</span></div>
       <div><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Industry verticals served</span></div>

@@ -13,11 +13,11 @@ include 'includes/header.php';
     <div class="eyebrow">Digital Engineering &amp; Industry 4.0</div>
     <h1>Empowering Next Generation Intelligent Manufacturing</h1>
     <p class="lead">We help industrial organizations leverage connected technologies, automation, AI, and digital engineering to create smarter operations, improve asset performance, and drive sustainable business growth.</p>
-    <div class="de-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an Industry Expert →</a>
       <a href="<?= $base ?>digital-marketing#de-services" class="btn btn-outline-light">Explore Digital Engineering Services</a>
     </div>
-    <div class="de-hero-stats">
+    <div class="hero-stats">
       <div ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Improvement in <br>Operational Reliability</span></div>
       <div ><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Years of <br>Industry Experience</span></div>
       <div ><b>AI-Driven IoT</b><span>Smart Factory Enablement</span></div>

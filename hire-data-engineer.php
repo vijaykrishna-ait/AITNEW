@@ -6,13 +6,13 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">IT Staffing — Data Engineering</div>
       <h1>Hire Expert Data Engineers to Power Your Data Strategy</h1>
       <p class="lead">Begin constituting your offshore team with Adhiran Infotech. Being skilled in diverse fields and with lots of experience, we are able to quickly gather a team that can meet all your business data needs. Through our team of qualified data engineers, we use our professional skills and the competency of the specialty to provide solutions that will suit clients needs.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="hire-data-engineer#services" class="btn btn-outline-light">Explore Services</a>
       </div>

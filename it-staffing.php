@@ -7,16 +7,16 @@ include 'includes/header.php';
 ?>
 
 <!-- ITS HERO -->
-<section class="its-hero">
+<section class="hero-navy">
   <div class="wrap">
     <div class="eyebrow">IT Staffing Solutions</div>
     <h1>Scale your team with pre-vetted IT professionals — fast</h1>
     <p class="lead">At Adhiran Infotech, we strengthen your team by presenting developers for hire with immense experience across your projects. IT staffing solutions act as a means through which businesses can acquire people, extend capacity, accomplish timeliness and overall objectives effectively.</p>
-    <div class="its-hero-actions">
+    <div class="hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer →</a>
       <a href="#services" class="btn btn-outline-light">Explore Our Services</a>
     </div>
-    <div class="its-hero-stats">
+    <div class="hero-stats">
       <div><b class="count-up" data-target="9" data-suffix="+">9+</b><span>IT specializations covered</span></div>
       <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Avg. time to first placement</span></div>
       <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Professionals placed globally</span></div>

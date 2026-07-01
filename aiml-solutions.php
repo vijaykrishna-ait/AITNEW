@@ -14,7 +14,7 @@ include 'includes/header.php';
       <p class="lead">Adhiran Infotech helps organizations harness the transformative power of Artificial Intelligence
         and Machine Learning. We build custom AI solutions that automate decisions, uncover hidden insights, and create
         competitive advantages across every function of your business.</p>
-      <div class="its-hero-actions">
+      <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="aiml-solutions#services" class="btn btn-outline-light">Explore Services</a>
       </div>
