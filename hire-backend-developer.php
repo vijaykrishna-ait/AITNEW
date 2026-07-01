@@ -6,14 +6,21 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="its-hero">
-  <div class="wrap">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div>
     <div class="eyebrow">IT Staffing — Backend Development</div>
     <h1>Hire Skilled Backend Developers to Power Your Applications</h1>
     <p class="lead">Back-end developers at Adhiran Infotech have a great deal of expertise in developing the functionality, structure and database of your business applications. Our IT staff augmentation services arm you with talented professionals who ensure your applications are protected, grow, and run at their best.</p>
     <div class="its-hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="hire-backend-developer#services" class="btn btn-outline-light">Explore Services</a>
+    </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/backend-banner.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -28,7 +35,7 @@ include 'includes/header.php';
       <p>Having a broad insight into the elaboration of highly composite back-end systems, our specialists will be able to offer a number of expert solutions most fitting for your company. Work with us to amplify the effect of our specific know-how and increase productivity of your behind-the-scenes processes.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/backend/backend_desc.png" alt="Hire Skilled Backend Developers to Power Your Applications">
+      <img src="assets/images/staff-augmentation.jpg" alt="Hire Skilled Backend Developers to Power Your Applications">
     </div>
   </div>
 </section>

@@ -22,7 +22,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/angular/angular-banner.jpeg" alt="">
+        <img src="assets/images/banners/angular-banner.jpeg" alt="">
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ include 'includes/header.php';
       <p>We harness the full potential of Angular to build cutting-edge web applications that push boundaries and exceed expectations. Our framework combines industry-leading technologies with custom solutions tailored to your unique requirements.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>assets/images/angular/staff-augumentation.jpeg" alt="Hire Expert Angular Developers for Robust Enterprise Web Apps">
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert Angular Developers for Robust Enterprise Web Apps">
     </div>
   </div>
 </section>
