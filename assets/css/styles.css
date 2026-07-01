@@ -2412,7 +2412,7 @@
 .odc-points{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
 .odc-point{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:16px 18px;}
 .odc-point b{display:block;font-family:'Sora',sans-serif;font-size:20px;font-weight:800;color:var(--blue);}
-.odc-point span{font-size:13px;color:var(--gray);}
+.odc-point span{font-size:13px;color:var(--gray);margin: 0;padding: 0;line-height: 0.8;}
 @media (max-width:900px){.odc-grid,.odc-points{grid-template-columns:1fr;}}
 
 /* Onsite/Offshore comparison */
