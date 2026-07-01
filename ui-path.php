@@ -7,13 +7,21 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itsol-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Solutions — UiPath RPA</div>
-    <h1>UiPath RPA Solutions to Automate & Transform Your Business</h1>
-    <p class="lead">Unlock the power of Robotic Process Automation with Adhiran Infotech's UiPath expertise. We help organizations identify, build, and scale automation to eliminate repetitive tasks, reduce errors, and free your workforce for higher-value work.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
-      <a href="ui-path#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Solutions — UiPath RPA</div>
+      <h1>UiPath RPA Solutions to Automate & Transform Your Business</h1>
+      <p class="lead">Unlock the power of Robotic Process Automation with Adhiran Infotech's UiPath expertise. We help organizations identify, build, and scale automation to eliminate repetitive tasks, reduce errors, and free your workforce for higher-value work.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
+        <a href="ui-path#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/ui-path-banner.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>

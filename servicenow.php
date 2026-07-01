@@ -7,13 +7,21 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itsol-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Solutions — ServiceNow</div>
-    <h1>ServiceNow Implementation & Digital Workflow Solutions</h1>
-    <p class="lead">Adhiran Infotech helps organizations unlock the full potential of ServiceNow to automate workflows, improve service delivery, and connect the enterprise. From ITSM implementation to custom application development on the Now Platform, we drive measurable transformation.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
-      <a href="servicenow#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Solutions — ServiceNow</div>
+      <h1>ServiceNow Implementation & Digital Workflow Solutions</h1>
+      <p class="lead">Adhiran Infotech helps organizations unlock the full potential of ServiceNow to automate workflows, improve service delivery, and connect the enterprise. From ITSM implementation to custom application development on the Now Platform, we drive measurable transformation.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
+        <a href="servicenow#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/Servicenow-banner.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>

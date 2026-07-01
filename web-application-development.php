@@ -7,11 +7,20 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itc-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Consulting — Web Application Development</div>
-    <h1>Custom Web Application Development Services</h1>
-    <p class="lead">Adhiran Infotech is a premium web application development company that provides world-class standards for its services. We always look forward to providing creative web solutions that meet B2B and B2C requirements.</p>
-    <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Consulting — Web Application Development</div>
+      <h1>Custom Web Application Development Services</h1>
+      <p class="lead">Adhiran Infotech is a premium web application development company that provides world-class standards for its services. We always look forward to providing creative web solutions that meet B2B and B2C requirements.</p>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/web-app/web-app-banner.jpg" alt="">
+      </div>
+    </div>
   </div>
 </section>
 
@@ -19,7 +28,7 @@ include 'includes/header.php';
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/web_app/web_application.png" alt="Custom Web Application Development Services">
+      <img src="assets/images/web-app/web-app-dev.jpg" alt="Custom Web Application Development Services">
     </div>
     <div>
       <span class="tag">IT Consulting</span>

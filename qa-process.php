@@ -7,19 +7,29 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itc-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Consulting — QA Process</div>
-    <h1>QA Audit & Consulting Services for Quality-Driven Development</h1>
-    <p class="lead">Gain improved organization performance with Adhiran Infotech's QA audit & consulting services to make your business more efficient. Our core competency is to establish the process deficiencies and fulfill the guidelines to enhance the quality of the product.</p>
-    <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+  <div class="wrap  hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Consulting — QA Process</div>
+      <h1>QA Audit & Consulting Services for Quality-Driven Development</h1>
+      <p class="lead">Gain improved organization performance with Adhiran Infotech's QA audit & consulting services to make your business more efficient. Our core competency is to establish the process deficiencies and fulfill the guidelines to enhance the quality of the product.</p>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/qa/qa-banner.jpg" alt="">
+      </div>
+    </div>
+
   </div>
+
 </section>
 
 <!-- INTRO SPLIT -->
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/qa_process/qa_process_desc.png" alt="QA Audit & Consulting Services for Quality-Driven Development">
+      <img src="assets/images/qa/qa-audit.jpg" alt="QA Audit & Consulting Services for Quality-Driven Development">
     </div>
     <div>
       <span class="tag">IT Consulting</span>

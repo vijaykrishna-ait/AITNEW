@@ -8,22 +8,28 @@ include 'includes/header.php';
 
 <!-- PS HERO -->
 <section class="ps-hero">
-  <div class="wrap">
-    <div class="eyebrow">Project Solutions</div>
-    <h1>End-to-end digital delivery with clear accountability</h1>
-    <p class="lead">From custom application development to enterprise-scale transformation programs, we take ownership of defined outcomes—bringing together design, engineering, QA, and project management under a single accountable delivery team.</p>
-    <div class="ps-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project →</a>
-      <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">Project Solutions</div>
+      <h1>End-to-end digital delivery with clear accountability</h1>
+      <p class="lead">From custom application development to enterprise-scale transformation programs, we take ownership of defined outcomes—bringing together design, engineering, QA, and project management under a single accountable delivery team.</p>
+      <div class="ps-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project →</a>
+        <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
+      </div>
+      <div class="ps-hero-stats">
+        <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successfully delivered <br>
+            projects across global clients</span></div>
+        <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Technologies and <br> platforms covered across <br> enterprise ecosystems</span></div>
+        <div><b>On-Time Delivery</b><span>Fixed scope, structured <br> execution,and <br>milestone-driven delivery</span></div>
+        <div><b>24/7</b><span>Cross-time-zone <br> teams ensuring continuous <br> progress and support</span></div>
+      </div>
     </div>
-    <div class="ps-hero-stats">
-      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successfully delivered <br>
-        projects across global clients</span></div>
-      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Technologies and <br> platforms covered across <br> enterprise ecosystems</span></div>
-      <div><b>On-Time  Delivery</b><span>Fixed scope, structured <br> execution,and <br>milestone-driven delivery</span></div>
-      <div><b>24/7</b><span>Cross-time-zone <br> teams ensuring continuous <br> progress and support</span></div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/ps/ps-banner.jpg" alt="">
+      </div>
     </div>
-  </div>
 </section>
 
 <!-- CAPABILITIES -->
@@ -144,7 +150,7 @@ include 'includes/header.php';
     <div class="deliv-row">
       <div class="deliv-item">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80" alt="Team planning a project roadmap">
+          <img src="assets/images/ps/fsp.jpeg" alt="Team planning a project roadmap">
         </div>
         <div class="deliv-content">
           <span class="tag">Fixed-Scope Projects</span>
@@ -170,7 +176,7 @@ include 'includes/header.php';
 
       <div class="deliv-item reverse">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80" alt="Agile team in a sprint planning session">
+          <img src="assets/images/ps/as.jpeg" alt="Agile team in a sprint planning session">
         </div>
         <div class="deliv-content">
           <span class="tag">Agile Squads</span>
@@ -199,7 +205,7 @@ include 'includes/header.php';
 
       <div class="deliv-item">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80" alt="Engineers maintaining and supporting a live application">
+          <img src="assets/images/ps/ams.jpeg" alt="Engineers maintaining and supporting a live application">
         </div>
         <div class="deliv-content">
           <span class="tag">Managed Support & Application Management Services (AMS)</span>

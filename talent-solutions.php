@@ -7,19 +7,26 @@ include 'includes/header.php';
 ?>
 <!-- TS HERO -->
 <section class="ts-hero">
-  <div class="wrap">
-    <div class="eyebrow">Talent Solutions</div>
-    <h1>Connecting you with the right talent, faster</h1>
-    <p class="lead">Whether you need a single specialist or a critical hire for a high-impact role, Adhiran Infotech helps you identify, assess, and onboard top talent quickly. Our recruitment experts combine industry knowledge, technical screening, and a global talent network to deliver candidates who are ready to make an immediate impact.</p>
-    <div class="ts-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Find Your Next Hire →</a>
-      <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Our Talent Expertise</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">Talent Solutions</div>
+      <h1>Connecting you with the right talent, faster</h1>
+      <p class="lead">Whether you need a single specialist or a critical hire for a high-impact role, Adhiran Infotech helps you identify, assess, and onboard top talent quickly. Our recruitment experts combine industry knowledge, technical screening, and a global talent network to deliver candidates who are ready to make an immediate impact.</p>
+      <div class="ts-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Find Your Next Hire →</a>
+        <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Our Talent Expertise</a>
+      </div>
+      <div class="ts-hero-stats">
+        <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements <br>across technology and <br> business functions</span></div>
+        <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average turnaround <br>time for the first <br>qualified shortlist</span></div>
+        <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Skills, technologies,<br> and functional domains<br> supported</span></div>
+        <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and <br>hiring expertise across<br> global markets</span></div>
+      </div>
     </div>
-    <div class="ts-hero-stats">
-      <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements <br>across technology and <br> business functions</span></div>
-      <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average turnaround <br>time for the first <br>qualified shortlist</span></div>
-      <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Skills, technologies,<br> and functional domains<br> supported</span></div>
-      <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and <br>hiring expertise across<br> global markets</span></div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/talent-solution-banner.jpeg" alt="">
+      </div>
     </div>
   </div>
 </section>

@@ -27,7 +27,7 @@ include 'includes/header.php';
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/web_design/website_desc.png" alt="Professional Website Design & Development Services">
+      <img src="assets/images/web-design/website&development.jpg" alt="Professional Website Design & Development Services">
     </div>
     <div>
       <span class="tag">IT Consulting</span>
