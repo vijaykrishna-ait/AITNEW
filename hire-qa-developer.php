@@ -7,13 +7,20 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — QA Engineering</div>
-    <h1>Hire Expert QA Engineers for Error-Free Software Delivery</h1>
-    <p class="lead">At Adhiran Infotech we support your team by assigning our experienced QA professional to make your project as efficient as possible and add dedication to the work. Our IT staffing solutions help organizations to build the quality assurance capability, meet deadlines and deliver quality as intended.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-qa-developer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Staffing — QA Engineering</div>
+      <h1>Hire Expert QA Engineers for Error-Free Software Delivery</h1>
+      <p class="lead">At Adhiran Infotech we support your team by assigning our experienced QA professional to make your project as efficient as possible and add dedication to the work. Our IT staffing solutions help organizations to build the quality assurance capability, meet deadlines and deliver quality as intended.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-qa-developer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/qa-engineer/qa-eng-banner.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -28,7 +35,7 @@ include 'includes/header.php';
       <p>Whether across an entire organization or for a single project, a continuous quality management system, or any other type of quality undertaking, our QA experts concentrate on strengthening the deliverables' dependability, consistency, and performance levels.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/qa_engineer/qa_engineer_desc.png" alt="Hire Expert QA Engineers for Error-Free Software Delivery">
+      <img src="assets/images/qa-engineer/qa-eng-augment.jpg" alt="Hire Expert QA Engineers for Error-Free Software Delivery">
     </div>
   </div>
 </section>

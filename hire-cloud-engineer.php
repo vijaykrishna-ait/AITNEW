@@ -7,15 +7,22 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Cloud Engineering</div>
-    <h1>Hire Expert Cloud Engineers for AWS, Azure & GCP</h1>
-    <p class="lead">Adhiran Infotech is a leading cloud engineering services provider which aims at enhancing cloud engagements for businesses in various industries. Our expert team of cloud engineers creates valuable cloud solutions tailor-made to meet efficiency, scalability, and business needs for today's facilitators.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact#form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-cloud-engineer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Staffing — Cloud Engineering</div>
+      <h1>Hire Expert Cloud Engineers for AWS, Azure & GCP</h1>
+      <p class="lead">Adhiran Infotech is a leading cloud engineering services provider which aims at enhancing cloud engagements for businesses in various industries. Our expert team of cloud engineers creates valuable cloud solutions tailor-made to meet efficiency, scalability, and business needs for today's facilitators.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact#form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-cloud-engineer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
     </div>
-  </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/cloud-eng/cloud-eng-banner.jpg" alt="">
+      </div>
+    </div>
 </section>
 
 <!-- INTRO SPLIT -->
@@ -28,7 +35,7 @@ include 'includes/header.php';
       <p> On the facets that relate to ACs, from architecture design of Cloud models to migrations and secure performance, we provide full spectrum services for improved operational efficiency and data protection. Our company being your strategic partner we attend to your needs by integrating all the necessary solutions in the current circumstances that will prepare your business for the future periods.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/cloud_engineering/cloud_engineer_desc.png" alt="Hire Expert Cloud Engineers for AWS, Azure & GCP">
+      <img src="assets/images/cloud-eng/clond-eng-augment.jpg" alt="Hire Expert Cloud Engineers for AWS, Azure & GCP">
     </div>
   </div>
 </section>

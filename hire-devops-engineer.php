@@ -7,15 +7,21 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — DevOps Engineering</div>
-    <h1>Hire Expert DevOps Engineers to Accelerate Your Delivery Pipeline</h1>
-    <p class="lead">At Adhiran Infotech our DevOps services reflect a mission that aims to integrate operations making operations smoother, efficient, and faster to deliver in the software world. Our DevOps specialists with years of experience bring the technical knowledge and outstanding practices to make the collaboration better and infrastructure improvements.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-devops-engineer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Staffing — DevOps Engineering</div>
+      <h1>Hire Expert DevOps Engineers to Accelerate Your Delivery Pipeline</h1>
+      <p class="lead">At Adhiran Infotech our DevOps services reflect a mission that aims to integrate operations making operations smoother, efficient, and faster to deliver in the software world. Our DevOps specialists with years of experience bring the technical knowledge and outstanding practices to make the collaboration better and infrastructure improvements.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-devops-engineer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
     </div>
-  </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/devops/devops-banner.jpg" alt="">
+      </div>
+    </div>
 </section>
 
 <!-- INTRO SPLIT -->
@@ -28,7 +34,7 @@ include 'includes/header.php';
       <p>Our DevOps engineers bring deep expertise in CI/CD pipelines, infrastructure automation, container orchestration, and cloud-native practices to accelerate your software delivery.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/devops/devops_desc.png" alt="Hire Expert DevOps Engineers to Accelerate Your Delivery Pipeline">
+      <img src="assets/images/devops/devops-augment.jpg" alt="Hire Expert DevOps Engineers to Accelerate Your Delivery Pipeline">
     </div>
   </div>
 </section>

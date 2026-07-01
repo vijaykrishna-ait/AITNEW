@@ -8,21 +8,27 @@ include 'includes/header.php';
 
 <!-- ED HERO -->
 <section class="ed-hero">
-  <div class="wrap">
-    <div class="eyebrow">EdTech &amp; AI for Education</div>
-    <h1>Helping institutions teach smarter with AI-powered learning experiences</h1>
-    <p class="lead">We partner with schools, colleges, universities, medical institutions, and corporate training providers to build modern EdTech platforms. Our solutions combine strong engineering with practical understanding of how educators teach and how students learn.</p>
-    <div class="ed-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an EdTech Expert →</a>
-      <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">EdTech &amp; AI for Education</div>
+      <h1>Helping institutions teach smarter with AI-powered learning experiences</h1>
+      <p class="lead">We partner with schools, colleges, universities, medical institutions, and corporate training providers to build modern EdTech platforms. Our solutions combine strong engineering with practical understanding of how educators teach and how students learn.</p>
+      <div class="ed-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an EdTech Expert →</a>
+        <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
+      </div>
+      <div class="ed-hero-stats">
+        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning <br> platforms delivered</span></div>
+        <div><b class="count-up" data-target="4">4</b><span>Key segments: schools,<br> higher education, medical <br> & corporate training</span></div>
+        <div><b>AI-Based</b><span>Personalized learning <br>and adaptive education<br> systems</span></div>
+        <div><b>24/7</b><span>Platform availability <br>and support</span></div>
+      </div>
     </div>
-    <div class="ed-hero-stats">
-      <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning <br> platforms delivered</span></div>
-      <div><b class="count-up" data-target="4">4</b><span>Key segments: schools,<br> higher education, medical <br> & corporate training</span></div>
-      <div><b>AI-Based</b><span>Personalized learning <br>and adaptive education<br> systems</span></div>
-      <div><b>24/7</b><span>Platform availability <br>and support</span></div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/edutech/edutech-banner.jpeg" alt="">
+      </div>
     </div>
-  </div>
 </section>
 
 <!-- AI IN EDUCATION INTRO -->
@@ -41,7 +47,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="edai-img">
-      <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Student learning online with laptop">
+      <img src="assets/images/edutech/ai.jpeg" alt="Student learning online with laptop">
     </div>
   </div>
 </section>
@@ -205,7 +211,7 @@ include 'includes/header.php';
     <div class="eseg-row">
       <div class="eseg-item">
         <div class="eseg-img">
-          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80" alt="School classroom with students using tablets">
+          <img src="assets/images/edutech/school.jpeg" alt="School classroom with students using tablets">
         </div>
         <div class="eseg-content">
           <span class="tag">Schools (K-12)</span>
@@ -226,7 +232,7 @@ include 'includes/header.php';
 
       <div class="eseg-item reverse">
         <div class="eseg-img">
-          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80" alt="University students in a lecture hall">
+          <img src="assets/images/edutech/college.jpeg" alt="University students in a lecture hall">
         </div>
         <div class="eseg-content">
           <span class="tag">Colleges &amp; Universities</span>
@@ -247,7 +253,7 @@ include 'includes/header.php';
 
       <div class="eseg-item">
         <div class="eseg-img">
-          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Medical students in a lab setting">
+          <img src="assets/images/edutech/medical-institution.jpeg" alt="Medical students in a lab setting">
         </div>
         <div class="eseg-content">
           <span class="tag">Medical Institutions</span>
@@ -268,7 +274,7 @@ include 'includes/header.php';
 
       <div class="eseg-item reverse">
         <div class="eseg-img">
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Corporate training session in progress">
+          <img src="assets/images/edutech/corporate.jpeg" alt="Corporate training session in progress">
         </div>
         <div class="eseg-content">
           <span class="tag">Corporate Training & L&D</span>

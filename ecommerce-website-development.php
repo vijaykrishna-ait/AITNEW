@@ -7,21 +7,27 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itc-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Consulting — E-Commerce Development</div>
-    <h1>E-Commerce Website Development Services in Chennai</h1>
-    <p class="lead">An E-Commerce web store is the smarter way to take your business to the next level of growth. These days, it has become a must-have option to build your online store to succeed in your business and raise your business, competing with your competitors.</p>
-    <div class="itc-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Consulting — E-Commerce Development</div>
+      <h1>E-Commerce Website Development Services in Chennai</h1>
+      <p class="lead">An E-Commerce web store is the smarter way to take your business to the next level of growth. These days, it has become a must-have option to build your online store to succeed in your business and raise your business, competing with your competitors.</p>
+      <div class="itc-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+      </div>
     </div>
-  </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/e-com/banner.jpg" alt="">
+      </div>
+    </div>
 </section>
 
 <!-- INTRO SPLIT -->
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/ecom_development/ecom_development.png" alt="E-Commerce Website Development Services in Chennai">
+      <img src="assets/images/e-com/e-com-dev.jpg" alt="E-Commerce Website Development Services in Chennai">
     </div>
     <div>
       <span class="tag">IT Consulting</span>

@@ -7,13 +7,21 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Data Science</div>
-    <h1>Hire Expert Data Science Developers for AI-Powered Insights</h1>
-    <p class="lead">Our Data Science services at Adhiran Infotech assist businesses get the most out of their data; from converting them into decision making tools and models. The Data Science engineers at Adhiran possess specialization in machine learning, deep learning, generative AI, and data analytics to address organization's business issues.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-data-science-developer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Staffing — Data Science</div>
+      <h1>Hire Expert Data Science Developers for AI-Powered Insights</h1>
+      <p class="lead">Our Data Science services at Adhiran Infotech assist businesses get the most out of their data; from converting them into decision making tools and models. The Data Science engineers at Adhiran possess specialization in machine learning, deep learning, generative AI, and data analytics to address organization's business issues.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-data-science-developer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/data-science/data-sci-banner.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -28,7 +36,7 @@ include 'includes/header.php';
       <p>Realize more valuable solutions through leveraging data. Our data scientists build and deploy ML models, generative AI solutions, and analytics platforms tailored to your business objectives.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/data_science/data_science_desc.png" alt="Hire Expert Data Science Developers for AI-Powered Insights">
+      <img src="assets/images/data-science/data-sci-augment.jpg" alt="Hire Expert Data Science Developers for AI-Powered Insights">
     </div>
   </div>
 </section>

@@ -8,20 +8,29 @@ include 'includes/header.php';
 
 <!-- ES HERO -->
 <section class="es-hero">
-  <div class="wrap">
-    <div class="eyebrow">Enterprise Application Development</div>
-    <h1>Business-critical platforms, delivered by experts who understand them</h1>
-    <p class="lead">From SAP and Salesforce to ServiceNow and Veeva, Adhiran Infotech helps organizations implement, integrate, optimize, and support enterprise applications that power day-to-day operations. Our certified specialists and global delivery teams ensure seamless execution, scalability, and long-term success.</p>
-    <div class="es-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Connect with an Enterprise Applications Specialist →</a>
-      <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Discover Our Platform Expertise</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">Enterprise Application Development</div>
+      <h1>Business-critical platforms, delivered by experts who understand them</h1>
+      <p class="lead">From SAP and Salesforce to ServiceNow and Veeva, Adhiran Infotech helps organizations implement, integrate, optimize, and support enterprise applications that power day-to-day operations. Our certified specialists and global delivery teams ensure seamless execution, scalability, and long-term success.</p>
+      <div class="es-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Connect with an Enterprise Applications Specialist →</a>
+        <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Discover Our Platform Expertise</a>
+      </div>
+      <div class="es-hero-stats">
+        <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>EEnterprise platforms across <br> multiple industries</span></div>
+        <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
+        <div><b>24/7</b><span>Successful implementations, <br> upgrades, and global rollouts</span></div>
+        <div><b>30–50%</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
+      </div>
     </div>
-    <div class="es-hero-stats">
-      <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>EEnterprise platforms across <br> multiple industries</span></div>
-      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
-      <div><b>24/7</b><span>Successful implementations, <br> upgrades, and global rollouts</span></div>
-      <div><b>30–50%</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/enterprise/enterprise-banner.avif" alt="">
+      </div>
     </div>
+
   </div>
 </section>
 
@@ -110,7 +119,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="Enterprise resource planning team working">
+        <img src="assets/images/enterprise/SAP.jpg" alt="Enterprise resource planning team working">
       </div>
     </div>
 
@@ -139,7 +148,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Sales team using CRM dashboard">
+        <img src="assets/images/enterprise/salesforce.jpeg" alt="Sales team using CRM dashboard">
       </div>
     </div>
 
@@ -168,7 +177,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="IT operations dashboard on screens">
+        <img src="assets/images/enterprise/Servicenow.avif" alt="IT operations dashboard on screens">
       </div>
     </div>
 
@@ -197,7 +206,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80" alt="Life sciences sales team reviewing CRM">
+        <img src="assets/images/enterprise/veeva.avif" alt="Life sciences sales team reviewing CRM">
       </div>
     </div>
 
@@ -226,7 +235,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80" alt="Finance team analyzing reports">
+        <img src="assets/images/enterprise/Oracle.avif" alt="Finance team analyzing reports">
       </div>
     </div>
 
@@ -255,7 +264,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="HR team reviewing workforce data">
+        <img src="assets/images/enterprise/workday.avif" alt="HR team reviewing workforce data">
       </div>
     </div>
   </div>

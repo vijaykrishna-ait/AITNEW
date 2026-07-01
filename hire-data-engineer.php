@@ -7,15 +7,21 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Data Engineering</div>
-    <h1>Hire Expert Data Engineers to Power Your Data Strategy</h1>
-    <p class="lead">Begin constituting your offshore team with Adhiran Infotech. Being skilled in diverse fields and with lots of experience, we are able to quickly gather a team that can meet all your business data needs. Through our team of qualified data engineers, we use our professional skills and the competency of the specialty to provide solutions that will suit clients needs.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-data-engineer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Staffing — Data Engineering</div>
+      <h1>Hire Expert Data Engineers to Power Your Data Strategy</h1>
+      <p class="lead">Begin constituting your offshore team with Adhiran Infotech. Being skilled in diverse fields and with lots of experience, we are able to quickly gather a team that can meet all your business data needs. Through our team of qualified data engineers, we use our professional skills and the competency of the specialty to provide solutions that will suit clients needs.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-data-engineer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
     </div>
-  </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/data-engineer/data-engineer-banner.jpg" alt="">
+      </div>
+    </div>
 </section>
 
 <!-- INTRO SPLIT -->
@@ -28,7 +34,7 @@ include 'includes/header.php';
       <p>Be our partner and be ready to empower your data and get the result of your business dreams. Our data engineers build robust pipelines, warehouses, and analytics platforms tailored to your needs.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/data_engineer/data_engineer_desc.png" alt="Hire Expert Data Engineers to Power Your Data Strategy">
+      <img src="assets/images/data-engineer/engineer-augment.jpg" alt="Hire Expert Data Engineers to Power Your Data Strategy">
     </div>
   </div>
 </section>

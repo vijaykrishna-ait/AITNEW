@@ -7,15 +7,21 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Digital Marketing</div>
-    <h1>Hire Expert Digital Marketing Professionals to Grow Your Brand</h1>
-    <p class="lead">In today's world, more and more presence online is vital for business to become successful. At Adhiran Infotech, we are aware how difficult it may be to compete in the digital marketing world for businesses. With a dedicated team, we offer bespoke solutions for all of our clients to ensure that your digital marketing is as successful as can be.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-digital-marketing-developer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Staffing — Digital Marketing</div>
+      <h1>Hire Expert Digital Marketing Professionals to Grow Your Brand</h1>
+      <p class="lead">In today's world, more and more presence online is vital for business to become successful. At Adhiran Infotech, we are aware how difficult it may be to compete in the digital marketing world for businesses. With a dedicated team, we offer bespoke solutions for all of our clients to ensure that your digital marketing is as successful as can be.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-digital-marketing-developer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
     </div>
-  </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/digital-market/digital-mar-banner.jpg" alt="">
+      </div>
+    </div>
 </section>
 
 <!-- INTRO SPLIT -->
@@ -28,7 +34,7 @@ include 'includes/header.php';
       <p>We use the state of the art equipment and resources so that your marketing strategy is productive, trackable and significant.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/digital_marketing/digital_marketing_desc.png" alt="Hire Expert Digital Marketing Professionals to Grow Your Brand">
+      <img src="assets/images/digital-market/digital-mar-augmetation.jpg" alt="Hire Expert Digital Marketing Professionals to Grow Your Brand">
     </div>
   </div>
 </section>

@@ -7,19 +7,25 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="itc-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Consulting — Digital Marketing</div>
-    <h1>Digital Marketing Services to Boost Your Brand Online</h1>
-    <p class="lead">Boost your company's visibility to remain viable in this digital age! Adhiran Infotech specializes in propelling any type of organization by applying our all-encompassing digital marketing strategies to outperform rivals and maintain current performance.</p>
-    <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
-  </div>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">IT Consulting — Digital Marketing</div>
+      <h1>Digital Marketing Services to Boost Your Brand Online</h1>
+      <p class="lead">Boost your company's visibility to remain viable in this digital age! Adhiran Infotech specializes in propelling any type of organization by applying our all-encompassing digital marketing strategies to outperform rivals and maintain current performance.</p>
+      <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Get Started &rarr;</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/digital-market/digital-mar-banner.jpg" alt="">
+      </div>
+    </div>
 </section>
 
 <!-- INTRO SPLIT -->
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_consulting/digital_marketing/digital_marketing_desc.png" alt="Digital Marketing Services to Boost Your Brand Online">
+      <img src="assets/images/digital-market/digital-mar-augmetation.jpg" alt="Digital Marketing Services to Boost Your Brand Online">
     </div>
     <div>
       <span class="tag">IT Consulting</span>
