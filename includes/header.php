@@ -93,7 +93,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
 
         <div class="nav-links">
           <div class="nav-item">
-            <a href="<?= $base ?>about#who-we-are">Who We Are <svg class="chev" width="12" height="12" viewBox="0 0 24 24"
+            <a href="<?= $base ?>about">Who We Are <svg class="chev" width="12" height="12" viewBox="0 0 24 24"
                 fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
@@ -135,7 +135,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
           </div>
 
           <!-- IT Staffing Dropdown -->
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <a href="<?= $base ?>it-staffing">IT Staffing <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
@@ -151,10 +151,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>hire-data-science-developer">Data Science</a>
               <a href="<?= $base ?>hire-digital-marketing-developer">Digital Marketing</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- IT Consulting Dropdown -->
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <a href="<?= $base ?>it-consulting">IT Consulting <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
@@ -167,10 +167,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>digital-marketing">Digital Marketing</a>
               <a href="<?= $base ?>qa-process">QA Process</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- IT Solutions Dropdown -->
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <a href="<?= $base ?>it-solutions">IT Solutions <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
@@ -184,7 +184,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>servicenow">Service Now</a>
               <a href="<?= $base ?>aiml-solutions">AI/ML Solutions</a>
             </div>
-          </div>
+          </div> -->
 
           <div class="nav-item">
             <a href="<?= $base ?>#industries">Industry <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
@@ -206,6 +206,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
         </div>
       </div>
 
+      <!-- ==============================
+       MOBILE HEADER 
+       ================================== -->
+
       <!-- Mobile Accordion Menu -->
       <div class="mobile-menu">
         <div class="mobile-menu-inner">
@@ -220,7 +224,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               </svg>
             </button>
             <div class="mobile-accordion-content">
-              <a href="<?= $base ?>about#who-we-are">About Us</a>
+              <a href="<?= $base ?>about">About Us</a>
               <a href="<?= $base ?>leadership">Leadership</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>core-values">Core Values</a>
@@ -259,7 +263,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
           </div>
 
           <!-- Accordion Item: IT Staffing -->
-          <div class="mobile-accordion">
+          <!-- <div class="mobile-accordion">
             <button class="mobile-accordion-header">
               IT Staffing
               <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -279,10 +283,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>hire-data-science-developer">Data Science</a>
               <a href="<?= $base ?>hire-digital-marketing-developer">Digital Marketing</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Accordion Item: IT Consulting -->
-          <div class="mobile-accordion">
+          <!-- <div class="mobile-accordion">
             <button class="mobile-accordion-header">
               IT Consulting
               <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -299,10 +303,10 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>digital-marketing">Digital Marketing</a>
               <a href="<?= $base ?>qa-process">QA Process</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Accordion Item: IT Solutions -->
-          <div class="mobile-accordion">
+          <!-- <div class="mobile-accordion">
             <button class="mobile-accordion-header">
               IT Solutions
               <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -320,7 +324,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>servicenow">Service Now</a>
               <a href="<?= $base ?>aiml-solutions">AI/ML Solutions</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Accordion Item 3: Industry -->
           <div class="mobile-accordion">

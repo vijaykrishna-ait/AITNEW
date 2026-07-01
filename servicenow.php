@@ -161,12 +161,11 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions">
-  <div class="wrap">
-    <div class="section-head">
+<section class="solutions hero">
+  <div class="wrap hero-grid">
+    <div>
       <div class="eyebrow">FAQ</div>
-      <h2>Frequently Asked Questions</h2>
-    </div>
+      <h1>Frequently Asked Questions</h1>
     <div class="itsol-faq-list">
       <div class="itsol-faq-item">
         <button class="itsol-faq-q">What ServiceNow products do you implement?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -217,6 +216,8 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
+</div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
   </div>
 </section>
 

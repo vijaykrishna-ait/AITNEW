@@ -6,14 +6,21 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itsol-hero">
-  <div class="wrap">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div>
     <div class="eyebrow">IT Solutions — Blockchain</div>
     <h1>Blockchain Development for Secure, Transparent & Decentralized Solutions</h1>
     <p class="lead">Adhiran Infotech provides comprehensive blockchain development services to help businesses leverage the power of distributed ledger technology. From smart contracts to private blockchain networks and DeFi applications, we build trust into every transaction.</p>
     <div class="its-hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
       <a href="block-chain#services" class="btn btn-outline-light">Explore Services</a>
+    </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/blockchain.jpeg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -119,12 +126,11 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions">
-  <div class="wrap">
-    <div class="section-head">
+<section class="solutions hero">
+  <div class="wrap hero-grid">
+    <div>
       <div class="eyebrow">FAQ</div>
-      <h2>Frequently Asked Questions</h2>
-    </div>
+      <h1>Frequently Asked Questions</h1>
     <div class="itsol-faq-list">
       <div class="itsol-faq-item">
         <button class="itsol-faq-q">Which blockchain platforms do you develop on?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -191,6 +197,8 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
+    </div>
+    <div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
   </div>
 </section>
 

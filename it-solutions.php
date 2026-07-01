@@ -237,12 +237,11 @@ include 'includes/header.php';
 </section>
 
 <!-- FAQ -->
-<section class="solutions">
-  <div class="wrap">
-    <div class="section-head center" style="text-align:center;">
-      <div class="eyebrow" style="justify-content:center;">FAQ</div>
-      <h2>Frequently Asked Questions</h2>
-    </div>
+<section class="solutions hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">FAQ</div>
+      <h1>Frequently Asked Questions</h1>
     <div class="itsol-faq-list">
       <div class="itsol-faq-item">
         <button class="itsol-faq-q">What is IoT, and how does it work? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
@@ -269,6 +268,8 @@ include 'includes/header.php';
         <div class="itsol-faq-a">Yes, IoT solutions can monitor and optimize energy usage, reduce waste, and implement sustainable practices, helping businesses achieve their environmental goals.</div>
       </div>
     </div>
+</div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
   </div>
 </section>
 
