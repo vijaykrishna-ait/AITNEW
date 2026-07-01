@@ -6,14 +6,21 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO -->
-<section class="itsol-hero">
-  <div class="wrap">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div>
     <div class="eyebrow">IT Solutions — AI & ML</div>
     <h1>AI & Machine Learning Solutions for Intelligent Business Transformation</h1>
     <p class="lead">Adhiran Infotech helps organizations harness the transformative power of Artificial Intelligence and Machine Learning. We build custom AI solutions that automate decisions, uncover hidden insights, and create competitive advantages across every function of your business.</p>
     <div class="its-hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
       <a href="aiml-solutions#services" class="btn btn-outline-light">Explore Services</a>
+    </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/aiml-hero.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>

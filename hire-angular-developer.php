@@ -9,14 +9,21 @@ include 'includes/header.php';
 ?>
 
 <!-- HERO BANNER -->
-<section class="its-hero">
-  <div class="wrap">
+<section class="hero-navy">
+  <div class="wrap hero-grid">
+    <div>
     <div class="eyebrow">IT Staffing — Angular</div>
     <h1>Hire Expert Angular Developers for Robust Enterprise Web Apps</h1>
     <p class="lead">We specialize in crafting dynamic and immersive web experiences powered by Angular. As a leading provider of Angular development services, we recognize the significance of staying ahead in today's rapidly evolving digital landscape. With Angular, we empower businesses to create robust and feature-rich web applications that captivate audiences and yield tangible results.</p>
     <div class="its-hero-actions">
       <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
       <a href="#services" class="btn btn-outline-light">Explore Services</a>
+    </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/angular/angular-banner.jpeg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -31,7 +38,7 @@ include 'includes/header.php';
       <p>We harness the full potential of Angular to build cutting-edge web applications that push boundaries and exceed expectations. Our framework combines industry-leading technologies with custom solutions tailored to your unique requirements.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/angular/angular_js_desc.png" alt="Hire Expert Angular Developers for Robust Enterprise Web Apps">
+      <img src="<?= $base ?>assets/images/angular/staff-augumentation.jpeg" alt="Hire Expert Angular Developers for Robust Enterprise Web Apps">
     </div>
   </div>
 </section>
