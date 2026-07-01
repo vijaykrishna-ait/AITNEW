@@ -7,20 +7,28 @@ include 'includes/header.php';
 ?>
 <!-- LS HERO -->
 <section class="ls-hero">
-  <div class="wrap">
-    <div class="eyebrow">Life Sciences &amp; Pharma</div>
-    <h1>Accelerating therapies from discovery to patient care</h1>
-    <p class="lead">We partner with pharmaceutical, biotech, medtech, and healthcare organizations to modernize R&D, clinical, manufacturing, and commercial operations—combining deep domain understanding with AI, cloud, and digital engineering.</p>
-    <div class="ls-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Life Sciences Expert →</a>
-      <a href="<?= $base ?>life-sciences#ls-services" class="btn btn-outline-light">Explore Our Services</a>
+  <div class="wrap hero-grid">
+    <div class="">
+      <div class="eyebrow">Life Sciences &amp; Pharma</div>
+      <h1>Accelerating therapies from discovery to patient care</h1>
+      <p class="lead">We partner with pharmaceutical, biotech, medtech, and healthcare organizations to modernize R&D, clinical, manufacturing, and commercial operations—combining deep domain understanding with AI, cloud, and digital engineering.</p>
+      <div class="ls-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Life Sciences Expert →</a>
+        <a href="<?= $base ?>life-sciences#ls-services" class="btn btn-outline-light">Explore Our Services</a>
+      </div>
+      <div class="ls-hero-stats">
+        <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our<br> AI diagnostics <br> platforms</span></div>
+        <div><b class="count-up " data-target="15" data-suffix="+">15+</b><span>Experience across <br>life sciences and <br>healthcare ecosystems</span></div>
+        <div><b>30–50%</b><span>Faster screening, <br>review, and decision <br> cycles powered by AI</span></div>
+        <div><b>24/7</b><span>Global delivery <br>and support across <br> time zones</span></div>
+      </div>
     </div>
-    <div class="ls-hero-stats">
-      <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our<br> AI diagnostics <br> platforms</span></div>
-      <div><b class="count-up " data-target="15" data-suffix="+">15+</b><span>Experience across <br>life sciences and <br>healthcare ecosystems</span></div>
-      <div><b>30–50%</b><span>Faster screening, <br>review, and decision <br> cycles powered by AI</span></div>
-      <div><b>24/7</b><span>Global delivery <br>and support across <br> time zones</span></div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/life-science/life-science-banner.jpeg" alt="">
+      </div>
     </div>
+
   </div>
 </section>
 
@@ -206,7 +214,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Pharmaceutical research lab">
+          <img src="assets/images/life-science/Pharametical-biotech.jpeg" alt="Pharmaceutical research lab">
         </div>
         <div class="segment-content">
           <span class="tag">Pharmaceutical &amp; Biotech</span>
@@ -227,7 +235,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80" alt="MedTech device engineering team">
+          <img src="assets/images/life-science/MEDTECH.jpeg" alt="MedTech device engineering team">
         </div>
         <div class="segment-content">
           <span class="tag">MedTech &amp; Diagnostics</span>
@@ -249,7 +257,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80" alt="Healthcare provider team in hospital">
+          <img src="assets/images/life-science/health-provide.avif" alt="Healthcare provider team in hospital">
         </div>
         <div class="segment-content">
           <span class="tag">Healthcare Providers</span>

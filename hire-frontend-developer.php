@@ -7,14 +7,23 @@ include 'includes/header.php';
 
 <!-- HERO -->
 <section class="its-hero">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Front-End Development</div>
-    <h1>Hire Expert Front-End Developers for World-Class UI</h1>
-    <p class="lead">At Adhiran Infotech, we strengthen your team by presenting front end developers for hire with immense experience across your projects. IT staffing solutions act as a means through which businesses can acquire people, extend capacity, accomplish timeliness and overall objectives effectively.</p>
-    <div class="its-hero-actions">
-      <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="hire-frontend-developer#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Staffing — Front-End Development</div>
+      <h1>Hire Expert Front-End Developers for World-Class UI</h1>
+      <p class="lead">At Adhiran Infotech, we strengthen your team by presenting front end developers for hire with immense experience across your projects. IT staffing solutions act as a means through which businesses can acquire people, extend capacity, accomplish timeliness and overall objectives effectively.</p>
+      <div class="its-hero-actions">
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="hire-frontend-developer#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
     </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/front-end/front-end-banner.jpg" alt="">
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -28,7 +37,7 @@ include 'includes/header.php';
       <p>From large-scale implementation to project-specific, short-term, or ongoing requirements — our specialists work to reinforce quality and focused design across every engagement.</p>
     </div>
     <div class="its-intro-img">
-      <img src="https://www.adhiraninfotech.com/img/it_staffing/frontend/frontend_desc.png" alt="Hire Expert Front-End Developers for World-Class UI">
+      <img src="assets/images/front-end/Staff-augumentation.jpg" alt="Hire Expert Front-End Developers for World-Class UI">
     </div>
   </div>
 </section>
