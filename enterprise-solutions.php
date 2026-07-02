@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/enterprise/enterprise-banner.avif" alt="">
+        <img src="assets/images/enterprise/enterprise-banner.png" alt="">
       </div>
     </div>
 
@@ -177,7 +177,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/Servicenow.avif" alt="IT operations dashboard on screens">
+        <img src="assets/images/enterprise/Servicenow.png" alt="IT operations dashboard on screens">
       </div>
     </div>
 
@@ -206,7 +206,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/veeva.avif" alt="Life sciences sales team reviewing CRM">
+        <img src="assets/images/enterprise/veeva.png" alt="Life sciences sales team reviewing CRM">
       </div>
     </div>
 
@@ -235,7 +235,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/Oracle.avif" alt="Finance team analyzing reports">
+        <img src="assets/images/enterprise/Oracle.png" alt="Finance team analyzing reports">
       </div>
     </div>
 
@@ -264,7 +264,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/workday.avif" alt="HR team reviewing workforce data">
+        <img src="assets/images/enterprise/workday.png" alt="HR team reviewing workforce data">
       </div>
     </div>
   </div>

@@ -257,7 +257,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="assets/images/life-science/health-provide.avif" alt="Healthcare provider team in hospital">
+          <img src="assets/images/life-science/health-provide.png" alt="Healthcare provider team in hospital">
         </div>
         <div class="segment-content">
           <span class="tag">Healthcare Providers</span>
