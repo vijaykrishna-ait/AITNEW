@@ -18,8 +18,8 @@ include 'includes/header.php';
         <a href="<?= $base ?>team-solutions#models" class="btn btn-outline-light">Explore Delivery Models</a>
       </div>
       <div class="hero-stats ">
-        <div><b class="count-up" data-target="4">4</b><span>Global markets supported <br> with active talent and <br> delivery capabilities</span></div>
-        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Global markets supported <br>with active talent and <br> delivery capabilities</span></div>
+        <div><b class="count-up" data-target="4" data-suffix="+">4</b><span>Global markets supported <br> with active talent and <br> delivery capabilities</span></div>
+        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Dedicated teams <br> successfully established <br>and managed</span></div>
         <div><b>ODC</b><span>End-to-end managed <br> Offshore Development <br> Centers</span></div>
         <div><b>Onsite + <br> Offshore</b><span>Flexible hybrid delivery <br> models tailored to <br> your business needs</span></div>
         <div><b>Hybrid Workforce <br> Models</b><span>Seamless collaboration <br> across onsite, offshore,<br> and remote teams
@@ -263,7 +263,7 @@ include 'includes/header.php';
       <div class="tmj-item">
         <div class="tmj-num">02</div>
         <div class="tmj-content">
-          <h3>Source &amp; Onboard Team</h3>
+          <h3> Build & Onboard the Team</h3>
           <p>We identify, recruit, and onboard the right talent while setting up necessary infrastructure, access, tools, and governance aligned to your chosen model.</p>
         </div>
       </div>
@@ -271,14 +271,16 @@ include 'includes/header.php';
         <div class="tmj-num">03</div>
         <div class="tmj-content">
           <h3> Integrate & Operate</h3>
-          <p>The team functions as a natural extension of your organization, following your workflows, reporting structure, communication standards, and delivery processes.</p>
+          <p>The team functions as a natural extension of your organization, following your
+             workflows, reporting structure, communication standards, and delivery processes.</p>
         </div>
       </div>
       <div class="tmj-item">
         <div class="tmj-num">04</div>
         <div class="tmj-content">
           <h3>Expand & Evolve</h3>
-          <p>As your needs grow, we scale teams, expand capabilities, or transition into a fully managed ODC without disrupting ongoing delivery.</p>
+          <p>As your needs grow, we scale teams, expand capabilities, or transition into
+             a fully managed ODC without disrupting ongoing delivery.</p>
         </div>
       </div>
     </div>

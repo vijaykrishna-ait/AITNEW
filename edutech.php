@@ -57,7 +57,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">What We Do</div>
-      <h2>We design and build digital education ecosystems—from LMS platforms to AI-driven learning engines—tailored to institutional needs.</p>
+      <h2>End-to-end EdTech and AI solutions for modern education</h2>
+      <p>We design and build digital education ecosystems—from LMS platforms to AI-driven learning engines—tailored to institutional needs.</p>
     </div>
     <div class="ed-grid">
       <div class="ed-card">
