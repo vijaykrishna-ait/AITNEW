@@ -17,10 +17,10 @@ include 'includes/header.php';
         <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Our Talent Expertise</a>
       </div>
       <div class="hero-stats">
-        <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements <br>across technology and <br> business functions</span></div>
-        <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average turnaround <br>time for the first <br>qualified shortlist</span></div>
-        <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Skills, technologies,<br> and functional domains<br> supported</span></div>
-        <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and <br>hiring expertise across<br> global markets</span></div>
+        <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Placements delivered</span></div>
+        <div><b class="count-up" data-target="48" data-suffix=" hrs">48 hrs</b><span>Average shortlist turnaround</span></div>
+        <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Tech & Skills covered</span></div>
+        <!-- <div><b class="count-up" data-target="5">5</b><span>Talent sourcing and <br>hiring expertise across<br> global markets</span></div> -->
       </div>
     </div>
     <div class="hero-visual">
@@ -120,17 +120,17 @@ include 'includes/header.php';
     <div class="roles-grid">
       <a href="<?= $base ?>hire-frontend-developer" class="role-pill"><span class="dot"></span>Frontend Developer</a>
       <a href="<?= $base ?>hire-backend-developer" class="role-pill"><span class="dot"></span>Backend Developer</a>
-      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Full-Stack Developer</a>
+      <a href="<?= $base ?>hire-react-developer" class="role-pill"><span class="dot"></span>React Developer</a>
+      <a href="<?= $base ?>hire-python-developer" class="role-pill"><span class="dot"></span>Python Developer</a>
       <a href="<?= $base ?>hire-mobile-app-developer" class="role-pill"><span class="dot"></span>Mobile App Developer</a>
       <a href="<?= $base ?>hire-data-engineer" class="role-pill"><span class="dot"></span>Data Engineer</a>
-      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Data Analyst</a>
       <a href="<?= $base ?>aiml-solutions" class="role-pill"><span class="dot"></span>AI / ML Engineer</a>
       <a href="<?= $base ?>hire-cloud-engineer" class="role-pill"><span class="dot"></span>Cloud Engineer</a>
       <a href="<?= $base ?>hire-devops-engineer" class="role-pill"><span class="dot"></span>DevOps Engineer</a>
       <a href="<?= $base ?>hire-qa-developer" class="role-pill"><span class="dot"></span>QA / Test Engineer</a>
-      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>UX/UI Designer</a>
+      <!-- <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>UX/UI Designer</a> -->
       <a href="<?= $base ?>sap-it-solutions" class="role-pill"><span class="dot"></span>Salesforce / SAP Consultant</a>
-      <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Project Manager</a>
+      <!-- <a href="<?= $base ?>#" class="role-pill"><span class="dot"></span>Project Manager</a> -->
       <a href="<?= $base ?>block-chain" class="role-pill"><span class="dot"></span>Blockchain Developer</a>
       <a href="<?= $base ?>hire-veeva-developer" class="role-pill"><span class="dot"></span>Veeva CRM Developer</a>
       <a href="<?= $base ?>power-bi" class="role-pill"><span class="dot"></span>Power BI Developer</a>

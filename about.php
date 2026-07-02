@@ -11,7 +11,7 @@ include 'includes/header.php';
     <div class="wrap hero-grid">
       <div>
         <div class="eyebrow">About Adhiran Infotech</div>
-        <h1>Accelerating Business Growth Through People and Technology</h1>
+        <h1>Accelerating Growth Through People and Technology</h1>
         <p class="lead">At Adhiran Infotech, we specialize in IT staffing, software development, and AI-powered consulting services. We partner with organizations worldwide to build high-performing teams, create scalable web and mobile applications, and implement technology solutions that drive business success.</p>
         <div class="hero-stats">
           <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of Industry Experience</span></div>
@@ -158,28 +158,28 @@ include 'includes/header.php';
       <div class="leader-grid">
         <div class="leader-card">
           <div class="photo">
-            <!-- <img src="assets/images/aitteam/karthikeyan.jpg" alt="Founder & CEO"> -->
+            <img src="assets/images/aitteam/karthikeyan.jpg" alt="Founder & CEO">
           </div>
           <h3>Karthikeyan</h3>
           <div class="role">Founder &amp; CEO</div>
         </div>
         <div class="leader-card">
           <div class="photo">
-            <!-- <img src="assets/images/aitteam/prem.jpg" alt="Co-Founder & CTO"> -->
+            <img src="assets/images/aitteam/prem.jpg" alt="Co-Founder & CTO">
           </div>
           <h3>Premkumar</h3>
           <div class="role">Co-Founder &amp; CTO</div>
         </div>
         <div class="leader-card">
           <div class="photo">
-            <!-- <img src="assets/images/aitteam/selvi.jpg" alt="Director"> -->
+            <img src="assets/images/aitteam/selvi.jpg" alt="Director">
           </div>
           <h3>Selvi</h3>
           <div class="role">Director</div>
         </div>
         <div class="leader-card">
           <div class="photo">
-            <!-- <img src="assets/images/aitteam/kalaivani.jpg" alt="Director"> -->
+            <img src="assets/images/aitteam/kalaivani.jpg" alt="Director">
           </div>
           <h3>Kalaivani</h3>
           <div class="role">Director</div>

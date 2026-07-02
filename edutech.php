@@ -11,17 +11,17 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">EdTech &amp; AI for Education</div>
-      <h1>Helping institutions teach smarter with AI-powered learning experiences</h1>
+      <h1>Helping institutions teach smarter with AI</h1>
       <p class="lead">We partner with schools, colleges, universities, medical institutions, and corporate training providers to build modern EdTech platforms. Our solutions combine strong engineering with practical understanding of how educators teach and how students learn.</p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an EdTech Expert →</a>
         <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
       </div>
       <div class="hero-stats">
-        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech &amp; learning <br> platforms delivered</span></div>
-        <div><b class="count-up" data-target="4">4</b><span>Key segments: schools,<br> higher education, medical <br> & corporate training</span></div>
-        <div><b>AI-Based</b><span>Personalized learning <br>and adaptive education<br> systems</span></div>
-        <div><b>24/7</b><span>Platform availability <br>and support</span></div>
+        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>EdTech Platforms</span></div>
+        <div><b class="count-up" data-target="4">4</b><span>Learning Segments</span></div>
+        <div><b>AI-Based</b><span>Personalized Learning</span></div>
+        <div><b>24/7</b><span>Platform support</span></div>
       </div>
     </div>
     <div class="hero-visual">
@@ -323,7 +323,7 @@ include 'includes/header.php';
       </div>
       <div class="eduuse-card">
         <span class="tag">Content Creation</span>
-        <p>AI-generated quizzes and practice material .</p>
+        <p>AI-generated quizzes and practice material .</p>
       </div>
       <div class="eduuse-card">
         <span class="tag">Operations</span>

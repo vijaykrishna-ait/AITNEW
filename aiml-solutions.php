@@ -16,7 +16,7 @@ include 'includes/header.php';
         competitive advantages across every function of your business.</p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
-        <a href="aiml-solutions#services" class="btn btn-outline-light">Explore Services</a>
+        <a href="<?= $base ?>aiml-solutions#services" class="btn btn-outline-light">Explore Services</a>
       </div>
     </div>
     <div class="hero-visual">

@@ -11,19 +11,18 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">Team Solutions</div>
-      <h1>Build high-performing teams and scalable delivery centers with confidence</h1>
+      <h1>Build scalable high-performing teams confidently</h1>
       <p class="lead">Whether you need a dedicated project team, a managed delivery pod, or a fully operational Offshore Development Center (ODC), Adhiran Infotech helps you rapidly scale talent and delivery capabilities across global markets.</p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Speak with a Team Solutions Expert →</a>
         <a href="<?= $base ?>team-solutions#models" class="btn btn-outline-light">Explore Delivery Models</a>
       </div>
       <div class="hero-stats ">
-        <div><b class="count-up" data-target="4" data-suffix="+">4</b><span>Global markets supported <br> with active talent and <br> delivery capabilities</span></div>
-        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Dedicated teams <br> successfully established <br>and managed</span></div>
-        <div><b>ODC</b><span>End-to-end managed <br> Offshore Development <br> Centers</span></div>
-        <div><b>Onsite + <br> Offshore</b><span>Flexible hybrid delivery <br> models tailored to <br> your business needs</span></div>
-        <div><b>Hybrid Workforce <br> Models</b><span>Seamless collaboration <br> across onsite, offshore,<br> and remote teams
-          </span></div>
+        <div><b class="count-up" data-target="4" data-suffix="+">4</b><span>Global Delivery Hubs</span></div>
+        <div><b class="count-up" data-target="20" data-suffix="+">20+</b><span>Dedicated teams Delivered</span></div>
+        <div><b>ODC</b><span>Managed Offshore Centers</span></div>
+        <!-- <div><b>Onsite + <br> Offshore</b><span>Flexible teams that scale with your business</span></div>
+        <div><b>Hybrid Workforce <br> Models</b><span>Seamless collaboration across onsite, offshore, and remote teams</span></div> -->
       </div>
     </div>
     <div class="hero-visual">
@@ -182,7 +181,7 @@ include 'includes/header.php';
       <div class="model-col highlight">
         <h3>Offshore Delivery</h3>
         <div class="sub">Dedicated delivery capabilities from our global centers</div>
-        <p>Access highly skilled teams from our delivery hubs to accelerate projects, optimize costs, and expand capacity without increasing operational overhead.</p>
+        <p>Access skilled teams from our delivery hubs to accelerate projects, optimize costs, and expand capacity without increasing operational overhead.</p>
         <ul>
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">

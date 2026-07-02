@@ -18,11 +18,10 @@ include 'includes/header.php';
         <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
       </div>
       <div class="hero-stats">
-        <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successfully delivered <br>
-            projects across global clients</span></div>
-        <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Technologies and <br> platforms covered across <br> enterprise ecosystems</span></div>
-        <div><b>On-Time Delivery</b><span>Fixed scope, structured <br> execution,and <br>milestone-driven delivery</span></div>
-        <div><b>24/7</b><span>Cross-time-zone <br> teams ensuring continuous <br> progress and support</span></div>
+        <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Projects Delivered</span></div>
+        <div><b class="count-up" data-target="30" data-suffix="+">30+</b><span>Enterprise Technologies</span></div>
+        <div><b>On-Time Delivery</b><span>Milestone-driven execution</span></div>
+        <!-- <div><b>24/7</b><span>Round-the-clock support</span></div> -->
       </div>
     </div>
     <div class="hero-visual">
@@ -41,7 +40,7 @@ include 'includes/header.php';
       <p>From early-stage concepts to enterprise-grade platforms, we design, engineer, and deliver scalable digital solutions that are ready for real-world use and long-term growth.</p>
     </div>
     <div class="ps-grid">
-      <div class="ps-card">
+      <a href="<?= $base ?>web-application-development" class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="16 18 22 12 16 6" />
             <polyline points="8 6 2 12 8 18" />
@@ -50,8 +49,8 @@ include 'includes/header.php';
         <h6>Bespoke digital platforms built for scale and performance</h6>
         <p>We design and develop tailored web solutions including customer portals, internal business tools, and SaaS platforms using modern, scalable architectures.</p>
         <div class="tags"><span>React</span><span>Node.js</span><span>.NET</span><span>Java</span></div>
-      </div>
-      <div class="ps-card">
+      </a>
+      <a href="<?= $base ?>hire-mobile-app-developer" class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="5" y="2" width="14" height="20" rx="2" />
             <line x1="12" y1="18" x2="12" y2="18" />
@@ -60,8 +59,8 @@ include 'includes/header.php';
         <h6>High-performance mobile apps for seamless user experiences</h6>
         <p>We build native and cross-platform mobile applications that deliver speed, usability, and consistent performance across devices.</p>
         <div class="tags"><span>iOS</span><span>Android</span><span>React Native</span><span>Flutter</span></div>
-      </div>
-      <div class="ps-card">
+      </a>
+      <a href="<?= $base ?>cloud-engineering" class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
           </svg></div>
@@ -69,8 +68,8 @@ include 'includes/header.php';
         <h6>Transforming legacy systems into cloud-ready architectures</h6>
         <p>We help organizations migrate, re-architect, and modernize applications for improved scalability, resilience, and operational efficiency.</p>
         <div class="tags"><span>AWS</span><span>Azure</span><span>Kubernetes</span><span>Microservices</span></div>
-      </div>
-      <div class="ps-card">
+      </a>
+      <a href="<?= $base ?>hire-data-engineer" class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M3 3v18h18" />
             <path d="M18.4 8.6 13 14l-3-3-4.5 4.5" />
@@ -79,8 +78,8 @@ include 'includes/header.php';
         <h6>Turning data into actionable business intelligence</h6>
         <p>We build end-to-end data ecosystems including pipelines, warehouses, and dashboards that enable smarter, faster decision-making.</p>
         <div class="tags"><span>Snowflake</span><span>Power BI</span><span>ETL Pipelines</span></div>
-      </div>
-      <div class="ps-card">
+      </a>
+      <a href="<?= $base ?>aiml-solutions" class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="10" />
             <path d="M12 6v6l4 2" />
@@ -89,8 +88,8 @@ include 'includes/header.php';
         <h6>Embedding intelligence into modern digital platforms</h6>
         <p>We integrate AI-driven capabilities such as generative AI, predictive models, chatbots, and automation to enhance existing and new systems.</p>
         <div class="tags"><span>Generative AI</span><span>RPA</span><span>ML Models</span></div>
-      </div>
-      <div class="ps-card">
+      </a>
+      <a href="<?= $base ?>hire-manual-testing" class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="10" />
             <path d="m9 12 2 2 4-4" />
@@ -99,7 +98,7 @@ include 'includes/header.php';
         <h6>Ensuring stability, security, and performance at every release</h6>
         <p>We provide comprehensive testing and launch support to ensure applications are reliable, secure, and production-ready.</p>
         <div class="tags"><span>Test Automation</span><span>Performance Testing</span><span>Security Testing</span></div>
-      </div>
+      </a>
       <div class="ps-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M2 20h20" />
@@ -156,7 +155,7 @@ include 'includes/header.php';
           <span class="tag">Fixed-Scope Projects</span>
           <h3>Defined outcomes, delivered within a clear timeline</h3>
           <p>For well-defined initiatives such as new platform builds, system migrations, or complex integrations, we align scope, timelines, and cost upfront—then execute with complete transparency and accountability.</p>
-          <h6>What you can expect:</h6>
+          <h5>What you can expect:</h5>
           <ul class="deliv-features">
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="20 6 9 17 4 12" />
@@ -182,7 +181,7 @@ include 'includes/header.php';
           <span class="tag">Agile Squads</span>
           <h3>Dedicated cross-functional teams working in iterative sprints</h3>
           <p>For dynamic product environments and evolving roadmaps, we deploy dedicated squads that integrate seamlessly with your product organization. Each squad operates in agile sprints to deliver continuous value and faster iteration cycles.</p>
-          <h6>What you get:</h6>
+          <h5>What you get:</h5>
           <ul class="deliv-features">
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="20 6 9 17 4 12" />
@@ -211,7 +210,7 @@ include 'includes/header.php';
           <span class="tag">Managed Support & Application Management Services (AMS)</span>
           <h3>Keeping your systems stable, secure, and continuously improving</h3>
           <p>Once your solution is live, our AMS teams ensure it remains reliable, high-performing, and aligned with evolving business needs—backed by clearly defined SLAs and proactive support.</p>
-          <h6>What we provide:</h6>
+          <h5>What we provide:</h5>
           <ul class="deliv-features">
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="20 6 9 17 4 12" />

@@ -12,16 +12,16 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">Enterprise Application Development</div>
-      <h1>Business-critical platforms, delivered by experts who understand them</h1>
+      <h1>Powering enterprises with expert technology solutions</h1>
       <p class="lead">From SAP and Salesforce to ServiceNow and Veeva, Adhiran Infotech helps organizations implement, integrate, optimize, and support enterprise applications that power day-to-day operations. Our certified specialists and global delivery teams ensure seamless execution, scalability, and long-term success.</p>
       <div class="hero-actions">
-        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Connect with an Enterprise Applications Specialist →</a>
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Connect an Expert →</a>
         <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Discover Our Platform Expertise</a>
       </div>
       <div class="hero-stats">
-        <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>EEnterprise platforms across <br> multiple industries</span></div>
+        <div><b class="count-up" data-target="6" data-suffix="+">6+</b><span>Enterprise platforms across <br> multiple industries</span></div>
         <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
-        <div><b>24/7</b><span>Successful implementations, <br> upgrades, and global rollouts</span></div>
+        <!-- <div><b>24/7</b><span>Successful implementations, <br> upgrades, and global rollouts</span></div> -->
         <div><b>30–50%</b><span>Successful implementations,<br> upgrades, and global rollouts</span></div>
       </div>
     </div>
@@ -355,7 +355,7 @@ include 'includes/header.php';
         <h3>Flexible Engagement Models</h3>
         <p>Whether you need end-to-end implementation, managed services, a dedicated delivery team, or specialized consultants, we adapt to your business needs.</p>
       </div>
-      <div class="es-why-card">
+      <!-- <div class="es-why-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
             <circle cx="9" cy="7" r="4" />
@@ -364,7 +364,7 @@ include 'includes/header.php';
           </svg></div>
         <h3>Business-Centric Outcomes</h3>
         <p>Focused on measurable value through process optimization, user adoption, operational excellence, and accelerated digital transformation.</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

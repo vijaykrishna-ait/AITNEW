@@ -12,7 +12,8 @@ include 'includes/header.php';
       <div>
       <div class="eyebrow">Our Vision &amp; Mission</div>
       <h1>Shaping the Future Through Talent and Technology</h1>
-      <p class="lead-text">Everything we do is guided by a clear vision and purpose. From sourcing specialized professionals to delivering enterprise-scale technology solutions, we focus on creating measurable outcomes for our clients.</p>
+      <p class="lead-text">Everything we do is guided by a clear vision and purpose. From sourcing specialized professionals to delivering enterprise-scale technology solutions, we focus on creating measurable outcomes for our clients.</p><br>
+      <p class="lead-text">By combining industry expertise, innovation, and a customer-first approach, we help organizations embrace digital transformation, optimize business operations, and build sustainable growth. Our commitment is to deliver reliable solutions, foster long-term partnerships, and create lasting value in an ever-evolving business landscape.</p>
     </div>
   <div class="hero-visual">
     <div class="hero-photo">

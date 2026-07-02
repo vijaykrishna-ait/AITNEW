@@ -199,7 +199,7 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head">
         <div class="eyebrow">Spectrum of Solutions</div>
-        <h2>One trusted partner, multiple ways to scale your workforce</h2>
+        <h2>Scale your workforce with one trusted partner</h2>
         <p>Whether you're looking for an individual expert, a dedicated team, or complete project execution, we provide flexible engagement models tailored to your business needs.</p>
       </div>
 
@@ -281,83 +281,95 @@ include 'includes/header.php';
 
   <!-- SERVICES -->
   <section class="services" id="services">
-    <div class="wrap">
-      <div class="section-head center">
-        <div class="eyebrow" style="justify-content:center;">What We Offer</div>
-        <h2>Explore Our Consulting & Technology Services</h2>
-        <p>A comprehensive range of consulting, talent, and technology solutions designed to help organizations overcome challenges, drive innovation, and achieve their strategic objectives with confidence.</p>
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">What We Offer</div>
+      <h2>Comprehensive Solutions for Modern Enterprises</h2>
+      <p>From digital transformation and enterprise applications to consulting and managed services, we help businesses innovate, optimize operations, and achieve sustainable growth.</p>
+    </div>
+
+    <div class="svc-tabs">
+      <div class="svc-tab active" data-svc="enterprise">
+        <div class="ico">◧</div>
+        <b>Enterprise Solutions</b>
       </div>
 
-      <div class="svc-tabs">
-        <div class="svc-tab active" data-svc="tech">
-          <div class="ico">◧</div>
-          <b>Technology Services</b>
-        </div>
-        <div class="svc-tab" data-svc="marketing">
-          <div class="ico">◔</div>
-          <b>Marketing Agency</b>
-        </div>
-        <div class="svc-tab" data-svc="mgmt">
-          <div class="ico">◐</div>
-          <b>Management Consulting</b>
-        </div>
+      <div class="svc-tab" data-svc="digital">
+        <div class="ico">◔</div>
+        <b>Digital Transformation</b>
       </div>
 
-      <div class="svc-panels" data-title="Technology Services" data-svcpanel="tech">
-        <div class="svc-card">
-          <span class="tag">AI</span>
-          <h4>Artificial Intelligence</h4>
-          <p>Accelerate growth with scalable AI solutions that spark innovation and transform business operations.</p>
-        </div>
-        <div class="svc-card">
-          <span class="tag">Data</span>
-          <h4>Data Analytics</h4>
-          <p>Transform data into real-time insights that streamline operations and enable smarter decision-making.</p>
-        </div>
-        <div class="svc-card">
-          <span class="tag">Cloud</span>
-          <h4>Cloud Services</h4>
-          <p>Optimize performance and scalability with secure, cost-effective cloud solutions built for growth.</p>
-        </div>
-      </div>
-
-      <div class="svc-panels" data-svcpanel="marketing" data-title="Marketing Agency" style="display:none;">
-        <div class="svc-card">
-          <span class="tag">Brand</span>
-          <h4>Brand Strategy</h4>
-          <p>Sharpen your positioning and message so every campaign lands with the right audience.</p>
-        </div>
-        <div class="svc-card">
-          <span class="tag">Growth</span>
-          <h4>Performance Marketing</h4>
-          <p>Data-driven campaigns across paid, search and social that turn budget into pipeline.</p>
-        </div>
-        <div class="svc-card">
-          <span class="tag">Content</span>
-          <h4>Content &amp; Design</h4>
-          <p>Creative and content production that keeps your brand consistent across every market.</p>
-        </div>
-      </div>
-
-      <div class="svc-panels" data-svcpanel="mgmt" data-title="Management Consulting" style="display:none;">
-        <div class="svc-card">
-          <span class="tag">Strategy</span>
-          <h4>Operating Model Design</h4>
-          <p>Restructure teams and workflows for clarity, speed and accountability at scale.</p>
-        </div>
-        <div class="svc-card">
-          <span class="tag">Change</span>
-          <h4>Change Management</h4>
-          <p>Move people, process and technology together through major transformation programs.</p>
-        </div>
-        <div class="svc-card">
-          <span class="tag">Advisory</span>
-          <h4>Executive Advisory</h4>
-          <p>Direct access to senior consultants who've led transformation at global scale.</p>
-        </div>
+      <div class="svc-tab" data-svc="consulting">
+        <div class="ico">◐</div>
+        <b>Consulting Services</b>
       </div>
     </div>
-  </section>
+
+    <!-- Enterprise Solutions -->
+    <div class="svc-panels" data-title="Enterprise Solutions" data-svcpanel="enterprise">
+      <div class="svc-card">
+        <span class="tag">CRM</span>
+        <h4>Salesforce & Veeva</h4>
+        <p>Implement and customize enterprise CRM platforms that improve customer engagement and business productivity.</p>
+      </div>
+
+      <div class="svc-card">
+        <span class="tag">ERP</span>
+        <h4>Microsoft Dynamics</h4>
+        <p>Streamline finance, operations, and customer management with scalable Microsoft business applications.</p>
+      </div>
+
+      <div class="svc-card">
+        <span class="tag">ITSM</span>
+        <h4>ServiceNow Solutions</h4>
+        <p>Automate workflows, optimize IT operations, and deliver exceptional employee and customer experiences.</p>
+      </div>
+    </div>
+
+    <!-- Digital Transformation -->
+    <div class="svc-panels" data-svcpanel="digital" data-title="Digital Transformation" style="display:none;">
+      <div class="svc-card">
+        <span class="tag">Cloud</span>
+        <h4>Cloud Modernization</h4>
+        <p>Migrate and modernize workloads with secure cloud infrastructure designed for scalability and resilience.</p>
+      </div>
+
+      <div class="svc-card">
+        <span class="tag">Data</span>
+        <h4>Data & Business Intelligence</h4>
+        <p>Unlock actionable insights through Power BI dashboards, reporting, and advanced analytics.</p>
+      </div>
+
+      <div class="svc-card">
+        <span class="tag">AI</span>
+        <h4>AI & Automation</h4>
+        <p>Leverage intelligent automation and AI solutions to improve efficiency and accelerate innovation.</p>
+      </div>
+    </div>
+
+    <!-- Consulting -->
+    <div class="svc-panels" data-svcpanel="consulting" data-title="Consulting Services" style="display:none;">
+      <div class="svc-card">
+        <span class="tag">Strategy</span>
+        <h4>Technology Consulting</h4>
+        <p>Develop practical technology strategies that align with business objectives and future growth.</p>
+      </div>
+
+      <div class="svc-card">
+        <span class="tag">Talent</span>
+        <h4>Resource Augmentation</h4>
+        <p>Access experienced consultants and technical professionals to strengthen your delivery teams.</p>
+      </div>
+
+      <div class="svc-card">
+        <span class="tag">Support</span>
+        <h4>Managed Services</h4>
+        <p>Ensure business continuity with proactive application support, maintenance, and optimization services.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
   <!-- TECH EXPERTS -->
   <section class="experts">
@@ -606,8 +618,8 @@ include 'includes/header.php';
         <div class="eyebrow">Why Choose Adhiran Infotech?</div>
         <h2>Transforming Talent, Technology, and Business Outcomes</h2>
         <p>Adhiran Infotech empowers organizations with world-class talent solutions, technology consulting, and digital transformation services. By blending deep industry expertise, AI-driven innovation, and a global delivery model, we help businesses build future-ready teams, accelerate growth, and stay ahead in an evolving digital landscape.</p>
-        <p>From enterprise staffing and managed teams to cloud, data, and AI initiatives, we deliver scalable solutions tailored to your business objectives.</p>
-        <p class="highlight">Trusted by Businesses Across the Globe</p>
+        <!-- <p>From enterprise staffing and managed teams to cloud, data, and AI initiatives, we deliver scalable solutions tailored to your business objectives.</p> -->
+        <!-- <p class="highlight">Trusted by Businesses Across the Globe</p> -->
         <div class="why-points">
           <div class="why-point"><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful placements</span></div>
           <div class="why-point"><b class="count-up" data-target="4">3</b><span>Global delivery hubs</span></div>

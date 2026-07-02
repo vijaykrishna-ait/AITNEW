@@ -10,17 +10,17 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Life Sciences &amp; Pharma</div>
-      <h1>Accelerating therapies from discovery to patient care</h1>
+      <h1>Accelerating Therapies from Discovery to Care</h1>
       <p class="lead">We partner with pharmaceutical, biotech, medtech, and healthcare organizations to modernize R&D, clinical, manufacturing, and commercial operations—combining deep domain understanding with AI, cloud, and digital engineering.</p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Life Sciences Expert →</a>
         <a href="<?= $base ?>life-sciences#ls-services" class="btn btn-outline-light">Explore Our Services</a>
       </div>
       <div class="hero-stats">
-        <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals using our<br> AI diagnostics <br> platforms</span></div>
-        <div><b class="count-up " data-target="15" data-suffix="+">15+</b><span>Experience across <br>life sciences and <br>healthcare ecosystems</span></div>
-        <div><b>30–50%</b><span>Faster screening, <br>review, and decision <br> cycles powered by AI</span></div>
-        <div><b>24/7</b><span>Global delivery <br>and support across <br> time zones</span></div>
+        <div><b class="count-up " data-target="200" data-suffix="+">200+</b><span>Hospitals Served</span></div>
+        <div><b class="count-up " data-target="15" data-suffix="+">15+</b><span>Years in Healthcare</span></div>
+        <div><b>30–50%</b><span>Faster AI Decisions</span></div>
+        <div><b>24/7</b><span>Global Support</span></div>
       </div>
     </div>
     <div class="hero-visual">

@@ -188,7 +188,7 @@ include 'includes/header.php';
   <h2>Want to be part of the team?</h2>
   <p>Explore open roles across our global offices — or get in touch to learn more about life at AIT.</p>
   <div class="actions">
-    <a href="<?= $base ?>https://vijaykrishna-ait.github.io/AITNEW/career" class="btn btn-lime">View Careers</a>
+    <a href="<?= $base ?>career" class="btn btn-lime">View Careers</a>
     <a href="<?= $base ?>#jobs" class="btn btn-outline-light">Browse Open Roles</a>
   </div>
 </section>

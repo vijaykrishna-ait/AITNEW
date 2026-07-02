@@ -176,10 +176,32 @@ include 'includes/header.php';
         <a href="<?= $base ?>servicenow" class="btn btn-outline" style="margin-top:20px;padding:10px 22px;font-size:14px;">Learn More →</a>
       </div>
 
-      <div class="itsol-card featured">
+      <div class="itsol-card">
+        <div class="itsol-card-header">
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 9.5-7 11-3.5-1.5-7-6-7-11V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <span class="itsol-tag">Life Sciences CRM</span>
+        </div>
+        <h3>Veeva</h3>
+        <p>  Transform your life sciences operations with Veeva. We deliver
+  implementation, customization, integration, and support to improve
+  efficiency and regulatory compliance.
+        </p>
+        <ul class="itsol-feature-list">
+          <li>Veeva CRM Implementation</li>
+          <li>Vault Configuration & Customization</li>
+          <li>Data Migration & Integration</li>
+          <li>CLM & Approved Email Setup</li>
+          <li>Regulatory & Quality Solutions</li>
+          <li>Support & Managed Services</li>
+        </ul>
+        <a href="<?= $base ?>veeva" class="btn btn-outline" style="margin-top:20px;padding:10px 22px;font-size:14px;">
+          Learn More →
+        </a>
+      </div>
+      <div class="itsol-card">
         <div class="itsol-card-header">
           <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
-          <span class="itsol-tag featured-tag">AI-Powered Innovation</span>
+          <span class="itsol-tag">AI-Powered Innovation</span>
         </div>
         <h3>AI/ML Solutions</h3>
         <p>Unlock the power of artificial intelligence and machine learning for your business. Our AI/ML team builds intelligent applications, predictive models and generative AI solutions that automate decision-making and unlock new revenue streams.</p>
@@ -191,7 +213,7 @@ include 'includes/header.php';
           <li>Predictive Analytics</li>
           <li>AI Integration &amp; MLOps</li>
         </ul>
-        <a href="<?= $base ?>aiml-solutions" class="btn btn-lime" style="margin-top:20px;padding:10px 22px;font-size:14px;">Learn More →</a>
+        <a href="<?= $base ?>aiml-solutions" class="btn btn-outline" style="margin-top:20px;padding:10px 22px;font-size:14px;">Learn More →</a>
       </div>
 
     </div>

@@ -190,12 +190,19 @@ include 'includes/header.php';
       <p>We leverage a robust ecosystem of industrial, cloud, automation, and analytics platforms to help organizations build connected, intelligent, and future-ready operations. Our platform-agnostic approach ensures the right technology is selected to meet your business objectives, operational requirements, and scalability goals.</p>
     </div>
     <div class="enablers-grid">
-      <div class="enabler-logo">AWS IoT</div>
-      <div class="enabler-logo">Azure IoT</div>
-      <div class="enabler-logo">Power BI</div>
-      <div class="enabler-logo">UiPath</div>
-      <div class="enabler-logo">SAP MES</div>
-      <div class="enabler-logo">Computer Vision AI</div>
+      <div class="enabler-logo"><img src="assets/logos/aws-iot.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/azure-iot-hub.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/powerbi.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/uipath.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/sap.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/ai-hub.svg" alt=""></div>
+
+      <div class="enabler-logo"><img src="assets/logos/aws-iot.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/azure-iot-hub.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/powerbi.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/uipath.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/sap.svg" alt=""></div>
+      <div class="enabler-logo"><img src="assets/logos/ai-hub.svg" alt=""></div>
     </div>
   </div>
 </section>
