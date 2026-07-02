@@ -230,7 +230,7 @@ include 'includes/header.php';
               <a href="<?= $base ?>team-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
-              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=700&q=80"
+              <img src="assets/images/index/team-solution.jpeg"
                 alt="Team collaborating around a table">
             </div>
           </div>
@@ -242,7 +242,7 @@ include 'includes/header.php';
               <a href="<?= $base ?>project-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
-              <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80"
+              <img src="assets/images/index/Project-solution.jpeg"
                 alt="Engineers working on a project together">
             </div>
           </div>
@@ -541,7 +541,7 @@ include 'includes/header.php';
   <section>
     <div class="wrap split">
       <div class="split-img">
-        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80"
+        <img src="assets/images/index/HR.jpeg"
           alt="IT professional working remotely on laptop">
       </div>
       <div>

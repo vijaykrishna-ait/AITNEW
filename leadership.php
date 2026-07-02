@@ -7,12 +7,21 @@ include 'includes/header.php';
 ?>
 
 <!-- LEADERSHIP HERO -->
-<section class="lead-hero">
-  <div class="wrap">
-    <div class="eyebrow">Leadership</div>
-    <h1>Leadership with a Global Perspective</h1>
-    <p class="lead-text">Our leadership team unites professionals from across key international markets, bringing diverse perspectives and deep industry knowledge to every engagement. Together, they drive our vision, strengthen client partnerships, and ensure consistent delivery excellence worldwide.</p>
+<section class="lead-hero ">
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">Leadership</div>
+      <h1>Leadership with a Global Perspective</h1>
+      <p class="lead-text">Our leadership team unites professionals from across key international markets, bringing diverse perspectives and deep industry knowledge to every engagement. Together, they drive our vision, strengthen client partnerships, and ensure consistent delivery excellence worldwide.</p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/leadership-banner.jpeg" alt="">
+      </div>
+    </div>
   </div>
+
 </section>
 
 <!-- LEADERSHIP TABS & GRIDS -->
@@ -224,4 +233,4 @@ include 'includes/header.php';
   </div>
 </section>
 
-  <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
