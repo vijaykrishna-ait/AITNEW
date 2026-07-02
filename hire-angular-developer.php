@@ -94,32 +94,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/api-interface.svg" alt=""></div>
         <h4>RESTful API Integration</h4>
         <p>Connect Angular applications to backend services via REST APIs using Angular's HttpClient and reactive patterns.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/performance.svg" alt=""></div>
         <h4>Performance Optimization</h4>
         <p>Apply lazy loading, ahead-of-time compilation, and bundle analysis to ensure Angular apps load fast.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/ecommerce.svg" alt=""></div>
         <h4>E-Shops and Marketplaces</h4>
         <p>Use Angular to build complex, feature-rich e-commerce applications with dynamic product pages and secure checkout flows.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/component.svg" alt=""></div>
         <h4>Component-Based Architecture</h4>
         <p>Structure Angular applications into self-contained, reusable components with clear input/output contracts.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/ngrx.svg" alt=""></div>
         <h4>NgRx State Management</h4>
         <p>Implement Redux-pattern state management in Angular using NgRx Store, Effects, and Selectors.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/angular-universal.svg" alt=""></div>
         <h4>Angular Universal</h4>
         <p>Enable server-side rendering with Angular Universal for improved SEO and faster initial page loads.</p>
       </div>
