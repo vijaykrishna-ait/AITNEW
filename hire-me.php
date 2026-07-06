@@ -25,7 +25,7 @@ include 'includes/header.php';
     </div>
     <div class="hire-hero-visual">
       <div class="hire-hero-img">
-        <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&w=900&q=80" alt="Developer working on code across multiple screens">
+        <img src="" alt="Developer working on code across multiple screens">
       </div>
       <div class="hire-hero-badge"><b>10+</b><span>Years building global engineering teams</span></div>
     </div>

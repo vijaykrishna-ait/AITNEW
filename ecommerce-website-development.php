@@ -32,7 +32,7 @@ include 'includes/header.php';
     <div>
       <span class="tag">IT Consulting</span>
       <h2>E-Commerce Development</h2>
-      <p>Make your business online with Adhiran Infotech, the top-tier E-Commerce web development company in Chennai. We are one of the fastest-growing companies that make all possible efforts to elevate your online store business with effective eCommerce websites.</p>
+      <p class="lead">Make your business online with Adhiran Infotech, the top-tier E-Commerce web development company in Chennai. We are one of the fastest-growing companies that make all possible efforts to elevate your online store business with effective eCommerce websites.</p>
       <p><em>"Get ahead in the game — We build websites on the best platforms to drive traffic and convert customers!"</em></p>
     </div>
   </div>

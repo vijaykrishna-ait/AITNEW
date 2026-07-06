@@ -231,11 +231,6 @@ include 'includes/header.php';
         <h3>Education</h3>
         <p>We offer strategic web-based e-learning solutions, enhancing remote learning for students and educators worldwide.</p>
       </div>
-      <div class="its-industry-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
-        <h3>Entertainment</h3>
-        <p>We offer interactive solutions for the entertainment industry, enhancing engagement and access across mobile and OTT platforms.</p>
-      </div>
     </div>
   </div>
 </section>

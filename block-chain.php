@@ -10,7 +10,7 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div>
     <div class="eyebrow">IT Solutions — Blockchain</div>
-    <h1>Blockchain Development for Secure, Transparent & Decentralized Solutions</h1>
+    <h1>Blockchain Development for Secure Digital Innovation</h1>
     <p class="lead">Adhiran Infotech provides comprehensive blockchain development services to help businesses leverage the power of distributed ledger technology. From smart contracts to private blockchain networks and DeFi applications, we build trust into every transaction.</p>
     <div class="hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>

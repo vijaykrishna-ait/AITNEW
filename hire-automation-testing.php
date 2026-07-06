@@ -37,7 +37,7 @@ include 'includes/header.php';
         services. Our engineers build scalable test frameworks that provide confidence in every deployment.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/automation_testing/automation_testing_desc.png"
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg"
         alt="Hire Expert Automation Testing Engineers for Faster, Reliable Releases">
     </div>
   </div>
@@ -130,7 +130,7 @@ include 'includes/header.php';
           testing at scale.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/appium.svg" alt=""></div>
         <h4>Appium</h4>
         <p>Open-source mobile automation framework for testing native, hybrid and mobile web apps on iOS and Android
           using WebDriver protocol.</p>

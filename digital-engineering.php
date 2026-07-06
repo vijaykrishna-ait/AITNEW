@@ -21,7 +21,7 @@ include 'includes/header.php';
       <div ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Improvement in <br>Operational Reliability</span></div>
       <div ><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Years of <br>Industry Experience</span></div>
       <div ><b>AI-Driven IoT</b><span>Smart Factory Enablement</span></div>
-      <div ><b>24/7</b><span>Round-the-Clock <br>Operational Support</span></div>
+      <!-- <div ><b>24/7</b><span>Round-the-Clock <br>Operational Support</span></div> -->
     </div>
     </div>
     <div class="hero-visual">

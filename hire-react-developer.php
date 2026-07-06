@@ -38,7 +38,7 @@ include 'includes/header.php';
       <p>From Enhanced Performance and Scalability to Cross-Platform Compatibility, Interactive User Interfaces, and Continuous Support — our React developers deliver excellence across the board.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/reactjs/reactjs_desc.png" alt="Hire Expert React JS Developers for Dynamic Web Experiences">
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert React JS Developers for Dynamic Web Experiences">
     </div>
   </div>
 </section>

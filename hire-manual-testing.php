@@ -87,32 +87,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/exploratory-analysis.png" alt=""></div>
         <h4>Exploratory Testing</h4>
         <p>A simultaneous learning, test design, and execution approach where testers explore the application without predefined scripts.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/software-testing.png" alt=""></div>
         <h4>Ad-Hoc Testing</h4>
         <p>Informal testing performed without documentation, aimed at quickly finding defects by randomly navigating the application.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/browser.png" alt=""></div>
         <h4>User Interface (UI) Testing</h4>
         <p>Manually validating visual elements, layout, and interactions of an application against design specifications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/web.png" alt=""></div>
         <h4>Cross-Browser Testing</h4>
         <p>Testing web applications across multiple browsers and versions to ensure consistent rendering and functionality.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/regression.png" alt=""></div>
         <h4>Regression Testing</h4>
         <p>Re-executing test cases for existing functionality after code changes to detect any newly introduced defects.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/end-to-end.png" alt=""></div>
         <h4>End-to-End Testing</h4>
         <p>Testing complete business processes from start to finish to validate that integrated components work correctly together.</p>
       </div>

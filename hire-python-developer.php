@@ -39,7 +39,7 @@ include 'includes/header.php';
       <p>Whether you need a Django web application, a FastAPI microservice, a data pipeline, or an ML model deployment — our Python specialists have the expertise to accelerate your project.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/python/python_desc.png" alt="Hire Expert Python Developers for Web, Data & AI Solutions">
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert Python Developers for Web, Data & AI Solutions">
     </div>
   </div>
 </section>

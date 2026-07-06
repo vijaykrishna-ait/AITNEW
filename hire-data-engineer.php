@@ -128,7 +128,7 @@ include 'includes/header.php';
         <p>A system that enables the distributing of large datasets across clusters of computers in essentially simple models.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/logos/snowflake.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets/logos/snowflake-logo.svg" alt=""></div>
         <h4>Snowflake</h4>
         <p>A swift, flexible and scalable approach of managing and analyzing data using cloud based data warehousing regime.</p>
       </div>
