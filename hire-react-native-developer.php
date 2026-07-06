@@ -46,7 +46,7 @@ include 'includes/header.php';
         efficiency.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/react_native/react_native_desc.png"
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg"
         alt="Hire Expert React Native Developers for Native-Quality Mobile Apps">
     </div>
   </div>
@@ -115,7 +115,7 @@ include 'includes/header.php';
           data flows.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/reactnavigation.svg" alt=""></div>
         <h4>React Navigation</h4>
         <p>The most widely used navigation library for React Native — providing stack, tab, drawer, and modal navigation
           patterns.</p>
@@ -139,7 +139,7 @@ include 'includes/header.php';
           mobile apps.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/reanimated.svg" alt=""></div>
         <h4>Reanimated</h4>
         <p>React Native's high-performance animation library that runs animations on the native UI thread for smooth,
           gesture-driven UIs.</p>
@@ -343,7 +343,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="hero-visual">
-      <div class="hero-photo"><img src="assets/images/faq.png" alt=""></div>
+      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
     </div>
   </div>
 </section>

@@ -190,7 +190,7 @@ include 'includes/header.php';
       </div>
     </div>
 </div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
   </div>
 </section>
 

@@ -125,13 +125,13 @@ include 'includes/header.php';
           reactive state in one package.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/provider.svg" alt=""></div>
         <h4>Provider</h4>
         <p>A recommended state management approach for Flutter — simple, flexible, and easy to test with excellent
           performance.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/riverpod.svg" alt=""></div>
         <h4>Riverpod</h4>
         <p>A reactive caching and data-binding framework for Flutter that improves on Provider with better scoping and
           compile-time safety.</p>
@@ -334,7 +334,7 @@ include 'includes/header.php';
       </div>
     </div>
 </div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
   </div>
 </section>
 

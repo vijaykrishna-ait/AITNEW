@@ -144,7 +144,7 @@ include 'includes/header.php';
         <p>The industry-standard API testing platform used to develop, test, document, and monitor APIs throughout the development lifecycle.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/appium.svg" alt=""></div>
         <h4>Appium</h4>
         <p>An open-source mobile test automation framework for native, hybrid and web apps across iOS and Android platforms.</p>
       </div>

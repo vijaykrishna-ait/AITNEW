@@ -102,17 +102,17 @@ include 'includes/header.php';
         <p>A free, open-source MVC framework for creating elegant, modern Java web applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/javafx.svg" alt=""></div>
         <h4>JavaFX</h4>
         <p>A set of graphics and media packages for creating rich client applications with a modern, hardware-accelerated graphics pipeline.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/maven.svg" alt=""></div>
         <h4>Maven / Gradle</h4>
         <p>Build automation tools that manage Java project dependencies, compilation, testing, and packaging in a standardized way.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/junit.svg" alt=""></div>
         <h4>JUnit & Mockito</h4>
         <p>Industry-standard Java testing frameworks for unit tests, integration tests, and mocking dependencies for reliable codebases.</p>
       </div>
@@ -285,7 +285,7 @@ include 'includes/header.php';
       </div>
     </div>
 </div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
   </div>
 </section>
 

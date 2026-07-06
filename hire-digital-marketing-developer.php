@@ -118,32 +118,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/set-up.png" alt=""></div>
         <h4>Personalization</h4>
         <p>Adaptive communication that involves personalizing the content and marketing to fit the individual target market in an attempt to increase the satisfaction level of the clients.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/voice-search.png" alt=""></div>
         <h4>Voice Search Optimization</h4>
         <p>Another way in which SEO has been slowly shifting towards adapting for the future is because more and more people use voice activated searches.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/ai.png" alt=""></div>
         <h4>AI in Marketing</h4>
         <p>Integrating artificial intelligence technologies within business processes for optimization of analysis of data, customers interaction, and content development.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/clapperboard.png" alt=""></div>
         <h4>Short-Form Video Content</h4>
         <p>Applying different strategies to use some services like TikTok or Instagram Reels for targeting young viewers.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/sustainable.png" alt=""></div>
         <h4>Sustainability Marketing</h4>
         <p>Incorporating appeals to values by advertising environmental obligation and environmentally friendly merchandise.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/icons/influencer.png" alt=""></div>
         <h4>Influencer Marketing</h4>
         <p>Collaborating with industry influencers and brand advocates to reach authentic audiences and build trust for your brand.</p>
       </div>

@@ -118,7 +118,7 @@ include 'includes/header.php';
           across iOS and Android.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/entity-framework.svg" alt=""></div>
         <h4>Entity Framework Development</h4>
         <p>Microsoft's ORM for .NET — eliminates the need for most data-access code through LINQ-based queries and
           schema migrations.</p>
@@ -333,7 +333,7 @@ include 'includes/header.php';
       </div>
     </div>
 </div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
   </div>
 </section>
 

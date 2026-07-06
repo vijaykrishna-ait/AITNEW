@@ -107,7 +107,7 @@ include 'includes/header.php';
         <p>A next generation frontend tooling that provides extremely fast development server and optimized production builds.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/vue-router.svg" alt=""></div>
         <h4>Vue Router</h4>
         <p>The official router for Vue.js. Deeply integrated with Vue's core to make building single-page applications a breeze.</p>
       </div>
@@ -285,7 +285,7 @@ include 'includes/header.php';
       </div>
     </div>
 </div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faq.png" alt=""></div></div>
+<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
   </div>
 </section>
 

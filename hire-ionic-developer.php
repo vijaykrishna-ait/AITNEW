@@ -114,31 +114,31 @@ include 'includes/header.php';
           maintainable mobile apps.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/capacitorjs.svg" alt=""></div>
         <h4>Capacitor</h4>
         <p>Ionic's official cross-platform native runtime for building web apps that run natively on iOS, Android, and
           the web.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/stencil.svg" alt=""></div>
         <h4>Stencil</h4>
         <p>A Web Components compiler used by the Ionic team to build their UI component library — reusable across all
           frameworks.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/ionic.svg" alt=""></div>
         <h4>Ionic CLI</h4>
         <p>The command-line interface for Ionic development — project scaffolding, live reload, platform builds, and
           deployment.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/ionic-react.svg" alt=""></div>
         <h4>React with Ionic</h4>
         <p>Ionic's official React integration providing native-quality mobile UI components built as standard React
           components.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num">&#9670;</div>
+        <div class="its-why-num"><img src="assets/logos/cordova.svg" alt=""></div>
         <h4>Cordova</h4>
         <p>An older hybrid mobile platform that Ionic supports, providing access to device APIs through JavaScript
           bridges.</p>
@@ -342,7 +342,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="hero-visual">
-      <div class="hero-photo"><img src="assets/images/faq.png" alt=""></div>
+      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
     </div>
   </div>
 </section>
