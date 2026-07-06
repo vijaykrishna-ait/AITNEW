@@ -3010,6 +3010,7 @@
 .itsol-svc-card{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:32px 28px;transition:transform .25s,box-shadow .25s;}
 .itsol-svc-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px -24px rgba(11,42,74,.22);}
 .itsol-svc-icon{font-size:36px;margin-bottom:16px;}
+.itsol-svc-icon img{width: 44px;}
 .itsol-svc-card h3{font-family:'Sora',sans-serif;font-size:17px;font-weight:800;color:var(--navy);margin-bottom:10px;}
 .itsol-svc-card p{color:var(--gray);font-size:14px;line-height:1.6;}
 @media(max-width:900px){.itsol-svc-grid{grid-template-columns:1fr 1fr;}}

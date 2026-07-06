@@ -28,32 +28,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">☁️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/crm.png" alt=""></div>
         <h3>Veeva CRM Implementation</h3>
         <p>End-to-end Vault CRM deployment — from blueprint and configuration to user training and go-live — delivered by experienced Veeva consultants with deep life sciences expertise.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">✂️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/migration.png" alt=""></div>
         <h3>Classic CRM → Vault CRM Migration</h3>
         <p>Migrate from Salesforce-based Classic CRM to next-generation Vault CRM with minimal field force disruption, maintaining data integrity and business continuity throughout.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">⚙️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/configuration.png" alt=""></div>
         <h3>CRM Configuration & Customization</h3>
         <p>Tailor Vault CRM to your brand, territory, and workflow requirements — X-Pages, CLM content, Approved Email, call recording, and multichannel activity configuration.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🛡️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ams.png" alt=""></div>
         <h3>Application Management Services (AMS)</h3>
         <p>Ongoing Vault CRM support, monitoring, optimisation, and enhancement services to keep your CRM landscape stable and aligned with evolving business needs.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔄</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/data-migration.png" alt=""></div>
         <h3>HCP/HCO Data Migration</h3>
         <p>Structured migration of customer master data using Veeva Network and OpenData — with full validation, deduplication, and reconciliation to maintain data integrity.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔗</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/integration.png" alt=""></div>
         <h3>CRM Integration Services</h3>
         <p>Connect Vault CRM with third-party systems via Vault Connections, Spark Messaging, and REST API — enabling seamless enterprise-wide data flows across ERP, MDM, and BI platforms.</p>
       </div>
