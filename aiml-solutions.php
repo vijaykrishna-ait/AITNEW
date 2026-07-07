@@ -36,37 +36,50 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🧠</div>
+        <div class="itsol-svc-icon">
+           <img src="assets/icons/ai-ml/ml.png" alt="">
+        </div>
         <h3>Machine Learning Implementation</h3>
         <p>Custom ML models — regression, classification, clustering, recommendation — trained on your data and deployed
           into your production workflows.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📱</div>
+        <div class="itsol-svc-icon"> 
+          <img src="assets/icons/ai-ml/web-app.png" alt="">
+        </div>
         <h3>Smart Mobile & Web Apps</h3>
         <p>AI-powered applications that adapt to user behavior, deliver personalized experiences, and make intelligent
           recommendations in real time.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">💬</div>
+        <div class="itsol-svc-icon"> 
+          <img src="assets/icons/ai-ml/language.png" alt="">
+        </div>
         <h3>Natural Language Understanding</h3>
         <p>NLP solutions for text classification, sentiment analysis, entity extraction, document summarization, and
           conversational AI chatbots.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔒</div>
+        <div class="itsol-svc-icon"> 
+          <img src="assets/icons/ai-ml/data-governce.png" alt="">
+        </div>
         <h3>Data Governance & AI Ethics</h3>
         <p>Frameworks for responsible AI — data lineage, model explainability, bias detection, and governance processes
           for compliant AI deployment.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">⚡</div>
+        <div class="itsol-svc-icon"> 
+          <img src="assets/icons/ai-ml/optimization.png" alt="">
+        </div>
         <h3>AI Solution Optimization</h3>
         <p>Audit and optimize your existing AI/ML systems — improving model accuracy, inference speed, scalability, and
           cost efficiency.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">👁️</div>
+        <div class="itsol-svc-icon"> 
+          <img src="assets/icons/ai-ml/vision.png" alt="">
+
+        </div>
         <h3>Computer Vision Solutions</h3>
         <p>Image and video analysis systems for defect detection, facial recognition, document processing, and medical
           imaging applications.</p>
@@ -243,9 +256,11 @@ include 'includes/header.php';
           </div>
         </div>
       </div>
-      </div>
-      <div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
     </div>
+    <div class="hero-visual">
+      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
+    </div>
+  </div>
   </div>
 </section>
 

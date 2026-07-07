@@ -35,32 +35,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔍</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/automation.png" alt=""></div>
         <h3>Automation Assessment</h3>
         <p>Comprehensive analysis of your business processes to identify high-ROI automation candidates, estimate savings, and build a prioritized automation roadmap.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🎯</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/strategy.png" alt=""></div>
         <h3>Strategy Consulting</h3>
         <p>Define your enterprise automation strategy — governance model, CoE setup, tooling selection, and a phased roadmap aligned with business objectives.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🤖</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/custom.png" alt=""></div>
         <h3>Custom Bot Development</h3>
         <p>Build robust, scalable UiPath bots tailored to your specific processes — attended, unattended, or hybrid — with full exception handling and logging.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">⚙️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/impliment.png" alt=""></div>
         <h3>Implementation Services</h3>
         <p>End-to-end RPA implementation — from environment setup and bot deployment to testing, change management, and hypercare.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔄</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/auto-service.png" alt=""></div>
         <h3>Automation Services</h3>
         <p>Ongoing automation development, maintenance, and optimization services to continuously expand your automation portfolio and maximize ROI.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🛡️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/support.png" alt=""></div>
         <h3>Support & Maintenance</h3>
         <p>SLA-backed support for your UiPath environment — bot monitoring, incident resolution, version upgrades, and proactive health checks.</p>
       </div>
