@@ -118,32 +118,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/set-up.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/marketing/set-up.png" alt=""></div>
         <h4>Personalization</h4>
         <p>Adaptive communication that involves personalizing the content and marketing to fit the individual target market in an attempt to increase the satisfaction level of the clients.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/voice-search.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/marketing/voice-search.png" alt=""></div>
         <h4>Voice Search Optimization</h4>
         <p>Another way in which SEO has been slowly shifting towards adapting for the future is because more and more people use voice activated searches.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/ai.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/marketing/ai.png" alt=""></div>
         <h4>AI in Marketing</h4>
         <p>Integrating artificial intelligence technologies within business processes for optimization of analysis of data, customers interaction, and content development.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/clapperboard.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/marketing/clapperboard.png" alt=""></div>
         <h4>Short-Form Video Content</h4>
         <p>Applying different strategies to use some services like TikTok or Instagram Reels for targeting young viewers.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/sustainable.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/marketing/sustainable.png" alt=""></div>
         <h4>Sustainability Marketing</h4>
         <p>Incorporating appeals to values by advertising environmental obligation and environmentally friendly merchandise.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/influencer.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/marketing/influencer.png" alt=""></div>
         <h4>Influencer Marketing</h4>
         <p>Collaborating with industry influencers and brand advocates to reach authentic audiences and build trust for your brand.</p>
       </div>
@@ -169,31 +169,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

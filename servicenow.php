@@ -35,32 +35,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🎫</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/servicenow/itsm.png" alt=""></div>
         <h3>IT Service Management (ITSM)</h3>
         <p>Implement ITIL-aligned ITSM on ServiceNow — Incident, Problem, Change, Knowledge, and Service Catalog — with best-practice configurations and workflows.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🤝</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/servicenow/csm.png" alt=""></div>
         <h3>Customer Service Management (CSM)</h3>
         <p>Deliver exceptional customer experiences with ServiceNow CSM — case management, omnichannel routing, self-service portals, and proactive service.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">👥</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/servicenow/hrsd.png" alt=""></div>
         <h3>HR Service Delivery (HRSD)</h3>
         <p>Transform HR operations with ServiceNow HRSD — employee journey management, case routing, knowledge articles, and service catalog for HR transactions.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔧</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/servicenow/itom.png" alt=""></div>
         <h3>IT Operations Management (ITOM)</h3>
         <p>Achieve operational visibility with ITOM — CMDB, Discovery, Event Management, and AIOps to maintain a healthy, well-understood IT infrastructure.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📊</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/servicenow/performance.png" alt=""></div>
         <h3>Performance Analytics</h3>
         <p>Drive data-driven decisions with ServiceNow Performance Analytics — dashboards, scorecards, and KPI tracking across all ServiceNow modules.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔗</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/servicenow/hub.png" alt=""></div>
         <h3>Integration Hub & Capabilities</h3>
         <p>Connect ServiceNow to your enterprise ecosystem — SAP, Salesforce, Azure DevOps, Jira, and hundreds of systems using Integration Hub spokes.</p>
       </div>
@@ -122,31 +122,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

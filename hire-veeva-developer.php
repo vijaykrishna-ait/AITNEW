@@ -28,32 +28,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/crm.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/veeva/crm.png" alt=""></div>
         <h3>Veeva CRM Implementation</h3>
         <p>End-to-end Vault CRM deployment — from blueprint and configuration to user training and go-live — delivered by experienced Veeva consultants with deep life sciences expertise.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/migration.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/veeva/migration.png" alt=""></div>
         <h3>Classic CRM → Vault CRM Migration</h3>
         <p>Migrate from Salesforce-based Classic CRM to next-generation Vault CRM with minimal field force disruption, maintaining data integrity and business continuity throughout.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/configuration.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/veeva/configuration.png" alt=""></div>
         <h3>CRM Configuration & Customization</h3>
         <p>Tailor Vault CRM to your brand, territory, and workflow requirements — X-Pages, CLM content, Approved Email, call recording, and multichannel activity configuration.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/ams.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/veeva/ams.png" alt=""></div>
         <h3>Application Management Services (AMS)</h3>
         <p>Ongoing Vault CRM support, monitoring, optimisation, and enhancement services to keep your CRM landscape stable and aligned with evolving business needs.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/data-migration.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/veeva/data-migration.png" alt=""></div>
         <h3>HCP/HCO Data Migration</h3>
         <p>Structured migration of customer master data using Veeva Network and OpenData — with full validation, deduplication, and reconciliation to maintain data integrity.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/integration.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/veeva/integration.png" alt=""></div>
         <h3>CRM Integration Services</h3>
         <p>Connect Vault CRM with third-party systems via Vault Connections, Spark Messaging, and REST API — enabling seamless enterprise-wide data flows across ERP, MDM, and BI platforms.</p>
       </div>
@@ -81,31 +81,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

@@ -87,32 +87,32 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/exploratory-analysis.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/manual/exploratory-analysis.png" alt=""></div>
         <h4>Exploratory Testing</h4>
         <p>A simultaneous learning, test design, and execution approach where testers explore the application without predefined scripts.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/software-testing.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/manual/software-testing.png" alt=""></div>
         <h4>Ad-Hoc Testing</h4>
         <p>Informal testing performed without documentation, aimed at quickly finding defects by randomly navigating the application.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/browser.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/manual/browser.png" alt=""></div>
         <h4>User Interface (UI) Testing</h4>
         <p>Manually validating visual elements, layout, and interactions of an application against design specifications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/web.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/manual/web.png" alt=""></div>
         <h4>Cross-Browser Testing</h4>
         <p>Testing web applications across multiple browsers and versions to ensure consistent rendering and functionality.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/regression.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/manual/regression.png" alt=""></div>
         <h4>Regression Testing</h4>
         <p>Re-executing test cases for existing functionality after code changes to detect any newly introduced defects.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/icons/end-to-end.png" alt=""></div>
+        <div class="its-why-num"><img src="assets/icons/manual/end-to-end.png" alt=""></div>
         <h4>End-to-End Testing</h4>
         <p>Testing complete business processes from start to finish to validate that integrated components work correctly together.</p>
       </div>
@@ -138,31 +138,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

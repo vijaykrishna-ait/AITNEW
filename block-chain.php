@@ -34,32 +34,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📜</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/blockchain/contract.png" alt=""></div>
         <h3>Smart Contract Development</h3>
         <p>Secure, audited smart contracts on Ethereum, Solana, and other chains — automating agreements and eliminating intermediaries with transparent code.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔒</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/blockchain/network.png" alt=""></div>
         <h3>Private Blockchain Networks</h3>
         <p>Enterprise-grade private and consortium blockchain networks using Hyperledger Fabric for controlled, permissioned distributed ledger environments.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">👛</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/blockchain/wallet.png" alt=""></div>
         <h3>Crypto Wallet Development</h3>
         <p>Secure multi-currency digital wallets with hardware wallet integration, multi-sig support, and intuitive UX for managing digital assets.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔗</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/blockchain/hyperledger.png" alt=""></div>
         <h3>Hyperledger Development</h3>
         <p>Enterprise blockchain solutions on Hyperledger Fabric — chaincode development, channel setup, and ordering service configuration.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">⛓️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/blockchain/multichain.png" alt=""></div>
         <h3>Multi-Chain Development</h3>
         <p>Cross-chain solutions that enable interoperability between Ethereum, BSC, Polygon, Solana, and other blockchain networks.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📈</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/blockchain/exchange.png" alt=""></div>
         <h3>Exchange Development</h3>
         <p>Centralized and decentralized exchange platforms — matching engines, liquidity pools, order books, and trading interfaces.</p>
       </div>
@@ -87,31 +87,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

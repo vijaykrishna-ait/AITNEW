@@ -36,32 +36,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📡</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/iot/remote.png" alt=""></div>
         <h3>Remote Monitoring & Control</h3>
         <p>Monitor and control connected devices and systems remotely in real time, enabling proactive management of assets and infrastructure.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">⚡</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/iot/energy.png" alt=""></div>
         <h3>Energy Conservation</h3>
         <p>IoT-powered energy management systems that track consumption, detect inefficiencies, and optimize energy usage across facilities.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🌿</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/iot/aqi.png" alt=""></div>
         <h3>Air Quality Index (AQI)</h3>
         <p>Deploy AQI monitoring networks that measure particulate matter, CO₂, NOx, and other pollutants for environmental compliance and safety.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">💧</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/iot/water.png" alt=""></div>
         <h3>Water Flow Monitoring</h3>
         <p>Smart water management systems using IoT sensors to monitor flow rates, detect leaks, and optimize water usage in real time.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📍</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/iot/asset.png" alt=""></div>
         <h3>Asset Tracking</h3>
         <p>Real-time tracking and management of physical assets using GPS, RFID, and BLE technologies for improved visibility and utilization.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🌡️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/iot/hvac.png" alt=""></div>
         <h3>HVAC Optimization</h3>
         <p>Smart HVAC control systems that use sensor data and AI algorithms to maintain optimal comfort while minimizing energy consumption.</p>
       </div>
@@ -89,31 +89,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>

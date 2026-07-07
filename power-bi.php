@@ -36,32 +36,32 @@ include 'includes/header.php';
     </div>
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">📊</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/powerbi/dashboard.png" alt=""></div>
         <h3>Dashboard & Report Creation</h3>
         <p>Design and develop interactive Power BI dashboards and paginated reports tailored to your business KPIs and stakeholder needs.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🗃️</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/powerbi/model.png" alt=""></div>
         <h3>Data Modeling</h3>
         <p>Build robust, optimized data models using star schemas, DAX measures, and calculated columns to ensure accurate, fast analytics.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🔗</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/powerbi/db.png" alt=""></div>
         <h3>Database Integration</h3>
         <p>Connect Power BI to your data sources — SQL Server, Azure SQL, Snowflake, Databricks, SharePoint, Salesforce, and hundreds more.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🎨</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/powerbi/custom.png" alt=""></div>
         <h3>Custom Visual Development</h3>
         <p>Build bespoke Power BI visuals using D3.js and the Power BI custom visual SDK when standard chart types don't meet your needs.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">⚡</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/powerbi/tuning.png" alt=""></div>
         <h3>Performance Tuning</h3>
         <p>Optimize slow Power BI reports — query folding, aggregations, DirectQuery vs Import mode selection, and model compression.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon">🎓</div>
+        <div class="itsol-svc-icon"><img src="assets/icons/powerbi/training.png" alt=""></div>
         <h3>Training & Support</h3>
         <p>Empower your team with Power BI training — from report building basics to advanced DAX and administration for self-service BI.</p>
       </div>
@@ -122,31 +122,31 @@ include 'includes/header.php';
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Quick & Easy Integration :</strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
+        <div><strong>Quick & Easy Integration : </strong>Our professionals integrate seamlessly into your existing team, workflows and toolsets with minimal ramp-up time.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Continuous Improvement :</strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
+        <div><strong>Continuous Improvement : </strong>We embrace agile practices and regular retrospectives to continuously refine processes and improve output quality.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Custom Solutions :</strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
+        <div><strong>Custom Solutions : </strong>Every solution is tailored to your specific business context, technology stack and project requirements.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Expert Team :</strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
+        <div><strong>Expert Team : </strong>Our team consists of experienced professionals proficient in their domain with proven track records across industries.</div>
       </div>
       <div class="itc-benefit-item">
         <div class="itc-benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12" />
           </svg></div>
-        <div><strong>Certified Developers :</strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
+        <div><strong>Certified Developers : </strong>Our developers hold industry-recognized certifications and undergo rigorous vetting before joining any client engagement.</div>
       </div>
     </div>
   </div>
