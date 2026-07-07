@@ -132,8 +132,6 @@ include 'includes/header.php';
 
     </div>
     <div class="odc-img">
-      <!-- <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80"
-        alt="Team working together in a dedicated office"> -->
       <div class="odc-points">
         <div class="odc-point"><b>100% Dedicated Teams</b><span>Resources aligned exclusively to your organization and strategic priorities.</span></div>
         <div class="odc-point"><b>Your Brand,Your Culture</b><span>Operate under your company identity, processes, governance, and reporting structure.</span></div>
