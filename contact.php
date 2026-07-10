@@ -21,7 +21,7 @@ include 'includes/header.php';
       <div class="hero-visual">
         <div class="hero-photo">
           <!-- Using a placeholder image - in production this would be a real office/team photo -->
-          <img src="assets/images/banners/contact-banner.jpeg"
+          <img src="assets/images/contact/contact-banner.jpeg"
             alt="Global team collaboration">
         </div>
       </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
           <!-- Tech illustration placeholder -->
           <div
             style="width: 100%; max-width: 560px; background: var(--white); padding: 40px; border-radius: 20px; text-align: center;">
-            <div style="font-size: 4rem; margin-bottom: 20px;">💻</div>
+            <div style="font-size: 4rem; margin-bottom: 20px;"><img style="border-radius: 20px;" src="assets/images/contact/contact.jpeg" alt=""></div>
             <h3 style="color: var(--navy); margin-bottom: 16px;">Global Technology Partner</h3>
             <p style="color: var(--gray); max-width: 400px; line-height: 1.6;">We collaborate with clients worldwide to
               deliver innovative technology solutions that drive business growth and transformation.</p>
