@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/digital/digi-hero.jpg" alt="">
+        <img src="assets/images/digital-eng/digital-eng-banner.jpeg" alt="">
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="dx-img">
-      <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=900&q=80" alt="Modern manufacturing plant floor">
+      <img src="assets/images/digital-eng/Digital-eng-1.jpeg" alt="Modern manufacturing plant floor">
     </div>
   </div>
 </section>
@@ -132,7 +132,7 @@ include 'includes/header.php';
     <div class="auto-row">
       <div class="auto-item">
         <div class="auto-img">
-          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" alt="Engineer working on industrial circuit board">
+          <img src="assets/images/digital-eng/Digital-eng-2.jpeg" alt="Engineer working on industrial circuit board">
         </div>
         <div class="auto-content">
           <span class="tag">AI-Driven Predictive Maintenance</span>

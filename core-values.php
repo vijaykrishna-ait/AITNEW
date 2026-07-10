@@ -7,13 +7,22 @@ include 'includes/header.php';
 ?>
 
 <!-- CV HERO -->
-<section class="cv-hero">
-  <div class="wrap">
-    <div class="eyebrow">Core Values</div>
-    <h1>Guiding Principles for Lasting Partnerships</h1>
-    <p class="lead-text">Our success is built on a strong set of values that influence every aspect of our business. They help us maintain high standards, nurture strong relationships, and consistently deliver quality outcomes for our clients worldwide.</p><br>
-    <p class="lead-text">More than statements, these values are reflected in our actions, decisions, and commitment to excellence—every day, across every team and every client engagement.</p>
+<section class="cv-hero ">
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">Core Values</div>
+      <h1>Guiding Principles for Lasting Partnerships</h1>
+      <p class="lead-text">Our success is built on a strong set of values that influence every aspect of our business. They help us maintain high standards, nurture strong relationships, and consistently deliver quality outcomes for our clients worldwide.</p><br>
+      <p class="lead-text">More than statements, these values are reflected in our actions, decisions, and commitment to excellence—every day, across every team and every client engagement.</p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/core/core-banner.jpeg" alt="">
+      </div>
+    </div>
   </div>
+
 </section>
 
 <!-- VALUES GRID -->
@@ -21,42 +30,66 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="values-grid">
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg></div>
         <h3>Transparency</h3>
         <p>Building trust through honest communication, clear expectations, and complete visibility throughout every engagement.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg></div>
         <h3>Quality First</h3>
         <p>Delivering exceptional results through rigorous processes, expert talent, and continuous improvement.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg></div>
         <h3>People First</h3>
         <p>Empowering people through respect, collaboration, and continuous learning to create lasting value.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg></div>
         <h3>Global Mindset</h3>
         <p>Combining local expertise and global best practices to drive meaningful business impact.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 3v18h18" />
+            <path d="M18.4 8.6 13 14l-3-3-4.5 4.5" />
+          </svg></div>
         <h3>Innovation</h3>
         <p>Leveraging emerging technologies and creative thinking to create competitive advantages.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg></div>
         <h3>Integrity</h3>
         <p>Building lasting relationships through honesty, accountability, and ethical business practices.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+          </svg></div>
         <h3>Agility</h3>
         <p>Adapting quickly to changing business needs with flexible, scalable, and responsive solutions.</p>
       </div>
       <div class="value-card">
-        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg></div>
         <h3>Accountability</h3>
         <p>Taking ownership, delivering on commitments, and ensuring measurable business value.</p>
       </div>
@@ -75,7 +108,7 @@ include 'includes/header.php';
     <div class="via-row">
       <div class="via-item">
         <div class="via-img">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80" alt="Team collaborating transparently in office">
+          <img src="assets/images/core/Core-1.jpeg" alt="Team collaborating transparently in office">
         </div>
         <div class="via-content">
           <span class="tag">Transparency &amp; Accountability</span>
@@ -86,7 +119,7 @@ include 'includes/header.php';
 
       <div class="via-item reverse">
         <div class="via-img">
-          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80" alt="Diverse team celebrating together">
+          <img src="assets/images/core/Core-2.jpeg" alt="Diverse team celebrating together">
         </div>
         <div class="via-content">
           <span class="tag">People First &amp; Global Mindset</span>
@@ -97,7 +130,7 @@ include 'includes/header.php';
 
       <div class="via-item">
         <div class="via-img">
-          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="Engineers reviewing code together">
+          <img src="assets/images/core/core-3.jpeg" alt="Engineers reviewing code together">
         </div>
         <div class="via-content">
           <span class="tag">Quality First &amp; Innovation</span>
@@ -119,4 +152,4 @@ include 'includes/header.php';
   </div>
 </section>
 
-  <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
