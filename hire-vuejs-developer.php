@@ -10,13 +10,21 @@ include 'includes/header.php';
 
 <!-- HERO BANNER -->
 <section class="hero-navy">
-  <div class="wrap">
-    <div class="eyebrow">IT Staffing — Vue.js</div>
-    <h1>Hire Expert Vue.js Developers for Progressive Web Applications</h1>
-    <p class="lead">We at Adhiran Infotech have proficiency in creating consistent, engaging, and operational web applications with the use of Vue.js. Being a Vue.js development company, we understand the importance of being able to deliver flexible and scalable solutions in the modern world. Vue.js allows bringing applications with optimum performance, scalability, and generating value for your business.</p>
-    <div class="hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
-      <a href="#services" class="btn btn-outline-light">Explore Services</a>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Staffing — Vue.js</div>
+      <h1>Hire Expert Vue.js Developers for Progressive Web Applications</h1>
+      <p class="lead">We at Adhiran Infotech have proficiency in creating consistent, engaging, and operational web applications with the use of Vue.js. Being a Vue.js development company, we understand the importance of being able to deliver flexible and scalable solutions in the modern world. Vue.js allows bringing applications with optimum performance, scalability, and generating value for your business.</p>
+      <div class="hero-actions">
+        <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
+        <a href="#services" class="btn btn-outline-light">Explore Services</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="assets/images/banners/veuejs-banner.jpeg" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -216,76 +224,78 @@ include 'includes/header.php';
     <div>
       <div class="eyebrow">FAQ</div>
       <h1>Frequently Asked Questions</h1>
-   <div class="its-faq-wrap">
-      <div class="its-faq-col its-faq-list">
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">What is IT staff augmentation, and how does it benefit my business?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>IT staff augmentation allows you to temporarily add skilled professionals to your team, offering flexibility, faster onboarding, and cost efficiency without the commitment of full-time hiring.</p>
+      <div class="its-faq-wrap">
+        <div class="its-faq-col its-faq-list">
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">What is IT staff augmentation, and how does it benefit my business?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>IT staff augmentation allows you to temporarily add skilled professionals to your team, offering flexibility, faster onboarding, and cost efficiency without the commitment of full-time hiring.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">How is staff augmentation different from outsourcing?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>Staff augmentation integrates external professionals into your existing team under your direct supervision, while outsourcing involves delegating entire projects or functions to a third-party provider.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">How is staff augmentation different from outsourcing?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>Staff augmentation integrates external professionals into your existing team under your direct supervision, while outsourcing involves delegating entire projects or functions to a third-party provider.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">What types of IT professionals can I hire through staff augmentation?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>You can hire software developers, QA testers, project managers, DevOps engineers, UI/UX designers, data scientists, and other specialized IT roles.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">What types of IT professionals can I hire through staff augmentation?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>You can hire software developers, QA testers, project managers, DevOps engineers, UI/UX designers, data scientists, and other specialized IT roles.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">How quickly can professionals be onboarded?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>Onboarding usually takes 1-2 weeks, depending on your requirements and the availability of suitable candidates.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">How quickly can professionals be onboarded?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>Onboarding usually takes 1-2 weeks, depending on your requirements and the availability of suitable candidates.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">Will the professionals work in my time zone?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>Yes, staff augmentation services can provide talent that works in your time zone or with overlapping hours for seamless collaboration.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">Will the professionals work in my time zone?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>Yes, staff augmentation services can provide talent that works in your time zone or with overlapping hours for seamless collaboration.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">How do you ensure the security of my project and data?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>We implement strict measures, including NDAs, secure communication channels, and adherence to your company's data protection policies.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">How do you ensure the security of my project and data?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>We implement strict measures, including NDAs, secure communication channels, and adherence to your company's data protection policies.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">What if I&apos;m not satisfied with the performance of an augmented staff member?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>You can request a replacement if the professional does not meet your expectations, as per the terms of the agreement.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">What if I&apos;m not satisfied with the performance of an augmented staff member?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>You can request a replacement if the professional does not meet your expectations, as per the terms of the agreement.</p>
+            </div>
           </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">Can I scale the team up or down as needed?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>Yes, staff augmentation is highly flexible, allowing you to adjust team size based on project demands.</p>
+          <div class="itsol-faq-item">
+            <button class="itsol-faq-q">Can I scale the team up or down as needed?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></span></button>
+            <div class="itsol-faq-a">
+              <p>Yes, staff augmentation is highly flexible, allowing you to adjust team size based on project demands.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-</div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
+    <div class="hero-visual">
+      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
+    </div>
   </div>
 </section>
 

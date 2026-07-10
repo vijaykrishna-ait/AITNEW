@@ -21,7 +21,7 @@ include 'includes/header.php';
       <div class="hero-visual">
         <div class="hero-photo">
           <!-- Using a placeholder image - in production this would be a real office/team photo -->
-          <img src="https://images.unsplash.com/photo-1554224155-6726b3d854eb?auto=format&fit=crop&w=800&q=80"
+          <img src="assets/images/banners/contact-banner.jpeg"
             alt="Global team collaboration">
         </div>
       </div>

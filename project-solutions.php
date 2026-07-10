@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/ps/ps-banner.jpg" alt="">
+        <img src="assets/images/ps/ps-banner.jpeg" alt="">
       </div>
     </div>
 </section>

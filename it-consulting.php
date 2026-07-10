@@ -25,7 +25,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="IT consulting team working on digital solutions">
+      <img src="assets/images/banners/it-consul-banner.jpeg">
       </div>
     </div>
   </div>

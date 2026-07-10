@@ -33,7 +33,7 @@ include 'includes/header.php';
     <div class="section-head">
       <div class="eyebrow">Our Services</div>
       <h2>What We Offer</h2>
-    </div>
+    </div>  
     <div class="itsol-svc-grid">
       <div class="itsol-svc-card">
         <div class="itsol-svc-icon">

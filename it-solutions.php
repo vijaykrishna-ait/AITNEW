@@ -8,19 +8,27 @@ include 'includes/header.php';
 
 <!-- ITSOL HERO -->
 <section class="hero-navy">
-  <div class="wrap">
-    <div class="eyebrow">IT Solutions</div>
-    <h1>Innovative IT solutions that change the layout and base of your business</h1>
-    <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
-    <div class="hero-actions">
-      <a href="<?= $base ?>contact" class="btn btn-lime">Request a Demo →</a>
-      <a href="#solutions" class="btn btn-outline-light">Explore Solutions</a>
-    </div>
-    <div class="hero-stats">
-      <div><b class="count-up" data-target="7" data-suffix="+">7+</b><span>Technology solutions</span></div>
-      <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Implementations delivered</span></div>
-      <div><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Industry verticals served</span></div>
-      <div><b>24/7</b><span>Support &amp; monitoring</span></div>
+  <div class="wrap hero-grid">
+
+    <div class="">
+      <div class="eyebrow">IT Solutions</div>
+      <h1>Innovative IT solutions that change the layout and base of your business</h1>
+      <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
+      <div class="hero-actions">
+        <a href="<?= $base ?>contact" class="btn btn-lime">Request a Demo →</a>
+        <a href="#solutions" class="btn btn-outline-light">Explore Solutions</a>
+      </div>
+      <div class="hero-stats">
+        <div><b class="count-up" data-target="7" data-suffix="+">7+</b><span>Technology solutions</span></div>
+        <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Implementations delivered</span></div>
+        <div><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Industry verticals served</span></div>
+        <div><b>24/7</b><span>Support &amp; monitoring</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo">
+          <img src="assets/images/banners/it-sol-banner.jpeg" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -35,19 +43,27 @@ include 'includes/header.php';
       <p>Our solutions bring value in sustainability, safety and cost improvements for businesses across manufacturing, healthcare, logistics, energy and more. We leverage cutting-edge technology to future-proof and enhance your business capabilities.</p>
       <div class="itsol-intro-points">
         <div class="itsol-intro-point">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
           <span>Tailored solutions aligned with your unique business operations</span>
         </div>
         <div class="itsol-intro-point">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
           <span>Cutting-edge technology to future-proof your business</span>
         </div>
         <div class="itsol-intro-point">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
           <span>End-to-end support from consultation through ongoing maintenance</span>
         </div>
         <div class="itsol-intro-point">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
           <span>Scalable &amp; secure solutions for growth</span>
         </div>
       </div>
@@ -70,7 +86,12 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12" y2="20"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0" />
+              <path d="M1.42 9a16 16 0 0 1 21.16 0" />
+              <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
+              <line x1="12" y1="20" x2="12" y2="20" />
+            </svg></div>
           <span class="itsol-tag">Internet of Things</span>
         </div>
         <h3>IoT Solutions</h3>
@@ -88,7 +109,11 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <line x1="3" y1="9" x2="21" y2="9" />
+              <line x1="9" y1="21" x2="9" y2="9" />
+            </svg></div>
           <span class="itsol-tag">Enterprise Resource Planning</span>
         </div>
         <h3>SAP Solutions</h3>
@@ -106,7 +131,11 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+              <line x1="12" y1="22.08" x2="12" y2="12" />
+            </svg></div>
           <span class="itsol-tag">Robotic Process Automation</span>
         </div>
         <h3>UiPath Automation</h3>
@@ -124,7 +153,10 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18" />
+              <path d="M18.4 8.6 13 14l-3-3-4.5 4.5" />
+            </svg></div>
           <span class="itsol-tag">Business Intelligence</span>
         </div>
         <h3>Power BI</h3>
@@ -142,7 +174,11 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg></div>
           <span class="itsol-tag">Distributed Ledger</span>
         </div>
         <h3>Blockchain</h3>
@@ -160,7 +196,9 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
           <span class="itsol-tag">IT Service Management</span>
         </div>
         <h3>ServiceNow</h3>
@@ -178,13 +216,16 @@ include 'includes/header.php';
 
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 9.5-7 11-3.5-1.5-7-6-7-11V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l7 4v6c0 5-3.5 9.5-7 11-3.5-1.5-7-6-7-11V6l7-4z" />
+              <path d="M9 12l2 2 4-4" />
+            </svg></div>
           <span class="itsol-tag">Life Sciences CRM</span>
         </div>
         <h3>Veeva</h3>
-        <p>  Transform your life sciences operations with Veeva. We deliver
-  implementation, customization, integration, and support to improve
-  efficiency and regulatory compliance.
+        <p> Transform your life sciences operations with Veeva. We deliver
+          implementation, customization, integration, and support to improve
+          efficiency and regulatory compliance.
         </p>
         <ul class="itsol-feature-list">
           <li>Veeva CRM Implementation</li>
@@ -200,7 +241,10 @@ include 'includes/header.php';
       </div>
       <div class="itsol-card">
         <div class="itsol-card-header">
-          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+          <div class="itsol-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 8v4l3 3" />
+            </svg></div>
           <span class="itsol-tag">AI-Powered Innovation</span>
         </div>
         <h3>AI/ML Solutions</h3>
@@ -274,34 +318,48 @@ include 'includes/header.php';
     <div>
       <div class="eyebrow">FAQ</div>
       <h1>Frequently Asked Questions</h1>
-    <div class="itsol-faq-list">
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What is IoT, and how does it work? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="itsol-faq-a">The Internet of Things (IoT) refers to a network of interconnected devices that communicate and exchange data over the internet. These devices use sensors, software, and connectivity to automate tasks, gather insights, and improve operational efficiency.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Which industries can benefit from IoT solutions? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="itsol-faq-a">IoT is beneficial across industries such as manufacturing, healthcare, agriculture, retail, logistics, energy, and smart cities. It offers solutions tailored to specific industry needs like predictive maintenance, inventory tracking, and energy management.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How secure are IoT solutions? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="itsol-faq-a">Security is a priority in IoT solutions. We implement robust encryption, secure device management, and compliance with industry standards to protect data and prevent unauthorized access.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Can IoT solutions integrate with existing systems? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="itsol-faq-a">Yes, IoT solutions are designed to integrate seamlessly with your existing systems, such as ERP, CRM, or cloud platforms, to provide a unified and efficient workflow.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How does IoT improve operational efficiency? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="itsol-faq-a">IoT devices collect real-time data that can be analyzed to identify inefficiencies, predict maintenance needs, and automate routine tasks, reducing downtime and optimizing processes.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Can IoT help with sustainability and energy efficiency? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="itsol-faq-a">Yes, IoT solutions can monitor and optimize energy usage, reduce waste, and implement sustainable practices, helping businesses achieve their environmental goals.</div>
+      <div class="itsol-faq-list">
+        <div class="itsol-faq-item">
+          <button class="itsol-faq-q">What is IoT, and how does it work? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></button>
+          <div class="itsol-faq-a">The Internet of Things (IoT) refers to a network of interconnected devices that communicate and exchange data over the internet. These devices use sensors, software, and connectivity to automate tasks, gather insights, and improve operational efficiency.</div>
+        </div>
+        <div class="itsol-faq-item">
+          <button class="itsol-faq-q">Which industries can benefit from IoT solutions? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></button>
+          <div class="itsol-faq-a">IoT is beneficial across industries such as manufacturing, healthcare, agriculture, retail, logistics, energy, and smart cities. It offers solutions tailored to specific industry needs like predictive maintenance, inventory tracking, and energy management.</div>
+        </div>
+        <div class="itsol-faq-item">
+          <button class="itsol-faq-q">How secure are IoT solutions? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></button>
+          <div class="itsol-faq-a">Security is a priority in IoT solutions. We implement robust encryption, secure device management, and compliance with industry standards to protect data and prevent unauthorized access.</div>
+        </div>
+        <div class="itsol-faq-item">
+          <button class="itsol-faq-q">Can IoT solutions integrate with existing systems? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></button>
+          <div class="itsol-faq-a">Yes, IoT solutions are designed to integrate seamlessly with your existing systems, such as ERP, CRM, or cloud platforms, to provide a unified and efficient workflow.</div>
+        </div>
+        <div class="itsol-faq-item">
+          <button class="itsol-faq-q">How does IoT improve operational efficiency? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></button>
+          <div class="itsol-faq-a">IoT devices collect real-time data that can be analyzed to identify inefficiencies, predict maintenance needs, and automate routine tasks, reducing downtime and optimizing processes.</div>
+        </div>
+        <div class="itsol-faq-item">
+          <button class="itsol-faq-q">Can IoT help with sustainability and energy efficiency? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></button>
+          <div class="itsol-faq-a">Yes, IoT solutions can monitor and optimize energy usage, reduce waste, and implement sustainable practices, helping businesses achieve their environmental goals.</div>
+        </div>
       </div>
     </div>
-</div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
+    <div class="hero-visual">
+      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
+    </div>
   </div>
 </section>
 

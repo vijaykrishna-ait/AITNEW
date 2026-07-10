@@ -17,7 +17,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/qa/qa-banner.jpg" alt="">
+        <img src="assets/images/qa/qa-banner.jpeg" alt="">
       </div>
     </div>
 
