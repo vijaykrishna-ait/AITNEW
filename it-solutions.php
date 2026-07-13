@@ -12,20 +12,22 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">IT Solutions</div>
-      <h1>Innovative IT solutions transforming your business foundation</h1>
-      <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
-      <div class="hero-actions">
-        <a href="<?= $base ?>contact" class="btn btn-lime">Request a Demo →</a>
-        <a href="#solutions" class="btn btn-outline-light">Explore Solutions</a>
-      </div>
-      <div class="hero-stats">
-        <div><b class="count-up" data-target="7" data-suffix="+">7+</b><span>Technology solutions</span></div>
-        <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Implementations delivered</span></div>
-        <div><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Industry verticals served</span></div>
-        <!-- <div><b>24/7</b><span>Support &amp; monitoring</span></div> -->
-      </div>
+
+        <h1>Innovative IT solutions that change the layout and base of your business</h1>
+        <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
+        <div class="hero-actions">
+          <a href="<?= $base ?>contact" class="btn btn-lime">Request a Demo →</a>
+          <a href="#solutions" class="btn btn-outline-light">Explore Solutions</a>
+        </div>
+        <div class="hero-stats">
+          <div><b class="count-up" data-target="7" data-suffix="+">7+</b><span>Technology <br> solutions</span></div>
+          <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Implementations <br> delivered</span></div>
+          <div><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Industry verticals <br> served</span></div>
+          <div><b>24/7</b><span>Support &amp;  monitoring</span></div>
+        </div>
     </div>
-    <div class="hero-visual">
+
+      <div class="hero-visual">
         <div class="hero-photo">
           <img src="assets/images/banners/it-sol-banner.jpeg" alt="">
         </div>
