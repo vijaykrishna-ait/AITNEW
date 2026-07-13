@@ -31,7 +31,7 @@ include 'includes/header.php';
       <p>Rely on us to improve your software quality by availing to you testing services accompanied by detailed reports on every defect, usability concern, and requirement gap discovered.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/manual_testing/manual_testing_desc.png" alt="Hire Expert Manual Testing Engineers for Error-Free Software Quality">
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert Manual Testing Engineers for Error-Free Software Quality">
     </div>
   </div>
 </section>

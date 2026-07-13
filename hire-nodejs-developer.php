@@ -45,7 +45,7 @@ include 'includes/header.php';
         Node.js applications that improve customers' experiences, optimize processes, and promote development.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/nodejs/nodejs_desc.png"
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg"
         alt="Hire Expert Node.js Developers for Scalable Server-Side Applications">
     </div>
   </div>

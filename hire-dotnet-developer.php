@@ -37,7 +37,7 @@ include 'includes/header.php';
         that conform to the highest standards and lead your enterprise to success.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/dotnet/dotnet_desc.png"
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg"
         alt="Hire Expert .NET Developers for High-Performance Enterprise Solutions">
     </div>
   </div>

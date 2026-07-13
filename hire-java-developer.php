@@ -23,7 +23,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/banners/Java-banner.jpeg" alt="">
+        <img src="assets/images/banners/java-banner.jpeg" alt="">
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@ include 'includes/header.php';
       <p>Pursuing quality and innovation as well as constant improvement, we provide dependable Java solutions meant to underpin development and achievement with strength.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/java/java_desc.png" alt="Hire Expert Java Developers for Enterprise-Grade Applications">
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert Java Developers for Enterprise-Grade Applications">
     </div>
   </div>
 </section>
@@ -95,12 +95,12 @@ include 'includes/header.php';
     </div>
     <div class="its-why-grid">
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/logos/spring.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets/logos/Spring.svg" alt=""></div>
         <h4>Spring Boot</h4>
         <p>An opinionated framework that simplifies the setup, configuration and deployment of production-ready Java applications.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/logos/hibernate.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets/logos/Hibernate.svg" alt=""></div>
         <h4>Hibernate</h4>
         <p>An Object-Relational Mapping framework for Java that simplifies database interactions with powerful querying and caching.</p>
       </div>

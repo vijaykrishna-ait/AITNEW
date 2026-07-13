@@ -39,7 +39,7 @@ include 'includes/header.php';
       <p>Seamless Performance, Highly Scalable, Modular Structure, Engaging User Experiences, Rapid Development Cycle, and ongoing Support & Maintenance — our Vue.js developers deliver on every front.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/vuejs/vuejs_desc.png" alt="Hire Expert Vue.js Developers for Progressive Web Applications">
+      <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert Vue.js Developers for Progressive Web Applications">
     </div>
   </div>
 </section>
