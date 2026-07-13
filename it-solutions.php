@@ -12,7 +12,7 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">IT Solutions</div>
-      <h1>Innovative IT solutions that change the layout and base of your business</h1>
+      <h1>Innovative IT solutions transforming your business foundation</h1>
       <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact" class="btn btn-lime">Request a Demo →</a>
@@ -22,14 +22,14 @@ include 'includes/header.php';
         <div><b class="count-up" data-target="7" data-suffix="+">7+</b><span>Technology solutions</span></div>
         <div><b class="count-up" data-target="100" data-suffix="+">100+</b><span>Implementations delivered</span></div>
         <div><b class="count-up" data-target="15" data-suffix="+">15+</b><span>Industry verticals served</span></div>
-        <div><b>24/7</b><span>Support &amp; monitoring</span></div>
+        <!-- <div><b>24/7</b><span>Support &amp; monitoring</span></div> -->
       </div>
-      <div class="hero-visual">
+    </div>
+    <div class="hero-visual">
         <div class="hero-photo">
           <img src="assets/images/banners/it-sol-banner.jpeg" alt="">
         </div>
       </div>
-    </div>
   </div>
 </section>
 
@@ -69,7 +69,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="itsol-intro-img">
-      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Advanced IT solutions technology">
+      <img src="assets/images/it-staff/itsolution.png" alt="Advanced IT solutions technology">
     </div>
   </div>
 </section>

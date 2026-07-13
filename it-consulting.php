@@ -35,7 +35,7 @@ include 'includes/header.php';
 <section>
   <div class="wrap itc-intro-grid">
     <div class="itc-intro-img">
-      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Website design and development">
+      <img src="assets/images/it-staff/itconsult.png" alt="Website design and development">
     </div>
     <div class="itc-intro-content">
       <span class="tag">Our Approach</span>
