@@ -163,6 +163,11 @@ include 'includes/header.php';
             </svg></div>
           <span>QA &amp; Cybersecurity</span>
         </a>
+
+        <a href="<?= $base ?>power-bi" class="skill-item">
+          <div class="circle"><svg width="26" height="26" fill="currentColor" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>powerbi</title> <path d="M13.501 16h-7.498c0 0-0 0-0 0-0.69 0-1.25 0.559-1.25 1.25 0 0 0 0 0 0v0 12.496c0 0 0 0 0 0 0 0.69 0.559 1.25 1.25 1.25 0 0 0 0 0 0h8.747v-13.746c0-0.69-0.559-1.25-1.25-1.25v0zM19.749 8.502h-7.498c0 0-0 0-0 0-0.69 0-1.25 0.559-1.25 1.25 0 0 0 0 0 0v0 5.623h2.499c1.035 0.001 1.873 0.84 1.874 1.874v13.746h5.623v-21.244c0-0.69-0.559-1.25-1.25-1.25v0zM27.247 2.254v27.492c0 0 0 0 0 0 0 0.69-0.559 1.25-1.25 1.25 0 0-0 0-0 0h-4.374v-21.244c-0.001-1.035-0.84-1.873-1.874-1.874h-2.499v-5.623c0-0 0-0 0-0 0-0.69 0.559-1.25 1.25-1.25h7.498c0.69 0 1.25 0.559 1.25 1.25 0 0 0 0 0 0v0z"></path> </g></svg></div>
+          <span>Power BI</span>
+        </a>
       </div>
     </div>
   </section>
@@ -573,7 +578,7 @@ include 'includes/header.php';
             <div class="role">Team Leaders &amp; Management · Permanent</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
         </div>
         <div class="job-card">
           <div>
@@ -582,7 +587,7 @@ include 'includes/header.php';
             <div class="role">Infrastructure / Networks · Contract</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
         </div>
         <div class="job-card">
           <div>
@@ -591,16 +596,7 @@ include 'includes/header.php';
             <div class="role">Infrastructure / Systems · Contract, 12 months</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
-        </div>
-        <div class="job-card">
-          <div>
-            <h3>Application Support Administrator</h3>
-            <div class="meta">Perth</div>
-            <div class="role">Helpdesk &amp; IT Support · Contract</div>
-          </div>
-          <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career" class="btn btn-outline-light">Learn More</a>
+          <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
         </div>
       </div>
     </div>
