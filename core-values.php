@@ -2,7 +2,7 @@
 $page_title     = 'Core Values | Adhiran Infotech';
 $page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$page_canonical = 'https://www.adhiraninfotech.com/core-values';
 include 'includes/header.php';
 ?>
 
@@ -108,7 +108,7 @@ include 'includes/header.php';
     <div class="via-row">
       <div class="via-item">
         <div class="via-img">
-          <img src="assets/images/core/Core-1.jpeg" alt="Team collaborating transparently in office">
+          <img src="assets/images/core/core-1.jpeg" alt="Team collaborating transparently in office">
         </div>
         <div class="via-content">
           <span class="tag">Transparency &amp; Accountability</span>
@@ -119,7 +119,7 @@ include 'includes/header.php';
 
       <div class="via-item reverse">
         <div class="via-img">
-          <img src="assets/images/core/Core-2.jpeg" alt="Diverse team celebrating together">
+          <img src="assets/images/core/core-2.jpeg" alt="Diverse team celebrating together">
         </div>
         <div class="via-content">
           <span class="tag">People First &amp; Global Mindset</span>

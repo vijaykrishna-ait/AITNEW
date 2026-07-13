@@ -20,7 +20,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/banners/Servicenow-banner.jpg" alt="">
+        <img src="assets/images/banners/servicenow-banner.jpg" alt="">
       </div>
     </div>
   </div>

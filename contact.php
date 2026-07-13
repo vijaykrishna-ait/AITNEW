@@ -2,7 +2,7 @@
 $page_title     = 'Contact Us | Adhiran Infotech';
 $page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$page_canonical = 'https://www.adhiraninfotech.com/contact';
 include 'includes/header.php';
 ?>
 
@@ -82,30 +82,30 @@ include 'includes/header.php';
             <div class="form-row">
               <div class="form-group">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" placeholder="Jane" required>
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" required>
                 <div class="error-msg">Please enter your first name</div>
               </div>
               <div class="form-group">
                 <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" placeholder="Smith" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
                 <div class="error-msg">Please enter your last name</div>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="jane@gmail.com" required>
+                <input type="email" id="email" name="email" placeholder="jane@gmail.com" required>
                 <div class="error-msg">Please enter a valid email</div>
               </div>
               <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="##### #####" required>
+                <input type="tel" id="phone" name="phone" placeholder="##### #####" required>
                 <div class="error-msg">Please enter a valid phone number</div>
               </div>
             </div>
             <div class="form-group">
               <label for="subject">Subject</label>
-              <select id="subject" required>
+              <select id="subject" name="subject" required>
                 <option value="general">General Inquiry</option>
                 <option value="project">Project Discussion</option>
                 <option value="partnership">Partnership</option>
@@ -116,7 +116,7 @@ include 'includes/header.php';
             </div>
             <div class="form-group">
               <label for="message">Your Message</label>
-              <textarea id="message" rows="4" placeholder=" " required></textarea>
+              <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
               <div class="error-msg">Please enter your message</div>
             </div>
             <button type="submit" class="btn-submit">

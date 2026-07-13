@@ -49,7 +49,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="dx-img">
-      <img src="assets/images/digital-eng/Digital-eng-1.jpeg" alt="Modern manufacturing plant floor">
+      <img src="assets/images/digital-eng/digital-eng-1.jpeg" alt="Modern manufacturing plant floor">
     </div>
   </div>
 </section>
@@ -132,7 +132,7 @@ include 'includes/header.php';
     <div class="auto-row">
       <div class="auto-item">
         <div class="auto-img">
-          <img src="assets/images/digital-eng/Digital-eng-2.jpeg" alt="Engineer working on industrial circuit board">
+          <img src="assets/images/digital-eng/digital-eng-2.jpeg" alt="Engineer working on industrial circuit board">
         </div>
         <div class="auto-content">
           <span class="tag">AI-Driven Predictive Maintenance</span>
@@ -148,7 +148,7 @@ include 'includes/header.php';
 
       <div class="auto-item reverse">
         <div class="auto-img">
-          <img src="assets/images/digital/ai-powered.jpg" alt="Automated production line in a factory">
+          <img src="assets/images/digital-eng/qualitycontrol.jpg" alt="Automated production line in a factory">
         </div>
         <div class="auto-content">
           <span class="tag">AI-Powered Quality Control</span>
@@ -164,7 +164,7 @@ include 'includes/header.php';
 
       <div class="auto-item">
         <div class="auto-img">
-          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="Team reviewing operations dashboard">
+          <img src="assets/images/digital-eng/insights.jpg" alt="Team reviewing operations dashboard">
         </div>
         <div class="auto-content">
           <span class="tag">Operational Visibility & Performance Insights</span>

@@ -2,7 +2,7 @@
 $page_title     = 'Life Sciences & Pharma | Adhiran Infotech';
 $page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$page_canonical = 'https://www.adhiraninfotech.com/life-sciences';
 include 'includes/header.php';
 ?>
 <!-- LS HERO -->
@@ -214,7 +214,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="assets/images/life-science/Pharametical-biotech.jpeg" alt="Pharmaceutical research lab">
+          <img src="assets/images/life-science/pharametical-biotech.jpeg" alt="Pharmaceutical research lab">
         </div>
         <div class="segment-content">
           <span class="tag">Pharmaceutical &amp; Biotech</span>
@@ -235,7 +235,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="assets/images/life-science/MEDTECH.jpeg" alt="MedTech device engineering team">
+          <img src="assets/images/life-science/medtech.jpeg" alt="MedTech device engineering team">
         </div>
         <div class="segment-content">
           <span class="tag">MedTech &amp; Diagnostics</span>

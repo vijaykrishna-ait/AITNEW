@@ -47,7 +47,7 @@ include 'includes/header.php';
         that will create engagement, effectiveness and further growth.</p>
     </div>
     <div class="its-intro-img">
-      <img src="<?= $base ?>img/it_staffing/php/php_desc.png"
+      <img src="assets/images/staff-augmentation.jpg"
         alt="Hire Expert PHP Developers for Dynamic, Scalable Web Applications">
     </div>
   </div>
@@ -114,13 +114,13 @@ include 'includes/header.php';
           out of the box.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/logos/CodeIgniter.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets/logos/codeigniter.svg" alt=""></div>
         <h4>CodeIgniter Development</h4>
         <p>A powerful PHP framework with a very small footprint — lightweight and fast for rapid web application
           development.</p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/logos/Symfony.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets/logos/symfony.svg" alt=""></div>
         <h4>Symfony Framework Development</h4>
         <p>A set of reusable PHP components and a web application framework that powers thousands of enterprise
           applications.</p>
@@ -138,7 +138,7 @@ include 'includes/header.php';
         </p>
       </div>
       <div class="its-why-card">
-        <div class="its-why-num"><img src="assets/logos/Adobe.svg" alt=""></div>
+        <div class="its-why-num"><img src="assets/logos/adobe.svg" alt=""></div>
         <h4>Magento Development</h4>
         <p>Adobe's enterprise e-commerce platform for building feature-rich online stores with advanced catalog and
           order management.</p>

@@ -2,7 +2,7 @@
 $page_title     = 'AI Services | Adhiran Infotech';
 $page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$page_canonical = 'https://www.adhiraninfotech.com/ai';
 include 'includes/header.php';
 ?>
 
@@ -154,15 +154,15 @@ include 'includes/header.php';
     </div>
     <div class="ai-platforms-grid">
       <div class="ai-platform-logo"><img src="assets/logos/azure-openai.svg" alt=""></div>
-      <div class="ai-platform-logo"><img src="assets/logos/Bedrock.svg" alt=""></div>
-      <div class="ai-platform-logo"><img src="assets/logos/Vertex-AI.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/bedrock.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/vertex-ai.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/snowflake.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/uipath.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/huggingface.svg" alt=""></div>
       <!-- duplicate -->
       <div class="ai-platform-logo"><img src="assets/logos/azure-openai.svg" alt=""></div>
-      <div class="ai-platform-logo"><img src="assets/logos/Bedrock.svg" alt=""></div>
-      <div class="ai-platform-logo"><img src="assets/logos/Vertex-AI.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/bedrock.svg" alt=""></div>
+      <div class="ai-platform-logo"><img src="assets/logos/vertex-ai.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/snowflake.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/uipath.svg" alt=""></div>
       <div class="ai-platform-logo"><img src="assets/logos/huggingface.svg" alt=""></div>

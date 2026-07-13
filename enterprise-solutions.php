@@ -2,7 +2,7 @@
 $page_title     = 'Enterprise Application Development | Adhiran Infotech';
 $page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$page_canonical = 'https://www.adhiraninfotech.com/enterprise-solutions';
 include 'includes/header.php';
 ?>
 
@@ -119,7 +119,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/SAP.jpg" alt="Enterprise resource planning team working">
+        <img src="assets/images/enterprise/sap.jpg" alt="Enterprise resource planning team working">
       </div>
     </div>
 
@@ -177,7 +177,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/Servicenow.png" alt="IT operations dashboard on screens">
+        <img src="assets/images/enterprise/servicenow.png" alt="IT operations dashboard on screens">
       </div>
     </div>
 
@@ -235,7 +235,7 @@ include 'includes/header.php';
         </ul>
       </div>
       <div class="platform-panel-img">
-        <img src="assets/images/enterprise/Oracle.png" alt="Finance team analyzing reports">
+        <img src="assets/images/enterprise/oracle.png" alt="Finance team analyzing reports">
       </div>
     </div>
 

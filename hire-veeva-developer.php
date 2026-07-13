@@ -1,7 +1,7 @@
 <?php
 $page_title     = 'Veeva Services | Adhiran Infotech';
 $page_desc      = 'Veeva Developer';
-$page_canonical = 'https://www.adhiraninfotech.com/sap-it-solutions';
+$page_canonical = 'https://www.adhiraninfotech.com/hire-veeva-developer';
 include 'includes/header.php';
 ?>
 

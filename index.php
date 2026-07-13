@@ -3,7 +3,7 @@ $current_page   = 'home';
 $page_title     = 'Adhiran Infotech';
 $page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$page_canonical = 'https://www.adhiraninfotech.com/';
 include 'includes/header.php';
 ?>
 
@@ -247,7 +247,7 @@ include 'includes/header.php';
               <a href="<?= $base ?>project-solutions">Learn More →</a>
             </div>
             <div class="sol-panel-img">
-              <img src="assets/images/index/Project-solution.jpeg"
+              <img src="assets/images/index/project-solution.jpeg"
                 alt="Engineers working on a project together">
             </div>
           </div>
@@ -546,7 +546,7 @@ include 'includes/header.php';
   <section>
     <div class="wrap split">
       <div class="split-img">
-        <img src="assets/images/index/HR.jpeg"
+        <img src="assets/images/index/hr.jpeg"
           alt="IT professional working remotely on laptop">
       </div>
       <div>

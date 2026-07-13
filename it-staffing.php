@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/it-staff/IT-Staff-banner.jpeg" alt="">
+        <img src="assets/images/it-staff/it-staff-banner.jpeg" alt="">
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ include 'includes/header.php';
       </div>
     </div>
     <div class="its-intro-img">
-      <img src="assets/images/it-staff/IT-Staff-1.jpeg">
+      <img src="assets/images/it-staff/it-staff-1.jpeg">
     </div>
   </div>
 </section>

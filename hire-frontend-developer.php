@@ -37,7 +37,7 @@ include 'includes/header.php';
       <p>From large-scale implementation to project-specific, short-term, or ongoing requirements — our specialists work to reinforce quality and focused design across every engagement.</p>
     </div>
     <div class="its-intro-img">
-      <img src="assets/images/front-end/Staff-augumentation.jpg" alt="Hire Expert Front-End Developers for World-Class UI">
+      <img src="assets/images/front-end/staff-augumentation.jpg" alt="Hire Expert Front-End Developers for World-Class UI">
     </div>
   </div>
 </section>

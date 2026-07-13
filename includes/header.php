@@ -4,6 +4,7 @@ $current_page = $current_page ?? '';
 $page_title   = $page_title   ?? SITE_NAME . ' | ' . SITE_TAGLINE;
 $page_desc    = $page_desc    ?? SITE_DESCRIPTION;
 $page_keywords= $page_keywords?? SITE_KEYWORDS;
+$page_canonical = $page_canonical ?? (SITE_URL . '/');
 $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
 ?>
 <!DOCTYPE html>
@@ -80,7 +81,7 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
   </div>
   <header>
     <nav>
-      <a href="<?= $base ?>" class="logo"><img src="assets/images/logo.png" alt="Adhiran Infotech"
+      <a href="<?= $base ?>" class="logo"><img src="<?= $base ?>assets/images/logo.png" alt="Adhiran Infotech"
           style="height:58px;display:block;"></a>
       <div class="nav-right">
 
