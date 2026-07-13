@@ -15,7 +15,7 @@ include 'includes/header.php';
     <p class="lead">We help industrial organizations leverage connected technologies, automation, AI, and digital engineering to create smarter operations, improve asset performance, and drive sustainable business growth.</p>
     <div class="hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an Industry Expert →</a>
-      <a href="<?= $base ?>digital-marketing#de-services" class="btn btn-outline-light">Explore Digital Engineering Services</a>
+      <a href="<?= $base ?>digital-engineering#de-services" class="btn btn-outline-light">Explore Digital Engineering Services</a>
     </div>
     <div class="hero-stats">
       <div ><b class="count-up" data-target="60" data-suffix="%">60%</b><span>Improvement in <br>Operational Reliability</span></div>

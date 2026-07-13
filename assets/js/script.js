@@ -311,3 +311,272 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
+// =========================================
+// CAREER PAGE: JOB SEARCH, FILTERS & APPLY MODAL
+// =========================================
+document.addEventListener('DOMContentLoaded', () => {
+
+  const jobCards = document.querySelectorAll('.job-card[data-dept]');
+  const jobFilters = document.querySelectorAll('.job-filter');
+  const jobSearch = document.getElementById('jobSearch');
+  const jobEmpty = document.getElementById('jobEmpty');
+
+  function applyJobFilters() {
+    const activeFilter = document.querySelector('.job-filter.active');
+    const dept = activeFilter ? activeFilter.dataset.filter : 'all';
+    const query = jobSearch ? jobSearch.value.trim().toLowerCase() : '';
+    let visible = 0;
+
+    jobCards.forEach(card => {
+      const matchesDept = dept === 'all' || card.dataset.dept === dept;
+      const haystack = (card.dataset.title + ' ' + card.dataset.loc).toLowerCase();
+      const matchesQuery = query === '' || haystack.includes(query);
+      if (matchesDept && matchesQuery) {
+        card.classList.remove('hidden');
+        visible++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    if (jobEmpty) jobEmpty.classList.toggle('show', visible === 0);
+  }
+
+  if (jobFilters.length) {
+    jobFilters.forEach(btn => {
+      btn.addEventListener('click', () => {
+        jobFilters.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyJobFilters();
+      });
+    });
+  }
+
+  if (jobSearch) jobSearch.addEventListener('input', applyJobFilters);
+  if (jobCards.length) applyJobFilters();
+
+  // ---- Apply Modal ----
+  const modalOverlay = document.getElementById('jobModalOverlay');
+  const modalRole = document.getElementById('jobModalRole');
+  const modalTitle = document.getElementById('jobModalTitle');
+  const modalForm = document.getElementById('jobApplyForm');
+  const modalJobField = document.getElementById('jobAppliedFor');
+  const modalSuccess = document.getElementById('jobModalSuccess');
+  const modalBody = document.getElementById('jobModalBody');
+
+  function openJobModal(title, meta) {
+    if (!modalOverlay) return;
+    if (modalRole) modalRole.textContent = meta || 'General Application';
+    if (modalJobField) modalJobField.value = title || 'General Application';
+    if (modalTitle) modalTitle.textContent = title || 'Apply to Adhiran Infotech';
+    if (modalBody) modalBody.style.display = '';
+    if (modalSuccess) modalSuccess.classList.remove('show');
+    modalOverlay.classList.add('open');
+    document.body.classList.add('modal-open');
+  }
+
+  function closeJobModal() {
+    if (!modalOverlay) return;
+    modalOverlay.classList.remove('open');
+    document.body.classList.remove('modal-open');
+  }
+
+  document.querySelectorAll('.job-apply-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const card = btn.closest('.job-card');
+      const title = card ? card.dataset.title : 'General Application';
+      const loc = card ? card.dataset.loc : '';
+      const deptLabel = card ? card.dataset.deptLabel : '';
+      openJobModal(title, [loc, deptLabel].filter(Boolean).join(' · '));
+    });
+  });
+
+  document.querySelectorAll('.job-general-apply').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openJobModal('General Application', 'Future Opportunities');
+    });
+  });
+
+  document.querySelectorAll('[data-job-modal-close]').forEach(el => {
+    el.addEventListener('click', closeJobModal);
+  });
+
+  if (modalOverlay) {
+    modalOverlay.addEventListener('click', (e) => {
+      if (e.target === modalOverlay) closeJobModal();
+    });
+  }
+
+  // ---- Job Details Modal ----
+  const detailsOverlay = document.getElementById('jobDetailsOverlay');
+  const detailsDept = document.getElementById('detailsDept');
+  const detailsTitle = document.getElementById('detailsTitle');
+  const detailsMeta = document.getElementById('detailsMeta');
+  const detailsOverview = document.getElementById('detailsOverview');
+  const detailsResp = document.getElementById('detailsResponsibilities');
+  const detailsReq = document.getElementById('detailsRequirements');
+  const detailsApplyBtn = document.querySelector('.job-details-apply');
+  let currentDetailsCard = null;
+
+  function listItems(value) {
+    return (value || '')
+      .split('|')
+      .map(v => v.trim())
+      .filter(Boolean)
+      .map(v => `<li>${v}</li>`)
+      .join('');
+  }
+
+  function openDetailsModal(card) {
+    if (!detailsOverlay || !card) return;
+    currentDetailsCard = card;
+    if (detailsDept) detailsDept.textContent = card.dataset.deptLabel || '';
+    if (detailsTitle) detailsTitle.textContent = card.dataset.title || '';
+    if (detailsMeta) detailsMeta.textContent = [card.dataset.loc, card.dataset.type].filter(Boolean).join(' · ');
+    if (detailsOverview) detailsOverview.textContent = card.dataset.overview || '';
+    if (detailsResp) detailsResp.innerHTML = listItems(card.dataset.responsibilities);
+    if (detailsReq) detailsReq.innerHTML = listItems(card.dataset.requirements);
+    detailsOverlay.classList.add('open');
+    document.body.classList.add('modal-open');
+  }
+
+  function closeDetailsModal() {
+    if (!detailsOverlay) return;
+    detailsOverlay.classList.remove('open');
+    document.body.classList.remove('modal-open');
+  }
+
+  document.querySelectorAll('.job-view-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openDetailsModal(btn.closest('.job-card'));
+    });
+  });
+
+  document.querySelectorAll('[data-details-modal-close]').forEach(el => {
+    el.addEventListener('click', closeDetailsModal);
+  });
+
+  if (detailsOverlay) {
+    detailsOverlay.addEventListener('click', (e) => {
+      if (e.target === detailsOverlay) closeDetailsModal();
+    });
+  }
+
+  if (detailsApplyBtn) {
+    detailsApplyBtn.addEventListener('click', () => {
+      closeDetailsModal();
+      if (currentDetailsCard) {
+        const title = currentDetailsCard.dataset.title;
+        const loc = currentDetailsCard.dataset.loc;
+        const deptLabel = currentDetailsCard.dataset.deptLabel;
+        openJobModal(title, [loc, deptLabel].filter(Boolean).join(' · '));
+      } else {
+        openJobModal('General Application', 'Future Opportunities');
+      }
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeJobModal();
+      closeDetailsModal();
+    }
+  });
+
+  // Resume file field: open the OS file picker reliably
+  const resumeInput = document.getElementById('resumeFile');
+  const resumeLabel = document.getElementById('resumeFileLabel');
+  const resumeTrigger = document.getElementById('resumeFieldTrigger');
+
+  if (resumeTrigger && resumeInput) {
+    resumeTrigger.addEventListener('click', (e) => {
+      // Avoid double-firing if the click already landed on the input itself
+      if (e.target === resumeInput) return;
+      resumeInput.click();
+    });
+    // Keyboard accessibility (Enter / Space)
+    resumeTrigger.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        resumeInput.click();
+      }
+    });
+  }
+
+  if (resumeInput && resumeLabel) {
+    resumeInput.addEventListener('change', () => {
+      const field = resumeLabel.closest('.file-field');
+      if (resumeInput.files && resumeInput.files.length > 0) {
+        resumeLabel.textContent = resumeInput.files[0].name;
+        field.classList.add('filled');
+      } else {
+        resumeLabel.textContent = 'Click to upload your resume (PDF or DOC, max 5MB)';
+        field.classList.remove('filled');
+      }
+    });
+  }
+
+  // Apply form validation + fake submit
+  if (modalForm) {
+    modalForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      let valid = true;
+      const fields = [
+        { id: 'appFirstName', test: v => v.trim().length > 0 },
+        { id: 'appLastName', test: v => v.trim().length > 0 },
+        { id: 'appEmail', test: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) },
+        { id: 'appPhone', test: v => /^[0-9]{10}$/.test(v.replace(/\D/g, '')) },
+        { id: 'appExperience', test: v => v.trim().length > 0 }
+      ];
+      fields.forEach(f => {
+        const el = document.getElementById(f.id);
+        if (!el) return;
+        const group = el.closest('.form-group');
+        group.classList.remove('error', 'success');
+        if (!f.test(el.value)) {
+          group.classList.add('error');
+          valid = false;
+        } else {
+          group.classList.add('success');
+        }
+      });
+
+      if (valid) {
+        const btn = modalForm.querySelector('.btn-submit');
+        btn.classList.add('loading');
+        setTimeout(() => {
+          btn.classList.remove('loading');
+          if (modalBody) modalBody.style.display = 'none';
+          if (modalSuccess) modalSuccess.classList.add('show');
+          modalForm.reset();
+          modalForm.querySelectorAll('.form-group').forEach(g => {
+            g.classList.remove('success', 'error', 'active');
+          });
+          if (resumeLabel) resumeLabel.textContent = 'Click to upload your resume (PDF or DOC, max 5MB)';
+          const field = resumeLabel ? resumeLabel.closest('.file-field') : null;
+          if (field) field.classList.remove('filled');
+        }, 1600);
+      }
+    });
+
+    modalForm.querySelectorAll('input, textarea, select').forEach(field => {
+      const group = field.closest('.form-group');
+      if (!group) return;
+      const updateState = () => {
+        if (field.value && field.value.trim() !== '') {
+          group.classList.add('active');
+        } else {
+          group.classList.remove('active');
+        }
+      };
+      field.addEventListener('input', updateState);
+      field.addEventListener('change', updateState);
+      field.addEventListener('blur', updateState);
+    });
+  }
+
+});

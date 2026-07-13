@@ -12,7 +12,6 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">IT Solutions</div>
-
         <h1>Innovative IT solutions that change the layout and base of your business</h1>
         <p class="lead">Integrate the use of advanced technologies in order to have an integration of several devices, systems and operational networks. From IoT to AI/ML — our IT solutions improve real-time data gathering, intelligent control and decision making, making organizations more competitive.</p>
         <div class="hero-actions">
@@ -26,7 +25,6 @@ include 'includes/header.php';
           <div><b>24/7</b><span>Support &amp;  monitoring</span></div>
         </div>
     </div>
-
       <div class="hero-visual">
         <div class="hero-photo">
           <img src="assets/images/banners/it-sol-banner.jpeg" alt="">

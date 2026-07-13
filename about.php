@@ -14,9 +14,9 @@ include 'includes/header.php';
         <h1>Accelerating Growth Through People and Technology</h1>
         <p class="lead">At Adhiran Infotech, we specialize in IT staffing, software development, and AI-powered consulting services. We partner with organizations worldwide to build high-performing teams, create scalable web and mobile applications, and implement technology solutions that drive business success.</p>
         <div class="hero-stats">
-          <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of Industry Experience</span></div>
-          <div><b class="count-up" data-target="5">5</b><span>Local Presence Across Countries</span></div>
-          <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful Placements & Engagements</span></div>
+          <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of <br> Industry Experience</span></div>
+          <div><b class="count-up" data-target="5">5</b><span>Local Presence <br> Across Countries</span></div>
+          <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Successful Placements & <br> Engagements</span></div>
         </div>
       </div>
       <div class="about-hero-visual">

@@ -20,7 +20,7 @@ include 'includes/header.php';
       </div>
       <div class="hero-actions" style="margin-top:30px;">
         <a href="<?= $base ?>contact" class="btn btn-primary">Hire a Developer →</a>
-        <a href="<?= $base ?>#tech" class="btn btn-outline">Explore Tech Stacks</a>
+        <a href="<?= $base ?>hire-me#tech" class="btn btn-outline">Explore Tech Stacks</a>
       </div>
     </div>
     <div class="hire-hero-visual">
@@ -94,69 +94,69 @@ include 'includes/header.php';
       <p>Whatever your stack, we have vetted developers ready to join — from legacy systems to the latest in AI.</p>
     </div>
     <div class="tech-detail-grid">
-      <div class="tech-detail-card">
+      <a href="<?= $base ?>hire-frontend-developer" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
         <h3>Frontend Development</h3>
         <div class="skill-tags">
           <span>React</span><span>Angular</span><span>Vue.js</span><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>hire-backend-developer" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
         <h3>Backend Development</h3>
         <div class="skill-tags">
           <span>Java</span><span>.NET / C#</span><span>Python</span><span>Node.js</span><span>PHP</span><span>Go</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>hire-mobile-app-developer" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg></div>
         <h3>Mobile Development</h3>
         <div class="skill-tags">
           <span>iOS (Swift)</span><span>Android (Kotlin)</span><span>React Native</span><span>Flutter</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>hire-cloud-engineer" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
         <h3>Cloud &amp; DevOps</h3>
         <div class="skill-tags">
           <span>AWS</span><span>Microsoft Azure</span><span>Google Cloud</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>CI/CD</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>aiml-solutions" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.5 4.5"/></svg></div>
         <h3>Data &amp; AI/ML</h3>
         <div class="skill-tags">
           <span>Data Engineering</span><span>Power BI</span><span>Snowflake</span><span>Generative AI</span><span>LLM Integration</span><span>Computer Vision</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>enterprise-solutions" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
         <h3>Enterprise Platforms</h3>
         <div class="skill-tags">
           <span>Salesforce</span><span>SAP</span><span>ServiceNow</span><span>Workday</span><span>Oracle</span><span>UiPath</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>hire-qa-developer" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
         <h3>QA &amp; Test Automation</h3>
         <div class="skill-tags">
           <span>Selenium</span><span>Cypress</span><span>Playwright</span><span>Performance Testing</span><span>API Testing</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>#" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
         <h3>Cybersecurity</h3>
         <div class="skill-tags">
           <span>Penetration Testing</span><span>SOC Operations</span><span>Compliance (SOC2, HIPAA)</span><span>Cloud Security</span>
         </div>
-      </div>
-      <div class="tech-detail-card">
+      </a>
+      <a href="<?= $base ?>#" class="tech-detail-card">
         <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
         <h3>Network &amp; Infrastructure</h3>
         <div class="skill-tags">
           <span>Systems Administration</span><span>Network Engineering</span><span>Helpdesk &amp; Support</span><span>Data Centre Ops</span>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
