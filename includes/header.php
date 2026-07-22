@@ -98,22 +98,22 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
                 fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
-            <div class="nav-dropdown cols-3">
-              <span class="col-label">Our Organization</span>
+            <div class="nav-dropdown cols-2">
+              <!-- <span class="col-label">Our Organization</span>
               <span class="col-label">Careers</span>
-              <span class="col-label">Insights</span>
+              <span class="col-label">Insights</span> -->
               <a href="<?= $base ?>about">About Us</a>
-              <a href="<?= $base ?>leadership">Leadership</a>
+              <!-- <a href="<?= $base ?>leadership">Leadership</a> -->
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>career">Careers Overview</a>
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
               <a href="<?= $base ?>core-values">Core Values</a>
-              <a href="<?= $base ?>life-with-ait">Life with AIT</a>
-              <a href="<?= $base ?>#clients">Our Clients</a>
-              <a href="<?= $base ?>#reach">Global Presence</a>
-              <a href="<?= $base ?>contact">Contact Us</a>
-              <a href="<?= $base ?>#jobs">Explore Job Opportunities</a>
+              <!-- <a href="<?= $base ?>life-with-ait">Life with AIT</a> -->
+              <!-- <a href="<?= $base ?>#clients">Our Clients</a> -->
+              <!-- <a href="<?= $base ?>#reach">Global Presence</a> -->
+              <!-- <a href="<?= $base ?>contact">Contact Us</a> -->
+              <!-- <a href="<?= $base ?>#jobs">Explore Job Opportunities</a> -->
             </div>
           </div>
           <div class="nav-item">
@@ -129,9 +129,9 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>application-solutions">Application Solutions</a>
               <a href="<?= $base ?>cloud-engineering">Cloud Services</a>
               <a href="<?= $base ?>enterprise-solutions">Enterprise Platforms</a>
-              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>  
+              <!-- <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>   -->
               <a href="<?= $base ?>talent-solutions">Talent Solutions</a>
-              <a href="<?= $base ?>edutech">EdTech Solutions</a>
+              <!-- <a href="<?= $base ?>edutech">EdTech Solutions</a> -->
             </div>
           </div>
 
@@ -201,6 +201,8 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>#industries">Hospitality</a>
               <a href="<?= $base ?>#industries">Professional Services</a>
               <a href="<?= $base ?>#industries">Manufacturing</a>
+              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a> 
+              <a href="<?= $base ?>edutech">EdTech Solutions</a>
             </div>
           </div>
           <a href="<?= $base ?>life-with-ait">Life with AIT</a>
@@ -227,17 +229,17 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
             </button>
             <div class="mobile-accordion-content">
               <a href="<?= $base ?>about">About Us</a>
-              <a href="<?= $base ?>leadership">Leadership</a>
+              <!-- <a href="<?= $base ?>leadership">Leadership</a> -->
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>core-values">Core Values</a>
-              <a href="<?= $base ?>#clients">Our Clients</a>
-              <a href="<?= $base ?>#reach">Global Presence</a>
+              <!-- <a href="<?= $base ?>#clients">Our Clients</a> -->
+              <!-- <a href="<?= $base ?>#reach">Global Presence</a> -->
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
-              <a href="<?= $base ?>life-with-ait">Life with AIT</a>
+              <!-- <a href="<?= $base ?>life-with-ait">Life with AIT</a> -->
               <a href="<?= $base ?>career">Careers Overview</a>
-              <a href="<?= $base ?>#jobs">Explore Job Opportunities</a>
-              <a href="<?= $base ?>contact">Contact Us</a>
+              <!-- <a href="<?= $base ?>#jobs">Explore Job Opportunities</a> -->
+              <!-- <a href="<?= $base ?>contact">Contact Us</a> -->
             </div>
           </div>
 
@@ -258,8 +260,8 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>team-solutions">Team Solutions</a>
               <a href="<?= $base ?>project-solutions">Project Solutions</a>
               <a href="<?= $base ?>enterprise-solutions">Enterprise Platforms</a>
-              <a href="<?= $base ?>edutech">EdTech Solutions</a>
-              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>
+              <!-- <a href="<?= $base ?>edutech">EdTech Solutions</a>
+              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a> -->
               <a href="<?= $base ?>hire-me">Hire Developers</a>
             </div>
           </div>
@@ -345,6 +347,8 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               <a href="<?= $base ?>#industries">Hospitality</a>
               <a href="<?= $base ?>#industries">Manufacturing</a>
               <a href="<?= $base ?>#industries">Professional Services</a>
+              <a href="<?= $base ?>edutech">EdTech Solutions</a>
+              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>
             </div>
           </div>
 

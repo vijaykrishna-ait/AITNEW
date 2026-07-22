@@ -19,12 +19,12 @@ include 'includes/header.php';
 <section style="padding-top:0;">
   <div class="wrap">
     <div class="life-gallery">
-      <a href="<?= $base ?>#"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="Team collaborating in office"></a>
-      <a href="<?= $base ?>#"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80" alt="Team celebrating together"></a>
-      <a href="<?= $base ?>#"><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=600&q=80" alt="Office event"></a>
-      <a href="<?= $base ?>#"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=600&q=80" alt="Team brainstorming session"></a>
-      <a href="<?= $base ?>#"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Colleagues having a discussion"></a>
-      <a href="<?= $base ?>#"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80" alt="Team working together on a project"></a>
+      <div><img src="assets/images/aitlife/life1.jpg" alt=""></div>
+      <div><img src="assets/images/aitlife/life2.JPG" alt=""></div>
+      <div><img src="assets/images/aitlife/life3.JPG" alt=""></div>
+      <div><img src="assets/images/aitlife/adhiran.jpeg" alt=""></div>
+      <div><img src="assets/images/aitlife/life5.JPG" alt=""></div>
+      <div><img src="assets/images/aitlife/life4.jpg" alt=""></div>
     </div>
   </div>
 </section>

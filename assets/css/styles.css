@@ -61,6 +61,8 @@
   .btn-outline-light:hover{background:var(--white);color:var(--navy);}
   .btn-lime{background:var(--lime);color:var(--white);}
   .btn-lime:hover{background:var(--white);color:var(--navy);}
+  .btn-outline-lime{border-color:var(--lime);color:var(--navy);background:transparent;}
+  .btn-outline-lime:hover{background:var(--lime);color:var(--white);}
 
   .bg-white{background-color: #fff !important;}
   .bg-sky{background-color: var(--sky) !important;}
@@ -964,11 +966,11 @@
 
 /* Life with Adhiran */
 .life-gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,160px);gap:16px;}
-.life-gallery a{border-radius:16px;overflow:hidden;position:relative;}
-.life-gallery a img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
-.life-gallery a:hover img{transform:scale(1.08);}
-.life-gallery a:nth-child(1){grid-row:span 2;}
-.life-gallery a:nth-child(4){grid-row:span 2;}
+.life-gallery div{border-radius:16px;overflow:hidden;position:relative;}
+.life-gallery img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
+.life-gallery div:hover img{transform:scale(1.08);}
+.life-gallery div:nth-child(1){grid-row:span 2;}
+.life-gallery div:nth-child(4){grid-row:span 2;}
 @media (max-width:900px){
   .life-gallery{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,160px);}
   .life-gallery a:nth-child(1),.life-gallery a:nth-child(4){grid-row:span 1;}

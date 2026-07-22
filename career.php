@@ -14,7 +14,7 @@ include 'includes/header.php';
       <p class="lead">We're a global IT staffing and consulting team helping organizations hire great talent and build
         great software. Join us and work on real projects, across real industries, with people who back your growth.</p>
       <div class="hero-actions">
-        <a href="<?= $base ?>career#open-positions" class="btn btn-lime">View Open Positions</a>
+        <a href="<?= $base ?>career#open-positions" class="btn btn-outline">View Open Positions</a>
         <a href="<?= $base ?>career#open-positions" class="btn btn-primary job-general-apply">Submit Your Resume</a>
       </div>
       <div class="hero-stats">
