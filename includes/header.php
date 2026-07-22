@@ -99,21 +99,12 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
             <div class="nav-dropdown cols-2">
-              <!-- <span class="col-label">Our Organization</span>
-              <span class="col-label">Careers</span>
-              <span class="col-label">Insights</span> -->
               <a href="<?= $base ?>about">About Us</a>
-              <!-- <a href="<?= $base ?>leadership">Leadership</a> -->
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>career">Careers Overview</a>
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
               <a href="<?= $base ?>core-values">Core Values</a>
-              <!-- <a href="<?= $base ?>life-with-ait">Life with AIT</a> -->
-              <!-- <a href="<?= $base ?>#clients">Our Clients</a> -->
-              <!-- <a href="<?= $base ?>#reach">Global Presence</a> -->
-              <!-- <a href="<?= $base ?>contact">Contact Us</a> -->
-              <!-- <a href="<?= $base ?>#jobs">Explore Job Opportunities</a> -->
             </div>
           </div>
           <div class="nav-item">
@@ -122,71 +113,16 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
             <div class="nav-dropdown">
+              <a href="<?= $base ?>talent-solutions">Talent Solutions</a>
               <a href="<?= $base ?>ai">Artificial Intelligence &amp; Data</a>
               <a href="<?= $base ?>team-solutions">Team Solutions</a>
-              <a href="<?= $base ?>digital-engineering">Digital Engineering</a>
-              <a href="<?= $base ?>project-solutions">Project Solutions</a>
               <a href="<?= $base ?>application-solutions">Application Solutions</a>
+              <a href="<?= $base ?>project-solutions">Project Solutions</a>
               <a href="<?= $base ?>cloud-engineering">Cloud Services</a>
               <a href="<?= $base ?>enterprise-solutions">Enterprise Platforms</a>
-              <!-- <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>   -->
-              <a href="<?= $base ?>talent-solutions">Talent Solutions</a>
-              <!-- <a href="<?= $base ?>edutech">EdTech Solutions</a> -->
+              <a href="<?= $base ?>digital-engineering">Digital Engineering</a>
             </div>
           </div>
-
-          <!-- IT Staffing Dropdown -->
-          <!-- <div class="nav-item">
-            <a href="<?= $base ?>it-staffing">IT Staffing <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></a>
-            <div class="nav-dropdown">
-              <a href="<?= $base ?>hire-frontend-developer">Front-End Development</a>
-              <a href="<?= $base ?>hire-backend-developer">Backend Development</a>
-              <a href="<?= $base ?>hire-mobile-app-developer">Mobile App Development</a>
-              <a href="<?= $base ?>hire-cloud-engineer">Cloud Engineer</a>
-              <a href="<?= $base ?>hire-data-engineer">Data Engineer</a>
-              <a href="<?= $base ?>hire-qa-developer">QA Engineer</a>
-              <a href="<?= $base ?>hire-devops-engineer">DevOps Engineer</a>
-              <a href="<?= $base ?>hire-data-science-developer">Data Science</a>
-              <a href="<?= $base ?>hire-digital-marketing-developer">Digital Marketing</a>
-            </div>
-          </div> -->
-
-          <!-- IT Consulting Dropdown -->
-          <!-- <div class="nav-item">
-            <a href="<?= $base ?>it-consulting">IT Consulting <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></a>
-            <div class="nav-dropdown">
-              <a href="<?= $base ?>website-designing">Website Design &amp; Development</a>
-              <a href="<?= $base ?>web-application-development">Web Application Development</a>
-              <a href="<?= $base ?>ecommerce-website-development">E-com Development</a>
-              <a href="<?= $base ?>mobile-app-development">Mobile App Development</a>
-              <a href="<?= $base ?>digital-marketing">Digital Marketing</a>
-              <a href="<?= $base ?>qa-process">QA Process</a>
-            </div>
-          </div> -->
-
-          <!-- IT Solutions Dropdown -->
-          <!-- <div class="nav-item">
-            <a href="<?= $base ?>it-solutions">IT Solutions <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></a>
-            <div class="nav-dropdown">
-              <a href="<?= $base ?>iot-it-solutions">IoT</a>
-              <a href="<?= $base ?>sap-it-solutions">SAP</a>
-              <a href="<?= $base ?>ui-path">UI Path</a>
-              <a href="<?= $base ?>power-bi">Power BI</a>
-              <a href="<?= $base ?>block-chain">Block Chain</a>
-              <a href="<?= $base ?>servicenow">Service Now</a>
-              <a href="<?= $base ?>aiml-solutions">AI/ML Solutions</a>
-              <a href="<?= $base ?>hire-veeva-developer">Veeva CRM</a>
-            </div>
-          </div> -->
 
           <div class="nav-item">
             <a href="<?= $base ?>#industries">Industry <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
@@ -194,7 +130,6 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
             <div class="nav-dropdown">
-              <!-- <span class="col-label">Industries</span> -->
               <a href="<?= $base ?>#industries">Banking &amp; Financial Services</a>
               <a href="<?= $base ?>#industries">Consumer Products</a>
               <a href="<?= $base ?>#industries">Healthcare &amp; Life Sciences</a>
@@ -229,17 +164,11 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
             </button>
             <div class="mobile-accordion-content">
               <a href="<?= $base ?>about">About Us</a>
-              <!-- <a href="<?= $base ?>leadership">Leadership</a> -->
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>core-values">Core Values</a>
-              <!-- <a href="<?= $base ?>#clients">Our Clients</a> -->
-              <!-- <a href="<?= $base ?>#reach">Global Presence</a> -->
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
-              <!-- <a href="<?= $base ?>life-with-ait">Life with AIT</a> -->
               <a href="<?= $base ?>career">Careers Overview</a>
-              <!-- <a href="<?= $base ?>#jobs">Explore Job Opportunities</a> -->
-              <!-- <a href="<?= $base ?>contact">Contact Us</a> -->
             </div>
           </div>
 
@@ -253,83 +182,16 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
               </svg>
             </button>
             <div class="mobile-accordion-content">
-              <a href="<?= $base ?>ai">Artificial Intelligence &amp; Data</a>
-              <a href="<?= $base ?>cloud-engineering">Cloud Services</a>
-              <a href="<?= $base ?>digital-engineering">Digital Engineering</a>
               <a href="<?= $base ?>talent-solutions">Talent Solutions</a>
               <a href="<?= $base ?>team-solutions">Team Solutions</a>
               <a href="<?= $base ?>project-solutions">Project Solutions</a>
               <a href="<?= $base ?>enterprise-solutions">Enterprise Platforms</a>
-              <!-- <a href="<?= $base ?>edutech">EdTech Solutions</a>
-              <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a> -->
-              <a href="<?= $base ?>hire-me">Hire Developers</a>
+              <a href="<?= $base ?>ai">Artificial Intelligence &amp; Data</a>
+              <a href="<?= $base ?>application-solutions">Application Solutions</a>
+              <a href="<?= $base ?>cloud-engineering">Cloud Services</a>
+              <a href="<?= $base ?>digital-engineering">Digital Engineering</a>
             </div>
           </div>
-
-          <!-- Accordion Item: IT Staffing -->
-          <!-- <div class="mobile-accordion">
-            <button class="mobile-accordion-header">
-              IT Staffing
-              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </button>
-            <div class="mobile-accordion-content">
-              <a href="<?= $base ?>it-staffing">IT Staffing Overview</a>
-              <a href="<?= $base ?>hire-frontend-developer">Front-End Development</a>
-              <a href="<?= $base ?>hire-backend-developer">Backend Development</a>
-              <a href="<?= $base ?>hire-mobile-app-developer">Mobile App Development</a>
-              <a href="<?= $base ?>hire-cloud-engineer">Cloud Engineer</a>
-              <a href="<?= $base ?>hire-data-engineer">Data Engineer</a>
-              <a href="<?= $base ?>hire-qa-developer">QA Engineer</a>
-              <a href="<?= $base ?>hire-devops-engineer">DevOps Engineer</a>
-              <a href="<?= $base ?>hire-data-science-developer">Data Science</a>
-              <a href="<?= $base ?>hire-digital-marketing-developer">Digital Marketing</a>
-            </div>
-          </div> -->
-
-          <!-- Accordion Item: IT Consulting -->
-          <!-- <div class="mobile-accordion">
-            <button class="mobile-accordion-header">
-              IT Consulting
-              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </button>
-            <div class="mobile-accordion-content">
-              <a href="<?= $base ?>it-consulting">IT Consulting Overview</a>
-              <a href="<?= $base ?>website-designing">Website Design &amp; Development</a>
-              <a href="<?= $base ?>web-application-development">Web Application Development</a>
-              <a href="<?= $base ?>ecommerce-website-development">E-com Development</a>
-              <a href="<?= $base ?>mobile-app-development">Mobile App Development</a>
-              <a href="<?= $base ?>digital-marketing">Digital Marketing</a>
-              <a href="<?= $base ?>qa-process">QA Process</a>
-            </div>
-          </div> -->
-
-          <!-- Accordion Item: IT Solutions -->
-          <!-- <div class="mobile-accordion">
-            <button class="mobile-accordion-header">
-              IT Solutions
-              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </button>
-            <div class="mobile-accordion-content">
-              <a href="<?= $base ?>it-solutions">IT Solutions Overview</a>
-              <a href="<?= $base ?>iot-it-solutions">IoT</a>
-              <a href="<?= $base ?>sap-it-solutions">SAP</a>
-              <a href="<?= $base ?>ui-path">UI Path</a>
-              <a href="<?= $base ?>power-bi">Power BI</a>
-              <a href="<?= $base ?>block-chain">Block Chain</a>
-              <a href="<?= $base ?>servicenow">Service Now</a>
-              <a href="<?= $base ?>aiml-solutions">AI/ML Solutions</a>
-              <a href="<?= $base ?>hire-veeva-developer">Veeva CRM</a>
-            </div>
-          </div> -->
 
           <!-- Accordion Item 3: Industry -->
           <div class="mobile-accordion">
