@@ -579,4 +579,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+
+  // jobs carousel
+  const slider = document.getElementById("jobsSlider");
+  const next = document.querySelector(".jobs-arrow.next");
+  const prev = document.querySelector(".jobs-arrow.prev");
+
+  next.addEventListener("click", () => {
+    slider.scrollBy({
+      left: slider.clientWidth,
+      behavior: "smooth"
+    });
+  });
+
+  prev.addEventListener("click", () => {
+    slider.scrollBy({
+      left: -slider.clientWidth,
+      behavior: "smooth"
+    });
+  });
 });

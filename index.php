@@ -560,44 +560,80 @@ include 'includes/header.php';
   </section>
 
   <!-- FEATURED JOBS -->
-  <section class="jobs" id="jobs">
+ <section class="jobs" id="jobs">
     <div class="wrap">
-      <div class="section-head">
-        <div class="eyebrow" style="color:var(--lime);">For Candidates</div>
-        <h2>Featured jobs</h2>
-        <p>A snapshot of live roles our consultants are recruiting for right now.</p>
-      </div>
-      <div class="jobs-grid">
-        <div class="job-card">
-          <div>
-            <h3>SaaS Implementation &amp; Support Lead</h3>
-            <div class="meta">Sydney</div>
-            <div class="role">Team Leaders &amp; Management · Permanent</div>
-          </div>
-          <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+        <div class="section-head">
+            <div class="eyebrow" style="color:var(--lime);">For Candidates</div>
+            <h2>Featured jobs</h2>
+            <p>A snapshot of live roles our consultants are recruiting for right now.</p>
         </div>
-        <div class="job-card">
-          <div>
-            <h3>Senior Network Engineer — Data Centre</h3>
-            <div class="meta">Sydney</div>
-            <div class="role">Infrastructure / Networks · Contract</div>
-          </div>
-          <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+
+        <div class="jobs-carousel">
+            <button class="jobs-arrow prev">
+                &#10094;
+            </button>
+            <div class="jobs-slider" id="jobsSlider">
+                <div class="job-card">
+                    <div>
+                      <h3>Senior Frontend Developer (React)</h3>
+                      <div class="meta">Chennai, India</div>
+                      <div class="role">Front-end Development · Full-time</div>
+                    </div>
+                    <div class="date">Posted 28-Jun-2026</div>
+                    <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+                </div>
+                <div class="job-card">
+                    <div>
+                      <h3>Backend Engineer (Node.js / Java)</h3>
+                      <div class="meta">Remote — India</div>
+                      <div class="role">Backend Development · Full-time</div>
+                    </div>
+                    <div class="date">Posted 25-Jun-2026</div>
+                    <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+                </div>
+                <div class="job-card">
+                    <div>
+                      <h3>Mobile App Developer (Flutter)</h3>
+                      <div class="meta">Sydney, Australia</div>
+                      <div class="role">Mobile App Development · Contract</div>
+                    </div>
+                    <div class="date">Posted 22-Jun-2026</div>
+                    <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+                </div>
+                <div class="job-card">
+                    <div>
+                        <h3>SaaS Implementation &amp; Support Lead</h3>
+                        <div class="meta">Sydney</div>
+                        <div class="role">Team Leaders &amp; Management · Permanent</div>
+                    </div>
+                    <div class="date">Posted 12-Jun-2026</div>
+                    <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+                </div>
+                <div class="job-card">
+                    <div>
+                        <h3>Senior Network Engineer — Data Centre</h3>
+                        <div class="meta">Sydney</div>
+                        <div class="role">Infrastructure / Networks · Contract</div>
+                    </div>
+                    <div class="date">Posted 12-Jun-2026</div>
+                    <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+                </div>
+                <div class="job-card">
+                    <div>
+                        <h3>Senior Network Engineer</h3>
+                        <div class="meta">Burwood East</div>
+                        <div class="role">Infrastructure / Systems · Contract, 12 months</div>
+                    </div>
+                    <div class="date">Posted 12-Jun-2026</div>
+                    <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
+                </div>
+            </div>
+            <button class="jobs-arrow next">
+                &#10095;
+            </button>
         </div>
-        <div class="job-card">
-          <div>
-            <h3>Senior Network Engineer</h3>
-            <div class="meta">Burwood East</div>
-            <div class="role">Infrastructure / Systems · Contract, 12 months</div>
-          </div>
-          <div class="date">Posted 12-Jun-2026</div>
-          <a href="<?= $base ?>career#open-positions" class="btn btn-outline-light">Learn More</a>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
   <!-- WHY US -->
   <section class="why">

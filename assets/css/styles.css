@@ -707,7 +707,12 @@
   .jobs .section-head h2{color:var(--white);}
   .jobs .section-head p{color:rgba(255,255,255,.6);}
   .jobs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .jobs-carousel{position:relative;display:flex;align-items:center;gap:15px;}
+  .jobs-slider{display:flex;gap:24px;overflow-x:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;width:100%;padding-bottom:10px;scrollbar-width:none;}
+  .jobs-slider::-webkit-scrollbar{display:none;}
   .job-card{
+    flex:0 0 calc(33.333% - 16px);
+    scroll-snap-align:start;
     border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:30px;
     display:flex;flex-direction:column;gap:18px;min-height:300px;
     background:rgba(255,255,255,.03);transition:border-color .25s ease, transform .25s ease;
@@ -718,8 +723,15 @@
   .job-card .role{font-size:13px;color:rgba(255,255,255,.6);font-weight:600;}
   .job-card .date{font-size:13px;color:rgba(255,255,255,.45);margin-top:auto;}
   .job-card .btn{margin-top:0;width:100%;justify-content:center;}
+  .jobs-arrow{
+    width:50px;height:50px;border:none;border-radius:50%;background:var(--lime);color:var(--white);font-size:22px;
+    cursor:pointer;flex-shrink:0;transition:.25s;
+  }
+  .jobs-arrow:hover{transform:scale(1.08);} 
   @media (max-width:1000px){.jobs-grid{grid-template-columns:1fr 1fr;}}
   @media (max-width:560px){.jobs-grid{grid-template-columns:1fr;}}
+  @media(max-width:992px){.job-card{flex:0 0 calc(50% - 12px);}}
+  @media(max-width:600px){.job-card{flex:0 0 100%;}.jobs-arrow{width:42px;height:42px;font-size:18px;}}
 
   /* ===== HIRE TALENT SPLIT ===== */
   .split{
