@@ -20,10 +20,10 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="life-gallery">
       <div><img src="assets/images/aitlife/life1.jpg" alt=""></div>
-      <div><img src="assets/images/aitlife/life2.JPG" alt=""></div>
-      <div><img src="assets/images/aitlife/life3.JPG" alt=""></div>
+      <div><img src="assets/images/aitlife/life2.jpg" alt=""></div>
+      <div><img src="assets/images/aitlife/life3.jpg" alt=""></div>
       <div><img src="assets/images/aitlife/adhiran.jpeg" alt=""></div>
-      <div><img src="assets/images/aitlife/life5.JPG" alt=""></div>
+      <div><img src="assets/images/aitlife/life5.jpg" alt=""></div>
       <div><img src="assets/images/aitlife/life4.jpg" alt=""></div>
     </div>
   </div>
