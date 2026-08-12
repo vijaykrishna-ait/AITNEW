@@ -70,7 +70,7 @@
             <h4>Careers</h4>
             <ul>
               <li><a href="<?= $base ?>career">Careers Overview</a></li>
-              <li><a href="<?= $base ?>#jobs">Explore Job Opportunities</a></li>
+              <li><a href="<?= $base ?>career#open-positions">Explore Job Opportunities</a></li>
               <li><a href="<?= $base ?>contact">Contact Us</a></li>
             </ul>
           </div>

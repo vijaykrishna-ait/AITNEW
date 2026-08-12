@@ -6,6 +6,15 @@ $page_desc    = $page_desc    ?? SITE_DESCRIPTION;
 $page_keywords= $page_keywords?? SITE_KEYWORDS;
 $page_canonical = $page_canonical ?? (SITE_URL . '/');
 $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
+
+/* Pages that load the shared UI enhancement layer (ui.css / ui.js) plus their
+   own page-specific assets. Add a page here once it has been upgraded. */
+$enhanced_pages = ['home', 'contact', 'about', 'life-with-ait'];
+$is_enhanced    = in_array($current_page, $enhanced_pages, true);
+
+/* Page-specific assets are optional — a page may need only the shared layer. */
+$page_css = $is_enhanced && is_file(__DIR__ . "/../assets/css/{$current_page}.css");
+$page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,17 +55,38 @@ $base = BASE_URL ?? '';   // '' for root pages, '../' for subfolder pages
 
 <link rel="shortcut icon" href="<?= $base ?>assets/icons/favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<?php if ($current_page === 'home'): ?>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="preload" as="image" href="<?= $base ?>assets/images/index/hero.jpg" fetchpriority="high">
+<?php elseif ($current_page === 'contact'): ?>
+<link rel="preload" as="image" href="<?= $base ?>assets/images/contact/contact-banner.jpeg" fetchpriority="high">
+<?php elseif ($current_page === 'about'): ?>
+<link rel="preload" as="image" href="<?= $base ?>assets/images/about/about-hero.jpg" fetchpriority="high">
+<?php endif; ?>
 
-<script src="https://cdn.jsdelivr.net/npm/motion@12.40.0/dist/motion.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/motion@12.40.0/dist/motion.min.js"></script>
 
 <link rel="stylesheet" href="<?= $base ?>assets/css/styles.css">
-<script src="<?= $base ?>assets/js/animations.js"></script>
-<script src="<?= $base ?>assets/js/script.js"></script>
+<?php if ($is_enhanced): ?>
+<link rel="stylesheet" href="<?= $base ?>assets/css/ui.css">
+<?php if ($page_css): ?><link rel="stylesheet" href="<?= $base ?>assets/css/<?= $current_page ?>.css"><?php endif; ?>
+<?php endif; ?>
+<script defer src="<?= $base ?>assets/js/animations.js"></script>
+<script defer src="<?= $base ?>assets/js/script.js"></script>
+<?php if ($is_enhanced): ?>
+<script defer src="<?= $base ?>assets/js/ui.js"></script>
+<?php if ($page_js): ?><script defer src="<?= $base ?>assets/js/<?= $current_page ?>.js"></script><?php endif; ?>
+<?php endif; ?>
 
 
 </head>
-<body>
+<body<?= $is_enhanced ? ' data-enhanced="true"' : '' ?>>
+
+<?php if ($is_enhanced): ?>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+<?php endif; ?>
 
   <div class="topbar">
     <div class="wrap">

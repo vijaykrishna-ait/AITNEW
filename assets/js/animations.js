@@ -25,10 +25,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /* ----------------------------------------------------------
+    Pages that ship their own reveal/hover layer (currently the home
+    page, via home.js) opt out here. Without this, sections and cards
+    are animated twice — the JS transform also overrides the CSS
+    :hover transitions in styles.css.
+    ---------------------------------------------------------- */
+
+    const enhanced = document.body.dataset.enhanced === "true";
+
+    /* ----------------------------------------------------------
     Sections to animate
     ---------------------------------------------------------- */
 
-    document.querySelectorAll("section").forEach(selector => {
+    if (!enhanced) document.querySelectorAll("section").forEach(selector => {
         inView(selector, element => {
             animate(
                 element,
@@ -81,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const cardSelectors = '.reach-card, .cs-card, .cl-card, .de-card, .ai-card, .usecase-card, .value-card, .leader-card, .story-card, .hero-card, .region-card, .ind-card, .case-card, .form-card, .supply-card, .ed-card, .eduuse-card, .es-why-card, .why-hire-card, .tech-detail-card, .engage-card, .benefit-card, .outing-card, .testi-card, .ls-card, .compliance-card, .article-card, .floating-card, .expert-card';
 
-    document.querySelectorAll(cardSelectors).forEach(card => {
+    if (!enhanced) document.querySelectorAll(cardSelectors).forEach(card => {
         const label = card.querySelector(".label");
         const hoverDuration = reducedMotion ? 0 : 0.3;
 

@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const accordionHeaders = document.querySelectorAll('.mobile-accordion-header');
   const body = document.body;
 
+  // Pages that ship their own accessible tab/reveal layer (home.js) opt out of
+  // the click-only implementations below, so nothing is bound twice.
+  const isEnhanced = body.dataset.enhanced === 'true';
+
   // 1. Toggle Mobile Menu
   if (hamburger && mobileMenu) {
     hamburger.addEventListener('click', () => {
@@ -99,9 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
   initIndustriesAccordion();
 
   // Industries interactive list
+  // Skipped where an accessible implementation exists (home.js), which also
+  // keeps aria-selected/tabindex in sync — this one only toggles classes.
   const indRows = document.querySelectorAll('.ind-row');
   const indPanes = document.querySelectorAll('.ind-visual .pane');
-  indRows.forEach(row => {
+  if (!isEnhanced) indRows.forEach(row => {
     row.addEventListener('mouseenter', () => {
       indRows.forEach(r => r.classList.remove('active'));
       row.classList.add('active');
@@ -136,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const solTabs = document.querySelectorAll('.sol-tab');
   const solPanels = document.querySelectorAll('.sol-panel');
-  solTabs.forEach(tab => {
+  if (!isEnhanced) solTabs.forEach(tab => {
     tab.addEventListener('click', () => {
       solTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
@@ -148,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Services tabs
   const svcTabs = document.querySelectorAll('.svc-tab');
   const svcPanels = document.querySelectorAll('.svc-panels');
-  svcTabs.forEach(tab => {
+  if (!isEnhanced) svcTabs.forEach(tab => {
     tab.addEventListener('click', () => {
       svcTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
@@ -232,8 +238,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Form validation
+  // NOTE: this handler never sent anything — it preventDefault()ed, waited 2s
+  // and alert()ed success. Enhanced pages (contact.js) submit to send-mail.php
+  // for real and report the server's actual response, so they opt out here.
   const form = document.getElementById('contactForm');
-  if (form) {
+  if (form && !isEnhanced) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       let valid = true;
@@ -585,17 +594,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const next = document.querySelector(".jobs-arrow.next");
   const prev = document.querySelector(".jobs-arrow.prev");
 
-  next.addEventListener("click", () => {
-    slider.scrollBy({
-      left: slider.clientWidth,
-      behavior: "smooth"
+  // Guarded: without this, every page that has no jobs carousel threw a
+  // TypeError here and aborted the rest of this DOMContentLoaded block.
+  if (slider && next && prev) {
+    next.addEventListener("click", () => {
+      slider.scrollBy({
+        left: slider.clientWidth,
+        behavior: "smooth"
+      });
     });
-  });
 
-  prev.addEventListener("click", () => {
-    slider.scrollBy({
-      left: -slider.clientWidth,
-      behavior: "smooth"
+    prev.addEventListener("click", () => {
+      slider.scrollBy({
+        left: -slider.clientWidth,
+        behavior: "smooth"
+      });
     });
-  });
+  }
 });

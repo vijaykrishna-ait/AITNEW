@@ -347,6 +347,13 @@ include 'includes/header.php';
   </div>
 </section>
 
+<?php /* ============================================================
+   COMMENTED OUT - CLIENT TESTIMONIALS (duplicated across 17 pages)
+   The identical three quotes (Dr. Jerriton Brewin / Bharath / Manoj) appear verbatim on 13 hire-* pages, all sharing one generic assets/images/testimonial.png avatar, and are topically unrelated to the page they sit on - a MedTech quote about medical device systems on a "Hire Angular Developer" page. These quotes look genuine (it-consulting.php carries a richer, industry-varied set from the same pool, and was deliberately left alone), so the problem is duplication and relevance, not authenticity. VERIFY: restore them on the pages they actually relate to rather than on all 13.
+   Markup below is kept verbatim and unchanged. To restore, delete
+   this header and the two PHP comment markers around the block.
+   ============================================================ */ ?>
+<?php /*
 <section class="">
   <div class="wrap">
     <div class="section-head">
@@ -384,6 +391,7 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+*/ ?>
 
 <section class="cta">
   <div class="wrap">

@@ -1,0 +1,100 @@
+/* ==========================================================================
+   ABOUT PAGE STYLES
+   Loaded only on about.php, after ui.css.
+   Shared foundations (focus, reduced motion, reveal, header state, floating
+   contact, magnetic buttons) live in ui.css.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. HERO
+   -------------------------------------------------------------------------- */
+.hero-navy .hero-stats{gap:36px;}
+.hero-navy .hero-stats>.stat{
+  position:relative;padding:4px 8px 4px 0;border-radius:10px;cursor:help;
+}
+.hero-navy .hero-stats>.stat:focus-visible{outline-color:var(--lime);outline-offset:6px;}
+
+/* Beats `.hero-navy .hero-stats div span` (0,2,2) from styles.css */
+.hero-navy .hero-stats .stat .stat-proof{
+  position:absolute;left:0;top:calc(100% + 10px);z-index:20;
+  width:max-content;max-width:270px;
+  background:var(--white);color:var(--navy);
+  font-family:'Inter',sans-serif;font-size:12.5px;line-height:1.55;font-weight:500;
+  padding:11px 15px;border-radius:10px;text-transform:none;letter-spacing:normal;
+  box-shadow:0 20px 44px -18px rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;transform:translateY(-6px);
+  transition:opacity .22s ease, transform .22s ease, visibility .22s;
+}
+.hero-navy .hero-stats .stat .stat-proof::before{
+  content:"";position:absolute;top:-5px;left:18px;
+  width:10px;height:10px;background:var(--white);transform:rotate(45deg);
+}
+.hero-navy .hero-stats>.stat:hover .stat-proof,
+.hero-navy .hero-stats>.stat:focus-visible .stat-proof,
+.hero-navy .hero-stats>.stat:focus-within .stat-proof{
+  opacity:1;visibility:visible;transform:translateY(0);
+}
+
+.about-hero-img img{will-change:transform;}
+.about-hero-visual{--about-parallax:0px;}
+.about-hero-img{transform:translate3d(0,var(--about-parallax),0);}
+
+.hero-navy .hero-actions{display:flex;gap:16px;flex-wrap:wrap;margin:6px 0 34px;}
+
+/* --------------------------------------------------------------------------
+   3. VISION / MISSION
+   -------------------------------------------------------------------------- */
+.vm-img img{transition:transform .6s cubic-bezier(.22,.61,.36,1);}
+.vm-img:hover img{transform:scale(1.04);}
+.vm-content .tag{transition:background .25s ease, color .25s ease;}
+
+/* --------------------------------------------------------------------------
+   4. CORE VALUES
+   -------------------------------------------------------------------------- */
+.value-card{
+  transition:transform .28s cubic-bezier(.22,.61,.36,1),
+             box-shadow .28s ease, border-color .28s ease;
+}
+.value-card .ico{
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1), box-shadow .3s ease;
+}
+.value-card:hover .ico{
+  transform:translateY(-3px) rotate(-6deg);
+  box-shadow:0 12px 24px -12px rgba(11,42,74,.45);
+}
+.value-card svg{transition:transform .3s cubic-bezier(.34,1.56,.64,1);}
+.value-card:hover svg{transform:scale(1.12);}
+
+/* --------------------------------------------------------------------------
+   5. LEADERSHIP
+   -------------------------------------------------------------------------- */
+.leader-card .photo{
+  position:relative;
+  transition:transform .3s cubic-bezier(.22,.61,.36,1), box-shadow .3s ease;
+}
+.leader-card:hover .photo{
+  transform:translateY(-6px);
+  box-shadow:0 26px 50px -26px rgba(11,42,74,.5);
+}
+.leader-card .photo img{transition:transform .6s cubic-bezier(.22,.61,.36,1);}
+.leader-card:hover .photo img{transform:scale(1.05);}
+/* The four portraits have different native ratios (from 612x640 to 1088x1445),
+   so a fixed ratio + top-biased crop keeps faces consistently framed. */
+.leader-card .photo img{object-position:50% 18%;}
+
+.leader-links{
+  display:flex;justify-content:center;margin-top:22px;
+}
+.leader-links a{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:600;color:var(--navy);
+  background:var(--white);border:1.5px solid var(--line);
+  padding:11px 22px;border-radius:999px;
+  transition:border-color .22s ease, transform .22s ease, box-shadow .22s ease;
+}
+.leader-links a:hover{
+  border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 14px 30px -18px rgba(11,42,74,.4);
+}
+.leader-links svg{color:var(--blue);}
+

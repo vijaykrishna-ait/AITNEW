@@ -1,0 +1,96 @@
+/* ==========================================================================
+   LIFE WITH AIT — PAGE STYLES
+   Loaded only on life-with-ait.php, after ui.css.
+   Shared foundations (focus, reduced motion, reveal, header state, section
+   nav, gallery lightbox, floating contact, magnetic buttons) live in ui.css.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. HERO
+   -------------------------------------------------------------------------- */
+.lwa-hero .hero-actions{
+  display:flex;gap:16px;flex-wrap:wrap;margin-top:30px;
+}
+.lwa-hero-facts{
+  display:flex;flex-wrap:wrap;gap:14px 40px;
+  list-style:none;padding:28px 0 0;
+  margin-top:36px;
+  border-top:1px solid var(--line);
+  max-width:900px;
+}
+.lwa-hero-facts li{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:600;color:var(--navy);
+}
+.lwa-hero-facts svg{color:var(--blue);flex-shrink:0;}
+
+/* --------------------------------------------------------------------------
+   2. BENEFITS
+   -------------------------------------------------------------------------- */
+.benefit-card{
+  transition:transform .28s cubic-bezier(.22,.61,.36,1),
+             box-shadow .28s ease, border-color .28s ease;
+}
+.benefit-card .ico{
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1), box-shadow .3s ease;
+}
+.benefit-card:hover .ico{
+  transform:translateY(-3px) rotate(-6deg);
+  box-shadow:0 12px 24px -12px rgba(11,42,74,.45);
+}
+.benefit-card svg{transition:transform .3s cubic-bezier(.34,1.56,.64,1);}
+.benefit-card:hover svg{transform:scale(1.12);}
+/* Several headings ship with a trailing colon and several without — trim the
+   inconsistency visually rather than editing eight strings of copy. */
+.benefit-card h3{line-height:1.35;}
+
+/* --------------------------------------------------------------------------
+   3. TEAM OUT
+   -------------------------------------------------------------------------- */
+.outing-card{
+  display:flex;flex-direction:column;
+}
+.outing-card-body{flex:1;}
+/* Windows has no emoji flag glyphs — the regional-indicator pair falls back to
+   two letters. Chipping it keeps that fallback looking deliberate. */
+.outing-card .loc-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  align-self:flex-start;
+}
+.outing-card .loc-flag{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:30px;height:21px;padding:0 5px;
+  background:var(--sky);border:1px solid var(--line);border-radius:5px;
+  font-family:'Sora',sans-serif;font-size:13px;font-weight:800;letter-spacing:.04em;
+  line-height:1;
+}
+
+/* --------------------------------------------------------------------------
+   4. TESTIMONIALS
+   -------------------------------------------------------------------------- */
+.testi-card{
+  position:relative;
+  transition:transform .28s cubic-bezier(.22,.61,.36,1),
+             box-shadow .28s ease, border-color .28s ease;
+}
+.testi-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 24px 50px -28px rgba(11,42,74,.32);
+}
+.testi-card .quote-mark{
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1), opacity .3s ease;
+  opacity:.85;
+}
+.testi-card:hover .quote-mark{transform:translateY(-2px) scale(1.08);opacity:1;}
+/* The quote is now a <blockquote><p>, so the blockquote is the flex child —
+   styles.css puts `flex:1` on `.testi-card p`, which no longer reaches it. */
+.testi-card blockquote{flex:1;margin:0;border:0;padding:0;}
+.testi-card .who{margin-top:auto;}
+.testi-card .who span{color:var(--gray);}
+
+/* --------------------------------------------------------------------------
+   5. GALLERY SECTION SPACING
+   The gallery sits directly under the hero with padding-top:0, so it needs a
+   heading of its own rather than floating free.
+   -------------------------------------------------------------------------- */
+.lwa-gallery .section-head{margin-bottom:34px;}

@@ -25,6 +25,13 @@ include 'includes/header.php';
 </section>
 
 <!-- LEADERSHIP TABS & GRIDS -->
+<?php /* ============================================================
+   COMMENTED OUT - LEADERSHIP ROSTER (Leadership by region)
+   Thirteen named executives on Unsplash stock photos, reusing the SAME photo IDs as other invented profiles - photo-1560250097 appears as both "Vijay Krishna, Founder & CEO" here and "Rajesh Iyer, Cloud & DevOps" on the homepage marquee. The real leadership team, with real local photos, is already on about.php #leadership (Karthikeyan, Premkumar, Selvi, Kalaivani).
+   Markup below is kept verbatim and unchanged. To restore, delete
+   this header and the two PHP comment markers around the block.
+   ============================================================ */ ?>
+<?php /*
 <section>
   <div class="wrap">
     <div class="section-head">
@@ -222,6 +229,7 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+*/ ?>
 
 <!-- CTA -->
 <section class="cta" id="contact">

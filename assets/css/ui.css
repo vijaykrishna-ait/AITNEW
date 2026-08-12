@@ -1,0 +1,307 @@
+/* ==========================================================================
+   SHARED UI ENHANCEMENT LAYER
+   Loaded on every enhanced page (see $enhanced_pages in includes/header.php).
+   Layers on top of styles.css — does not replace any existing rule.
+   Page-specific styling lives in home.css / contact.css.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. ACCESSIBILITY FOUNDATIONS
+   -------------------------------------------------------------------------- */
+
+/* Visible keyboard focus. styles.css ships exactly one :focus rule site-wide. */
+:focus-visible{
+  outline:3px solid var(--blue);
+  outline-offset:3px;
+  border-radius:6px;
+}
+.jobs :focus-visible,
+.cta :focus-visible{
+  outline-color:var(--lime);
+}
+
+.skip-link{
+  position:absolute;left:-9999px;top:0;z-index:200;
+  background:var(--navy);color:var(--white);
+  padding:12px 20px;border-radius:0 0 10px 0;
+  font-family:'Sora',sans-serif;font-weight:700;font-size:14px;
+}
+.skip-link:focus{left:0;}
+
+.visually-hidden{
+  position:absolute!important;width:1px;height:1px;
+  padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;border:0;
+}
+
+/* Reduced motion. styles.css has no prefers-reduced-motion block at all, and
+   runs permanent infinite animations (.experts-track 45s, .step-num 6s). */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.01ms!important;
+    scroll-behavior:auto!important;
+  }
+  html{scroll-behavior:auto!important;}
+  .experts-track{animation:none!important;transform:none!important;}
+  .reveal{opacity:1!important;transform:none!important;}
+}
+
+/* --------------------------------------------------------------------------
+   2. READING PROGRESS
+   -------------------------------------------------------------------------- */
+.reading-progress{
+  position:fixed;top:0;left:0;right:0;height:3px;z-index:120;
+  background:transparent;pointer-events:none;
+}
+.reading-progress span{
+  display:block;height:100%;width:100%;
+  transform:scaleX(0);transform-origin:0 50%;
+  background:linear-gradient(90deg,var(--blue),var(--lime));
+  will-change:transform;
+}
+
+/* --------------------------------------------------------------------------
+   3. HEADER SCROLL STATE
+   -------------------------------------------------------------------------- */
+header{transition:box-shadow .3s ease, background-color .3s ease;}
+header nav{transition:padding .3s ease;}
+.logo img{transition:height .3s ease;}
+body.is-scrolled header{
+  background:rgba(255,255,255,.94);
+  box-shadow:0 8px 30px -14px rgba(11,42,74,.28);
+}
+body.is-scrolled header nav{padding-top:10px;padding-bottom:10px;}
+body.is-scrolled .logo img{height:46px!important;}
+
+/* --------------------------------------------------------------------------
+   4. SCROLL REVEAL
+   Content is visible by default — .reveal is added by ui.js, so a JS failure
+   or a crawler never sees a blank page.
+   -------------------------------------------------------------------------- */
+.reveal{
+  opacity:0;transform:translateY(24px);
+  transition:opacity .6s cubic-bezier(.22,.61,.36,1),
+             transform .6s cubic-bezier(.22,.61,.36,1);
+  will-change:opacity,transform;
+}
+.reveal.is-visible{opacity:1;transform:none;}
+.reveal-stagger>*{
+  opacity:0;transform:translateY(20px);
+  transition:opacity .5s cubic-bezier(.22,.61,.36,1),
+             transform .5s cubic-bezier(.22,.61,.36,1);
+}
+.reveal-stagger.is-visible>*{opacity:1;transform:none;}
+
+/* --------------------------------------------------------------------------
+   5. BUTTON FIXES
+   -------------------------------------------------------------------------- */
+/* White on #F5871F is 2.5:1 (WCAG AA fail). Navy on the same orange is 5.7:1. */
+.btn-lime{color:var(--navy);font-weight:700;}
+.btn-lime:hover{background:var(--white);color:var(--navy);}
+
+/* rgba(255,255,255,.6) on the navy hero is ~4.4:1 at 13px — under the 4.5:1
+   AA threshold for body text. .75 clears it comfortably. */
+.hero-navy .hero-stats div span,
+.hero-navy p.lead{color:rgba(255,255,255,.82);}
+
+/* Magnetic CTAs — pointer devices only, small displacement */
+@media (hover:hover) and (pointer:fine){
+  .btn-magnetic{
+    will-change:transform;
+    transition:transform .25s cubic-bezier(.22,.61,.36,1), background .25s ease, color .25s ease;
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .btn-magnetic{transform:none!important;}
+}
+
+/* --------------------------------------------------------------------------
+   6. FLOATING CONTACT (shared component)
+   -------------------------------------------------------------------------- */
+.float-contact{
+  position:fixed;right:22px;bottom:96px;z-index:105;
+  display:flex;flex-direction:column-reverse;align-items:flex-end;gap:12px;
+}
+body:not(.has-sticky-cta) .float-contact{bottom:28px;}
+.float-toggle{
+  width:56px;height:56px;border:none;border-radius:50%;cursor:pointer;
+  background:var(--navy);color:var(--white);
+  display:inline-flex;align-items:center;justify-content:center;
+  box-shadow:0 16px 34px -12px rgba(11,42,74,.55);
+  transition:transform .28s cubic-bezier(.34,1.56,.64,1), background .25s ease;
+}
+.float-toggle:hover{transform:scale(1.07);background:var(--blue-deep);}
+.float-toggle svg{transition:transform .3s ease;}
+.float-contact.is-open .float-toggle svg{transform:rotate(135deg);}
+.float-actions{
+  display:flex;flex-direction:column;gap:10px;align-items:flex-end;
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .25s ease, transform .25s ease, visibility .25s;
+}
+.float-contact.is-open .float-actions{opacity:1;visibility:visible;transform:none;}
+.float-action{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--white);color:var(--navy);
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:600;
+  padding:11px 18px;border-radius:999px;
+  border:1px solid var(--line);
+  box-shadow:0 12px 28px -14px rgba(11,42,74,.4);
+  transition:transform .22s ease, border-color .22s ease;
+  white-space:nowrap;
+}
+.float-action:hover{transform:translateX(-4px);border-color:var(--blue);}
+.float-action svg{color:var(--blue);flex-shrink:0;}
+@media (max-width:700px){
+  .float-contact{right:16px;bottom:88px;}
+  .float-toggle{width:50px;height:50px;}
+}
+
+/* --------------------------------------------------------------------------
+   7. STICKY SECTION NAV (any page with #sectionNav)
+   --header-h is measured and kept current by ui.js, because the sticky site
+   header changes height once the page is scrolled.
+   -------------------------------------------------------------------------- */
+.section-nav{
+  position:sticky;top:var(--header-h,78px);z-index:40;
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  transition:box-shadow .3s ease;
+}
+body.is-scrolled .section-nav{box-shadow:0 8px 26px -18px rgba(11,42,74,.35);}
+.section-nav ul{
+  max-width:1400px;margin:0 auto;padding:0 32px;
+  list-style:none;display:flex;gap:4px;
+  overflow-x:auto;scrollbar-width:none;
+}
+.section-nav ul::-webkit-scrollbar{display:none;}
+.section-nav a{
+  position:relative;display:block;white-space:nowrap;
+  padding:16px 18px;
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:600;
+  color:var(--gray);
+  transition:color .22s ease;
+}
+.section-nav a::after{
+  content:"";position:absolute;left:18px;right:18px;bottom:0;height:3px;
+  background:var(--blue);border-radius:3px 3px 0 0;
+  transform:scaleX(0);transform-origin:50% 50%;
+  transition:transform .3s cubic-bezier(.22,.61,.36,1);
+}
+.section-nav a:hover{color:var(--navy);}
+.section-nav a[aria-current="true"]{color:var(--blue-deep);}
+.section-nav a[aria-current="true"]::after{transform:scaleX(1);}
+@media (max-width:700px){
+  .section-nav ul{padding:0 18px;}
+  .section-nav a{padding:14px 13px;font-size:13px;}
+}
+
+
+/* --------------------------------------------------------------------------
+   8. GALLERY + LIGHTBOX (about.php, life-with-ait.php)
+   -------------------------------------------------------------------------- */
+/* styles.css defines .life-gallery TWICE — once around line 983 targeting
+   `.life-gallery div` (rows 160px) and again around line 1994 targeting
+   `.life-gallery a` (rows 180px). The markup uses <div>, so every item rule in
+   the second copy is dead code, yet its bare `.life-gallery` declaration still
+   wins on row height. Pin the values here so the result is deterministic
+   instead of depending on which duplicate happens to come last. */
+.life-gallery{grid-template-rows:repeat(2,180px);}
+
+/* Both copies scope the mobile row-span reset to `a`, which matches nothing —
+   so items 1 and 4 kept spanning two rows and overflowed the 3-row grid. */
+@media (max-width:900px){
+  .life-gallery{grid-template-rows:repeat(3,160px);}
+  .life-gallery div:nth-child(1),
+  .life-gallery div:nth-child(4){grid-row:span 1;}
+}
+
+.life-gallery div{background:var(--sky-2);}
+.life-zoom{
+  position:absolute;inset:0;z-index:2;
+  width:100%;height:100%;padding:0;border:none;cursor:zoom-in;
+  background:transparent;
+  display:flex;align-items:flex-end;justify-content:flex-end;
+}
+.life-zoom::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(11,42,74,0) 55%,rgba(11,42,74,.6) 100%);
+  opacity:0;transition:opacity .3s ease;
+}
+.life-zoom .zoom-ico{
+  position:relative;z-index:1;margin:14px;
+  width:36px;height:36px;border-radius:50%;
+  background:var(--white);color:var(--navy);
+  display:inline-flex;align-items:center;justify-content:center;
+  opacity:0;transform:translateY(6px) scale(.9);
+  transition:opacity .3s ease, transform .3s cubic-bezier(.34,1.56,.64,1);
+}
+.life-gallery div:hover .life-zoom::before,
+.life-zoom:focus-visible::before{opacity:1;}
+.life-gallery div:hover .zoom-ico,
+.life-zoom:focus-visible .zoom-ico{opacity:1;transform:none;}
+.life-zoom:focus-visible{outline:3px solid var(--lime);outline-offset:-3px;}
+
+/* Lightbox */
+.lightbox{
+  position:fixed;inset:0;z-index:200;
+  display:flex;align-items:center;justify-content:center;
+  padding:24px;
+  background:rgba(6,20,38,.92);
+  backdrop-filter:blur(6px);
+  opacity:0;transition:opacity .25s ease;
+}
+.lightbox[hidden]{display:none;}
+.lightbox.is-open{opacity:1;}
+.lightbox-figure{
+  position:relative;margin:0;
+  max-width:min(1100px,100%);max-height:100%;
+  display:flex;flex-direction:column;gap:14px;align-items:center;
+}
+.lightbox-figure img{
+  max-width:100%;max-height:74vh;width:auto;height:auto;
+  border-radius:16px;object-fit:contain;
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.8);
+  transform:scale(.97);transition:transform .28s cubic-bezier(.22,.61,.36,1);
+}
+.lightbox.is-open .lightbox-figure img{transform:none;}
+.lightbox figcaption{
+  color:rgba(255,255,255,.85);font-size:14.5px;line-height:1.55;
+  text-align:center;max-width:680px;
+}
+.lightbox-count{
+  display:block;margin-top:6px;
+  font-family:'Sora',sans-serif;font-size:12.5px;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);
+}
+.lightbox-btn{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:48px;height:48px;border:none;border-radius:50%;cursor:pointer;
+  background:rgba(255,255,255,.14);color:var(--white);
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:background .22s ease, transform .22s ease;
+}
+.lightbox-btn:hover{background:rgba(255,255,255,.28);}
+.lightbox-btn.prev{left:-8px;}
+.lightbox-btn.next{right:-8px;}
+.lightbox-btn:hover.prev{transform:translateY(-50%) scale(1.08);}
+.lightbox-btn:hover.next{transform:translateY(-50%) scale(1.08);}
+.lightbox-close{
+  position:absolute;top:18px;right:18px;
+  width:44px;height:44px;border:none;border-radius:50%;cursor:pointer;
+  background:rgba(255,255,255,.14);color:var(--white);
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:background .22s ease, transform .22s ease;
+}
+.lightbox-close:hover{background:rgba(255,255,255,.28);transform:rotate(90deg);}
+.lightbox :focus-visible{outline:3px solid var(--lime);outline-offset:3px;}
+@media (max-width:760px){
+  .lightbox{padding:16px;}
+  .lightbox-btn{width:42px;height:42px;}
+  .lightbox-btn.prev{left:0;}
+  .lightbox-btn.next{right:0;}
+  .lightbox-figure img{max-height:62vh;}
+}
+body.lightbox-open{overflow:hidden;}

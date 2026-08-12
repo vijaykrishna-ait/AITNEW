@@ -1,0 +1,300 @@
+/* ==========================================================================
+   CONTACT PAGE STYLES
+   Loaded only on contact.php, after ui.css.
+   Shared foundations (focus, reduced motion, reveal, header state, floating
+   contact, magnetic buttons) live in ui.css.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. HERO — direct contact channels
+   -------------------------------------------------------------------------- */
+.contact-channels{
+  list-style:none;margin:34px 0 0;padding:0;
+  display:flex;flex-wrap:wrap;gap:12px 14px;
+}
+.contact-channels a{
+  display:inline-flex;align-items:center;gap:12px;
+  background:var(--white);border:1.5px solid var(--line);
+  border-radius:14px;padding:12px 18px;
+  transition:border-color .22s ease, transform .22s ease, box-shadow .22s ease;
+}
+.contact-channels a:hover,
+.contact-channels a:focus-visible{
+  border-color:var(--blue);
+  transform:translateY(-3px);
+  box-shadow:0 16px 32px -20px rgba(11,42,74,.4);
+}
+.contact-channels .ch-ico{
+  width:38px;height:38px;flex-shrink:0;border-radius:11px;
+  background:var(--sky-2);color:var(--blue-deep);
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:background .22s ease, color .22s ease;
+}
+.contact-channels a:hover .ch-ico{background:var(--blue);color:var(--white);}
+.contact-channels .ch-text{
+  display:flex;flex-direction:column;line-height:1.35;
+  font-family:'Sora',sans-serif;font-size:14.5px;font-weight:700;color:var(--navy);
+}
+.contact-channels .ch-text small{
+  font-family:'Inter',sans-serif;font-size:11.5px;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--gray);
+}
+@media (max-width:520px){
+  .contact-channels{flex-direction:column;}
+  .contact-channels a{width:100%;}
+}
+
+/* --------------------------------------------------------------------------
+   2. FORM
+   -------------------------------------------------------------------------- */
+.form-wrapper{
+  padding:36px;
+  border:1px solid var(--line);
+  box-shadow:0 26px 60px -34px rgba(11,42,74,.28);
+}
+@media (max-width:560px){.form-wrapper{padding:24px;}}
+
+.form-group{position:relative;}
+.form-group label{
+  display:block;margin-bottom:7px;
+  font-family:'Sora',sans-serif;font-weight:600;
+  color:var(--navy);
+}
+.form-group .req{color:var(--lime);margin-left:2px;}
+
+/* Focus states — styles.css defines none for these fields */
+.form-group input,
+.form-group select,
+.form-group textarea{
+  transition:border-color .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.form-group input:hover,
+.form-group select:hover,
+.form-group textarea:hover{border-color:var(--blue-300);}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+  outline:none;
+  border-color:var(--blue);
+  background:var(--white);
+  box-shadow:0 0 0 3px rgba(23,104,214,.16);
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder{color:#93A3B3;}
+
+.form-group .field-hint{
+  font-size:.75rem;color:var(--gray);margin-top:5px;
+}
+/* An error replaces the hint rather than stacking under it */
+.form-group.error .field-hint{display:none;}
+.form-group.error input,
+.form-group.error select,
+.form-group.error textarea{
+  box-shadow:0 0 0 3px rgba(229,62,62,.12);
+}
+.form-group.success input,
+.form-group.success select,
+.form-group.success textarea{
+  box-shadow:0 0 0 3px rgba(56,161,105,.12);
+}
+.form-group .error-msg{
+  display:flex;align-items:center;gap:6px;
+}
+.form-group .error-msg::before{
+  content:"";flex-shrink:0;width:13px;height:13px;border-radius:50%;
+  background:#e53e3e;
+  -webkit-mask:no-repeat center/9px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M11 7h2v7h-2zm0 9h2v2h-2z'/%3E%3C/svg%3E");
+          mask:no-repeat center/9px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M11 7h2v7h-2zm0 9h2v2h-2z'/%3E%3C/svg%3E");
+}
+.form-group.error .error-msg{animation:fieldErrIn .25s ease both;}
+@keyframes fieldErrIn{from{opacity:0;transform:translateY(-3px);}to{opacity:1;transform:none;}}
+
+/* Honeypot — hidden from people, still reachable by bots */
+.hp-field{
+  position:absolute!important;left:-9999px;top:auto;
+  width:1px;height:1px;overflow:hidden;
+}
+
+.btn-submit{
+  font-family:'Sora',sans-serif;
+}
+.btn-submit:disabled{opacity:.65;cursor:progress;transform:none;box-shadow:none;}
+.btn-submit:disabled:hover{transform:none;box-shadow:none;}
+
+.form-privacy{
+  font-size:.8rem;color:var(--gray);margin-top:16px;max-width:420px;
+}
+.form-privacy a{color:var(--blue-deep);font-weight:600;text-decoration:underline;}
+
+/* Server response — replaces the old blocking alert() */
+.form-response{
+  display:none;margin-top:18px;padding:16px 18px;border-radius:14px;
+  font-size:14.5px;line-height:1.55;
+  border-left:3px solid transparent;
+}
+.form-response.show{display:block;animation:respIn .3s ease both;}
+.form-response.is-ok{background:#EAF7EF;color:#1E5B37;border-left-color:#38a169;}
+.form-response.is-error{background:#FDEDED;color:#8A2626;border-left-color:#e53e3e;}
+.form-response a{text-decoration:underline;font-weight:600;color:inherit;}
+@keyframes respIn{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:none;}}
+
+/* --------------------------------------------------------------------------
+   3. ASIDE — image card + what happens next
+   -------------------------------------------------------------------------- */
+.contact-aside{display:flex;flex-direction:column;gap:24px;}
+.aside-card{
+  background:var(--white);border:1px solid var(--line);
+  border-radius:20px;overflow:hidden;
+  box-shadow:0 26px 60px -34px rgba(11,42,74,.28);
+}
+.aside-card img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;}
+.aside-card .aside-body{padding:28px;}
+.aside-card h3{
+  font-family:'Sora',sans-serif;font-size:20px;font-weight:800;
+  color:var(--navy);margin-bottom:10px;
+}
+.aside-card p{color:var(--gray);font-size:15px;}
+
+.next-steps{
+  list-style:none;margin:0;padding:0;
+  display:flex;flex-direction:column;gap:4px;
+}
+.next-steps li{
+  display:flex;gap:16px;align-items:flex-start;
+  padding:16px 4px;border-bottom:1px solid var(--line);
+}
+.next-steps li:last-child{border-bottom:none;}
+.ns-num{
+  width:32px;height:32px;flex-shrink:0;border-radius:50%;
+  border:2px solid var(--blue);color:var(--blue);
+  display:inline-flex;align-items:center;justify-content:center;
+  font-family:'Sora',sans-serif;font-weight:800;font-size:14px;
+  transition:background .3s ease, color .3s ease;
+}
+.next-steps li:hover .ns-num{background:var(--blue);color:var(--white);}
+.next-steps b{
+  display:block;font-family:'Sora',sans-serif;font-size:15.5px;
+  font-weight:700;color:var(--navy);margin-bottom:3px;
+}
+.next-steps span{font-size:14px;color:var(--gray);}
+
+/* styles.css only stacks .contact-grid below 560px — one column is needed
+   well before that, or the form and aside are both unusably narrow. */
+@media (max-width:1000px){
+  .contact-grid{grid-template-columns:1fr;gap:40px;}
+}
+
+/* --------------------------------------------------------------------------
+   4. OFFICES
+   -------------------------------------------------------------------------- */
+.offices{background:var(--sky);}
+.supply-grid{grid-template-columns:repeat(3,1fr);}
+@media (max-width:1000px){.supply-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:560px){.supply-grid{grid-template-columns:1fr;}}
+
+.supply-card{
+  display:flex;flex-direction:column;
+  text-align:left;position:relative;
+  transition:border-color .25s ease, background .25s ease,
+             transform .25s ease, box-shadow .25s ease;
+}
+a.supply-card:hover,
+a.supply-card:focus-visible{
+  transform:translateY(-5px);
+  box-shadow:0 24px 50px -28px rgba(11,42,74,.4);
+}
+/* Cards without a destination page must not look clickable */
+div.supply-card{cursor:default;}
+div.supply-card:hover{border-color:var(--line);background:var(--white);transform:none;}
+
+/* Windows has no emoji flag glyphs — the regional-indicator pair falls back to
+   two letters. Chipping it keeps that fallback looking deliberate. */
+.supply-card .flag{
+  font-size:26px;line-height:1;margin-bottom:14px;
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:52px;height:38px;padding:0 10px;
+  background:var(--sky);border:1px solid var(--line);border-radius:9px;
+  font-family:'Sora',sans-serif;font-weight:800;letter-spacing:.06em;
+}
+.supply-card h3{margin-bottom:4px;}
+.supply-card .office-city{
+  font-size:13px;font-weight:600;color:var(--blue-deep);
+  letter-spacing:.04em;margin-bottom:10px;
+}
+.supply-card p{color:var(--gray);flex:1;}
+.supply-card .office-tag{
+  position:absolute;top:20px;right:20px;
+  font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--lime);color:var(--navy);
+  padding:5px 11px;border-radius:999px;
+}
+.supply-card .office-link{
+  margin-top:16px;
+  font-family:'Sora',sans-serif;font-size:13.5px;font-weight:700;color:var(--blue-deep);
+  display:inline-flex;align-items:center;gap:7px;
+}
+.supply-card .office-link span{transition:transform .25s ease;}
+a.supply-card:hover .office-link span,
+a.supply-card:focus-visible .office-link span{transform:translateX(4px);}
+.supply-card.is-hq{border-color:var(--blue-300);}
+
+/* --------------------------------------------------------------------------
+   5. FAQ ACCORDION
+   -------------------------------------------------------------------------- */
+.contact-faq{background:var(--white);}
+.faq-list{
+  max-width:860px;margin:0 auto;
+  border-top:1px solid var(--line);
+}
+.faq-item{border-bottom:1px solid var(--line);}
+.faq-item h3{margin:0;font-size:inherit;font-weight:inherit;}
+.faq-q{
+  width:100%;appearance:none;background:none;border:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+  padding:24px 4px;text-align:left;
+  font-family:'Sora',sans-serif;font-size:17px;font-weight:700;color:var(--navy);
+  transition:color .22s ease;
+}
+.faq-q:hover{color:var(--blue-deep);}
+.faq-icon{
+  position:relative;width:20px;height:20px;flex-shrink:0;
+}
+.faq-icon::before,
+.faq-icon::after{
+  content:"";position:absolute;inset:0;margin:auto;
+  background:var(--blue);border-radius:2px;
+  transition:transform .3s cubic-bezier(.22,.61,.36,1), opacity .3s ease;
+}
+.faq-icon::before{width:14px;height:2px;}
+.faq-icon::after{width:2px;height:14px;}
+.faq-q[aria-expanded="true"] .faq-icon::after{transform:rotate(90deg);opacity:0;}
+.faq-q[aria-expanded="true"]{color:var(--blue-deep);}
+
+/* visibility (delayed until the collapse finishes) keeps a closed answer out of
+   the tab order and the accessibility tree — max-height alone leaves its links
+   focusable. */
+.faq-a{
+  overflow:hidden;
+  max-height:0;
+  visibility:hidden;
+  transition:max-height .35s cubic-bezier(.22,.61,.36,1),
+             visibility 0s linear .35s;
+}
+.faq-a.is-open{
+  visibility:visible;
+  transition:max-height .35s cubic-bezier(.22,.61,.36,1),
+             visibility 0s linear 0s;
+}
+.faq-a p{
+  color:var(--gray);font-size:15.5px;line-height:1.7;
+  padding:0 4px 26px;max-width:720px;
+}
+.faq-a a{color:var(--blue-deep);font-weight:600;text-decoration:underline;}
+/* [hidden] is removed by JS before measuring; this keeps the closed state
+   correct if JS never runs — the answer simply stays visible. */
+.faq-a[hidden]{display:none;}
+
+/* --------------------------------------------------------------------------
+   6. FINAL CTA
+   -------------------------------------------------------------------------- */
+.cta .actions .btn{min-width:180px;justify-content:center;}

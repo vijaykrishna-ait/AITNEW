@@ -1,0 +1,515 @@
+/* ==========================================================================
+   HOME PAGE STYLES
+   Loaded only on index.php. Shared foundations (focus, reduced motion,
+   reveal, header state, floating contact, magnetic buttons) live in ui.css.
+   ========================================================================== */
+/* --------------------------------------------------------------------------
+   4. HERO
+   -------------------------------------------------------------------------- */
+.hero-photo img{
+  transform:scale(1.04);
+  will-change:transform;
+}
+.hero-visual{--hero-parallax:0px;}
+.hero-photo{transform:translate3d(0,var(--hero-parallax),0);}
+
+/* Restored floating cards — entrance sequence */
+.floating-card{
+  opacity:0;transform:translateY(14px) scale(.96);
+  animation:fcIn .55s cubic-bezier(.22,.61,.36,1) forwards;
+  z-index:3;
+}
+.fc-1{animation-delay:.35s;}
+.fc-2{animation-delay:.55s;}
+@keyframes fcIn{to{opacity:1;transform:translateY(0) scale(1);}}
+@media (prefers-reduced-motion: reduce){
+  .floating-card{opacity:1;transform:none;animation:none;}
+}
+
+/* Hero stats become focusable proof chips */
+.hero-stats>.stat{
+  position:relative;
+  padding:4px 8px 4px 0;
+  border-radius:10px;
+  cursor:help;
+}
+.hero-stats>.stat:focus-visible{outline-offset:6px;}
+/* Specificity must beat `.hero-stats div span` from styles.css (0,1,2),
+   which would otherwise force this tooltip to gray 13px text. */
+.hero-stats .stat .stat-proof{
+  position:absolute;left:0;top:calc(100% + 10px);z-index:20;
+  width:max-content;max-width:260px;
+  background:var(--navy);color:rgba(255,255,255,.92);
+  font-size:12.5px;line-height:1.5;font-family:'Inter',sans-serif;
+  padding:10px 14px;border-radius:10px;
+  box-shadow:0 18px 40px -16px rgba(11,42,74,.5);
+  opacity:0;visibility:hidden;transform:translateY(-6px);
+  transition:opacity .22s ease, transform .22s ease, visibility .22s;
+}
+.hero-stats .stat .stat-proof::before{
+  content:"";position:absolute;top:-5px;left:18px;
+  width:10px;height:10px;background:var(--navy);transform:rotate(45deg);
+}
+.hero-stats>.stat:hover .stat-proof,
+.hero-stats>.stat:focus-visible .stat-proof,
+.hero-stats>.stat:focus-within .stat-proof{
+  opacity:1;visibility:visible;transform:translateY(0);
+}
+@media (max-width:600px){
+  .stat-proof{max-width:220px;}
+}
+
+/* Honest trust strip — facts already stated elsewhere on this page */
+.trust-strip{
+  border-top:1px solid var(--line);
+  padding:22px 0 30px;
+  display:flex;align-items:center;gap:14px 40px;flex-wrap:wrap;
+}
+.trust-strip .label{
+  font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gray);
+}
+.trust-strip ul{
+  display:flex;gap:12px 28px;flex-wrap:wrap;list-style:none;margin:0;padding:0;
+}
+.trust-strip li{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:600;color:var(--navy);
+}
+.trust-strip li svg{color:var(--blue);flex-shrink:0;}
+
+/* --------------------------------------------------------------------------
+   5. SKILLS — filter chips + spotlight
+   -------------------------------------------------------------------------- */
+.skill-filters{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:10px;
+  margin:0 0 42px;
+}
+.skill-chip{
+  font-family:'Sora',sans-serif;font-size:13.5px;font-weight:600;
+  padding:9px 20px;border-radius:999px;cursor:pointer;
+  background:var(--white);color:var(--navy);
+  border:1.5px solid var(--line);
+  transition:background .22s ease,border-color .22s ease,color .22s ease,transform .22s ease;
+}
+.skill-chip:hover{border-color:var(--blue);transform:translateY(-2px);}
+.skill-chip[aria-pressed="true"]{
+  background:var(--navy);border-color:var(--navy);color:var(--white);
+}
+
+.skill-flat-grid{position:relative;}
+/* Spotlight follows the pointer across the grid (pointer devices only) */
+@media (hover:hover) and (pointer:fine){
+  .skill-flat-grid::before{
+    content:"";position:absolute;inset:-24px;border-radius:28px;pointer-events:none;
+    background:radial-gradient(340px circle at var(--spot-x,50%) var(--spot-y,50%),
+               rgba(23,104,214,.10), transparent 65%);
+    opacity:0;transition:opacity .35s ease;z-index:0;
+  }
+  .skill-flat-grid.is-spot::before{opacity:1;}
+}
+.skill-item{position:relative;z-index:1;transition:opacity .3s ease, transform .3s ease;}
+.skill-item .circle{transition:transform .28s cubic-bezier(.22,.61,.36,1),
+                               box-shadow .28s ease, border-color .28s ease, color .28s ease;}
+.skill-item svg{transition:transform .3s cubic-bezier(.34,1.56,.64,1);}
+.skill-item:hover svg,
+.skill-item:focus-visible svg{transform:scale(1.14);}
+.skill-item:focus-visible .circle{
+  transform:translateY(-6px);
+  box-shadow:0 14px 28px -14px rgba(11,42,74,.3);
+}
+.skill-item.is-filtered-out{
+  display:none;
+}
+.skill-count{
+  text-align:center;font-size:13.5px;color:var(--gray);margin-top:28px;
+}
+
+/* --------------------------------------------------------------------------
+   6. TABS (Solutions + Services) — indicator + crossfade
+   -------------------------------------------------------------------------- */
+.sol-tabs{position:relative;}
+/* styles.css already declares font-family/size/weight, background, border and
+   radius on .sol-tab — only the button-specific resets are needed here. */
+.sol-tab{
+  appearance:none;-webkit-appearance:none;
+  width:100%;text-align:left;
+  transition:border-color .25s ease,background .25s ease,color .25s ease,transform .25s ease;
+}
+.sol-tab .arrow{display:inline-block;transition:transform .25s ease;}
+.sol-tab:hover .arrow,
+.sol-tab[aria-selected="true"] .arrow{transform:translateX(5px);}
+
+.svc-tab{
+  appearance:none;background:none;font:inherit;text-align:left;
+  border-top:none;border-left:none;border-bottom:none;
+  width:100%;
+  position:relative;
+}
+.svc-tab::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;
+  background:var(--blue);transform:scaleX(0);transform-origin:50% 50%;
+  transition:transform .3s cubic-bezier(.22,.61,.36,1);
+}
+.svc-tab[aria-selected="true"]::after{transform:scaleX(1);}
+.svc-tab .ico{transition:background .25s ease,color .25s ease,transform .25s ease;}
+.svc-tab:hover .ico{transform:translateY(-2px);}
+.svc-tab:hover{background:var(--blue-50);}
+/* Hovering the selected tab must not wash out its active background */
+.svc-tab[aria-selected="true"]:hover{background:var(--blue-100);}
+
+/* Panel crossfade — applied by JS on switch */
+.panel-in{animation:panelIn .32s cubic-bezier(.22,.61,.36,1) both;}
+@keyframes panelIn{
+  from{opacity:0;transform:translateY(10px);}
+  to{opacity:1;transform:none;}
+}
+.panel-in>.svc-card{animation:panelCardIn .38s cubic-bezier(.22,.61,.36,1) both;}
+.panel-in>.svc-card:nth-child(1){animation-delay:.04s;}
+.panel-in>.svc-card:nth-child(2){animation-delay:.10s;}
+.panel-in>.svc-card:nth-child(3){animation-delay:.16s;}
+@keyframes panelCardIn{
+  from{opacity:0;transform:translateY(14px);}
+  to{opacity:1;transform:none;}
+}
+
+/* Service cards are now links.
+   Padding is left to styles.css below 901px so the mobile accordion is untouched. */
+.svc-card{
+  display:flex;flex-direction:column;
+  border-radius:14px;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.svc-card .svc-card-arrow{
+  margin-top:auto;padding-top:14px;
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:700;color:var(--blue-deep);
+  display:inline-flex;align-items:center;gap:7px;
+}
+.svc-card .svc-card-arrow span{transition:transform .25s ease;}
+.svc-card:hover .svc-card-arrow span,
+.svc-card:focus-visible .svc-card-arrow span{transform:translateX(4px);}
+@media (min-width:901px){
+  .svc-card{padding:20px;}
+  .svc-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 44px -26px rgba(11,42,74,.3);
+    background:var(--blue-50);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   7. HIRING STEPS — scroll-driven timeline replaces the 6s infinite loop
+   -------------------------------------------------------------------------- */
+.steps-row{overflow:visible;list-style:none;margin:60px 0 0;padding:0;}
+.steps-row .step::marker{content:none;}
+/* Kill the permanent loops from styles.css:553-568 */
+.steps .step-num,
+.steps .step h3{animation:none!important;}
+
+/* Progress line drawn on scroll */
+.steps-row::after{
+  content:"";position:absolute;top:30px;left:8%;height:2px;
+  width:calc(84% * var(--steps-progress, 0));
+  background:linear-gradient(90deg,var(--blue),var(--lime));
+  z-index:0;transition:width .5s cubic-bezier(.22,.61,.36,1);
+}
+@media (max-width:800px){
+  .steps-row::after{display:none;}
+}
+
+.steps .step-num{
+  transition:background .45s ease, color .45s ease,
+             transform .45s cubic-bezier(.22,.61,.36,1), box-shadow .45s ease;
+}
+.steps .step h3{transition:color .45s ease;}
+.steps .step.is-active .step-num{
+  background:var(--navy);color:var(--white);border-color:var(--navy);
+  transform:translateY(-4px) scale(1.06);
+  box-shadow:0 12px 28px -10px rgba(14,42,77,.45);
+}
+.steps .step.is-active h3{color:var(--blue-deep);}
+
+/* --------------------------------------------------------------------------
+   8. EXPERTS — pause affordance + edge masks
+   -------------------------------------------------------------------------- */
+.experts{position:relative;}
+.experts-track:hover,
+.experts-track:focus-within,
+.experts-track.is-paused{animation-play-state:paused;}
+.experts-viewport{
+  position:relative;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);
+}
+/* Kept in normal flow: the viewport below is edge-masked, so an overlaid
+   control would fade out with the cards. */
+.marquee-toggle-wrap{display:flex;justify-content:flex-end;margin:-14px 0 22px;}
+.marquee-toggle{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--white);border:1.5px solid var(--line);color:var(--navy);
+  font-family:'Sora',sans-serif;font-size:13px;font-weight:600;
+  padding:8px 16px;border-radius:999px;cursor:pointer;
+  transition:border-color .22s ease, transform .22s ease;
+}
+.marquee-toggle:hover{border-color:var(--blue);transform:translateY(-2px);}
+@media (max-width:700px){
+  .marquee-toggle-wrap{justify-content:center;margin:0 0 20px;}
+}
+
+/* --------------------------------------------------------------------------
+   9. GLOBAL REACH — bento mosaic
+   Overrides the horizontal drag-carousel defined in styles.css: all seven
+   locations sit in one asymmetric grid, so nothing is hidden off-screen.
+   India is the tall hero tile; USA and Australia are the wide tiles.
+   -------------------------------------------------------------------------- */
+#reach .reach-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  grid-auto-rows:clamp(168px,15.5vw,230px);
+  gap:18px;
+  overflow:visible;
+  padding-bottom:0;
+  cursor:default;
+  user-select:auto;
+  scroll-snap-type:none;
+}
+#reach .reach-card{
+  flex:none;width:auto;min-width:0;height:100%;
+  aspect-ratio:auto;
+  scroll-snap-align:none;
+  border-radius:18px;
+  transition:transform .35s ease,box-shadow .35s ease;
+}
+
+/* --- bento placement — the rest auto-flow into the gaps ------------------- */
+#reach .reach-card:nth-child(1){grid-column:1;grid-row:span 2;}  /* India     */
+#reach .reach-card:nth-child(2){grid-column:span 2;}             /* USA       */
+#reach .reach-card:nth-child(7){grid-column:span 2;}             /* Australia */
+
+#reach .reach-card:hover,
+#reach .reach-card:focus-within{
+  transform:translateY(-6px);
+  box-shadow:0 26px 52px -22px rgba(11,42,74,.55);
+}
+
+/* Smaller tiles need a smaller label; the hero keeps the large type. */
+#reach .reach-card .label{font-size:clamp(19px,1.5vw,24px);bottom:20px;left:20px;}
+#reach .reach-card:nth-child(1) .label{font-size:clamp(24px,2vw,30px);bottom:24px;left:24px;}
+#reach .reach-card .label small{font-size:12px;}
+
+/* The carousel arrows + progress rail have nothing left to scroll. */
+#reach .reach-controls{display:none;}
+
+@media (max-width:1150px){
+  #reach .reach-grid{
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows:clamp(160px,22vw,215px);
+  }
+  #reach .reach-card:nth-child(7){grid-column:span 1;}
+}
+@media (max-width:760px){
+  #reach .reach-grid{
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows:clamp(150px,34vw,195px);
+    gap:14px;
+  }
+  #reach .reach-card:nth-child(1){grid-column:span 2;grid-row:span 1;}
+  #reach .reach-card:nth-child(2){grid-column:span 1;}
+}
+@media (prefers-reduced-motion:reduce){
+  #reach .reach-card:hover,
+  #reach .reach-card:focus-within{transform:none;}
+}
+
+/* --- carousel controls (kept for the arrows' hover/disabled states) -------- */
+.reach-controls{
+  display:flex;align-items:center;gap:18px;margin-top:26px;
+}
+.reach-rail{
+  flex:1;height:3px;border-radius:999px;background:var(--line);overflow:hidden;
+}
+.reach-rail span{
+  display:block;height:100%;border-radius:999px;background:var(--blue);
+  width:30%;transform:translateX(0);
+  transition:transform .18s linear, width .2s ease;
+}
+.reach-arrow{
+  width:46px;height:46px;flex-shrink:0;
+  border:1.5px solid var(--navy);border-radius:50%;
+  background:var(--white);color:var(--navy);cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:background .22s ease,color .22s ease,transform .22s ease,opacity .22s ease;
+}
+.reach-arrow:hover:not(:disabled){background:var(--navy);color:var(--white);transform:scale(1.06);}
+.reach-arrow:disabled{opacity:.3;cursor:not-allowed;}
+.reach-card:focus-visible{outline:3px solid var(--blue);outline-offset:4px;}
+.reach-card .label{transition:transform .3s ease;}
+.reach-card:hover .label,
+.reach-card:focus-visible .label{transform:translateY(-4px);}
+
+/* --------------------------------------------------------------------------
+   10. JOBS — dots, disabled arrows
+   -------------------------------------------------------------------------- */
+.jobs-arrow:disabled{opacity:.35;cursor:not-allowed;transform:none;}
+.jobs-arrow:disabled:hover{transform:none;}
+.jobs-dots{
+  display:flex;justify-content:center;gap:9px;margin-top:26px;
+}
+.jobs-dot{
+  width:9px;height:9px;padding:0;border:none;border-radius:50%;cursor:pointer;
+  background:rgba(255,255,255,.28);
+  transition:background .25s ease, width .25s ease;
+}
+.jobs-dot[aria-current="true"]{background:var(--lime);width:26px;border-radius:999px;}
+.job-card .btn{transition:background .25s ease,color .25s ease,transform .25s ease;}
+
+/* --------------------------------------------------------------------------
+   11. WHY US — bento
+   -------------------------------------------------------------------------- */
+@media (min-width:761px){
+  .why-points{
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows:minmax(96px,auto);
+    gap:14px;
+  }
+  .why-point:first-child{
+    grid-column:span 2;grid-row:span 1;
+    display:flex;flex-direction:column;justify-content:center;
+  }
+  .why-point:first-child b{font-size:44px;line-height:1.05;}
+}
+.why-point{
+  border-radius:16px;
+  transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.why-point:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 40px -24px rgba(11,42,74,.35);
+}
+
+/* --------------------------------------------------------------------------
+   12. INDUSTRIES — keyboard + crossfade
+   -------------------------------------------------------------------------- */
+.ind-row{
+  appearance:none;background:none;border:none;border-bottom:1px solid var(--line);
+  width:100%;font:inherit;text-align:left;
+}
+.ind-row .arrow{display:inline-block;transition:transform .25s ease,opacity .25s ease;opacity:.4;}
+.ind-row.active .arrow,
+.ind-row:hover .arrow{transform:translateX(6px);opacity:1;}
+.ind-row .num{transition:color .25s ease;}
+.ind-visual{position:relative;}
+@media (min-width:901px){
+  .ind-visual .pane{
+    transition:opacity .35s ease, transform .35s ease;
+  }
+  .ind-visual .pane:not(.active){opacity:0;transform:scale(.99);}
+  .ind-visual .pane.active{opacity:1;transform:none;}
+}
+
+/* --------------------------------------------------------------------------
+   13. CTA — progressive inline lead form
+   (the .btn-lime contrast fix now lives in ui.css)
+   -------------------------------------------------------------------------- */
+/* position:relative is required — .cta::before is a full-bleed overlay and
+   every other .cta child in styles.css is relatively positioned for the same reason. */
+.cta-form{
+  position:relative;z-index:1;
+  max-width:620px;margin:32px auto 0;text-align:left;
+}
+.cta-form .field-row{
+  display:flex;gap:10px;flex-wrap:wrap;
+}
+.cta-form input,
+.cta-form select,
+.cta-form textarea{
+  width:100%;font:inherit;font-size:15px;font-family:'Inter',sans-serif;
+  padding:15px 18px;border-radius:12px;
+  border:1.5px solid rgba(255,255,255,.25);
+  background:rgba(255,255,255,.08);color:var(--white);
+  transition:border-color .22s ease, background .22s ease;
+}
+.cta-form input::placeholder,
+.cta-form textarea::placeholder{color:rgba(255,255,255,.55);}
+.cta-form input:focus,
+.cta-form select:focus,
+.cta-form textarea:focus{
+  border-color:var(--lime);background:rgba(255,255,255,.14);
+}
+.cta-form select{color:rgba(255,255,255,.75);}
+.cta-form select option{color:var(--navy);background:var(--white);}
+.cta-form .field-row input{flex:1 1 260px;width:auto;}
+.cta-form .btn{flex-shrink:0;border:none;}
+.cta-form .cta-more{
+  max-height:0;overflow:hidden;opacity:0;
+  transition:max-height .4s cubic-bezier(.22,.61,.36,1), opacity .3s ease, margin .4s ease;
+}
+.cta-form.is-expanded .cta-more{
+  max-height:340px;opacity:1;margin-top:10px;
+}
+.cta-form .cta-more>*+*{margin-top:10px;}
+.cta-form .cta-hint{
+  font-size:13px;color:rgba(255,255,255,.6);margin-top:12px;
+  display:flex;align-items:center;gap:8px;justify-content:center;
+}
+.cta-form .cta-hint svg{flex-shrink:0;color:var(--lime);}
+.cta-form .field-error{
+  display:block;font-size:12.5px;color:#FFC98A;margin-top:6px;
+}
+.cta-form .is-invalid input,
+.cta-form .is-invalid select{border-color:#FFC98A;}
+.cta-response{
+  margin-top:18px;font-size:15px;color:var(--white);
+  background:rgba(255,255,255,.1);border-radius:12px;padding:16px 20px;
+  display:none;
+}
+.cta-response.show{display:block;}
+
+/* --------------------------------------------------------------------------
+   14. STICKY CTA BAR
+   -------------------------------------------------------------------------- */
+.sticky-cta{
+  position:fixed;left:0;right:0;bottom:0;z-index:110;
+  background:rgba(14,42,77,.97);
+  backdrop-filter:blur(12px);
+  border-top:1px solid rgba(255,255,255,.12);
+  transform:translateY(110%);
+  transition:transform .38s cubic-bezier(.22,.61,.36,1);
+  box-shadow:0 -12px 40px -18px rgba(0,0,0,.5);
+}
+.sticky-cta.is-visible{transform:translateY(0);}
+.sticky-cta-inner{
+  max-width:1400px;margin:0 auto;padding:14px 32px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+}
+.sticky-cta .text{color:var(--white);font-family:'Sora',sans-serif;}
+.sticky-cta .text b{display:block;font-size:16px;font-weight:700;}
+.sticky-cta .text span{font-size:13px;color:rgba(255,255,255,.62);}
+.sticky-cta .actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.sticky-cta .btn{padding:11px 24px;font-size:14px;}
+.sticky-cta-close{
+  width:34px;height:34px;flex-shrink:0;border:none;border-radius:50%;
+  background:rgba(255,255,255,.1);color:var(--white);cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:background .22s ease;
+}
+.sticky-cta-close:hover{background:rgba(255,255,255,.2);}
+@media (max-width:700px){
+  .sticky-cta-inner{padding:12px 18px;gap:12px;}
+  .sticky-cta .text span{display:none;}
+  .sticky-cta .btn{padding:10px 18px;font-size:13px;}
+}
+/* Never occupy a short viewport */
+@media (max-height:600px){
+  .sticky-cta{display:none;}
+}
+
+/* --------------------------------------------------------------------------
+   16. MISC POLISH
+   -------------------------------------------------------------------------- */
+
+/* Case cards now link to a real destination */
+.case-card:focus-visible{outline-offset:4px;}
+
+/* Give the page a little breathing room above the sticky bar */
+body.has-sticky-cta footer{padding-bottom:70px;}
