@@ -214,7 +214,7 @@ include 'includes/header.php';
         <a href="<?= $base ?>usa" class="supply-card">
           <span class="flag" aria-hidden="true">🇺🇸</span>
           <h3>United States</h3>
-          <p class="office-city">New Jersey · Texas</p>
+          <p class="office-city">Delaware</p>
           <p>Candidate supply for technology, data and digital roles across major U.S. cities.</p>
           <span class="office-link">View regional page <span aria-hidden="true">→</span></span>
         </a>

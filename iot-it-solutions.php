@@ -15,7 +15,7 @@ include 'includes/header.php';
       <p class="lead">Adhiran Infotech delivers cutting-edge IoT (Internet of Things) solutions to connect devices, optimize processes, and drive innovation. We build smart, scalable platforms that collect real-time data from connected devices to enable informed decision-making.</p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
-        <a href="iot-solutions#services" class="btn btn-outline-light">Explore Services</a>
+        <a href="<?= $base ?>iot-it-solutions#services" class="btn btn-outline-light">Explore Services</a>
       </div>
     </div>
     <div class="hero-visual">

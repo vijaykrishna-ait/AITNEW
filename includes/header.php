@@ -133,7 +133,10 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
               <a href="<?= $base ?>case-studies">Case Studies</a>
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>career">Careers Overview</a>
+              <?php /* News & Blog — hidden for now
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
+              */ ?>
+              <a href="<?= $base ?>career#open-positions">Explore Job Opportunities</a>
               <a href="<?= $base ?>core-values">Core Values</a>
             </div>
           </div>
@@ -154,18 +157,20 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
             </div>
           </div>
 
+          <a href="<?= $base ?>gcc-talent">GCC Talent</a>
+
           <div class="nav-item">
             <a href="<?= $base ?>#industries">Industry <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg></a>
             <div class="nav-dropdown">
-              <a href="<?= $base ?>#industries">Banking &amp; Financial Services</a>
-              <a href="<?= $base ?>#industries">Consumer Products</a>
-              <a href="<?= $base ?>#industries">Healthcare &amp; Life Sciences</a>
-              <a href="<?= $base ?>#industries">Hospitality</a>
-              <a href="<?= $base ?>#industries">Professional Services</a>
-              <a href="<?= $base ?>#industries">Manufacturing</a>
+              <a href="<?= $base ?>financial-services">Banking &amp; Financial Services</a>
+              <a href="<?= $base ?>consumer-products">Consumer Products</a>
+              <a href="<?= $base ?>life-sciences">Healthcare &amp; Life Sciences</a>
+              <a href="<?= $base ?>hospitality">Hospitality</a>
+              <a href="<?= $base ?>professional-services">Professional Services</a>
+              <a href="<?= $base ?>manufacturing">Manufacturing</a>
               <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a> 
               <a href="<?= $base ?>edutech">EdTech Solutions</a>
             </div>
@@ -197,7 +202,10 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
               <a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a>
               <a href="<?= $base ?>core-values">Core Values</a>
               <a href="<?= $base ?>case-studies">Case Studies</a>
+              <?php /* News & Blog — hidden for now
               <a href="<?= $base ?>news-blog">News &amp; Blog</a>
+              */ ?>
+              <a href="<?= $base ?>career#open-positions">Explore Job Opportunities</a>
               <a href="<?= $base ?>career">Careers Overview</a>
             </div>
           </div>
@@ -223,6 +231,8 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
             </div>
           </div>
 
+          <a href="<?= $base ?>gcc-talent" class="mobile-standalone-link">GCC Talent</a>
+
           <!-- Accordion Item 3: Industry -->
           <div class="mobile-accordion">
             <button class="mobile-accordion-header">
@@ -233,12 +243,12 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
               </svg>
             </button>
             <div class="mobile-accordion-content">
-              <a href="<?= $base ?>#industries">Banking &amp; Financial Services</a>
-              <a href="<?= $base ?>#industries">Consumer Products</a>
-              <a href="<?= $base ?>#industries">Healthcare &amp; Life Sciences</a>
-              <a href="<?= $base ?>#industries">Hospitality</a>
-              <a href="<?= $base ?>#industries">Manufacturing</a>
-              <a href="<?= $base ?>#industries">Professional Services</a>
+              <a href="<?= $base ?>financial-services">Banking &amp; Financial Services</a>
+              <a href="<?= $base ?>consumer-products">Consumer Products</a>
+              <a href="<?= $base ?>life-sciences">Healthcare &amp; Life Sciences</a>
+              <a href="<?= $base ?>hospitality">Hospitality</a>
+              <a href="<?= $base ?>manufacturing">Manufacturing</a>
+              <a href="<?= $base ?>professional-services">Professional Services</a>
               <a href="<?= $base ?>edutech">EdTech Solutions</a>
               <a href="<?= $base ?>life-sciences">Life Sciences &amp; Pharma</a>
             </div>

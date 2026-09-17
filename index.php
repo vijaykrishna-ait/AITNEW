@@ -10,6 +10,47 @@ include 'includes/header.php';
   <!-- READING PROGRESS -->
   <div class="reading-progress" aria-hidden="true"><span id="readingProgressBar"></span></div>
 
+<?php if (defined('HOME_VIDEO_ENABLED') && HOME_VIDEO_ENABLED && HOME_VIDEO_SRC !== ''): ?>
+<!-- INTRO VIDEO POP-UP -->
+<div class="video-modal" id="homeVideoModal" hidden
+     role="dialog" aria-modal="true" aria-labelledby="homeVideoTitle"
+     data-src="<?= htmlspecialchars($base . HOME_VIDEO_SRC) ?>"
+     data-once="<?= HOME_VIDEO_ONCE_PER_SESSION ? '1' : '0' ?>"
+     data-delay="<?= (int) HOME_VIDEO_DELAY_MS ?>">
+  <div class="video-modal-backdrop" data-video-close></div>
+  <div class="video-modal-dialog">
+    <div class="video-modal-head">
+      <h2 id="homeVideoTitle"><?= htmlspecialchars(HOME_VIDEO_TITLE) ?></h2>
+      <button type="button" class="video-modal-close" data-video-close aria-label="Close video">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+    </div>
+    <div class="video-modal-frame">
+      <video id="homeVideo" playsinline muted preload="none"
+             controls controlsList="nodownload noplaybackrate noremoteplayback"
+             disablePictureInPicture disableRemotePlayback
+<?php if (HOME_VIDEO_POSTER !== ''): ?>             poster="<?= htmlspecialchars($base . HOME_VIDEO_POSTER) ?>"
+<?php endif; ?>             oncontextmenu="return false;">
+        Your browser does not support the video tag.
+      </video>
+      <button type="button" class="video-modal-unmute" id="homeVideoUnmute">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+        Tap for sound
+      </button>
+    </div>
+  </div>
+</div>
+<?php endif; ?>
+
 <main id="main-content">
 
   <!-- HERO -->
@@ -528,10 +569,10 @@ include 'includes/header.php';
           <div class="label"><small>Americas</small>USA</div>
         </div>
         <div class="reach-card">
-          <img src="assets/images/index/uk.jpg"
+          <img src="assets/images/index/germany.jpg"
             alt="London skyline along the Thames, United Kingdom" loading="lazy" decoding="async"
             onerror="this.style.display='none'">
-          <div class="label"><small>Europe</small>United Kingdom</div>
+          <div class="label"><small>Europe</small>German</div>
         </div>
         <div class="reach-card">
           <img src="assets/images/index/singapore.jpeg"
@@ -1143,7 +1184,7 @@ include 'includes/header.php';
           and logistics.</p>
       </div>
       <div class="stories-grid">
-        <a href="<?= $base ?>#" class="story-card big">
+        <a href="<?= $base ?>case-study-digital-bank-core-platform" class="story-card big">
           <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80"
             alt="Team presenting in a modern office" loading="lazy" decoding="async">
           <div class="inner">
@@ -1151,7 +1192,7 @@ include 'includes/header.php';
             <h3>Re-engineered a digital bank's core platform — cut transaction latency by 73%</h3>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="story-card">
+        <a href="<?= $base ?>case-study-healthcare-ai-diagnostics" class="story-card">
           <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=700&q=80"
             alt="Healthcare team working at desks" loading="lazy" decoding="async">
           <div class="inner">
@@ -1159,7 +1200,7 @@ include 'includes/header.php';
             <h3>AI diagnostic platform for 200+ hospitals</h3>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="story-card">
+        <a href="<?= $base ?>case-study-ecommerce-conversion" class="story-card">
           <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=80"
             alt="Analytics dashboard on screen" loading="lazy" decoding="async">
           <div class="inner">
@@ -1167,7 +1208,7 @@ include 'includes/header.php';
             <h3>40% lift in conversions for global e-commerce</h3>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="story-card">
+        <a href="<?= $base ?>case-study-predictive-maintenance" class="story-card">
           <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80"
             alt="Engineer working on circuit board" loading="lazy" decoding="async">
           <div class="inner">
@@ -1175,7 +1216,7 @@ include 'includes/header.php';
             <h3>IoT reducing downtime by 60%</h3>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="story-card">
+        <a href="<?= $base ?>case-study-fleet-tracking" class="story-card">
           <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80"
             alt="Person using laptop and card for logistics tracking" loading="lazy" decoding="async">
           <div class="inner">

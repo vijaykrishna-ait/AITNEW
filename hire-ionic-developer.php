@@ -204,7 +204,7 @@ include 'includes/header.php';
         solutions that address the unique challenges and opportunities within various industries.</p>
     </div>
     <div class="its-industry-grid">
-      <a href="<?= $base ?>#" class="its-industry-card">
+      <a href="<?= $base ?>life-sciences" class="its-industry-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="1.8">
             <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
@@ -213,7 +213,7 @@ include 'includes/header.php';
         <p>We develop healthcare platforms that streamline patient relationships and improve clinic and hospital
           operations.</p>
       </a>
-      <a href="<?= $base ?>#" class="its-industry-card">
+      <a href="<?= $base ?>retail-ecommerce" class="its-industry-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="1.8">
             <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
@@ -223,7 +223,7 @@ include 'includes/header.php';
         <p>We enable retailers to quickly create responsive web stores that enhance user experience, boost sales, and
           grow customer base.</p>
       </a>
-      <a href="<?= $base ?>#" class="its-industry-card">
+      <a href="<?= $base ?>manufacturing" class="its-industry-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="1.8">
             <rect x="2" y="7" width="20" height="14" rx="2" />
@@ -233,7 +233,7 @@ include 'includes/header.php';
         <p>We help manufacturers stay relevant by using IoT, automation, and AI for monitoring, maintenance, and
           performance improvement.</p>
       </a>
-      <a href="<?= $base ?>#" class="its-industry-card">
+      <a href="<?= $base ?>edutech" class="its-industry-card">
         <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="1.8">
             <path d="M22 10v6M2 10l10-5 10 5-10 5z" />

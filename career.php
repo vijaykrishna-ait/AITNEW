@@ -153,7 +153,7 @@ include 'includes/header.php';
           data-requirements="3+ years of experience in data science or machine learning|Strong Python skills with libraries like scikit-learn, TensorFlow or PyTorch|Experience with LLMs or generative AI is a plus|Strong statistical and analytical foundation">
           <div>
             <h3>Data Scientist (AI / ML)</h3>
-            <div class="meta">New Jersey, USA</div>
+            <div class="meta">Delaware, USA</div>
             <div class="role">Data Science · Full-time</div>
           </div>
           <div class="date">Posted 12-Jun-2026</div>

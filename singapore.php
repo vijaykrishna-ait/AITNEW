@@ -474,7 +474,7 @@ $base = $base ?? '';
       <div class="contact-info">
         <div class="item">
           <div class="ic">📍</div>
-          <div><h4>Singapore Office</h4><p>Singapore — APAC Delivery Hub</p></div>
+          <div><h4>Singapore Office</h4><p>101 UPPER CROSS STREET, #05-57, PEOPLE'S PARK CENTRE, SINGAPORE 058357</p></div>
         </div>
         <div class="item">
           <div class="ic">✉️</div>
@@ -486,7 +486,7 @@ $base = $base ?? '';
         </div>
         <div class="item">
           <div class="ic">🌐</div>
-          <div><h4>Global Network</h4><p>India (HQ — Chennai) · Singapore · UAE (Dubai) · Japan (Tokyo) · USA (New Jersey, Texas) · Australia</p></div>
+          <div><h4>Global Network</h4><p>India (HQ — Chennai) · Singapore · UAE (Dubai) · Japan (Tokyo) · USA (Delaware) · Australia</p></div>
         </div>
       </div>
       <div class="form-card">

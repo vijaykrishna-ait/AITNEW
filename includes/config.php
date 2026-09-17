@@ -8,8 +8,8 @@ define('SITE_DESCRIPTION', 'Adhiran Infotech is the best offshore development co
 define('SITE_KEYWORDS', 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers');
 
 // Contact
-define('SITE_PHONE_DISPLAY', '+91 73586 15097');
-define('SITE_PHONE_TEL',     '+917358615097');
+define('SITE_PHONE_DISPLAY', '+91 90423 59211');
+define('SITE_PHONE_TEL',     '+919042359211');
 define('SITE_EMAIL',         'sales@adhiraninfotech.com');
 
 // Social
@@ -18,6 +18,17 @@ define('SOCIAL_INSTAGRAM', 'https://www.instagram.com/adhiraninfotech/');
 define('SOCIAL_TWITTER',   'https://x.com/Adhiraninfotech');
 define('SOCIAL_YOUTUBE',   'https://www.youtube.com/@Adhiran-infotech');
 define('SOCIAL_LINKEDIN',  'https://www.linkedin.com/company/adhiraninfotech/');
+
+// Home page intro video
+// Set HOME_VIDEO_ENABLED to false to switch the pop-up off site-wide.
+define('HOME_VIDEO_ENABLED',      true);
+define('HOME_VIDEO_SRC',          'assets/video/sample.mp4');
+define('HOME_VIDEO_POSTER',       '');            // optional still image, e.g. 'assets/images/index/hero.jpg'
+define('HOME_VIDEO_TITLE',        'Welcome to Adhiran Infotech');
+// Show the video only once per browser session rather than on every visit.
+define('HOME_VIDEO_ONCE_PER_SESSION', true);
+// Delay in milliseconds before the pop-up appears after the page is ready.
+define('HOME_VIDEO_DELAY_MS',     600);
 
 define('BASE_URL', '/aitnew/');
 

@@ -513,3 +513,86 @@
 
 /* Give the page a little breathing room above the sticky bar */
 body.has-sticky-cta footer{padding-bottom:70px;}
+
+/* --------------------------------------------------------------------------
+   INTRO VIDEO POP-UP
+   Rendered only when HOME_VIDEO_ENABLED is on in includes/config.php.
+   -------------------------------------------------------------------------- */
+.video-modal{
+  position:fixed;inset:0;z-index:9000;
+  display:flex;align-items:center;justify-content:center;
+  padding:20px;
+  opacity:0;transition:opacity .28s ease;
+}
+.video-modal[hidden]{display:none;}
+.video-modal.is-open{opacity:1;}
+
+.video-modal-backdrop{
+  position:absolute;inset:0;
+  background:rgba(8,17,31,.82);
+  -webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);
+}
+
+.video-modal-dialog{
+  position:relative;
+  width:min(960px,100%);
+  background:#0E2A4D;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:16px;
+  box-shadow:0 30px 80px rgba(0,0,0,.45);
+  overflow:hidden;
+  transform:translateY(14px) scale(.98);
+  transition:transform .32s cubic-bezier(.22,1,.36,1);
+}
+.video-modal.is-open .video-modal-dialog{transform:none;}
+
+.video-modal-head{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:14px 18px;
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+.video-modal-head h2{
+  margin:0;
+  font-family:'Sora',sans-serif;font-size:16px;font-weight:700;
+  color:#fff;
+}
+.video-modal-close{
+  flex:0 0 auto;
+  display:inline-flex;align-items:center;justify-content:center;
+  width:34px;height:34px;
+  border:1px solid rgba(255,255,255,.22);border-radius:50%;
+  background:transparent;color:#fff;cursor:pointer;
+  transition:background .2s ease,border-color .2s ease;
+}
+.video-modal-close:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.4);}
+
+.video-modal-frame{position:relative;background:#000;line-height:0;}
+.video-modal-frame video{
+  display:block;width:100%;max-height:70vh;
+  aspect-ratio:16/9;object-fit:contain;background:#000;
+  outline:none;
+}
+
+.video-modal-unmute{
+  position:absolute;left:16px;bottom:58px;
+  display:inline-flex;align-items:center;gap:8px;
+  padding:9px 15px;
+  border:0;border-radius:999px;
+  background:var(--lime,#F5871F);color:#0E2A4D;
+  font-family:'Inter',sans-serif;font-size:13px;font-weight:700;line-height:1;
+  cursor:pointer;
+  box-shadow:0 6px 18px rgba(0,0,0,.3);
+}
+.video-modal-unmute[hidden]{display:none;}
+
+@media (max-width:640px){
+  .video-modal{padding:12px;}
+  .video-modal-head{padding:12px 14px;}
+  .video-modal-head h2{font-size:14px;}
+  .video-modal-frame video{max-height:60vh;}
+  .video-modal-unmute{left:12px;bottom:50px;padding:8px 13px;font-size:12px;}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .video-modal,.video-modal-dialog{transition:none;}
+}

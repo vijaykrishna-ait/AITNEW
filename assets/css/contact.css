@@ -98,7 +98,7 @@
   box-shadow:0 0 0 3px rgba(56,161,105,.12);
 }
 .form-group .error-msg{
-  display:flex;align-items:center;gap:6px;
+  display:none;align-items:center;gap:6px;
 }
 .form-group .error-msg::before{
   content:"";flex-shrink:0;width:13px;height:13px;border-radius:50%;
@@ -106,7 +106,7 @@
   -webkit-mask:no-repeat center/9px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M11 7h2v7h-2zm0 9h2v2h-2z'/%3E%3C/svg%3E");
           mask:no-repeat center/9px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M11 7h2v7h-2zm0 9h2v2h-2z'/%3E%3C/svg%3E");
 }
-.form-group.error .error-msg{animation:fieldErrIn .25s ease both;}
+.form-group.error .error-msg{display:flex;animation:fieldErrIn .25s ease both;}
 @keyframes fieldErrIn{from{opacity:0;transform:translateY(-3px);}to{opacity:1;transform:none;}}
 
 /* Honeypot — hidden from people, still reachable by bots */

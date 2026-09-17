@@ -235,7 +235,7 @@ include 'includes/header.php';
           <li>Regulatory & Quality Solutions</li>
           <li>Support & Managed Services</li>
         </ul>
-        <a href="<?= $base ?>veeva" class="btn btn-outline" style="margin-top:20px;padding:10px 22px;font-size:14px;">
+        <a href="<?= $base ?>hire-veeva-developer" class="btn btn-outline" style="margin-top:20px;padding:10px 22px;font-size:14px;">
           Learn More →
         </a>
       </div>

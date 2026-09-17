@@ -182,7 +182,7 @@ include 'includes/header.php';
   </section>
 
   <!-- LEADERSHIP -->
-  <section class="industries" id="leadership">
+  <!-- <section class="industries" id="leadership">
     <div class="wrap">
       <div class="section-head center" data-reveal="up">
         <div class="eyebrow" style="justify-content:center;">Leadership</div>
@@ -228,7 +228,7 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- LIFE WITH ADHIRAN -->
   <section id="life">

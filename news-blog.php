@@ -33,7 +33,7 @@ include 'includes/header.php';
           <h3>How AI is changing fintech recruitment</h3>
         </div>
       </a>
-      <a href="<?= $base ?>#" class="story-card">
+      <a href="<?= $base ?>case-study-healthcare-ai-diagnostics" class="story-card">
         <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&q=80" alt="Healthcare AI case study illustration">
         <div class="inner">
           <span class="pill">Case Study</span>

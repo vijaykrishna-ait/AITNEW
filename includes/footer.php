@@ -26,21 +26,21 @@
         <div class="foot-grid">
           <h4>Industries</h4>
           <ul>
-            <li class="parent">Financial Services</li>
+            <li class="parent"><a href="<?= $base ?>financial-services">Financial Services</a></li>
             <li class="sub-list">
-              <a href="<?= $base ?>#">Banking</a>
-              <a href="<?= $base ?>#">Capital Markets</a>
-              <a href="<?= $base ?>#">Fintech</a>
-              <a href="<?= $base ?>#">Insurance</a>
+              <a href="<?= $base ?>banking">Banking</a>
+              <a href="<?= $base ?>capital-markets">Capital Markets</a>
+              <a href="<?= $base ?>fintech">Fintech</a>
+              <a href="<?= $base ?>insurance">Insurance</a>
             </li>
             <li><a href="<?= $base ?>life-sciences">Healthcare &amp; Life Sciences</a></li>
-            <li><a href="<?= $base ?>#">Consumer Products</a></li>
-            <li><a href="<?= $base ?>#">Hospitality</a></li>
-            <li><a href="<?= $base ?>#">Manufacturing</a></li>
-            <li><a href="<?= $base ?>#">Automotive</a></li>
-            <li><a href="<?= $base ?>#">Professional Services</a></li>
-            <li><a href="<?= $base ?>#">Retail &amp; E-commerce</a></li>
-            <li><a href="<?= $base ?>#">Energy &amp; Utilities</a></li>
+            <li><a href="<?= $base ?>consumer-products">Consumer Products</a></li>
+            <li><a href="<?= $base ?>hospitality">Hospitality</a></li>
+            <li><a href="<?= $base ?>manufacturing">Manufacturing</a></li>
+            <li><a href="<?= $base ?>automotive">Automotive</a></li>
+            <li><a href="<?= $base ?>professional-services">Professional Services</a></li>
+            <li><a href="<?= $base ?>retail-ecommerce">Retail &amp; E-commerce</a></li>
+            <li><a href="<?= $base ?>energy-utilities">Energy &amp; Utilities</a></li>
           </ul>
         </div>
 
@@ -50,7 +50,7 @@
             <ul>
               <li><a href="<?= $base ?>about#who-we-are">About Us</a></li>
               <li><a href="<?= $base ?>#reach">Global Presence</a></li>
-              <li><a href="<?= $base ?>leadership">Leadership</a></li>
+              <!-- <li><a href="<?= $base ?>leadership">Leadership</a></li> -->
               <li><a href="<?= $base ?>vision-mission">Our Vision &amp; Mission</a></li>
               <li><a href="<?= $base ?>core-values">Core Values</a></li>
             </ul>
@@ -58,7 +58,9 @@
           <div class="foot-grid foot-section">
             <h4>Resources</h4>
             <ul>
+              <?php /* News & Blog — hidden for now
               <li><a href="<?= $base ?>news-blog">News &amp; Blog</a></li>
+              */ ?>
               <li><a href="<?= $base ?>case-studies">Case Studies</a></li>
               <li><a href="<?= $base ?>life-with-ait">Life with AIT</a></li>
             </ul>
@@ -78,7 +80,7 @@
             <h4>Global Presence</h4>
             <ul>
               <li><a href="<?= $base ?>#">🇮🇳 India (HQ — Chennai)</a></li>
-              <li><a href="<?= $base ?>usa">🇺🇸 USA — New Jersey · Texas</a></li>
+              <li><a href="<?= $base ?>usa">🇺🇸 USA — Delaware</a></li>
               <li><a href="<?= $base ?>singapore">🇸🇬 Singapore</a></li>
               <li><a href="<?= $base ?>#">🇦🇪 UAE — Dubai</a></li>
               <li><a href="<?= $base ?>japan">🇯🇵 Japan — Tokyo</a></li>

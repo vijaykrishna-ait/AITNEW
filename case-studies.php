@@ -28,7 +28,7 @@ include 'includes/header.php';
       </div>
 
       <div class="cs-grid">
-        <a href="<?= $base ?>#" class="cs-card" data-cat="healthcare ai">
+        <a href="<?= $base ?>case-study-healthcare-ai-diagnostics" class="cs-card" data-cat="healthcare ai">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&q=80"
               alt="AI diagnostics in a hospital setting">
@@ -41,7 +41,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="cloud ai">
+        <a href="<?= $base ?>case-study-uipath-rpa-automation" class="cs-card" data-cat="cloud ai">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80"
               alt="Automation workflow on screen">
@@ -54,7 +54,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="healthcare enterprise">
+        <a href="<?= $base ?>case-study-veeva-crm-implementation" class="cs-card" data-cat="healthcare enterprise">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=700&q=80"
               alt="Sales team reviewing CRM dashboard">
@@ -67,7 +67,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="edutech ai">
+        <a href="<?= $base ?>case-study-edtech-ai-learning-platform" class="cs-card" data-cat="edutech ai">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=80"
               alt="Student learning online with laptop">
@@ -80,7 +80,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="ai enterprise">
+        <a href="<?= $base ?>case-study-azure-openai-recruitment" class="cs-card" data-cat="ai enterprise">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=700&q=80"
               alt="Team in a meeting discussing recruitment">
@@ -93,7 +93,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="cloud">
+        <a href="<?= $base ?>case-study-predictive-maintenance" class="cs-card" data-cat="cloud">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=700&q=80"
               alt="Manufacturing plant floor with automation">
@@ -106,7 +106,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="enterprise cloud">
+        <a href="<?= $base ?>case-study-cloud-erp-migration" class="cs-card" data-cat="enterprise cloud">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80"
               alt="Team reviewing cloud migration plan">
@@ -119,9 +119,9 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="edutech">
+        <a href="<?= $base ?>case-study-admissions-portal" class="cs-card" data-cat="edutech">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80"
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=700&q=80"
               alt="University admissions portal on screen">
           </div>
           <div class="cs-card-body">
@@ -132,7 +132,7 @@ include 'includes/header.php';
             <span>Read Case Study <span class="arrow">→</span></span>
           </div>
         </a>
-        <a href="<?= $base ?>#" class="cs-card" data-cat="ai healthcare">
+        <a href="<?= $base ?>case-study-patient-support-chatbot" class="cs-card" data-cat="ai healthcare">
           <div class="cs-card-img">
             <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80"
               alt="Healthcare professional using AI chatbot">

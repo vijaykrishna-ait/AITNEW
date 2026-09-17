@@ -432,6 +432,112 @@
       }
     })();
 
+    /* ----------------------------------------------------------------------
+       INTRO VIDEO POP-UP
+       Markup is rendered by index.php only when HOME_VIDEO_ENABLED is on.
+       The source is attached on open so the file is never fetched when the
+       pop-up is disabled or already dismissed for this session.
+       ---------------------------------------------------------------------- */
+    (function () {
+      var modal = document.getElementById('homeVideoModal');
+      if (!modal) return;
+
+      var video    = document.getElementById('homeVideo');
+      var unmute   = document.getElementById('homeVideoUnmute');
+      var src      = modal.getAttribute('data-src') || '';
+      var once     = modal.getAttribute('data-once') === '1';
+      var delay    = parseInt(modal.getAttribute('data-delay'), 10);
+      var KEY      = 'ait_home_video_seen';
+      var lastFocus = null;
+      var isOpen   = false;
+
+      if (!video || !src) return;
+      if (isNaN(delay) || delay < 0) delay = 0;
+
+      function seen() {
+        try { return sessionStorage.getItem(KEY) === '1'; } catch (err) { return false; }
+      }
+      function markSeen() {
+        try { sessionStorage.setItem(KEY, '1'); } catch (err) {}
+      }
+
+      /* Deterrents against casual saving. The file is still reachable by URL —
+         see the note in includes/config.php. */
+      video.addEventListener('contextmenu', function (e) { e.preventDefault(); });
+      modal.addEventListener('dragstart', function (e) { e.preventDefault(); });
+
+      function open() {
+        if (isOpen) return;
+        isOpen = true;
+        lastFocus = document.activeElement;
+
+        if (!video.getAttribute('src')) video.setAttribute('src', src);
+
+        modal.hidden = false;
+        document.body.style.overflow = 'hidden';
+        /* Next frame, so the opening transition actually runs. */
+        requestAnimationFrame(function () { modal.classList.add('is-open'); });
+
+        video.muted = true;
+        var played = video.play();
+        if (played && typeof played.catch === 'function') {
+          played.catch(function () { /* autoplay refused — controls are visible */ });
+        }
+        if (unmute) unmute.hidden = false;
+
+        var closeBtn = modal.querySelector('.video-modal-close');
+        if (closeBtn) closeBtn.focus();
+        markSeen();
+      }
+
+      function close() {
+        if (!isOpen) return;
+        isOpen = false;
+        modal.classList.remove('is-open');
+        try { video.pause(); } catch (err) {}
+        document.body.style.overflow = '';
+
+        window.setTimeout(function () {
+          if (!isOpen) modal.hidden = true;
+        }, 300);
+
+        if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
+      }
+
+      modal.addEventListener('click', function (e) {
+        if (e.target.closest('[data-video-close]')) close();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (isOpen && (e.key === 'Escape' || e.key === 'Esc')) close();
+      });
+
+      /* Keep tabbing inside the dialog while it is open. */
+      modal.addEventListener('keydown', function (e) {
+        if (!isOpen || e.key !== 'Tab') return;
+        var f = modal.querySelectorAll('button, video[controls], [href], [tabindex]:not([tabindex="-1"])');
+        if (!f.length) return;
+        var first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      });
+
+      if (unmute) {
+        unmute.addEventListener('click', function () {
+          video.muted = false;
+          if (video.paused) video.play().catch(function () {});
+          unmute.hidden = true;
+        });
+      }
+      video.addEventListener('volumechange', function () {
+        if (unmute && !video.muted) unmute.hidden = true;
+      });
+      video.addEventListener('ended', close);
+
+      if (once && seen()) return;
+      window.setTimeout(open, delay);
+    })();
+
     AIT.refresh();
   });
 })();

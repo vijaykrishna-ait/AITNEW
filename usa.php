@@ -19,11 +19,11 @@ $base = $base ?? '';
 </head>
 <body>
 
-<div class="us-strip">🇺🇸 Serving US businesses from our New Jersey &amp; Texas teams — talk to a local consultant today</div>
+<div class="us-strip">🇺🇸 Serving US businesses from our Delaware teams — talk to a local consultant today</div>
 
 <div class="topbar">
   <div class="wrap">
-    <div class="flag-row">🇺🇸 United States · New Jersey &amp; Texas</div>
+    <div class="flag-row">🇺🇸 United States · Delaware</div>
     <div style="display:flex;gap:24px;flex-wrap:wrap;">
       <a href="mailto:sales@adhiraninfotech.com">sales@adhiraninfotech.com</a>
       <a href="#contact">Schedule a Call →</a>
@@ -69,7 +69,7 @@ $base = $base ?? '';
     <div class="hero-card">
       <h3>Why US companies work with us</h3>
       <ul>
-        <li>Local teams in New Jersey and Texas, plus a global delivery network across India, Singapore and the UAE</li>
+        <li>Local teams in Delaware, plus a global delivery network across India, Singapore and the UAE</li>
         <li>AI-screened candidates reviewed by experienced US-facing recruiters</li>
         <li>Trial-based hiring — pay only if you're satisfied with the fit</li>
         <li>Fluent English communication and overlap with US business hours</li>
@@ -322,7 +322,7 @@ $base = $base ?? '';
             <div class="dot">US</div>
             <div>
               <h4>Local presence, global delivery</h4>
-              <p>Teams in New Jersey and Texas, backed by delivery hubs across India, Singapore and the UAE for round-the-clock coverage.</p>
+              <p>Teams in Delaware, backed by delivery hubs across India, Singapore and the UAE for round-the-clock coverage.</p>
             </div>
           </div>
           <div class="why-item">
@@ -389,7 +389,7 @@ $base = $base ?? '';
       <div class="contact-info">
         <div class="item">
           <div class="ic">📍</div>
-          <div><h4>US Offices</h4><p>New Jersey · Texas</p></div>
+          <div><h4>US Office</h4><p>1007 N Orange St. 4th Floor Wilmington Delaware</p></div>
         </div>
         <div class="item">
           <div class="ic">✉️</div>
@@ -401,7 +401,7 @@ $base = $base ?? '';
         </div>
         <div class="item">
           <div class="ic">🌐</div>
-          <div><h4>Global Network</h4><p>India (HQ — Chennai) · USA (New Jersey, Texas) · Singapore · UAE (Dubai) · Japan (Tokyo)</p></div>
+          <div><h4>Global Network</h4><p>India (HQ — Chennai) · USA (Delaware) · Singapore · UAE (Dubai) · Japan (Tokyo)</p></div>
         </div>
       </div>
       <div class="form-card">
@@ -464,7 +464,7 @@ $base = $base ?? '';
     </div>
     <div class="foot-bottom">
       <span>© 2026 Adhiran Infotech. All rights reserved.</span>
-      <span>🇺🇸 USA — New Jersey · Texas &nbsp;|&nbsp; Global: India · Singapore · UAE · Japan · Australia</span>
+      <span>🇺🇸 USA — Delaware &nbsp;|&nbsp; Global: India · Singapore · UAE · Japan · Australia</span>
     </div>
   </div>
 </footer>
