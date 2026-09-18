@@ -159,23 +159,42 @@
     MOBILE HAMBURGER & ACCORDION MENU
     ========================================= */
 
+  /* Modern hamburger: pill bars with a shorter middle bar.
+     Bar geometry (h 3.5px, gap 6px) drives the X offsets below:
+     bar centres sit at 1.75 / 11.25 / 20.75px, so the outer bars
+     travel 9.5px to meet in the middle. */
   .hamburger-btn {
-    display: none;flex-direction: column;gap: 5px;background: none;border: none;cursor: 
-    pointer;padding: 8px;z-index: 1001;position: relative;}
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 8px;
+    z-index: 1001;
+    position: relative;
+  }
 
   .hamburger-btn span {
     display: block;
     width: 26px;
-    height: 2.5px;
+    height: 3.5px;
     background-color: var(--navy);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 2px;
+    border-radius: 999px;
+    transform-origin: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.2s ease;
   }
 
+  /* Shorter middle bar */
+  .hamburger-btn span:nth-child(2) { width: 16px; }
+
   /* Hamburger to 'X' Animation */
-  .hamburger-btn.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
-  .hamburger-btn.active span:nth-child(2) { opacity: 0; }
-  .hamburger-btn.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+  .hamburger-btn.active span:nth-child(1) { transform: translateY(9.5px) rotate(45deg); }
+  .hamburger-btn.active span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger-btn.active span:nth-child(3) { transform: translateY(-9.5px) rotate(-45deg); }
 
   /* Mobile Menu Overlay */
   .mobile-menu {
@@ -3218,3 +3237,48 @@ body.modal-open{overflow:hidden;}
   border:1px solid #f5c2c2;color:#c53030;font-size:13.5px;line-height:1.5;
 }
 .form-error[hidden]{display:none;}
+
+/* =========================================
+   MOBILE RESPONSIVE FIXES
+   Layout rules that previously had no override
+   at any breakpoint. Appended last so these win
+   the cascade over their base declarations.
+   ========================================= */
+
+/* Tighter page gutter on phones — 32px each side ate
+   ~18% of a 360px viewport. */
+@media (max-width:560px){
+  .wrap{padding:0 20px;}
+}
+
+/* Two-up form fields stack; at 360px each column was ~138px. */
+@media (max-width:700px){
+  .form-row{grid-template-columns:1fr;gap:16px;}
+}
+
+/* Newsletter box overflowed the viewport: 48px padding left
+   less room than the input's 240px min-width. */
+@media (max-width:700px){
+  .newsletter-box{padding:32px 24px;}
+  .newsletter-form{width:100%;}
+  .newsletter-form input{min-width:0;flex:1 1 100%;}
+  .newsletter-form .btn{flex:1 1 100%;justify-content:center;}
+}
+@media (max-width:560px){
+  .newsletter-box{padding:28px 20px;}
+}
+
+/* Two-column text lists collapse to one column. */
+@media (max-width:560px){
+  .why-points,
+  .cloudai-points,
+  .dx-points,
+  .edai-points,
+  .itsol-feature-list{grid-template-columns:1fr;}
+}
+
+/* Collapsed platform panel kept 48px side padding, leaving
+   ~200px of text on a 360px screen. Matches .sol-panel-text. */
+@media (max-width:560px){
+  .platform-panel-text{padding:28px 24px;}
+}
