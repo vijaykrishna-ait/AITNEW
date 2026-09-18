@@ -25,8 +25,10 @@ include 'includes/header.php';
     </div>
   </section>
 
-  <!-- OPEN POSITIONS -->
-  <section class="jobs" id="open-positions">
+  <!-- OPEN POSITIONS (live from the PeopleHub careers API) -->
+  <section class="jobs" id="open-positions"
+    data-careers-api="<?= htmlspecialchars(CAREERS_API_BASE) ?>"
+    data-general-job-id="<?= CAREERS_GENERAL_JOB_ID ? (int) CAREERS_GENERAL_JOB_ID : '' ?>">
     <div class="wrap">
       <div class="section-head center">
         <div class="eyebrow" style="justify-content:center;color:var(--lime);">Open Positions</div>
@@ -36,151 +38,29 @@ include 'includes/header.php';
 
       <div class="job-search-bar">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="text" id="jobSearch" placeholder="Search by job title or location…">
+        <input type="text" id="jobSearch" placeholder="Search by job title, department or location…" autocomplete="off">
       </div>
 
-      <div class="job-filters">
-        <button type="button" class="job-filter active" data-filter="all">All Roles</button>
-        <button type="button" class="job-filter" data-filter="frontend">Front-end</button>
-        <button type="button" class="job-filter" data-filter="backend">Backend</button>
-        <button type="button" class="job-filter" data-filter="mobile">Mobile</button>
-        <button type="button" class="job-filter" data-filter="cloud">Cloud &amp; DevOps</button>
-        <button type="button" class="job-filter" data-filter="data">Data &amp; AI</button>
-        <button type="button" class="job-filter" data-filter="qa">QA</button>
-        <button type="button" class="job-filter" data-filter="marketing">Digital Marketing</button>
+      <!-- Department chips are rendered from the API response -->
+      <div class="job-filters" id="jobFilters" hidden></div>
+
+      <div class="jobs-summary" id="jobsSummary" aria-live="polite"></div>
+
+      <!-- Loading skeleton -->
+      <div class="jobs-grid jobs-skeleton" id="jobsLoading" aria-hidden="true">
+        <div class="job-skeleton"></div>
+        <div class="job-skeleton"></div>
+        <div class="job-skeleton"></div>
       </div>
 
-      <div class="jobs-grid">
-        <div class="job-card" data-title="Senior Frontend Developer (React)" data-loc="Chennai, India" data-dept="frontend" data-dept-label="Front-end Development" data-type="Full-time"
-          data-overview="Own the frontend architecture for client web applications, working closely with backend and design teams to ship fast, accessible and maintainable interfaces."
-          data-responsibilities="Build and maintain responsive UIs using React and modern JavaScript|Collaborate with UX/UI designers to translate mockups into pixel-perfect components|Optimize applications for performance, accessibility and cross-browser support|Write clean, reusable and well-tested code"
-          data-requirements="4+ years of experience with React, JavaScript/TypeScript and modern CSS|Familiarity with state management (Redux/Context) and REST/GraphQL APIs|Strong eye for detail and UI polish|Good communication skills for client-facing collaboration">
-          <div>
-            <h3>Senior Frontend Developer (React)</h3>
-            <div class="meta">Chennai, India</div>
-            <div class="role">Front-end Development · Full-time</div>
-          </div>
-          <div class="date">Posted 28-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="Backend Engineer (Node.js / Java)" data-loc="Remote — India" data-dept="backend" data-dept-label="Backend Development" data-type="Full-time"
-          data-overview="Design and build scalable backend services and APIs that power web and mobile applications for our clients."
-          data-responsibilities="Design, build and maintain RESTful APIs and microservices|Work with relational and NoSQL databases to model and optimize data|Ensure application security, performance and reliability|Collaborate with frontend and DevOps teams on end-to-end delivery"
-          data-requirements="3+ years of experience with Node.js, Java or similar backend stacks|Solid understanding of databases (SQL/NoSQL) and API design|Experience with cloud platforms (AWS/Azure/GCP) is a plus|Strong problem-solving and debugging skills">
-          <div>
-            <h3>Backend Engineer (Node.js / Java)</h3>
-            <div class="meta">Remote — India</div>
-            <div class="role">Backend Development · Full-time</div>
-          </div>
-          <div class="date">Posted 25-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="Mobile App Developer (Flutter)" data-loc="Sydney, Australia" data-dept="mobile" data-dept-label="Mobile App Development" data-type="Contract"
-          data-overview="Build high-quality cross-platform mobile applications for clients across industries, from concept through App Store release."
-          data-responsibilities="Develop and maintain mobile apps using Flutter for iOS and Android|Integrate with backend APIs and third-party services|Ensure smooth performance, responsiveness and offline support|Participate in code reviews and app store release processes"
-          data-requirements="3+ years of mobile development experience, with Flutter/Dart or React Native|Experience publishing apps to the App Store and Google Play|Understanding of mobile UI/UX best practices|Comfortable working in a contract, deadline-driven environment">
-          <div>
-            <h3>Mobile App Developer (Flutter)</h3>
-            <div class="meta">Sydney, Australia</div>
-            <div class="role">Mobile App Development · Contract</div>
-          </div>
-          <div class="date">Posted 22-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="Cloud &amp; DevOps Engineer (AWS / Azure)" data-loc="Dubai, UAE" data-dept="cloud" data-dept-label="Cloud Engineering" data-type="Full-time"
-          data-overview="Manage cloud infrastructure and CI/CD pipelines that keep client applications secure, scalable and highly available."
-          data-responsibilities="Design and manage cloud infrastructure on AWS and/or Azure|Build and maintain CI/CD pipelines for automated deployments|Monitor system health, performance and cost optimization|Implement security best practices across environments"
-          data-requirements="3+ years of experience in cloud engineering or DevOps|Hands-on experience with Docker, Kubernetes and infrastructure-as-code (Terraform)|Familiarity with monitoring and logging tools|AWS/Azure certification is a plus">
-          <div>
-            <h3>Cloud &amp; DevOps Engineer (AWS / Azure)</h3>
-            <div class="meta">Dubai, UAE</div>
-            <div class="role">Cloud Engineering · Full-time</div>
-          </div>
-          <div class="date">Posted 20-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="Data Engineer (Snowflake / Power BI)" data-loc="Singapore" data-dept="data" data-dept-label="Data Engineering" data-type="Full-time"
-          data-overview="Build reliable data pipelines and reporting infrastructure that turn raw data into decision-ready insights for clients."
-          data-responsibilities="Design and maintain ETL/ELT pipelines feeding Snowflake and other warehouses|Build and optimize dashboards and reports in Power BI|Ensure data quality, governance and documentation|Partner with analysts and stakeholders to define data models"
-          data-requirements="3+ years of experience in data engineering or BI development|Strong SQL skills and experience with Snowflake or similar warehouses|Hands-on experience with Power BI or similar BI tools|Understanding of data modeling and pipeline orchestration">
-          <div>
-            <h3>Data Engineer (Snowflake / Power BI)</h3>
-            <div class="meta">Singapore</div>
-            <div class="role">Data Engineering · Full-time</div>
-          </div>
-          <div class="date">Posted 18-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="QA Automation Engineer (Selenium / Cypress)" data-loc="Chennai, India" data-dept="qa" data-dept-label="QA Engineering" data-type="Full-time"
-          data-overview="Own test automation strategy and execution to help our clients ship reliable software faster."
-          data-responsibilities="Design, build and maintain automated test suites using Selenium/Cypress|Perform functional, regression and API testing|Collaborate with developers to identify and resolve defects early|Report on test coverage and quality metrics"
-          data-requirements="2+ years of experience in QA automation|Hands-on experience with Selenium, Cypress or Playwright|Understanding of API testing tools (Postman, REST Assured)|Detail-oriented with strong analytical skills">
-          <div>
-            <h3>QA Automation Engineer (Selenium / Cypress)</h3>
-            <div class="meta">Chennai, India</div>
-            <div class="role">QA Engineering · Full-time</div>
-          </div>
-          <div class="date">Posted 15-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="Data Scientist (AI / ML)" data-loc="New Jersey, USA" data-dept="data" data-dept-label="Data Science" data-type="Full-time"
-          data-overview="Develop and deploy machine learning models that solve real business problems for our clients, from healthcare to fintech."
-          data-responsibilities="Build, train and evaluate machine learning and deep learning models|Work with large datasets to extract features and insights|Deploy models into production and monitor performance|Communicate findings to technical and non-technical stakeholders"
-          data-requirements="3+ years of experience in data science or machine learning|Strong Python skills with libraries like scikit-learn, TensorFlow or PyTorch|Experience with LLMs or generative AI is a plus|Strong statistical and analytical foundation">
-          <div>
-            <h3>Data Scientist (AI / ML)</h3>
-            <div class="meta">Delaware, USA</div>
-            <div class="role">Data Science · Full-time</div>
-          </div>
-          <div class="date">Posted 12-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="job-card" data-title="Digital Marketing Specialist (SEO / Performance)" data-loc="Chennai, India" data-dept="marketing" data-dept-label="Digital Marketing" data-type="Full-time"
-          data-overview="Plan and execute digital marketing campaigns that drive qualified traffic, leads and brand visibility for our clients."
-          data-responsibilities="Plan and manage SEO, SEM and social media campaigns|Analyze performance data and optimize campaigns for ROI|Create content calendars and coordinate with content/design teams|Track KPIs and report on campaign performance"
-          data-requirements="2+ years of experience in digital marketing|Hands-on experience with Google Ads, SEO tools and analytics platforms|Strong understanding of content and performance marketing|Excellent written communication skills">
-          <div>
-            <h3>Digital Marketing Specialist (SEO / Performance)</h3>
-            <div class="meta">Chennai, India</div>
-            <div class="role">Digital Marketing · Full-time</div>
-          </div>
-          <div class="date">Posted 10-Jun-2026</div>
-          <div class="job-card-actions">
-            <button type="button" class="btn btn-outline-light job-view-btn">View Details</button>
-            <button type="button" class="btn btn-lime job-apply-btn">Apply Now</button>
-          </div>
-        </div>
-      </div>
+      <div class="jobs-grid" id="jobsGrid" hidden></div>
 
       <p class="job-empty" id="jobEmpty">No roles match your search right now — try a different keyword or filter, or submit a general application below.</p>
+
+      <div class="jobs-error" id="jobsError" hidden>
+        <p id="jobsErrorMsg"></p>
+        <button type="button" class="btn btn-outline-light" id="jobsRetry">Try again</button>
+      </div>
 
       <div class="job-more">
         <p>Don't see the right role? We're always looking for great people.</p>
@@ -233,18 +113,15 @@ include 'includes/header.php';
       <div class="eyebrow" id="detailsDept">Department</div>
       <h3 id="detailsTitle">Job Title</h3>
       <div class="job-modal-role" id="detailsMeta">Location · Type</div>
+      <div class="job-badges job-modal-badges" id="detailsBadges"></div>
 
       <div class="job-details-section">
-        <h4>Role Overview</h4>
-        <p id="detailsOverview"></p>
+        <h4>Job Description</h4>
+        <div class="job-rich-text" id="detailsDescription"></div>
       </div>
-      <div class="job-details-section">
-        <h4>Key Responsibilities</h4>
-        <ul id="detailsResponsibilities"></ul>
-      </div>
-      <div class="job-details-section">
-        <h4>What We're Looking For</h4>
-        <ul id="detailsRequirements"></ul>
+      <div class="job-details-section" id="detailsRequirementsSection" hidden>
+        <h4>Requirements</h4>
+        <div class="job-rich-text" id="detailsRequirements"></div>
       </div>
 
       <button type="button" class="btn btn-lime job-details-apply" style="width:100%;justify-content:center;">Apply for this Role</button>
@@ -265,7 +142,7 @@ include 'includes/header.php';
 
       <div id="jobModalBody">
         <form id="jobApplyForm" novalidate>
-          <input type="hidden" id="jobAppliedFor" value="General Application">
+          <input type="hidden" id="jobOpeningId" value="">
           <div class="form-row">
             <div class="form-group">
               <label for="appFirstName">First Name</label>
@@ -297,24 +174,24 @@ include 'includes/header.php';
             </div>
             <div class="form-group">
               <label for="appExperience">Total Experience (years)</label>
-              <input type="text" id="appExperience" placeholder="e.g. 4" required>
-              <div class="error-msg">Please enter your total experience</div>
+              <input type="number" id="appExperience" min="0" step="0.5" placeholder="e.g. 4" required>
+              <div class="error-msg">Please enter your total experience in years</div>
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label for="appCurrentCtc">Current CTC</label>
-              <input type="text" id="appCurrentCtc" placeholder="e.g. 8 LPA">
+              <label for="appCurrentCtc">Current CTC (&#8377; per annum)</label>
+              <input type="number" id="appCurrentCtc" min="0" step="1000" placeholder="e.g. 800000">
             </div>
             <div class="form-group">
-              <label for="appExpectedCtc">Expected CTC</label>
-              <input type="text" id="appExpectedCtc" placeholder="e.g. 12 LPA">
+              <label for="appExpectedCtc">Expected CTC (&#8377; per annum)</label>
+              <input type="number" id="appExpectedCtc" min="0" step="1000" placeholder="e.g. 1200000">
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
               <label for="appNotice">Notice Period (days)</label>
-              <input type="text" id="appNotice" placeholder="e.g. 30">
+              <input type="number" id="appNotice" min="0" step="1" placeholder="e.g. 30">
             </div>
             <div class="form-group">
               <label for="appReferral">Referral Code (optional)</label>
@@ -331,7 +208,10 @@ include 'includes/header.php';
               <span id="resumeFileLabel">Click to upload your resume (PDF or DOC, max 5MB)</span>
               <input type="file" id="resumeFile" accept=".pdf,.doc,.docx">
             </div>
+            <div class="error-msg resume-error" id="resumeError"></div>
           </div>
+
+          <p class="form-error" id="jobFormError" role="alert" hidden></p>
           <button type="submit" class="btn-submit">
             <span class="btn-text">Submit Application &rarr;</span>
             <span class="spinner"></span>
@@ -349,5 +229,7 @@ include 'includes/header.php';
       </div>
     </div>
   </div>
+
+<script defer src="<?= $base ?>assets/js/careers.js"></script>
 
 <?php include 'includes/footer.php'; ?>

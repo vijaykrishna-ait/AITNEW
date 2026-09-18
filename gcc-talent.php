@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Modern technology office workspace in India">
+        <img src="assets/images/gcc-talent/banner.jpeg" alt="Modern technology office workspace in India">
       </div>
     </div>
   </div>
@@ -64,7 +64,7 @@ include 'includes/header.php';
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime" style="margin-top:26px;">Tell Us What You Need &rarr;</a>
       </div>
       <div class="itsol-intro-img">
-        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80" alt="Engineering team collaborating in an office" loading="lazy" decoding="async">
+        <img src="assets/images/gcc-talent/why-adhiran.jpeg" alt="Engineering team collaborating in an office" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@ include 'includes/header.php';
 
       <div class="deliv-item">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Recruitment team interviewing a candidate" loading="lazy" decoding="async">
+          <img src="assets/images/gcc-talent/talent.jpeg" alt="Recruitment team interviewing a candidate" loading="lazy" decoding="async">
         </div>
         <div class="deliv-content">
           <span class="tag">01 &mdash; GCC Talent Acquisition</span>
@@ -143,7 +143,7 @@ include 'includes/header.php';
 
       <div class="deliv-item reverse">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Engineers joining an existing project team" loading="lazy" decoding="async">
+          <img src="assets/images/gcc-talent/staff-aug.jpeg" alt="Engineers joining an existing project team" loading="lazy" decoding="async">
         </div>
         <div class="deliv-content">
           <span class="tag">02 &mdash; Staff Augmentation</span>
@@ -170,7 +170,7 @@ include 'includes/header.php';
 
       <div class="deliv-item">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Dedicated engineering team working together" loading="lazy" decoding="async">
+          <img src="assets/images/gcc-talent/dedicated.jpeg" alt="Dedicated engineering team working together" loading="lazy" decoding="async">
         </div>
         <div class="deliv-content">
           <span class="tag">03 &mdash; Dedicated Engineering Teams</span>
@@ -197,7 +197,7 @@ include 'includes/header.php';
 
       <div class="deliv-item reverse">
         <div class="deliv-img">
-          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80" alt="Offshore delivery team in a planning session" loading="lazy" decoding="async">
+          <img src="assets/images/gcc-talent/offshore.jpeg" alt="Offshore delivery team in a planning session" loading="lazy" decoding="async">
         </div>
         <div class="deliv-content">
           <span class="tag">04 &mdash; Offshore Development &amp; Delivery</span>

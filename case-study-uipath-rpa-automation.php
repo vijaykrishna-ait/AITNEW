@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Automation workflow displayed on screen">
+        <img src="assets/images/case-studies/uipath-banner.jpeg" alt="Automation workflow displayed on screen">
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
     <div class="cs-grid">
       <a href="<?= $base ?>case-study-veeva-crm-implementation" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=700&q=80" alt="Sales team reviewing a CRM dashboard" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/veeva-banner.jpeg" alt="Sales team reviewing a CRM dashboard" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Veeva CRM</span>
@@ -165,7 +165,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-edtech-ai-learning-platform" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=80" alt="Student learning online with a laptop" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/edtech-banner.jpeg" alt="Student learning online with a laptop" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">EdTech AI</span>
@@ -176,7 +176,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-azure-openai-recruitment" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=700&q=80" alt="Team in a meeting discussing recruitment" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/azure-banner.jpeg" alt="Team in a meeting discussing recruitment" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Azure OpenAI</span>

@@ -237,13 +237,13 @@ include 'includes/header.php';
       <div class="clients-grid">
         <div class="client-logo"><img src="assets/logos/google.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/meta.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="client-logo"><img src="assets/logos/johnson&johnson.svg" alt="" loading="lazy" decoding="async"></div>
+        <div class="client-logo"><img src="assets/logos/johnson-johnson.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/tata.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/shell.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/hcltech.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/google.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/meta.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="client-logo"><img src="assets/logos/johnson&johnson.svg" alt="" loading="lazy" decoding="async"></div>
+        <div class="client-logo"><img src="assets/logos/johnson-johnson.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/tata.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/shell.svg" alt="" loading="lazy" decoding="async"></div>
         <div class="client-logo"><img src="assets/logos/hcltech.svg" alt="" loading="lazy" decoding="async"></div>
@@ -492,8 +492,8 @@ include 'includes/header.php';
         </div>
         <div class="ind-visual">
           <div class="pane active" data-pane="0" id="ind-pane-0" role="tabpanel" data-title="Banking & Financial Services">
-            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80"
-              alt="Modern bank trading floor" loading="lazy" decoding="async">
+            <img src="assets/images/banking/banner.jpeg"
+              alt="Modern bank building exterior" loading="lazy" decoding="async">
             <div class="info">
               <span class="tag">Banking &amp; Finance</span>
               <h3>Banking &amp; Financial Services</h3>
@@ -501,8 +501,8 @@ include 'includes/header.php';
             </div>
           </div>
           <div class="pane" data-pane="1" id="ind-pane-1" role="tabpanel" data-title="Consumer Products">
-            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80"
-              alt="Retail store with consumer products" loading="lazy" decoding="async">
+            <img src="assets/images/consumer-products/banner.jpeg"
+              alt="Consumer product packaging on a production line" loading="lazy" decoding="async">
             <div class="info">
               <span class="tag">Retail &amp; CPG</span>
               <h3>Consumer Products</h3>
@@ -519,8 +519,8 @@ include 'includes/header.php';
             </div>
           </div>
           <div class="pane" data-pane="3" id="ind-pane-3" role="tabpanel" data-title="Hospitality">
-            <img src="https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=900&q=80"
-              alt="Modern hotel lobby" loading="lazy" decoding="async">
+            <img src="assets/images/hospitality/banner.jpeg"
+              alt="Hotel exterior with pool at dusk" loading="lazy" decoding="async">
             <div class="info">
               <span class="tag">Hospitality</span>
               <h3>Hospitality</h3>
@@ -528,8 +528,8 @@ include 'includes/header.php';
             </div>
           </div>
           <div class="pane" data-pane="4" id="ind-pane-4" role="tabpanel" data-title="Manufacturing">
-            <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=900&q=80"
-              alt="Modern manufacturing plant" loading="lazy" decoding="async">
+            <img src="assets/images/manufacturing/banner.jpeg"
+              alt="Manufacturing plant floor with machinery" loading="lazy" decoding="async">
             <div class="info">
               <span class="tag">Manufacturing</span>
               <h3>Manufacturing</h3>
@@ -537,8 +537,8 @@ include 'includes/header.php';
             </div>
           </div>
           <div class="pane" data-pane="5" id="ind-pane-5" role="tabpanel" data-title="Professional Services">
-            <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=900&q=80"
-              alt="Professionals in a consulting meeting" loading="lazy" decoding="async">
+            <img src="assets/images/professional-services/banner.jpeg"
+              alt="Professional services office building" loading="lazy" decoding="async">
             <div class="info">
               <span class="tag">Consulting</span>
               <h3>Professional Services</h3>

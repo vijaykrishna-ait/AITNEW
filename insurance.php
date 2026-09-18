@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=80" alt="Insurance policy documentation being reviewed">
+        <img src="assets/images/insurance/banner.jpeg" alt="Insurance policy documentation being reviewed">
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80" alt="Insurance adviser meeting a client" loading="lazy" decoding="async">
+          <img src="assets/images/insurance/life-health.jpeg" alt="Insurance adviser meeting a client" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Life &amp; Health Insurers</span>
@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" alt="Property being assessed for insurance" loading="lazy" decoding="async">
+          <img src="assets/images/insurance/general.jpeg" alt="Property being assessed for insurance" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">General &amp; Property Insurers</span>

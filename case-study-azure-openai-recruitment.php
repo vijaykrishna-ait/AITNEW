@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80" alt="Team in a meeting discussing recruitment">
+        <img src="assets/images/case-studies/azure-banner.jpeg" alt="Team in a meeting discussing recruitment">
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ include 'includes/header.php';
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime" style="margin-top:26px;">Talk to Our Team &rarr;</a>
       </div>
       <div class="itsol-intro-img">
-        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80" alt="Recruiter reviewing candidate information" loading="lazy" decoding="async">
+        <img src="assets/images/case-studies/azure-solution.jpeg" alt="Recruiter reviewing candidate information" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
     <div class="cs-grid">
       <a href="<?= $base ?>case-study-predictive-maintenance" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=700&q=80" alt="Manufacturing plant floor with automation" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/predictive-banner.jpeg" alt="Manufacturing plant floor with automation" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Industry 4.0</span>
@@ -165,7 +165,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-cloud-erp-migration" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80" alt="Team reviewing a cloud migration plan" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/cloud-erp-banner.jpeg" alt="Team reviewing a cloud migration plan" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Cloud Migration</span>
@@ -176,7 +176,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-admissions-portal" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=700&q=80" alt="University campus building" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/admissions-banner.jpeg" alt="University campus building" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Higher Education</span>

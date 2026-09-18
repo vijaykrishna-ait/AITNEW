@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/banners/auto-banner.jpeg" alt="Modern vehicle on the road">
+        <img src="assets/images/automotive/banner.jpeg" alt="Modern vehicle on the road">
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80" alt="Vehicle assembly line in a factory" loading="lazy" decoding="async">
+          <img src="assets/images/automotive/oems.jpeg" alt="Vehicle assembly line in a factory" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">OEMs &amp; Vehicle Manufacturers</span>
@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80" alt="Engineer inspecting automotive components" loading="lazy" decoding="async">
+          <img src="assets/images/automotive/suppliers.jpeg" alt="Engineer inspecting automotive components" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Tier 1 &amp; Tier 2 Suppliers</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Vehicles in a dealership showroom" loading="lazy" decoding="async">
+          <img src="assets/images/automotive/dealers.jpeg" alt="Vehicles in a dealership showroom" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Dealer Groups &amp; Aftermarket</span>

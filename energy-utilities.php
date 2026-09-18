@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80" alt="Solar energy installation at sunset">
+        <img src="assets/images/energy-utilities/banner.jpeg" alt="Solar energy installation at sunset">
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80" alt="Electricity transmission lines" loading="lazy" decoding="async">
+          <img src="assets/images/energy-utilities/power.jpeg" alt="Electricity transmission lines" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Power Distribution &amp; Transmission</span>
@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=800&q=80" alt="Wind turbines generating power" loading="lazy" decoding="async">
+          <img src="assets/images/energy-utilities/renewable.jpeg" alt="Wind turbines generating power" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Renewable Energy Operators</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=800&q=80" alt="Solar panel installation being maintained" loading="lazy" decoding="async">
+          <img src="assets/images/energy-utilities/water.jpeg" alt="Solar panel installation being maintained" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Water &amp; Multi-Utility Providers</span>

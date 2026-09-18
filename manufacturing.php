@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=800&q=80" alt="Industrial process plant equipment" loading="lazy" decoding="async">
+          <img src="assets/images/manufacturing/process.jpeg" alt="Industrial process plant equipment" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Process &amp; Heavy Industry</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" alt="Engineer working on electronic equipment" loading="lazy" decoding="async">
+          <img src="assets/images/manufacturing/electronics.jpeg" alt="Engineer working on electronic equipment" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Electronics &amp; Precision Components</span>

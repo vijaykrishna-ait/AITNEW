@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=900&q=80" alt="Trading desk with multiple market data screens">
+        <img src="assets/images/capital-markets/banner.jpeg" alt="Trading desk with multiple market data screens">
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80" alt="Stock market charts on a screen" loading="lazy" decoding="async">
+          <img src="assets/images/capital-markets/brokers.jpeg" alt="Stock market charts on a screen" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Brokers &amp; Trading Firms</span>
@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Portfolio analytics dashboard" loading="lazy" decoding="async">
+          <img src="assets/images/capital-markets/wealth.jpeg" alt="Portfolio analytics dashboard" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Asset &amp; Wealth Managers</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=800&q=80" alt="Financial market data visualisation" loading="lazy" decoding="async">
+          <img src="assets/images/capital-markets/infrastructure.jpeg" alt="Financial market data visualisation" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Market Infrastructure &amp; Data Providers</span>

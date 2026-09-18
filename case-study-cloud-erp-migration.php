@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80" alt="Team reviewing a cloud migration plan">
+        <img src="assets/images/case-studies/cloud-erp-banner.jpeg" alt="Team reviewing a cloud migration plan">
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ include 'includes/header.php';
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime" style="margin-top:26px;">Talk to Our Team &rarr;</a>
       </div>
       <div class="itsol-intro-img">
-        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Engineers planning a phased migration" loading="lazy" decoding="async">
+        <img src="assets/images/case-studies/cloud-erp-solution.jpeg" alt="Engineers planning a phased migration" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
     <div class="cs-grid">
       <a href="<?= $base ?>case-study-admissions-portal" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=700&q=80" alt="University campus building" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/admissions-banner.jpeg" alt="University campus building" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Higher Education</span>
@@ -165,7 +165,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-patient-support-chatbot" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80" alt="Healthcare professional using an AI chatbot" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/chatbot-banner.jpeg" alt="Healthcare professional using an AI chatbot" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Conversational AI</span>
@@ -176,7 +176,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-digital-bank-core-platform" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=700&q=80" alt="Modern bank building exterior" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/digital-bank-banner.jpeg" alt="Modern bank building exterior" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">FinTech</span>

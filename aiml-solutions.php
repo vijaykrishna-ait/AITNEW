@@ -61,7 +61,7 @@ include 'includes/header.php';
       </div>
       <div class="itsol-svc-card">
         <div class="itsol-svc-icon"> 
-          <img src="assets/icons/ai-ml/data-governce.png" alt="">
+          <img src="assets/icons/ai-ml/data-governance.png" alt="">
         </div>
         <h3>Data Governance & AI Ethics</h3>
         <p>Frameworks for responsible AI — data lineage, model explainability, bias detection, and governance processes

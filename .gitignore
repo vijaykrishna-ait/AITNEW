@@ -1,0 +1,6 @@
+# Archives
+*.zip
+
+# Local content directory
+contents/
+.claude/

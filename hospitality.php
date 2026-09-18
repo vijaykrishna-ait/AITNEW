@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80" alt="Hotel exterior with pool at dusk">
+        <img src="assets/images/hospitality/banner.jpeg" alt="Hotel exterior with pool at dusk">
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80" alt="Hotel lobby reception area" loading="lazy" decoding="async">
+          <img src="assets/images/hospitality/hotels.jpeg" alt="Hotel lobby reception area" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Hotels &amp; Resorts</span>
@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="Restaurant kitchen in service" loading="lazy" decoding="async">
+          <img src="assets/images/hospitality/restaurants.jpeg" alt="Restaurant kitchen in service" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Restaurants &amp; F&amp;B Chains</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Serviced apartment interior" loading="lazy" decoding="async">
+          <img src="assets/images/hospitality/apartments.jpeg" alt="Serviced apartment interior" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Serviced Apartments &amp; Travel</span>

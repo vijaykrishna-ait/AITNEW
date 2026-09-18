@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80" alt="Physical retail shop front" loading="lazy" decoding="async">
+          <img src="assets/images/retail-ecommerce/multistore.jpeg" alt="Physical retail shop front" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Multi-Store Retailers</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80" alt="Customer completing a contactless purchase" loading="lazy" decoding="async">
+          <img src="assets/images/retail-ecommerce/d2c.jpeg" alt="Customer completing a contactless purchase" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">D2C Brands &amp; Marketplaces</span>

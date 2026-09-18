@@ -26,7 +26,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80" alt="Professional services office building">
+        <img src="assets/images/professional-services/banner.jpeg" alt="Professional services office building">
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Consultants reviewing analysis together" loading="lazy" decoding="async">
+          <img src="assets/images/professional-services/consulting.jpeg" alt="Consultants reviewing analysis together" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Consulting &amp; Advisory Firms</span>

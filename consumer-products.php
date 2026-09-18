@@ -158,7 +158,7 @@ include 'includes/header.php';
     <div class="segment-row">
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=800&q=80" alt="Packaged goods ready for distribution" loading="lazy" decoding="async">
+          <img src="assets/images/consumer-products/fmcg.jpeg" alt="Packaged goods ready for distribution" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">FMCG &amp; Packaged Goods</span>
@@ -179,7 +179,7 @@ include 'includes/header.php';
 
       <div class="segment-item reverse">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80" alt="Food and beverage retail display" loading="lazy" decoding="async">
+          <img src="assets/images/consumer-products/food-bev.jpeg" alt="Food and beverage retail display" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Food &amp; Beverage</span>
@@ -200,7 +200,7 @@ include 'includes/header.php';
 
       <div class="segment-item">
         <div class="segment-img">
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80" alt="Online consumer purchase being completed" loading="lazy" decoding="async">
+          <img src="assets/images/consumer-products/d2c.jpeg" alt="Online consumer purchase being completed" loading="lazy" decoding="async">
         </div>
         <div class="segment-content">
           <span class="tag">Direct-to-Consumer Brands</span>

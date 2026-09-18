@@ -50,7 +50,7 @@ include 'includes/header.php';
         <p>Build robust, scalable UiPath bots tailored to your specific processes — attended, unattended, or hybrid — with full exception handling and logging.</p>
       </div>
       <div class="itsol-svc-card">
-        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/impliment.png" alt=""></div>
+        <div class="itsol-svc-icon"><img src="assets/icons/ui-path/implement.png" alt=""></div>
         <h3>Implementation Services</h3>
         <p>End-to-end RPA implementation — from environment setup and bot deployment to testing, change management, and hypercare.</p>
       </div>

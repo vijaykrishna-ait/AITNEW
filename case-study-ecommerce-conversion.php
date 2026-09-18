@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=900&q=80" alt="Online shopping on a laptop">
+        <img src="assets/images/case-studies/ecommerce-banner.jpeg" alt="Online shopping on a laptop">
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ include 'includes/header.php';
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime" style="margin-top:26px;">Talk to Our Team &rarr;</a>
       </div>
       <div class="itsol-intro-img">
-        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" alt="Retail merchandise and shopping experience" loading="lazy" decoding="async">
+        <img src="assets/images/case-studies/ecommerce-solution.jpeg" alt="Retail merchandise and shopping experience" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
     <div class="cs-grid">
       <a href="<?= $base ?>case-study-fleet-tracking" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" alt="Logistics tracking being reviewed on a laptop" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/fleet-banner.jpeg" alt="Logistics tracking being reviewed on a laptop" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Logistics</span>
@@ -165,7 +165,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-healthcare-ai-diagnostics" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&q=80" alt="AI diagnostics in a hospital setting" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/healthcare-banner.jpeg" alt="AI diagnostics in a hospital setting" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Healthcare AI</span>
@@ -176,7 +176,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-uipath-rpa-automation" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80" alt="Automation workflow displayed on screen" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/uipath-banner.jpeg" alt="Automation workflow displayed on screen" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">UiPath Automation</span>

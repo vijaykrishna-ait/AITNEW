@@ -27,7 +27,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=80" alt="Healthcare professional using an AI chatbot">
+        <img src="assets/images/case-studies/chatbot-banner.jpeg" alt="Healthcare professional using an AI chatbot">
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ include 'includes/header.php';
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime" style="margin-top:26px;">Talk to Our Team &rarr;</a>
       </div>
       <div class="itsol-intro-img">
-        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80" alt="Patient support team at work" loading="lazy" decoding="async">
+        <img src="assets/images/case-studies/chatbot-solution.jpeg" alt="Patient support team at work" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
     <div class="cs-grid">
       <a href="<?= $base ?>case-study-digital-bank-core-platform" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=700&q=80" alt="Modern bank building exterior" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/digital-bank-banner.jpeg" alt="Modern bank building exterior" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">FinTech</span>
@@ -165,7 +165,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-ecommerce-conversion" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=700&q=80" alt="Online shopping on a laptop" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/ecommerce-banner.jpeg" alt="Online shopping on a laptop" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Retail</span>
@@ -176,7 +176,7 @@ include 'includes/header.php';
       </a>
       <a href="<?= $base ?>case-study-fleet-tracking" class="cs-card">
         <div class="cs-card-img">
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" alt="Logistics tracking being reviewed on a laptop" loading="lazy" decoding="async">
+          <img src="assets/images/case-studies/fleet-banner.jpeg" alt="Logistics tracking being reviewed on a laptop" loading="lazy" decoding="async">
         </div>
         <div class="cs-card-body">
           <span class="tag">Logistics</span>

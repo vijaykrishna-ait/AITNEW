@@ -23,7 +23,7 @@ include 'includes/header.php';
     </div>
     <div class="hero-visual">
       <div class="hero-photo">
-        <img src="assets/images/banners/veuejs-banner.jpeg" alt="">
+        <img src="assets/images/banners/vuejs-banner.jpeg" alt="">
       </div>
     </div>
   </div>

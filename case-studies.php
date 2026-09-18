@@ -30,7 +30,7 @@ include 'includes/header.php';
       <div class="cs-grid">
         <a href="<?= $base ?>case-study-healthcare-ai-diagnostics" class="cs-card" data-cat="healthcare ai">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/healthcare-banner.jpeg"
               alt="AI diagnostics in a hospital setting">
           </div>
           <div class="cs-card-body">
@@ -43,7 +43,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-uipath-rpa-automation" class="cs-card" data-cat="cloud ai">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/uipath-banner.jpeg"
               alt="Automation workflow on screen">
           </div>
           <div class="cs-card-body">
@@ -56,7 +56,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-veeva-crm-implementation" class="cs-card" data-cat="healthcare enterprise">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/veeva-banner.jpeg"
               alt="Sales team reviewing CRM dashboard">
           </div>
           <div class="cs-card-body">
@@ -69,7 +69,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-edtech-ai-learning-platform" class="cs-card" data-cat="edutech ai">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/edtech-banner.jpeg"
               alt="Student learning online with laptop">
           </div>
           <div class="cs-card-body">
@@ -82,7 +82,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-azure-openai-recruitment" class="cs-card" data-cat="ai enterprise">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/azure-banner.jpeg"
               alt="Team in a meeting discussing recruitment">
           </div>
           <div class="cs-card-body">
@@ -95,7 +95,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-predictive-maintenance" class="cs-card" data-cat="cloud">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/predictive-banner.jpeg"
               alt="Manufacturing plant floor with automation">
           </div>
           <div class="cs-card-body">
@@ -108,7 +108,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-cloud-erp-migration" class="cs-card" data-cat="enterprise cloud">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/cloud-erp-banner.jpeg"
               alt="Team reviewing cloud migration plan">
           </div>
           <div class="cs-card-body">
@@ -121,7 +121,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-admissions-portal" class="cs-card" data-cat="edutech">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/admissions-banner.jpeg"
               alt="University admissions portal on screen">
           </div>
           <div class="cs-card-body">
@@ -134,7 +134,7 @@ include 'includes/header.php';
         </a>
         <a href="<?= $base ?>case-study-patient-support-chatbot" class="cs-card" data-cat="ai healthcare">
           <div class="cs-card-img">
-            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80"
+            <img src="assets/images/case-studies/chatbot-banner.jpeg"
               alt="Healthcare professional using AI chatbot">
           </div>
           <div class="cs-card-body">
