@@ -1,9 +1,6 @@
 <?php
 $current_page   = 'home';
-$page_title     = 'Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/';
+$seo_key       = 'index';
 include 'includes/header.php';
 ?>
 
@@ -58,8 +55,8 @@ include 'includes/header.php';
     <div class="wrap hero-grid">
       <div>
         <div class="eyebrow">Global Talent &amp; Technology Solutions</div>
-        <h1>Empowering Growth Through <em>Talent & Innovation.</em></h1>
-        <p class="lead">From specialized IT staffing to AI-powered workforce solutions, Adhiran Infotech helps organizations scale faster with top talent and technology expertise across globe.</p>
+        <h1><?= seo_h1() ?></h1>
+        <p class="lead"><?= seo_lead() ?></p>
         <div class="hero-actions">
           <a href="<?= $base ?>contact" class="btn btn-primary btn-magnetic">Find Talent →</a>
           <a href="<?= $base ?>career#open-positions" class="btn btn-outline">Explore Opportunities</a>
@@ -150,8 +147,7 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head" data-reveal="up">
         <div class="eyebrow">Spectrum of Solutions</div>
-        <h2>Scale your workforce with one trusted partner</h2>
-        <p>Whether you're looking for an individual expert, a dedicated team, or complete project execution, we provide flexible engagement models tailored to your business needs.</p>
+        <?php seo_section(1); ?>
       </div>
 
       <div class="solutions-grid">
@@ -263,8 +259,7 @@ include 'includes/header.php';
       </div>
       <div class="why-content">
         <div class="eyebrow">Why Choose Adhiran Infotech?</div>
-        <h2>Transforming Talent, Technology, and Business Outcomes</h2>
-        <p>Adhiran Infotech empowers organizations with world-class talent solutions, technology consulting, and digital transformation services. By blending deep industry expertise, AI-driven innovation, and a global delivery model, we help businesses build future-ready teams, accelerate growth, and stay ahead in an evolving digital landscape.</p>
+        <?php seo_section(0); ?>
         <!-- <p>From enterprise staffing and managed teams to cloud, data, and AI initiatives, we deliver scalable solutions tailored to your business objectives.</p> -->
         <!-- <p class="highlight">Trusted by Businesses Across the Globe</p> -->
         <div class="why-points">
@@ -316,7 +311,7 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head center" data-reveal="up">
         <div class="eyebrow" style="justify-content:center;">Our Capabilities</div>
-        <h2>Our tech skills</h2>
+        <?php seo_section(2); ?>
         <!-- <p>The technologies our consultants and talent network specialize in — ready to plug into your team or project,
           anywhere in the world. Filter by practice to find the right fit faster.</p> -->
       </div>
@@ -711,6 +706,8 @@ include 'includes/header.php';
   */ ?>
 
   <!-- CTA -->
+  <?php seo_faq(); ?>
+
   <section class="cta" id="contact">
     <h2>Ready to build your next great team?</h2>
     <p>Tell us what you're trying to solve — we'll connect you with the right people, technology and consulting

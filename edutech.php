@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'EdTech & AI for Education | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/edutech';
+$seo_key       = 'edutech';
 include 'includes/header.php';
 ?>
 
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">EdTech &amp; AI for Education</div>
-      <h1>Helping institutions teach smarter with AI</h1>
-      <p class="lead">We partner with schools, colleges, universities, medical institutions, and corporate training providers to build modern EdTech platforms. Our solutions combine strong engineering with practical understanding of how educators teach and how students learn.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an EdTech Expert →</a>
         <a href="<?= $base ?>edutech#ed-services" class="btn btn-outline-light">Explore Our Services</a>
@@ -57,8 +54,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">What We Do</div>
-      <h2>End-to-end EdTech and AI solutions for modern education</h2>
-      <p>We design and build digital education ecosystems—from LMS platforms to AI-driven learning engines—tailored to institutional needs.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="ed-grid">
       <div class="ed-card">
@@ -382,6 +378,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to bring AI into your institution?</h2>
   <p>Tell us about your students, faculty and goals — we'll help you design and build a platform that fits how you teach.</p>

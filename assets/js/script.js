@@ -21,6 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.style.setProperty('--header-h', h + 'px');
       }
     };
+    /* The header shrinks over a .3s transition once .is-scrolled applies, so
+       scroll/resize/load alone can all read a height that is already out of
+       date — which detached the sticky section nav after a mid-page reload.
+       ResizeObserver reports the real height on every frame it changes. */
+    if ('ResizeObserver' in window) {
+      new ResizeObserver(measure).observe(siteHeader);
+    } else {
+      siteHeader.addEventListener('transitionend', measure);
+    }
     measure();
     window.addEventListener('load', measure);
     window.addEventListener('resize', measure, { passive: true });

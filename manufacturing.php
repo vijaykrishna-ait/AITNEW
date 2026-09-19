@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'Manufacturing Technology Solutions | Adhiran Infotech';
-$page_desc      = 'Streamlining manufacturing processes with smart IT solutions: IoT-powered real-time monitoring, predictive maintenance, ERP integration and supply chain optimization.';
-$page_keywords  = 'manufacturing it solutions company in chennai, industry 4.0 solutions, predictive maintenance software, iot manufacturing monitoring, erp integration manufacturing india, website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/manufacturing';
 $current_page   = 'manufacturing';
+$seo_key       = 'manufacturing';
 include 'includes/header.php';
 ?>
 <!-- HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Manufacturing</div>
-      <h1>Streamlining manufacturing with smart IT solutions</h1>
-      <p class="lead">Manufacturers stay competitive by knowing what their equipment and supply chain are doing right now, not at the end of the month. We deliver IoT monitoring, predictive maintenance and ERP integration that turn plant data into decisions before downtime happens.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Manufacturing Expert &rarr;</a>
         <a href="<?= $base ?>manufacturing#services" class="btn btn-outline-light">Explore Our Services</a>
@@ -227,8 +224,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Industrial Environments</div>
-      <h2>Engineered for the plant, not just the office</h2>
-      <p>Industrial systems face different constraints from business software. We design for them explicitly.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">
@@ -382,6 +378,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to get real-time visibility of your plant?</h2>
   <p>Tell us which lines or assets are costing you the most in downtime &mdash; we will assess and propose a starting point.</p>

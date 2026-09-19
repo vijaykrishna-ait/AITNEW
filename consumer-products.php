@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'Consumer Products Technology | Adhiran Infotech';
-$page_desc      = 'Supply chain visibility, demand forecasting, D2C commerce and quality compliance for consumer goods and food & beverage companies. Technology from Adhiran Infotech.';
-$page_keywords  = 'consumer products it solutions, fmcg software development company, supply chain visibility software, demand forecasting solutions, d2c ecommerce development india, website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/consumer-products';
 $current_page   = 'consumer-products';
+$seo_key       = 'consumer-products';
 include 'includes/header.php';
 ?>
 <!-- HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Consumer Products</div>
-      <h1>From production line to the shelf, with the data joined up</h1>
-      <p class="lead">Consumer goods businesses run on thin margins and long supply chains, where a forecasting error shows up as either empty shelves or written-off stock. We connect production, distribution and demand data so planning decisions rest on what is actually happening.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Consumer Products Expert &rarr;</a>
         <a href="<?= $base ?>consumer-products#services" class="btn btn-outline-light">Explore Our Services</a>
@@ -227,8 +224,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Regulated Supply Chains</div>
-      <h2>Traceability you can prove</h2>
-      <p>Consumer goods carry real safety and labelling obligations. We build the evidence trail into the process.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">
@@ -382,6 +378,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to connect your supply chain data?</h2>
   <p>Tell us where the forecasting or stock visibility is breaking down &mdash; we will assess and propose where to start.</p>

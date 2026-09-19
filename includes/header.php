@@ -1,6 +1,19 @@
 <?php
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/seo.php';
 $current_page = $current_page ?? '';
+
+/* A page that sets $seo_key takes its title, description and canonical from
+   seo-data.php, unless it has already set one of them explicitly. */
+if ($seo_entry = seo_page()) {
+    /* The copy is stored HTML-ready; meta tags are escaped again on output,
+       so decode first to avoid &amp;amp; in the title. */
+    $decode = fn($s) => html_entity_decode($s, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $page_title     = $page_title     ?? $decode($seo_entry['title']);
+    $page_desc      = $page_desc      ?? $decode($seo_entry['desc']);
+    $page_canonical = $page_canonical ?? seo_canonical($seo_key);
+}
+
 $page_title   = $page_title   ?? SITE_NAME . ' | ' . SITE_TAGLINE;
 $page_desc    = $page_desc    ?? SITE_DESCRIPTION;
 $page_keywords= $page_keywords?? SITE_KEYWORDS;
@@ -42,16 +55,19 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"EducationalOrganization",
+  "@type":"Organization",
+  "@id":"<?= SITE_URL ?>/#organization",
   "name":"<?= SITE_NAME ?>",
-  "url":"<?= SITE_URL ?>",
-  "telephone":"<?= SITE_PHONE_DISPLAY ?>",
+  "url":"<?= SITE_URL ?>/",
+  "logo":"<?= SITE_URL ?>/assets/images/logo.png",
+  "telephone":"<?= SITE_PHONE_TEL ?>",
   "email":"<?= SITE_EMAIL ?>",
   "description":"<?= htmlspecialchars(SITE_DESCRIPTION) ?>",
-  "address":{"@type":"PostalAddress","addressLocality":"Chennai","addressCountry":"IN"},
-  "sameAs":["<?= SOCIAL_FACEBOOK ?>","<?= SOCIAL_INSTAGRAM ?>","<?= SOCIAL_LINKEDIN ?>","<?= SOCIAL_YOUTUBE ?>"]
+  "address":{"@type":"PostalAddress","addressLocality":"Chennai","addressRegion":"Tamil Nadu","addressCountry":"IN"},
+  "sameAs":["<?= SOCIAL_FACEBOOK ?>","<?= SOCIAL_INSTAGRAM ?>","<?= SOCIAL_TWITTER ?>","<?= SOCIAL_LINKEDIN ?>","<?= SOCIAL_YOUTUBE ?>"]
 }
 </script>
+<?php seo_faq_schema(); ?>
 
 <link rel="shortcut icon" href="<?= $base ?>assets/icons/favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">

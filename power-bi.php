@@ -1,7 +1,5 @@
 <?php
-$page_title     = 'Power BI Solutions & Implementation Services | Adhiran Infotech';
-$page_desc      = 'Transform your data into actionable insights with Adhiran Infotechs Power BI implementation, dashboard development, and training services.';
-$page_canonical = 'https://www.adhiraninfotech.com/power-bi';
+$seo_key       = 'power-bi';
 include 'includes/header.php';
 ?>
 
@@ -11,8 +9,8 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">IT Solutions — Power BI</div>
-      <h1>Power BI Solutions for Data-Driven Decision Making</h1>
-      <p class="lead">Transform raw data into compelling visual stories with Adhiran Infotech's Power BI expertise. We design and implement dashboards, reports, and analytics solutions that give your leadership team the insights they need — when they need them.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="power-bi#services" class="btn btn-outline-light">Explore Services</a>
@@ -73,7 +71,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Key Features</div>
-      <h2>Power BI Features That Drive Insight</h2>
+      <?php seo_section(0); ?>
     </div>
     <div class="itsol-adv-grid">
       <div class="itsol-adv-card">
@@ -152,57 +150,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow">FAQ</div>
-      <h1>Frequently Asked Questions</h1>
-    <div class="itsol-faq-list">
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What data sources can Power BI connect to?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>Power BI has 200+ native connectors including SQL Server, Azure SQL, Snowflake, BigQuery, Databricks, Salesforce, SAP, SharePoint, Excel, and REST APIs. We also build custom connectors for proprietary data sources.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What is the difference between Power BI Desktop, Service, and Mobile?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>Power BI Desktop is the development tool for creating reports. Power BI Service is the cloud platform for publishing, sharing, and collaboration. Power BI Mobile allows consuming reports on iOS and Android devices.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How long does a Power BI implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>A standard dashboard with 3-5 KPI areas can be delivered in 3-4 weeks. Complex enterprise BI implementations with multiple data sources, models, and report suites typically take 8-16 weeks.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Can Power BI replace our current BI tool?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>Power BI is a strong alternative to SSRS, Crystal Reports, QlikView, and Tableau in many scenarios. We conduct a requirements analysis and POC before recommending migration.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What is DirectQuery vs Import mode in Power BI?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>Import mode loads data into Power BI's in-memory engine for fast performance. DirectQuery queries the source database live — better for large datasets or real-time requirements but generally slower. We recommend the right mode based on your data volume and freshness requirements.</p>
-        </div>
-      </div>
-    </div>
-</div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
-  </div>
-</section>
+<?php seo_faq(); ?>
 
 <section class="cta">
   <div class="wrap">

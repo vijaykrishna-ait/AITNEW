@@ -1,7 +1,5 @@
 <?php
-$page_title     = 'AI & ML Solutions | Artificial Intelligence Services | Adhiran Infotech';
-$page_desc      = 'Unlock the power of AI and machine learning with Adhiran Infotech. Custom ML models, NLP, computer vision, and generative AI solutions for enterprise.';
-$page_canonical = 'https://www.adhiraninfotech.com/aiml-solutions';
+$seo_key       = 'aiml-solutions';
 include 'includes/header.php';
 ?>
 
@@ -10,10 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div>
       <div class="eyebrow">IT Solutions — AI & ML</div>
-      <h1>AI & Machine Learning Solutions for Intelligent Business Transformation</h1>
-      <p class="lead">Adhiran Infotech helps organizations harness the transformative power of Artificial Intelligence
-        and Machine Learning. We build custom AI solutions that automate decisions, uncover hidden insights, and create
-        competitive advantages across every function of your business.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="<?= $base ?>aiml-solutions#services" class="btn btn-outline-light">Explore Services</a>
@@ -172,97 +168,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow">FAQ</div>
-      <h1>Frequently Asked Questions</h1>
-      <div class="itsol-faq-list">
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">What types of AI solutions can you build for my business?<span
-              class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>We build predictive analytics models, NLP chatbots, computer vision systems, recommendation engines,
-              anomaly detection systems, demand forecasting models, and generative AI applications using LLMs.</p>
-          </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">Do we need a lot of data to start an AI project?<span class="faq-chev"><svg
-                width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>Data volume requirements depend on the problem type. Some use cases work with hundreds of examples;
-              others need millions. We conduct a data readiness assessment as the first step to determine what's
-              feasible with your current data assets.</p>
-          </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">How do you ensure AI model accuracy and reliability?<span class="faq-chev"><svg
-                width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>We use rigorous train/validation/test splits, cross-validation, and holdout testing. Models are evaluated
-              on domain-relevant metrics (precision, recall, F1, RMSE etc.) and stress-tested on edge cases before
-              production deployment.</p>
-          </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">Can AI integrate with our existing software and databases?<span
-              class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>Yes — we build REST APIs and microservices that expose AI model predictions to your existing
-              applications, ERP systems, CRMs, and BI tools through standard integration patterns.</p>
-          </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">How do you address AI bias and fairness concerns?<span class="faq-chev"><svg
-                width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>We conduct bias audits across protected attributes, apply fairness-aware training techniques, implement
-              explainability tools (SHAP, LIME), and establish model governance frameworks with human-in-the-loop
-              checkpoints.</p>
-          </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">What is MLOps and do you offer it?<span class="faq-chev"><svg width="18"
-                height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>MLOps is the practice of reliably deploying, monitoring, and maintaining ML models in production. We
-              build MLOps pipelines using MLflow, Kubeflow, or cloud-native services to automate retraining, versioning,
-              and deployment of your models.</p>
-          </div>
-        </div>
-        <div class="itsol-faq-item">
-          <button class="itsol-faq-q">How long does an AI implementation project take?<span class="faq-chev"><svg
-                width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg></span></button>
-          <div class="itsol-faq-a">
-            <p>A focused AI proof-of-concept can be delivered in 4-8 weeks. A production ML system with data pipelines,
-              model training, API deployment, and monitoring typically takes 3-6 months depending on data readiness and
-              complexity.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
-    </div>
-  </div>
-  </div>
-</section>
+<?php seo_faq(); ?>
 
 <section class="cta">
   <div class="wrap">

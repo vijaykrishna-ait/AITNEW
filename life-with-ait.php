@@ -1,9 +1,6 @@
 <?php
 $current_page   = 'life-with-ait';
-$page_title     = 'Life with AIT | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/life-with-ait';
+$seo_key       = 'life-with-ait';
 include 'includes/header.php';
 ?>
 
@@ -16,8 +13,8 @@ include 'includes/header.php';
 <section class="lwa-hero" id="life-at-ait" data-reveal="off">
   <div class="wrap">
     <div class="eyebrow">Life with AIT</div>
-    <h1>Where Talent Thrives</h1>
-    <p class="lead-text">From collaborative work environments and learning opportunities to team celebrations and employee well-being initiatives, Adhiran Infotech is a place where people can do their best work, grow their careers, and be part of something meaningful.</p>
+    <h1><?= seo_h1() ?></h1>
+    <p class="lead-text"><?= seo_lead() ?></p>
 
     <div class="hero-actions">
       <a href="<?= $base ?>career#open-positions" class="btn btn-primary btn-magnetic">See Open Roles →</a>
@@ -320,6 +317,8 @@ include 'includes/header.php';
 */ ?>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Want to be part of the team?</h2>
   <p>Explore open roles across our global offices — or get in touch to learn more about life at AIT.</p>

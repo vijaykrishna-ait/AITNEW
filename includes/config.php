@@ -2,10 +2,10 @@
 
 // Site identity
 define('SITE_NAME',     'Adhiran Infotech');
-define('SITE_TAGLINE',  'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai');
-define('SITE_URL',      'https://www.adhiraninfotech.com');   
-define('SITE_DESCRIPTION', 'Adhiran Infotech is the best offshore development company in India, offering outstanding developers to serve your business needs at a reasonable cost. website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai,Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, hire software developers');
-define('SITE_KEYWORDS', 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers');
+define('SITE_TAGLINE',  'Staffing Agency in Chennai & GCC Talent Solutions');
+define('SITE_URL',      'https://www.adhiraninfotech.com');
+define('SITE_DESCRIPTION', 'Adhiran Infotech is a Chennai-based staffing agency providing staff augmentation, dedicated offshore teams, and GCC talent solutions to companies in the US, Singapore, Japan, and Dubai.');
+define('SITE_KEYWORDS', 'staffing agency in chennai, GCC talent solutions, staff augmentation chennai, offshore development team chennai, hire developers chennai, adhiran infotech');
 
 // Contact
 define('SITE_PHONE_DISPLAY', '+91 90423 59211');
@@ -32,7 +32,7 @@ define('HOME_VIDEO_DELAY_MS',     600);
 
 // Careers (PeopleHub) public API
 // The API only answers requests whose Origin is https://www.adhiraninfotech.com
-// or https://adhiraninfotech.com — on localhost it replies 403, so the careers
+// or https://www.adhiraninfotech.com — on localhost it replies 403, so the careers
 // page shows a "cannot load openings" notice during local development.
 define('CAREERS_API_BASE', 'https://peoplehubapi.adhiraninfotech.com/api/v1/public/careers');
 

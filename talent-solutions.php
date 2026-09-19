@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Talent Solutions | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/talent-solutions';
+$seo_key       = 'talent-solutions';
 include 'includes/header.php';
 ?>
 <!-- TS HERO -->
@@ -10,8 +7,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Talent Solutions</div>
-      <h1>Connecting you with the right talent, faster</h1>
-      <p class="lead">Whether you need a single specialist or a critical hire for a high-impact role, Adhiran Infotech helps you identify, assess, and onboard top talent quickly. Our recruitment experts combine industry knowledge, technical screening, and a global talent network to deliver candidates who are ready to make an immediate impact.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Find Your Next Hire →</a>
         <a href="<?= $base ?>talent-solutions#roles" class="btn btn-outline-light">Explore Our Talent Expertise</a>
@@ -114,8 +111,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Roles We Fill</div>
-      <h2>Specialized talent across technology, business, and digital functions</h2>
-      <p>From technical experts to business leaders, we help organizations hire high-performing professionals across a wide range of disciplines and experience levels.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="roles-grid">
       <a href="<?= $base ?>hire-frontend-developer" class="role-pill"><span class="dot"></span>Frontend Developer</a>
@@ -145,8 +141,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">How It Works</div>
-      <h2>From requirement to successful placement</h2>
-      <p>A simple, transparent process focused on getting the right person in place quickly.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="ts-steps-row">
       <div class="ts-step">
@@ -174,6 +169,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Need one great person on your team?</h2>
   <p>Tell us about the role — we'll send a shortlist of vetted candidates within days.</p>

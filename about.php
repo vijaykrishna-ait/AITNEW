@@ -1,9 +1,6 @@
 <?php
 $current_page   = 'about';
-$page_title     = 'About Us | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/about';
+$seo_key       = 'about';
 include 'includes/header.php';
 ?>
 
@@ -17,8 +14,8 @@ include 'includes/header.php';
     <div class="wrap hero-grid">
       <div>
         <div class="eyebrow">About Adhiran Infotech</div>
-        <h1>Accelerating Growth Through People and Technology</h1>
-        <p class="lead">At Adhiran Infotech, we specialize in IT staffing, software development, and AI-powered consulting services. We partner with organizations worldwide to build high-performing teams, create scalable web and mobile applications, and implement technology solutions that drive business success.</p>
+        <h1><?= seo_h1() ?></h1>
+        <p class="lead"><?= seo_lead() ?></p>
         <div class="hero-actions">
           <a href="<?= $base ?>contact" class="btn btn-lime btn-magnetic">Work With Us →</a>
           <a href="<?= $base ?>career" class="btn btn-outline-light">Join Our Team</a>
@@ -369,6 +366,8 @@ include 'includes/header.php';
   */ ?>
 
   <!-- CTA -->
+  <?php seo_faq(); ?>
+
   <section class="cta" id="contact">
     <h2>Want to be part of our story?</h2>
     <p>Whether you're looking to hire talent, partner on a project, or join our team — we'd love to hear from you.</p>

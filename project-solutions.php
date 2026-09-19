@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Project Solutions | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/project-solutions';
+$seo_key       = 'project-solutions';
 include 'includes/header.php';
 ?>
 
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Project Solutions</div>
-      <h1>End-to-end digital delivery with clear accountability</h1>
-      <p class="lead">From custom application development to enterprise-scale transformation programs, we take ownership of defined outcomes—bringing together design, engineering, QA, and project management under a single accountable delivery team.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project →</a>
         <a href="<?= $base ?>project-solutions#capabilities" class="btn btn-outline-light">Explore Capabilities</a>
@@ -143,8 +140,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">How We Deliver</div>
-      <h2>A delivery model built around your outcome</h2>
-      <p>Every engagement begins with understanding the business result you want to achieve. From there, we design the right team structure, delivery approach, and execution plan to ensure predictable outcomes and seamless delivery.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="deliv-row">
       <div class="deliv-item">
@@ -302,6 +298,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Have a project in mind?</h2>
   <p>Tell us what you're trying to build — we'll help you scope it, plan it, and deliver it end to end.</p>

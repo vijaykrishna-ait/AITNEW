@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'Financial Services | Adhiran Infotech';
-$page_desc      = 'Technology and talent for banking, capital markets, fintech and insurance. Adhiran Infotech modernizes core platforms, data and compliance for financial institutions.';
-$page_keywords  = 'financial services it company in chennai, banking software development, capital markets technology, fintech development company, insurance software solutions, website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/financial-services';
 $current_page   = 'financial-services';
+$seo_key       = 'financial-services';
 include 'includes/header.php';
 ?>
 <!-- HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Financial Services</div>
-      <h1>Technology for institutions that cannot afford to be down</h1>
-      <p class="lead">We work across banking, capital markets, fintech and insurance &mdash; modernizing core platforms, unlocking data, and automating the compliance work that slows everything else down. Regulated environments are the norm for us, not the exception.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Financial Services Expert &rarr;</a>
         <a href="<?= $base ?>financial-services#services" class="btn btn-outline-light">Explore Our Services</a>
@@ -56,8 +53,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">What We Do</div>
-      <h2>Four sub-sectors, one delivery partner</h2>
-      <p>Each area of financial services carries its own regulatory weight and technical history. Choose the one closest to your business.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="ls-grid">
       <div class="ls-card">
@@ -231,8 +227,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Regulated Environments</div>
-      <h2>Compliance designed in, not bolted on</h2>
-      <p>Financial systems are audited constantly. We build with that reality in mind from the first sprint.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">
@@ -386,6 +381,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to modernize your financial platforms?</h2>
   <p>Tell us what you are running and where it hurts &mdash; we will come back with an assessment and a realistic path forward.</p>

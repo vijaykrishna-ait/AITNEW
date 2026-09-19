@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'AI Services | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/ai';
+$seo_key       = 'ai';
 include 'includes/header.php';
 ?>
 
@@ -11,12 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div >
       <div class="eyebrow">AI &amp; Generative AI</div>
-      <h1>Accelerating Digital Transformation Through AI Innovation</h1>
-      <p class="lead">
-        Helping enterprises harness Artificial Intelligence and Generative AI
-        to automate operations, enhance decision-making, and create measurable
-        business value at scale.
-      </p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an AI Expert →</a>
         <a href="<?= $base ?>ai#ai-services" class="btn btn-outline-light">Explore Our AI Capabilities</a>
@@ -224,6 +217,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to put AI to work for your business?</h2>
   <p>Tell us about your challenge — we'll help you identify the right AI use case, build a roadmap, and deliver a working solution.</p>

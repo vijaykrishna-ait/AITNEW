@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Core Values | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/core-values';
+$seo_key       = 'core-values';
 include 'includes/header.php';
 ?>
 
@@ -12,7 +9,7 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">Core Values</div>
-      <h1>Guiding Principles for Lasting Partnerships</h1>
+      <h1><?= seo_h1() ?></h1>
       <p class="lead-text">Our success is built on a strong set of values that influence every aspect of our business. They help us maintain high standards, nurture strong relationships, and consistently deliver quality outcomes for our clients worldwide.</p><br>
       <p class="lead-text">More than statements, these values are reflected in our actions, decisions, and commitment to excellence—every day, across every team and every client engagement.</p>
     </div>

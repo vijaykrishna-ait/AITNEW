@@ -1,7 +1,5 @@
 <?php
-$page_title     = 'Hire QA Engineer | IT Staff Augmentation | Adhiran Infotech';
-$page_desc      = 'Adhiran Infotech is here to assure error-free delivery. Hire an offshore QA team from us to ensure the quality of your progress.';
-$page_canonical = 'https://www.adhiraninfotech.com/hire-qa-developer';
+$seo_key       = 'hire-qa-developer';
 include 'includes/header.php';
 ?>
 
@@ -10,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">IT Staffing — QA Engineering</div>
-      <h1>Hire Expert QA Engineers for Error-Free Software Delivery</h1>
-      <p class="lead">At Adhiran Infotech we support your team by assigning our experienced QA professional to make your project as efficient as possible and add dedication to the work. Our IT staffing solutions help organizations to build the quality assurance capability, meet deadlines and deliver quality as intended.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="hire-qa-developer#services" class="btn btn-outline-light">Explore Services</a>
@@ -242,6 +240,8 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<?php seo_faq(); ?>
 
 <section class="cta">
   <div class="wrap">

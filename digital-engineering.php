@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Digital Engineering & Industry 4.0 | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://adhiraninfotech.com/';
+$seo_key       = 'digital-engineering';
 include 'includes/header.php';
 ?>
 
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div>
     <div class="eyebrow">Digital Engineering &amp; Industry 4.0</div>
-    <h1>Empowering Next Generation Intelligent Manufacturing</h1>
-    <p class="lead">We help industrial organizations leverage connected technologies, automation, AI, and digital engineering to create smarter operations, improve asset performance, and drive sustainable business growth.</p>
+    <h1><?= seo_h1() ?></h1>
+    <p class="lead"><?= seo_lead() ?></p>
     <div class="hero-actions">
       <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Consult an Industry Expert →</a>
       <a href="<?= $base ?>digital-engineering#de-services" class="btn btn-outline-light">Explore Digital Engineering Services</a>
@@ -249,6 +246,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to start your Industry DX journey?</h2>
   <p>Tell us about your operations — we'll help you identify where IoT, automation and AI can make the biggest difference.</p>

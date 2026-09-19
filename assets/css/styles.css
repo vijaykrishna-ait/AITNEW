@@ -3282,3 +3282,28 @@ body.modal-open{overflow:hidden;}
 @media (max-width:560px){
   .platform-panel-text{padding:28px 24px;}
 }
+
+  /* ---- FAQ block (includes/seo.php) ---- */
+  .seo-faq{padding:72px 0;background:var(--sky);}
+  .seo-faq-list{
+    display:grid;gap:14px;max-width:900px;
+  }
+  .seo-faq-item{
+    background:var(--white);border:1px solid var(--line);
+    border-radius:var(--radius);padding:20px 24px;
+  }
+  .seo-faq-item summary{
+    cursor:pointer;font-weight:600;font-size:17px;color:var(--navy);
+    list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:flex-start;
+  }
+  .seo-faq-item summary::-webkit-details-marker{display:none;}
+  .seo-faq-item summary::after{
+    content:"+";color:var(--lime);font-size:22px;line-height:1;flex-shrink:0;
+  }
+  .seo-faq-item[open] summary::after{content:"\2013";}
+  .seo-faq-item p{
+    margin:14px 0 0;color:var(--gray);font-size:16px;line-height:1.75;
+  }
+  @media (max-width:700px){
+    .seo-faq{padding:48px 0;}
+  }

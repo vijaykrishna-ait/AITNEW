@@ -162,10 +162,33 @@
        Anything that pins below the site header needs its live height — the
        header shrinks once .is-scrolled applies, so a fixed offset would leave
        a gap or overlap.
+
+       Reloading part-way down the page used to strand that value and detach
+       #sectionNav from the header: DOMContentLoaded measured the FULL-height
+       header, .is-scrolled only landed on the next rAF, and the shrink then
+       ran as a .3s CSS transition — so --header-h kept the tall number until
+       the user scrolled again, leaving the section nav pinned in mid-air with
+       a strip of page content visible through the gap.
+
+       ResizeObserver fixes it at the source: it fires on every frame the
+       header actually changes height (the shrink transition, a webfont
+       landing, a wrap at a new width), so --header-h can never go stale. The
+       early .is-scrolled toggle keeps the first synchronous measure honest in
+       the common case where the browser has already restored scroll.
        ---------------------------------------------------------------------- */
     (function () {
       var header = document.querySelector('header');
       if (!header) return;
+
+      /* Apply the restored scroll state without animating into it. */
+      document.body.classList.add('header-no-anim');
+      document.body.classList.toggle('is-scrolled', window.scrollY > 80);
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          document.body.classList.remove('header-no-anim');
+        });
+      });
+
       var last = -1;
       function measure() {
         var h = Math.round(header.getBoundingClientRect().height);
@@ -173,6 +196,13 @@
           last = h;
           document.documentElement.style.setProperty('--header-h', h + 'px');
         }
+      }
+
+      if ('ResizeObserver' in window) {
+        new ResizeObserver(measure).observe(header);
+      } else {
+        /* transitionend catches the end of the shrink on older browsers. */
+        header.addEventListener('transitionend', measure);
       }
       onScroll(measure);
       window.addEventListener('load', measure);

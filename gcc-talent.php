@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'GCC Talent & Technology Support | Adhiran Infotech';
-$page_desc      = 'Build and scale your Global Capability Center in India with Adhiran Infotech. GCC talent acquisition, staff augmentation, dedicated engineering teams and offshore delivery across AI, cloud, data and enterprise technology.';
-$page_keywords  = 'gcc talent acquisition india, global capability center hiring, gcc staffing partner chennai, dedicated engineering teams india, offshore development center, gcc technology recruitment, staff augmentation india';
-$page_canonical = 'https://www.adhiraninfotech.com/gcc-talent';
 $current_page   = 'gcc-talent';
+$seo_key       = 'gcc-talent';
 include 'includes/header.php';
 ?>
 <!-- HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">GCC Talent &amp; Technology Support</div>
-      <h1>Build. Scale. Strengthen Your GCC Team in India.</h1>
-      <p class="lead">Building a successful Global Capability Center requires more than setting up an office. It requires the right technology talent, specialized skills and a reliable hiring partner who understands the pace and expectations of global organizations.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Build Your GCC Team &rarr;</a>
         <a href="<?= $base ?>gcc-talent#support" class="btn btn-outline-light">How We Support GCCs</a>
@@ -103,8 +100,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">How We Support GCCs</div>
-      <h2>Four ways we help you build capability in India</h2>
-      <p>Start wherever your centre is today &mdash; hiring your first engineers, adding capacity to an existing team, or handing over delivery entirely.</p>
+      <?php seo_section(0); ?>
     </div>
 
     <div class="deliv-row">
@@ -390,7 +386,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Technology Capabilities</div>
-      <h2>The stacks we hire and deliver across</h2>
+      <?php seo_section(1); ?>
     </div>
     <div class="ps-grid">
       <div class="ps-card">
@@ -490,6 +486,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Build your GCC team with Adhiran</h2>
   <p>Whether you are launching a new GCC, expanding an existing center or looking for specialized technology talent, Adhiran can help you build the capabilities you need in India. Tell us what you are looking to build &mdash; we&rsquo;ll help you build the team.</p>

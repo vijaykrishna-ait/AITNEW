@@ -1,7 +1,5 @@
 <?php
-$page_title     = 'Hire Data Science Developer | IT Staff Augmentation | Adhiran Infotech';
-$page_desc      = 'Our Data Science services at Adhiran Infotech assist businesses get the most out of their data, from converting them into decision making tools and models.';
-$page_canonical = 'https://www.adhiraninfotech.com/hire-data-science-developer';
+$seo_key       = 'hire-data-science-developer';
 include 'includes/header.php';
 ?>
 
@@ -10,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">IT Staffing — Data Science</div>
-      <h1>Hire Expert Data Science Developers for AI-Powered Insights</h1>
-      <p class="lead">Our Data Science services at Adhiran Infotech assist businesses get the most out of their data; from converting them into decision making tools and models. The Data Science engineers at Adhiran possess specialization in machine learning, deep learning, generative AI, and data analytics to address organization's business issues.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="hire-data-science-developer#services" class="btn btn-outline-light">Explore Services</a>
@@ -243,6 +241,8 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<?php seo_faq(); ?>
 
 <section class="cta">
   <div class="wrap">

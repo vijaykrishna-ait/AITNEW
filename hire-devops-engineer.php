@@ -1,7 +1,5 @@
 <?php
-$page_title     = 'Hire DevOps Engineer | IT Staff Augmentation | Adhiran Infotech';
-$page_desc      = 'Discover a new trend in deployment automation by hiring professionals from Adhiran Infotech. Hire DevOps developers from us for world-class services at a valuable cost.';
-$page_canonical = 'https://www.adhiraninfotech.com/hire-devops-engineer';
+$seo_key       = 'hire-devops-engineer';
 include 'includes/header.php';
 ?>
 
@@ -10,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">IT Staffing — DevOps Engineering</div>
-      <h1>Hire Expert DevOps Engineers to Accelerate Your Delivery Pipeline</h1>
-      <p class="lead">At Adhiran Infotech our DevOps services reflect a mission that aims to integrate operations making operations smoother, efficient, and faster to deliver in the software world. Our DevOps specialists with years of experience bring the technical knowledge and outstanding practices to make the collaboration better and infrastructure improvements.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="hire-devops-engineer#services" class="btn btn-outline-light">Explore Services</a>
@@ -241,6 +239,8 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<?php seo_faq(); ?>
 
 <section class="cta">
   <div class="wrap">

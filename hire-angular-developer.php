@@ -222,7 +222,7 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div>
       <div class="eyebrow">FAQ</div>
-      <h1>Frequently Asked Questions</h1>
+      <h2>Frequently Asked Questions</h2>
     <div class="itsol-faq-list">
       <div class="itsol-faq-item">
         <button class="itsol-faq-q">What is IT staff augmentation, and how does it benefit my business?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">

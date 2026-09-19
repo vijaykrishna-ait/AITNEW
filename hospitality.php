@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'Hospitality Technology Solutions | Adhiran Infotech';
-$page_desc      = 'Transforming the hospitality sector with innovative digital solutions: property management systems, guest experience platforms and automated booking. From Adhiran Infotech.';
-$page_keywords  = 'hospitality software development company, property management system development, hotel booking software, guest experience platform, restaurant management software india, website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/hospitality';
 $current_page   = 'hospitality';
+$seo_key       = 'hospitality';
 include 'includes/header.php';
 ?>
 <!-- HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Hospitality</div>
-      <h1>Transforming hospitality with innovative digital solutions</h1>
-      <p class="lead">Guests judge a property on how easily they can book, check in and get what they asked for. We build property management, booking and guest experience platforms that remove friction from those moments &mdash; and give operators the occupancy and revenue data to act on.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Hospitality Expert &rarr;</a>
         <a href="<?= $base ?>hospitality#services" class="btn btn-outline-light">Explore Our Services</a>
@@ -227,8 +224,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Guest Data</div>
-      <h2>Guest trust, protected properly</h2>
-      <p>Hospitality systems hold payment details and personal travel patterns. Both deserve careful handling.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">
@@ -382,6 +378,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to improve your guest experience?</h2>
   <p>Tell us which part of the guest journey is causing friction &mdash; we will assess and propose where the return is greatest.</p>

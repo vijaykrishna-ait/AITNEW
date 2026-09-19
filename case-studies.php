@@ -1,15 +1,12 @@
 <?php
-$page_title     = 'Case Studies | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/case-studies';
+$seo_key       = 'case-studies';
 include 'includes/header.php';
 ?>
   <!-- CASE STUDIES HERO -->
   <section class="cs-hero">
     <div class="wrap">
       <div class="eyebrow">Case Studies</div>
-      <h1>Proven results, real impact</h1>
+      <h1><?= seo_h1() ?></h1>
       <p class="lead-text">A look at how we've helped clients across healthcare, automation, life sciences, EdTech and
         beyond — with measurable outcomes.</p>
     </div>

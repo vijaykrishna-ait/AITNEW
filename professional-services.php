@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'Professional Services Technology | Adhiran Infotech';
-$page_desc      = 'Practice management, resource planning, engagement delivery and knowledge platforms for consulting, legal, accounting and advisory firms. From Adhiran Infotech.';
-$page_keywords  = 'professional services software development, practice management system, resource planning software consulting firms, legal tech development, advisory firm technology india, website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/professional-services';
 $current_page   = 'professional-services';
+$seo_key       = 'professional-services';
 include 'includes/header.php';
 ?>
 <!-- HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Professional Services</div>
-      <h1>When your inventory is people, utilization is everything</h1>
-      <p class="lead">Consulting, legal, accounting and advisory firms sell time and expertise. We build the practice management, resourcing and knowledge systems that let partners see utilization honestly, staff engagements properly, and stop losing billable hours to administration.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Professional Services Expert &rarr;</a>
         <a href="<?= $base ?>professional-services#services" class="btn btn-outline-light">Explore Our Services</a>
@@ -227,8 +224,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Confidential Work</div>
-      <h2>Client confidentiality, enforced by the system</h2>
-      <p>Professional services firms hold their clients&rsquo; most sensitive material. Access control is not a feature, it is the foundation.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">
@@ -382,6 +378,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to get a clearer view of your firm?</h2>
   <p>Tell us where utilization, billing or knowledge reuse is leaking value &mdash; we will assess and propose a starting point.</p>

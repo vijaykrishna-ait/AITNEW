@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Team Solutions | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/team-solutions';
+$seo_key       = 'team-solutions';
 include 'includes/header.php';
 ?>
 <!-- TM HERO -->
@@ -11,8 +8,8 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">Team Solutions</div>
-      <h1>Build scalable high-performing teams confidently</h1>
-      <p class="lead">Whether you need a dedicated project team, a managed delivery pod, or a fully operational Offshore Development Center (ODC), Adhiran Infotech helps you rapidly scale talent and delivery capabilities across global markets.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Speak with a Team Solutions Expert →</a>
         <a href="<?= $base ?>team-solutions#models" class="btn btn-outline-light">Explore Delivery Models</a>
@@ -38,8 +35,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Team Engagement Models</div>
-      <h2>Flexible ways to scale your delivery capability</h2>
-      <p>Whether you're expanding a product team, establishing a global capability center, or augmenting local resources with offshore expertise, we tailor the engagement model to align with your business goals and operating structure.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="tm-grid">
       <div class="tm-card">
@@ -285,6 +281,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to build your team, your way?</h2>
   <p>Tell us what you're trying to build — a pod, an ODC, or talent supply across Singapore, Dubai, Japan or Australia

@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Cloud Engineering & AI | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/cloud-engineering';
+$seo_key       = 'cloud-engineering';
 include 'includes/header.php';
 ?>
 
@@ -11,8 +8,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div>
       <div class="eyebrow">Cloud Engineering</div>
-      <h1>Cloud infrastructure for AI and scale </h1>
-      <p class="lead">We design, build, migrate, and manage cloud environments across AWS, Azure, and Google Cloud—architected from the ground up to support AI workloads, automation, and enterprise-scale digital operations.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Cloud Architect →</a>
         <a href="<?= $base ?>cloud-engineering#cloud-services" class="btn btn-outline-light">Explore Cloud Services</a>
@@ -207,8 +204,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Platforms We Work With</div>
-      <h2>Multi-cloud, by design</h2>
-      <p>We're certified across the major hyperscalers and their AI services — so you get the right platform for the workload, not a one-size-fits-all answer.</p>
+      <?php seo_section(0); ?>
     </div>
     <div class="cl-platforms-grid">
       <div class="cl-platform-logo"><img src="assets/logos/aws.svg" alt=""></div>
@@ -315,6 +311,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to build a cloud that's ready for AI?</h2>
   <p>Tell us about your current environment — we'll help you plan a migration or optimization path that sets you up for what's next.</p>

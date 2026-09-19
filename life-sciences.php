@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Life Sciences & Pharma | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/life-sciences';
+$seo_key       = 'life-sciences';
 include 'includes/header.php';
 ?>
 <!-- LS HERO -->
@@ -10,8 +7,8 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
     <div class="">
       <div class="eyebrow">Life Sciences &amp; Pharma</div>
-      <h1>Accelerating Therapies from Discovery to Care</h1>
-      <p class="lead">We partner with pharmaceutical, biotech, medtech, and healthcare organizations to modernize R&D, clinical, manufacturing, and commercial operations—combining deep domain understanding with AI, cloud, and digital engineering.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Life Sciences Expert →</a>
         <a href="<?= $base ?>life-sciences#ls-services" class="btn btn-outline-light">Explore Our Services</a>
@@ -284,8 +281,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Regulated Environments</div>
-      <h2>Compliance is in our DNA</h2>
-      <p>We design every system with regulatory rigor and validation requirements at the core.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">
@@ -347,6 +343,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to modernize your life sciences operations?</h2>
   <p>Tell us about your challenge — we'll help you identify the right approach, talent and technology to move forward, compliantly and at speed.</p>

@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Our Vision & Mission | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/vision-mission';
+$seo_key       = 'vision-mission';
 include 'includes/header.php';
 ?>
 
@@ -11,7 +8,7 @@ include 'includes/header.php';
   <div class="wrap hero-grid">
       <div>
       <div class="eyebrow">Our Vision &amp; Mission</div>
-      <h1>Shaping the Future Through Talent and Technology</h1>
+      <h1><?= seo_h1() ?></h1>
       <p class="lead-text">Everything we do is guided by a clear vision and purpose. From sourcing specialized professionals to delivering enterprise-scale technology solutions, we focus on creating measurable outcomes for our clients.</p><br>
       <p class="lead-text">By combining industry expertise, innovation, and a customer-first approach, we help organizations embrace digital transformation, optimize business operations, and build sustainable growth. Our commitment is to deliver reliable solutions, foster long-term partnerships, and create lasting value in an ever-evolving business landscape.</p>
     </div>

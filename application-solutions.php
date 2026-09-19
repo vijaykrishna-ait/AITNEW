@@ -1,9 +1,6 @@
 <?php
-$page_title     = 'Application Solutions & Managed Services | Adhiran Infotech';
-$page_desc      = 'Application managed services, support, maintenance and modernization from Adhiran Infotech. Keep business-critical applications stable, secure and continuously improving with 24x7 global support teams.';
-$page_keywords  = 'application managed services, application support company in chennai, application maintenance services, legacy application modernization, application development company in chennai, AMS services india, offshore application support, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/application-solutions';
 $current_page   = 'application-solutions';
+$seo_key       = 'application-solutions';
 include 'includes/header.php';
 ?>
 
@@ -13,8 +10,8 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">Application Solutions</div>
-      <h1>Applications that stay stable, secure and always improving</h1>
-      <p class="lead">Adhiran Infotech takes ownership of the applications your business runs on &mdash; building, supporting, maintaining and modernizing them across their entire lifecycle. Our managed services teams keep critical systems available around the clock while steadily reducing technical debt, incident volume and total cost of ownership.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to an Application Expert &rarr;</a>
         <a href="<?= $base ?>application-solutions#services" class="btn btn-outline-light">Explore Our Services</a>
@@ -510,59 +507,7 @@ include 'includes/header.php';
 </section>
 
 <!-- FAQ -->
-<section id="faq">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">Frequently Asked Questions</div>
-      <h2>Questions we get asked before every engagement</h2>
-    </div>
-
-    <div class="itsol-faq-list">
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What exactly are Application Managed Services? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">Application Managed Services means an external partner takes operational responsibility for keeping your applications running &mdash; monitoring them, resolving incidents, applying patches, handling user requests and delivering small enhancements &mdash; against agreed service levels and a predictable monthly cost. It differs from staff augmentation in that you are buying an outcome and a service level, not a number of people.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Can you support an application your team did not build? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">Yes &mdash; this is the majority of what we do. Our five-stage transition exists precisely for inherited systems: we assess the application, run knowledge transfer with your existing team or vendor, then shadow and reverse-shadow live tickets before taking ownership. Where documentation is thin or missing, we reconstruct it as part of the transition and hand it back to you.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How long does transition usually take? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">For a single well-documented application, four to six weeks is typical. A larger portfolio with several interconnected systems and limited documentation generally runs eight to twelve weeks. We scope this during the assessment and phase it so lower-risk applications transition first, building confidence before the critical ones move.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What service levels do you commit to? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">Service levels are agreed per engagement based on how critical each application is to your operations. A typical arrangement covers response and resolution targets by incident priority, an availability target for business-critical systems, and a monthly throughput commitment for enhancement work. Performance against these is reported every month in a joint service review.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How is the engagement priced? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">Managed support is usually a fixed monthly fee based on application count, complexity and required coverage hours. Dedicated teams are priced per resource per month. Fixed-scope modernization work is quoted as a single price against an agreed scope. Whichever model applies, the change mechanism is written into the agreement so cost movements are never a surprise.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What happens to our knowledge if we end the contract? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">Everything we produce &mdash; source code, runbooks, architecture documentation, test suites and support playbooks &mdash; remains your property and stays in your repositories throughout the engagement. Exit assistance and knowledge transfer to your next team or an internal group is included, so ending the relationship is a planned activity rather than a risk.</div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Can you work alongside our in-house team? <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9" />
-          </svg></button>
-        <div class="itsol-faq-a">Frequently. A common arrangement has us running steady-state support and routine maintenance so your in-house engineers are freed up for new product work. We operate inside your existing tooling &mdash; your ticketing system, repositories, boards and release process &mdash; and join whichever ceremonies make sense, so the split is a division of work rather than a division of teams.</div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php seo_faq(); ?>
 
 <!-- CTA -->
 <section class="cta">

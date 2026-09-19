@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'News & Blog | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/news-blog';
+$seo_key       = 'news-blog';
 include 'includes/header.php';
 ?>
 
@@ -10,7 +7,7 @@ include 'includes/header.php';
 <section class="hero">
   <div class="wrap">
     <div class="eyebrow">News &amp; Blog</div>
-    <h1>Stories of transformation</h1>
+    <h1><?= seo_h1() ?></h1>
     <p class="lead-text">Company news, industry insights and stories from the projects, people and partnerships behind Adhiran Infotech.</p>
   </div>
 </section>

@@ -1,7 +1,5 @@
 <?php
-$page_title     = 'ServiceNow Implementation & Consulting Services | Adhiran Infotech';
-$page_desc      = 'Transform your IT and business workflows with Adhiran Infotechs ServiceNow implementation, integration, and managed services.';
-$page_canonical = 'https://www.adhiraninfotech.com/servicenow';
+$seo_key       = 'servicenow';
 include 'includes/header.php';
 ?>
 
@@ -11,8 +9,8 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">IT Solutions — ServiceNow</div>
-      <h1>ServiceNow Implementation & Digital Workflow Solutions</h1>
-      <p class="lead">Adhiran Infotech helps organizations unlock the full potential of ServiceNow to automate workflows, improve service delivery, and connect the enterprise. From ITSM implementation to custom application development on the Now Platform, we drive measurable transformation.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Start Your Project &rarr;</a>
         <a href="servicenow#services" class="btn btn-outline-light">Explore Services</a>
@@ -72,7 +70,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">How We Work</div>
-      <h2>Our Implementation Process</h2>
+      <?php seo_section(0); ?>
     </div>
     <div class="itc-process-row">
       <div class="itc-process-step">
@@ -152,65 +150,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow">FAQ</div>
-      <h1>Frequently Asked Questions</h1>
-    <div class="itsol-faq-list">
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What ServiceNow products do you implement?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>We implement ITSM, CSM, HRSD, ITOM, ITBM, GRC, SecOps, FSM, and custom applications on the Now Platform. We also work with ServiceNow App Engine for custom low-code/no-code application development.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How long does a ServiceNow ITSM implementation take?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>A focused ITSM implementation covering Incident, Problem, Change, and Service Catalog typically takes 10-16 weeks. Scope and customization depth are the primary drivers of timeline.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Can ServiceNow integrate with our existing tools?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>Yes — ServiceNow Integration Hub has pre-built spokes for 200+ enterprise tools. We also build custom REST, SOAP, and event-based integrations for proprietary or legacy systems.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">What is the Now Platform and how does it differ from ServiceNow products?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>The Now Platform is the underlying application platform on which all ServiceNow products run. It includes App Engine for custom application development, Integration Hub, Flow Designer, and AI capabilities.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">How do you handle ServiceNow upgrades?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>We manage the full upgrade lifecycle — pre-upgrade assessment, upgrade execution in sub-production, regression testing, delta testing of customizations, and production cutover — minimizing risk and downtime.</p>
-        </div>
-      </div>
-      <div class="itsol-faq-item">
-        <button class="itsol-faq-q">Do you offer ServiceNow managed services?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="6 9 12 15 18 9" />
-            </svg></span></button>
-        <div class="itsol-faq-a">
-          <p>Yes — our managed services include proactive monitoring, incident resolution (SLA-backed), change request implementation, upgrade management, user access administration, and regular reporting on platform health.</p>
-        </div>
-      </div>
-    </div>
-</div>
-<div class="hero-visual"><div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div></div>
-  </div>
-</section>
+<?php seo_faq(); ?>
 
 <section class="cta">
   <div class="wrap">

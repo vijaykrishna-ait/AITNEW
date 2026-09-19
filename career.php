@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Careers | Adhiran Infotech';
-$page_desc      = 'Explore open positions at Adhiran Infotech. Join a global IT staffing and consulting team working across frontend, backend, mobile, cloud, data, QA and digital marketing.';
-$page_keywords  = 'adhiran infotech careers, jobs at adhiran infotech, IT jobs chennai, hire software developers, careers in IT staffing, software developer jobs chennai, join adhiran infotech';
-$page_canonical = 'https://www.adhiraninfotech.com/career';
+$seo_key       = 'career';
 include 'includes/header.php';
 ?>
 
@@ -10,9 +7,8 @@ include 'includes/header.php';
   <section class="career-hero">
     <div class="wrap">
       <div class="eyebrow">Careers at Adhiran Infotech</div>
-      <h1>Build What's Next, With Us</h1>
-      <p class="lead">We're a global IT staffing and consulting team helping organizations hire great talent and build
-        great software. Join us and work on real projects, across real industries, with people who back your growth.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>career#open-positions" class="btn btn-outline">View Open Positions</a>
         <a href="<?= $base ?>career#open-positions" class="btn btn-primary job-general-apply">Submit Your Resume</a>
@@ -70,6 +66,8 @@ include 'includes/header.php';
   </section>
 
   <!-- APPLICATION PROCESS -->
+  <?php seo_faq(); ?>
+
   <section>
     <div class="wrap">
       <div class="section-head center">

@@ -1,8 +1,5 @@
 <?php
-$page_title     = 'Enterprise Application Development | Adhiran Infotech';
-$page_desc      = 'Website design and development company in chennai, web application development company in chennai | mobile app development company | offshoring company in chennai | hire software developer in chennai';
-$page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/enterprise-solutions';
+$seo_key       = 'enterprise-solutions';
 include 'includes/header.php';
 ?>
 
@@ -12,8 +9,8 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">Enterprise Application Development</div>
-      <h1>Powering enterprises with expert technology solutions</h1>
-      <p class="lead">From SAP and Salesforce to ServiceNow and Veeva, Adhiran Infotech helps organizations implement, integrate, optimize, and support enterprise applications that power day-to-day operations. Our certified specialists and global delivery teams ensure seamless execution, scalability, and long-term success.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Connect an Expert →</a>
         <a href="<?= $base ?>enterprise-solutions#platforms" class="btn btn-outline-light">Discover Our Platform Expertise</a>
@@ -39,9 +36,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Platforms We Work With</div>
-      <h2>End-to-end services across leading enterprise platforms</h2>
-      <p>Comprehensive services across the world's leading enterprise platforms.
-        Choose a platform to explore how our experts deliver implementation, integration, customization, optimization, and ongoing support.</p>
+      <?php seo_section(0); ?>
     </div>
 
     <div class="platform-grid">
@@ -370,6 +365,8 @@ include 'includes/header.php';
 </section>
 
 <!-- CTA -->
+<?php seo_faq(); ?>
+
 <section class="cta" id="contact">
   <h2>Ready to get more from your enterprise platforms?</h2>
   <p>Whether you're implementing something new, migrating, or need ongoing support — our certified consultants are ready to help.</p>

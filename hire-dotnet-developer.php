@@ -1,10 +1,5 @@
 <?php
-$page_title     = 'Hire Dotnet Developer in chennai | Adhiran infotech - website design company, web application development company';
-$page_desc      = 'At Adhiran, we utilize the strong strength of .NET to develop streamlined, complex and tailor-made applications that intelligently harness your business.';
-$page_keywords  = 'hire dotnet developer in chennai, hire .net developer from Chennai, outsource dotnet developers from chennai, hire remote .net developer in Chennai, dotnet IT staff augmentation Company, dotnet IT staff augmentation company in chennai';
-$page_canonical = 'https://www.adhiraninfotech.com/hire-dotnet-developer';
-$page_og_title  = 'Hire Dotnet Developer in chennai | Adhiran infotech - website design company, web application development company';
-$page_og_desc   = 'At Adhiran, we utilize the strong strength of .NET to develop streamlined, complex and tailor-made applications that intelligently harness your business.';
+$seo_key       = 'hire-dotnet-developer';
 include 'includes/header.php';
 ?>
 
@@ -14,11 +9,8 @@ include 'includes/header.php';
 
     <div class="">
       <div class="eyebrow">IT Staffing — .NET Development</div>
-      <h1>Hire Expert .NET Developers for High-Performance Enterprise Solutions</h1>
-      <p class="lead">At Adhiran, we utilize the strong strength of .NET to develop more streamlined, complex and
-        tailor-made applications that will intelligently harness your business. We have assembled a team of experienced
-        and highly skilled .NET developers who create bespoke programs addressing multiple and versatile requirements of
-        different industries.</p>
+      <h1><?= seo_h1() ?></h1>
+      <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact" class="btn btn-lime">Hire a Developer &rarr;</a>
         <a href="#services" class="btn btn-outline-light">Explore Services</a>
@@ -37,12 +29,7 @@ include 'includes/header.php';
   <div class="wrap its-intro-grid">
     <div class="its-intro-content">
       <span class="tag">IT Staff Augmentation</span>
-      <h2>.NET IT Staff Augmentation</h2>
-      <p>We understand the importance of teamwork, especially in projects, and have a policy of openness at any stage:
-        the beginning and end of a project. This way, thoroughly and carefully, we remain absolutely tethered to your
-        goals.</p>
-      <p>Our professional and passionate team guarantees great results and innovative solutions with .NET applications
-        that conform to the highest standards and lead your enterprise to success.</p>
+      <?php seo_section(1); ?>
     </div>
     <div class="its-intro-img">
       <img src="<?= $base ?>assets/images/staff-augmentation.jpg"
@@ -247,105 +234,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<section class="solutions hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow">FAQ</div>
-      <h1>Frequently Asked Questions</h1>
-      <div class="its-faq-wrap">
-        <div class="its-faq-col its-faq-list">
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">What is IT staff augmentation, and how does it benefit my business?<span
-                class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>IT staff augmentation allows you to temporarily add skilled professionals to your team, offering
-                flexibility, faster onboarding, and cost efficiency without the commitment of full-time hiring.</p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">How is staff augmentation different from outsourcing?<span class="faq-chev"><svg
-                  width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>Staff augmentation integrates external professionals into your existing team under your direct
-                supervision, while outsourcing involves delegating entire projects or functions to a third-party provider.
-              </p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">What types of IT professionals can I hire through staff augmentation?<span
-                class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>You can hire software developers, QA testers, project managers, DevOps engineers, UI/UX designers, data
-                scientists, and other specialized IT roles.</p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">How quickly can professionals be onboarded?<span class="faq-chev"><svg width="18"
-                  height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>Onboarding usually takes 1-2 weeks, depending on your requirements and the availability of suitable
-                candidates.</p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">Will the professionals work in my time zone?<span class="faq-chev"><svg width="18"
-                  height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>Yes, staff augmentation services can provide talent that works in your time zone or with overlapping
-                hours for seamless collaboration.</p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">How do you ensure the security of my project and data?<span class="faq-chev"><svg
-                  width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>We implement strict measures, including NDAs, secure communication channels, and adherence to your
-                company's data protection policies.</p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">What if I&apos;m not satisfied with the performance of an augmented staff
-              member?<span class="faq-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>You can request a replacement if the professional does not meet your expectations, as per the terms of
-                the agreement.</p>
-            </div>
-          </div>
-          <div class="itsol-faq-item">
-            <button class="itsol-faq-q">Can I scale the team up or down as needed?<span class="faq-chev"><svg width="18"
-                  height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg></span></button>
-            <div class="itsol-faq-a">
-              <p>Yes, staff augmentation is highly flexible, allowing you to adjust team size based on project demands.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="hero-photo"><img src="assets/images/faqs.jpg" alt=""></div>
-    </div>
-  </div>
-</section>
+<?php seo_faq(); ?>
 
 <?php /* ============================================================
    COMMENTED OUT - CLIENT TESTIMONIALS (duplicated across 17 pages)

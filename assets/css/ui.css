@@ -74,6 +74,13 @@ body.is-scrolled header{
 }
 body.is-scrolled header nav{padding-top:10px;padding-bottom:10px;}
 body.is-scrolled .logo img{height:46px!important;}
+/* Reloading part-way down the page restores the scroll position, so the
+   header has to start out already shrunk. ui.js sets .header-no-anim for that
+   first frame only, otherwise the shrink plays as an animation on every
+   reload and the sticky section nav visibly slides up to meet the header. */
+body.header-no-anim header,
+body.header-no-anim header nav,
+body.header-no-anim .logo img{transition:none!important;}
 
 /* --------------------------------------------------------------------------
    4. SCROLL REVEAL
