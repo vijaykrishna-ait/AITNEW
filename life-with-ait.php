@@ -18,7 +18,7 @@ include 'includes/header.php';
 
     <div class="hero-actions">
       <a href="<?= $base ?>career#open-positions" class="btn btn-primary btn-magnetic">See Open Roles →</a>
-      <a href="<?= $base ?>about#leadership" class="btn btn-outline">Meet the Team</a>
+      <!-- <a href="<?= $base ?>about#leadership" class="btn btn-outline">Meet the Team</a> -->
     </div>
 
     <ul class="lwa-hero-facts">

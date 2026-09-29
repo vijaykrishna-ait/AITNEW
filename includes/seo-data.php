@@ -14,7 +14,7 @@
 $SEO_PAGES = [
 
 'index' => [
-  'title' => 'Staffing Agency in Chennai &amp; GCC Talent Solutions | Adhiran Infotech',
+  'title' => 'IT Staffing &amp; Offshore Delivery | Adhiran Infotech',
   'desc'  => 'Adhiran Infotech connects global companies with top talent in Chennai — staff augmentation, GCC talent, offshore developers &amp; more. 24-hr shortlist.',
   'h1'    => 'Empowering Growth Through Talent &amp; Innovation',
   'lead'  => 'Adhiran Infotech is a Chennai-based staffing agency that helps global companies build technology teams, through staff augmentation, dedicated offshore teams, and Global Capability Center (GCC) talent solutions. Companies in the US, Singapore, Japan, and Dubai work with Adhiran to hire vetted developers, engineers, and consultants in Chennai without opening a local office.',
@@ -352,8 +352,8 @@ $SEO_PAGES = [
 ],
 
 'financial-services' => [
-  'title' => 'Financial Services Technology Talent in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire technology talent for banking, capital markets, fintech and insurance in Chennai — core platform modernization, data, and compliance-ready delivery.',
+  'title' => 'Hire Fintech Developers in Chennai &amp; India | Adhiran Infotech',
+  'desc'  => 'Hire fintech and banking developers in Chennai and India. Core banking modernization, data and compliance-ready teams, first shortlist in 24 hours.',
   'h1'    => 'Financial Services Technology Talent — For Institutions That Cannot Afford to Be Down',
   'lead'  => 'Financial services technology work carries a constraint most other industries don’t face as strictly: systems that fail or go down have direct regulatory and financial consequences, not just inconvenience. Adhiran Infotech staffs financial services roles with this in mind, screening for candidates who’ve worked within change-control and compliance processes, not just technically capable developers.',
   'sections' => [
@@ -366,8 +366,8 @@ $SEO_PAGES = [
 ],
 
 'consumer-products' => [
-  'title' => 'Consumer Products Technology Talent in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire technology talent for consumer products companies in Chennai — retail, e-commerce and supply chain software expertise.',
+  'title' => 'eCommerce Developers in Chennai &amp; India | Adhiran Infotech',
+  'desc'  => 'Hire eCommerce and retail software developers in Chennai and India. Build storefronts, inventory and supply chain systems, shortlist in 24 hours.',
   'h1'    => 'Technology Talent for Consumer Products Companies',
   'lead'  => 'Consumer products technology work sits at the intersection of customer-facing experience (e-commerce, apps) and behind-the-scenes operational systems (inventory, supply chain), and most projects need both working together rather than either in isolation. Adhiran Infotech staffs across this full range rather than treating consumer-facing and operational systems as separate specialties requiring separate vendors.',
   'sections' => [
@@ -380,8 +380,8 @@ $SEO_PAGES = [
 ],
 
 'hospitality' => [
-  'title' => 'Hospitality Technology Talent in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire technology talent for hospitality businesses in Chennai — booking systems, guest experience platforms and operational software.',
+  'title' => 'Hospitality Developers in Chennai &amp; India | Adhiran Infotech',
+  'desc'  => 'Hire hotel and hospitality software developers in Chennai and India. Booking engines, guest apps and peak-season scalable systems.',
   'h1'    => 'Technology Talent for Hospitality Businesses',
   'lead'  => 'Hospitality technology work is unusually seasonal and traffic-spiky compared to most industries — booking systems need to handle sudden demand surges around holidays and peak travel periods without degrading, which shapes both the architecture and the developers best suited to build it. Adhiran Infotech staffs with this traffic pattern in mind.',
   'sections' => [
@@ -394,8 +394,8 @@ $SEO_PAGES = [
 ],
 
 'professional-services' => [
-  'title' => 'Professional Services Technology Talent in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire technology talent for professional services firms in Chennai — practice management, client platforms and data tools.',
+  'title' => 'Consulting Firm Developers in Chennai, India | Adhiran Infotech',
+  'desc'  => 'Hire software developers for consulting, legal and accounting firms in Chennai and India. Practice management, client portals and reporting tools.',
   'h1'    => 'Technology Talent for Professional Services Firms',
   'lead'  => 'Professional services firms — consulting, legal, accounting — typically need technology that supports internal practice efficiency and client-facing transparency simultaneously, often through the same platform. Adhiran Infotech staffs for both sides of this need rather than treating internal tools and client portals as unrelated projects.',
   'sections' => [
@@ -408,8 +408,8 @@ $SEO_PAGES = [
 ],
 
 'manufacturing' => [
-  'title' => 'Manufacturing Technology Talent in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire technology talent for manufacturing companies in Chennai — production systems, supply chain software and automation.',
+  'title' => 'Manufacturing Developers in Chennai &amp; India | Adhiran Infotech',
+  'desc'  => 'Hire manufacturing software developers in Chennai and India. MES, production line automation and supply chain systems, shortlist in 24 hours.',
   'h1'    => 'Technology Talent for Manufacturing Companies',
   'lead'  => 'Manufacturing technology work often involves connecting software to physical production systems — MES platforms, sensor data, production line automation — which is a meaningfully different skillset from typical business application development. Adhiran Infotech staffs manufacturing engagements with this hardware-adjacent context in mind.',
   'sections' => [
@@ -422,8 +422,8 @@ $SEO_PAGES = [
 ],
 
 'life-sciences' => [
-  'title' => 'Life Sciences &amp; Pharma Technology Talent in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire technology talent for life sciences and pharma companies in Chennai — Veeva, clinical data and compliance-ready software.',
+  'title' => 'Pharma Software Developers in Chennai, India | Adhiran Infotech',
+  'desc'  => 'Hire pharma, healthcare and life sciences software developers in Chennai and India. Veeva, clinical data and compliance-ready delivery.',
   'h1'    => 'Technology Talent for Life Sciences &amp; Pharma',
   'lead'  => 'Life sciences and pharma technology work is defined by regulatory validation requirements that most other industries don’t face — a system change often needs to be validated and documented before it can go live, which changes both the development process and the developers suited to it. Adhiran Infotech staffs with this validation-heavy process as a baseline expectation, not an exception.',
   'sections' => [
@@ -436,8 +436,8 @@ $SEO_PAGES = [
 ],
 
 'edutech' => [
-  'title' => 'EdTech Development Company in Chennai | Adhiran Infotech',
-  'desc'  => 'Hire EdTech developers in Chennai — learning platforms, content systems and education technology solutions.',
+  'title' => 'EdTech Developers in Chennai &amp; India | Adhiran Infotech',
+  'desc'  => 'Hire EdTech developers in Chennai and India. Learning platforms, content and assessment systems, first shortlist in 24 hours.',
   'h1'    => 'Technology Talent for EdTech Companies',
   'lead'  => 'EdTech products typically need to serve two very different users well at once — learners interacting with content, and administrators/educators managing that content and tracking progress — which means the platform’s information architecture matters as much as its individual features. Adhiran Infotech staffs with this dual-user complexity in mind.',
   'sections' => [

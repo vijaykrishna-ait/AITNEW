@@ -19,7 +19,7 @@ include 'includes/header.php';
         <div><b class="count-up" data-target="500" data-suffix="+">500+</b><span>Developers placed globally</span></div>
       </div>
       <div class="hero-actions" style="margin-top:30px;">
-        <a href="<?= $base ?>contact" class="btn btn-primary">Hire a Developer →</a>
+        <a href="<?= $base ?>contact#contact-form" class="btn btn-primary">Hire a Developer →</a>
         <a href="<?= $base ?>hire-me#tech" class="btn btn-outline">Explore Tech Stacks</a>
       </div>
     </div>

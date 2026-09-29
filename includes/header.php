@@ -40,6 +40,7 @@ $page_js  = $is_enhanced && is_file(__DIR__ . "/../assets/js/{$current_page}.js"
 <meta name="description" content="<?= htmlspecialchars($page_desc) ?>">
 <meta name="keywords" content="<?= htmlspecialchars($page_keywords) ?>">
 <meta name="author" content="<?= SITE_NAME ?>">
+<meta name="google-site-verification" content="4g6dSN5bzqANT1fvQlwXfA5ooQICP27ZOYIYmCdA5Dg" />
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
 

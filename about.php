@@ -53,7 +53,7 @@ include 'includes/header.php';
       <li><a href="#who-we-are">Who We Are</a></li>
       <li><a href="#vision-mission">Vision &amp; Mission</a></li>
       <li><a href="#core-values">Core Values</a></li>
-      <li><a href="#leadership">Leadership</a></li>
+      <!-- <li><a href="#leadership">Leadership</a></li> -->
       <li><a href="#life">Life with Adhiran</a></li>
     </ul>
   </nav>
