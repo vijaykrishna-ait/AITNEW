@@ -224,7 +224,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Regulated Supply Chains</div>
-      <?php seo_section(1); ?>
+      <?php seo_section(0); ?>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">

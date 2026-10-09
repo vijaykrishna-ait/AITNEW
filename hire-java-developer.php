@@ -29,7 +29,7 @@ include 'includes/header.php';
   <div class="wrap its-intro-grid">
     <div class="its-intro-content">
       <span class="tag">IT Staff Augmentation</span>
-      <?php seo_section(0); ?>
+      <?php seo_section(1); ?>
     </div>
     <div class="its-intro-img">
       <img src="<?= $base ?>assets/images/staff-augmentation.jpg" alt="Hire Expert Java Developers for Enterprise-Grade Applications">
@@ -126,7 +126,7 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Why Choose Us</div>
-      <?php seo_section(2); ?>
+      <?php seo_section(0); ?>
     </div>
     <div class="itc-benefits-grid">
       <div class="itc-benefit-item">

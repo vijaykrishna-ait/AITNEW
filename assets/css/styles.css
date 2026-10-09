@@ -301,6 +301,7 @@
 .hero-navy h1{font-size:clamp(36px,4.6vw,58px);font-weight:800;line-height:1.1;letter-spacing:-.02em;margin-bottom:18px;color:var(--white);}
 .hero-navy h1 em{font-style:normal;color:var(--lime);position:relative;}
 .hero-navy p.lead{font-size:17px;color:rgba(255,255,255,.78);max-width:480px;margin-bottom:26px;}
+.hero-navy p.hero-sub{font-size:19px;font-weight:600;color:var(--lime);margin:-6px 0 14px;}
 .hero-navy .hero-actions{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:34px;}
 .hero-navy .hero-stats{display:flex;gap:42px;flex-wrap:wrap;}
 .hero-navy .hero-stats div b{display:block;font-family:'Sora',sans-serif;font-size:26px;font-weight:800;color:var(--white);}

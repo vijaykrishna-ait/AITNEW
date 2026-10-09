@@ -42,7 +42,7 @@ define('CAREERS_API_BASE', 'https://peoplehubapi.adhiraninfotech.com/api/v1/publ
 // null the general-application buttons simply scroll to the live openings list.
 define('CAREERS_GENERAL_JOB_ID', null);
 
-define('BASE_URL', '/aitnew/');
+define('BASE_URL', '/');
 
 // Helper: pick active class
 function nav_active($page, $current){

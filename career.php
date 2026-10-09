@@ -12,6 +12,7 @@ include 'includes/header.php';
       <div class="hero-actions">
         <a href="<?= $base ?>career#open-positions" class="btn btn-outline">View Open Positions</a>
         <a href="<?= $base ?>career#open-positions" class="btn btn-primary job-general-apply">Submit Your Resume</a>
+        <a href="<?= $base ?>life-with-ait" class="btn btn-outline">Life at Adhiran</a>
       </div>
       <div class="hero-stats">
         <div><b class="count-up" data-target="10" data-suffix="+">10+</b><span>Years of Industry Experience</span></div>

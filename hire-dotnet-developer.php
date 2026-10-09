@@ -29,7 +29,7 @@ include 'includes/header.php';
   <div class="wrap its-intro-grid">
     <div class="its-intro-content">
       <span class="tag">IT Staff Augmentation</span>
-      <?php seo_section(1); ?>
+      <?php seo_section(0); ?>
     </div>
     <div class="its-intro-img">
       <img src="<?= $base ?>assets/images/staff-augmentation.jpg"

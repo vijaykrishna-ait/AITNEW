@@ -9,6 +9,7 @@ include 'includes/header.php';
     <div class="">
       <div class="eyebrow">Financial Services</div>
       <h1><?= seo_h1() ?></h1>
+      <p class="hero-sub"><?= seo_page()['sub'] ?></p>
       <p class="lead"><?= seo_lead() ?></p>
       <div class="hero-actions">
         <a href="<?= $base ?>contact#contact-form" class="btn btn-lime">Talk to a Financial Services Expert &rarr;</a>
@@ -227,7 +228,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="section-head center">
       <div class="eyebrow" style="justify-content:center;">Built for Regulated Environments</div>
-      <?php seo_section(1); ?>
+      <h2>Compliance designed in, not bolted on</h2>
+      <p>Financial systems are audited constantly. We build with that reality in mind from the first sprint.</p>
     </div>
     <div class="compliance-grid">
       <div class="compliance-card">

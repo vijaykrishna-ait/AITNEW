@@ -1,9 +1,7 @@
 <?php
 $current_page   = 'contact';
-$page_title     = 'Contact Adhiran Infotech | Hire Talent in Chennai & India';
-$page_desc      = 'Need developers or a GCC team? Contact Adhiran Infotech in Chennai to hire vetted tech talent across India. Get a first shortlist in 24 hours.';
+$seo_key        = 'contact';
 $page_keywords  = 'website design and development company in chennai, corporate branding development company in chennai, mobile app development company in chennai, e-commerce website development company in chennai, digital marketing company in Chennai, offshoring company in chennai, Seo company in chennai, hire software developers from chennai, hire software developers in  chennai, adhiran infotech, adhiran infotech in chennai, adhiran, adhiran software company, hire software developers';
-$page_canonical = 'https://www.adhiraninfotech.com/contact';
 include 'includes/header.php';
 ?>
 
@@ -18,8 +16,7 @@ include 'includes/header.php';
       <div>
         <div class="eyebrow">Contact Us</div>
         <h1>Let's Build Something <em>Great Together</em></h1>
-        <p class="lead">Have a project in mind? Reach out to our global team and let's turn your vision into reality.
-        </p>
+        <p class="lead"><?= seo_lead() ?></p>
         <div class="hero-actions">
           <a href="#contact-form" class="btn btn-primary btn-magnetic">Get In Touch →</a>
           <a href="tel:<?= SITE_PHONE_TEL ?>" class="btn btn-outline">Call <?= SITE_PHONE_DISPLAY ?></a>
@@ -83,8 +80,7 @@ include 'includes/header.php';
     <div class="wrap">
       <div class="section-head center" data-reveal="up">
         <div class="eyebrow" style="justify-content:center;">Get In Touch</div>
-        <h2>Send Us a Message</h2>
-        <p>Tell us what you need and the right specialist will reply — usually within one business day.</p>
+        <?php seo_section(0); ?>
       </div>
 
       <div class="contact-grid" id="contact-form">
@@ -258,55 +254,19 @@ include 'includes/header.php';
         <p>Quick answers to what people usually ask before getting in touch.</p>
       </div>
       <div class="faq-list" data-reveal="stagger">
+        <?php foreach (seo_page()['faqs'] as $i => [$q, $a]): $n = $i + 1; ?>
         <div class="faq-item">
           <h3>
-            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-1" id="faq-q-1">
-              <span>How quickly will I get a response?</span>
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-<?= $n ?>" id="faq-q-<?= $n ?>">
+              <span><?= $q ?></span>
               <span class="faq-icon" aria-hidden="true"></span>
             </button>
           </h3>
-          <div class="faq-a" id="faq-a-1" role="region" aria-labelledby="faq-q-1" hidden>
-            <p>We aim to reply to every enquiry within one business day. For staffing requests, qualified candidate
-              profiles typically follow within 24–48 hours of the brief being confirmed.</p>
+          <div class="faq-a" id="faq-a-<?= $n ?>" role="region" aria-labelledby="faq-q-<?= $n ?>" hidden>
+            <p><?= $a ?></p>
           </div>
         </div>
-        <div class="faq-item">
-          <h3>
-            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-2" id="faq-q-2">
-              <span>What information should I include?</span>
-              <span class="faq-icon" aria-hidden="true"></span>
-            </button>
-          </h3>
-          <div class="faq-a" id="faq-a-2" role="region" aria-labelledby="faq-q-2" hidden>
-            <p>The more specific the better: the roles or skills you need, how many people, the engagement length,
-              whether it's onsite or remote, and your target start date. If it's a project rather than a hire, a short
-              outline of the outcome you're after is enough to start.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <h3>
-            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-3" id="faq-q-3">
-              <span>Do you work across time zones?</span>
-              <span class="faq-icon" aria-hidden="true"></span>
-            </button>
-          </h3>
-          <div class="faq-a" id="faq-a-3" role="region" aria-labelledby="faq-q-3" hidden>
-            <p>Yes. We operate from India, the United States, Singapore, the UAE, Japan and Australia, so we can align
-              delivery and communication with your working hours rather than ours.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <h3>
-            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-4" id="faq-q-4">
-              <span>I'm looking for a job, not hiring. Is this the right form?</span>
-              <span class="faq-icon" aria-hidden="true"></span>
-            </button>
-          </h3>
-          <div class="faq-a" id="faq-a-4" role="region" aria-labelledby="faq-q-4" hidden>
-            <p>You can select “Careers” as the subject above, but our <a href="<?= $base ?>career">Careers page</a> is
-              the faster route — it lists current openings and lets you attach a résumé directly to a role.</p>
-          </div>
-        </div>
+        <?php endforeach; ?>
       </div>
     </div>
   </section>

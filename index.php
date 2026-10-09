@@ -57,6 +57,7 @@ include 'includes/header.php';
         <div class="eyebrow">Global Talent &amp; Technology Solutions</div>
         <h1><?= seo_h1() ?></h1>
         <p class="lead"><?= seo_lead() ?></p>
+        <p class="lead"><?= seo_page()['lead_more'] ?></p>
         <div class="hero-actions">
           <a href="<?= $base ?>contact" class="btn btn-primary btn-magnetic">Find Talent →</a>
           <a href="<?= $base ?>career#open-positions" class="btn btn-outline">Explore Opportunities</a>

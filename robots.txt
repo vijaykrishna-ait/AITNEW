@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /contents/
+Disallow: /send-mail.php
+Disallow: /underdev
+
+Sitemap: https://www.adhiraninfotech.com/sitemap.xml
